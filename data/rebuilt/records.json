@@ -1,0 +1,2566 @@
+[
+  {
+    "record_id": "R001",
+    "canonical_candidate_id": "R001",
+    "title": "Replit Agent nightmare",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 2
+    },
+    "original_fields": {
+      "Lead ID": "R001",
+      "Post date": "2025-06-12",
+      "Subreddit": "r/replit",
+      "Post / case": "Replit Agent nightmare",
+      "Agent / product": "Replit Agent",
+      "Setting": "Coding agent / live app",
+      "Reported text / behaviour (paraphrased)": "User reports deployments wiping existing production data or breaking working functions despite protection wrappers; also says agent self-validates fixes that did not work.",
+      "Behavioural dimension": "Production data modification/deletion; instruction/guardrail noncompliance; inaccurate self-reporting",
+      "Initial routing": "Wider",
+      "Consequential action?": "Possible",
+      "Source type": "User first-person report",
+      "Current evidence status": "Unverified Reddit lead",
+      "Reddit URL": "https://www.reddit.com/r/replit/comments/1l9iox0",
+      "What to verify next": "Search for platform/support records or reproducible logs; compare with known Replit incident family.",
+      "Research note": "Older lead; retained because date is not an inclusion filter."
+    },
+    "source_ids": [
+      "S-daf2b1e0fb5d"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R002",
+    "canonical_candidate_id": "R002",
+    "title": "A Tale of Two Databases",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 3
+    },
+    "original_fields": {
+      "Lead ID": "R002",
+      "Post date": "2025-06-17",
+      "Subreddit": "r/replit",
+      "Post / case": "A Tale of Two Databases",
+      "Agent / product": "Replit Agent",
+      "Setting": "Coding agent / dev-prod database",
+      "Reported text / behaviour (paraphrased)": "User says production data had repeatedly been wiped during deployment; later concluded dev and production were sharing one database and created separation.",
+      "Behavioural dimension": "Environment separation failure; production data impact",
+      "Initial routing": "Wider",
+      "Consequential action?": "Possible",
+      "Source type": "User first-person report with later self-diagnosis",
+      "Current evidence status": "Unverified / partially explained",
+      "Reddit URL": "https://www.reddit.com/r/replit/comments/1ldz05u",
+      "What to verify next": "Determine whether agent actually initiated destructive writes versus architecture/configuration issue.",
+      "Research note": "Useful negative/control-like case because user later identified infrastructure configuration as a major cause."
+    },
+    "source_ids": [
+      "S-6f49ac22f84d"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation.",
+      "Workbook describes an alternative explanation, human approval, or contradiction; retain as a control candidate pending source review."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R003",
+    "canonical_candidate_id": "R003",
+    "title": "Cursor tried to delete my file on its own",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 4
+    },
+    "original_fields": {
+      "Lead ID": "R003",
+      "Post date": "2025-07-25",
+      "Subreddit": "r/cursor",
+      "Post / case": "Cursor tried to delete my file on its own",
+      "Agent / product": "Cursor Agent",
+      "Setting": "Coding agent / local filesystem",
+      "Reported text / behaviour (paraphrased)": "User says Cursor proposed a delete-file tool call they had not requested; user did not approve it.",
+      "Behavioural dimension": "Attempted destructive action beyond expected task",
+      "Initial routing": "Wider",
+      "Consequential action?": "No consequential action reported",
+      "Source type": "User first-person report",
+      "Current evidence status": "Unverified Reddit lead",
+      "Reddit URL": "https://www.reddit.com/r/cursor/comments/1m8lidi",
+      "What to verify next": "Inspect screenshots/logs if available; determine task context and why deletion was proposed.",
+      "Research note": "Behavioral lead, but no executed boundary crossing in the post."
+    },
+    "source_ids": [
+      "S-917bcd60d7e7"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R004",
+    "canonical_candidate_id": "R004",
+    "title": "Gemini CLI lost files during move operation",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 5
+    },
+    "original_fields": {
+      "Lead ID": "R004",
+      "Post date": "2025-07-28",
+      "Subreddit": "r/GeminiAI",
+      "Post / case": "Gemini CLI lost files during move operation",
+      "Agent / product": "Gemini CLI",
+      "Setting": "Coding agent / local filesystem",
+      "Reported text / behaviour (paraphrased)": "User asked agent to move six Markdown files; reports the files disappeared and agent acknowledged a serious error. User says there was no undo or backup.",
+      "Behavioural dimension": "Unintended deletion/data loss during authorized file operation",
+      "Initial routing": "Wider",
+      "Consequential action?": "Yes, local files reportedly lost",
+      "Source type": "User first-person report with screenshot/log excerpt",
+      "Current evidence status": "Unverified Reddit lead",
+      "Reddit URL": "https://www.reddit.com/r/GeminiAI/comments/1mbf6pb",
+      "What to verify next": "Check Gemini CLI issue tracker and any linked logs/Medium post; distinguish move-operation bug from scope crossing.",
+      "Research note": "Strong out-of-scope consequence; likely wider rather than narrow unless path/authorization crossing is established."
+    },
+    "source_ids": [
+      "S-76718f05619e"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R005",
+    "canonical_candidate_id": "R005",
+    "title": "Gemini CLI deleted large parts of Windows system",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 6
+    },
+    "original_fields": {
+      "Lead ID": "R005",
+      "Post date": "2025-07-30",
+      "Subreddit": "r/GeminiAI",
+      "Post / case": "Gemini CLI deleted large parts of Windows system",
+      "Agent / product": "Gemini CLI",
+      "Setting": "Coding agent / host filesystem",
+      "Reported text / behaviour (paraphrased)": "User says a project rewrite was supposed to delete files from the current branch only, but Gemini CLI ran a destructive rm -rf from Git Bash and wiped large parts of C: drive.",
+      "Behavioural dimension": "Project-directory scope → host/system filesystem; destructive deletion",
+      "Initial routing": "Narrow candidate",
+      "Consequential action?": "Yes, according to user",
+      "Source type": "User first-person report with claimed log screenshots",
+      "Current evidence status": "Unverified Reddit lead",
+      "Reddit URL": "https://www.reddit.com/r/GeminiAI/comments/1md2quz",
+      "What to verify next": "Retrieve screenshots/logs; establish permissions, working directory, exact command, and whether deletion crossed the explicitly intended project boundary.",
+      "Research note": "One of the clearest Reddit behavioral matches to the narrow corpus."
+    },
+    "source_ids": [
+      "S-3de67ae3de38"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R006",
+    "canonical_candidate_id": "R006",
+    "title": "I accidentally approved Claude to delete my home directory",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 7
+    },
+    "original_fields": {
+      "Lead ID": "R006",
+      "Post date": "2025-08-15",
+      "Subreddit": "r/ClaudeCode",
+      "Post / case": "I accidentally approved Claude to delete my home directory",
+      "Agent / product": "Claude Code",
+      "Setting": "Coding agent / host filesystem",
+      "Reported text / behaviour (paraphrased)": "User reports approving a destructive action that deleted their home directory and argues for sandboxing, soft deletes and pre-execution checks.",
+      "Behavioural dimension": "Destructive filesystem action; human approval failure",
+      "Initial routing": "Wider / control",
+      "Consequential action?": "Yes",
+      "Source type": "User first-person report",
+      "Current evidence status": "Unverified; user acknowledges mistaken approval",
+      "Reddit URL": "https://www.reddit.com/r/ClaudeCode/comments/1mr9myv",
+      "What to verify next": "Read linked detailed article; determine exact command and whether agent exceeded what was approved.",
+      "Research note": "Important comparison: consequence may stem from human approval rather than autonomous boundary crossing."
+    },
+    "source_ids": [
+      "S-16e71df7abac"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation.",
+      "Workbook describes an alternative explanation, human approval, or contradiction; retain as a control candidate pending source review."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R007",
+    "canonical_candidate_id": "R007",
+    "title": "Claude overwrote completed work",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 8
+    },
+    "original_fields": {
+      "Lead ID": "R007",
+      "Post date": "2025-09-09",
+      "Subreddit": "Reddit (previously surfaced)",
+      "Post / case": "Claude overwrote completed work",
+      "Agent / product": "Claude Code",
+      "Setting": "Coding agent / repository",
+      "Reported text / behaviour (paraphrased)": "User reportedly described agent pulling an outdated repository state and overwriting completed work.",
+      "Behavioural dimension": "Unexpected overwrite / state regression",
+      "Initial routing": "Wider",
+      "Consequential action?": "Reported",
+      "Source type": "User first-person report",
+      "Current evidence status": "Lead requiring source re-verification",
+      "Reddit URL": null,
+      "What to verify next": "Re-find original Reddit thread and capture exact URL/text before promotion.",
+      "Research note": "Retained from earlier discovery; source URL needs re-verification."
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R008",
+    "canonical_candidate_id": "R008",
+    "title": "Claude CLI deleted entire home directory",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 9
+    },
+    "original_fields": {
+      "Lead ID": "R008",
+      "Post date": "2025-12-07",
+      "Subreddit": "r/ClaudeAI",
+      "Post / case": "Claude CLI deleted entire home directory",
+      "Agent / product": "Claude CLI / Claude Code",
+      "Setting": "Coding agent / host filesystem",
+      "Reported text / behaviour (paraphrased)": "User asked Claude to clean packages in an old repo. Posted log analysis shows a command containing '~/'; user reports the entire Mac home directory was wiped.",
+      "Behavioural dimension": "Repository task → home-directory deletion",
+      "Initial routing": "Narrow candidate",
+      "Consequential action?": "Yes, according to user",
+      "Source type": "User first-person report with command/log shown in thread",
+      "Current evidence status": "Unverified Reddit lead",
+      "Reddit URL": "https://www.reddit.com/r/ClaudeAI/comments/1pgxckk/claude_cli_deleted_my_entire_home_directory_wiped/",
+      "What to verify next": "Capture original logs/images; establish permission mode and whether command was explicitly approved.",
+      "Research note": "Very close behavioral analogue to local scope expansion."
+    },
+    "source_ids": [
+      "S-ca057387fe96"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R009",
+    "canonical_candidate_id": "R009",
+    "title": "Security says Claude Code can break out of its context",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 10
+    },
+    "original_fields": {
+      "Lead ID": "R009",
+      "Post date": "2026-01-30",
+      "Subreddit": "r/ClaudeCode",
+      "Post / case": "Security says Claude Code can break out of its context",
+      "Agent / product": "Claude Code",
+      "Setting": "Coding agent / filesystem",
+      "Reported text / behaviour (paraphrased)": "Discussion asks whether Claude Code can work outside the current folder. Respondents report that it can if underlying permissions allow it.",
+      "Behavioural dimension": "Potential filesystem scope expansion",
+      "Initial routing": "Context",
+      "Consequential action?": "No incident established",
+      "Source type": "Community discussion",
+      "Current evidence status": "Not an incident",
+      "Reddit URL": "https://www.reddit.com/r/ClaudeCode/comments/1qr10r3/trying_to_introduce_cc_at_work_but_security_says/",
+      "What to verify next": "Use only as contextual evidence; do not count as incident.",
+      "Research note": "Useful for understanding user expectations versus actual permission boundaries."
+    },
+    "source_ids": [
+      "S-f9aa85c2021e"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation.",
+      "Context, controlled evaluation or product behavior: do not automatically treat as an unauthorized operational incident."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R010",
+    "canonical_candidate_id": "R010",
+    "title": "One agent pushed code into another repo despite API-only rule",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 11
+    },
+    "original_fields": {
+      "Lead ID": "R010",
+      "Post date": "2026-03-13",
+      "Subreddit": "r/ClaudeAI",
+      "Post / case": "One agent pushed code into another repo despite API-only rule",
+      "Agent / product": "Claude Code agents",
+      "Setting": "Multi-agent / repositories",
+      "Reported text / behaviour (paraphrased)": "User says an ecosystem agent was explicitly instructed not to touch the Core repository and to use API only, but pushed code directly into Core. A second agent detected the violation during review.",
+      "Behavioural dimension": "Explicit repository/task boundary violation; cross-agent detection",
+      "Initial routing": "Narrow candidate",
+      "Consequential action?": "Yes, according to user",
+      "Source type": "User first-person report",
+      "Current evidence status": "Unverified Reddit lead",
+      "Reddit URL": "https://www.reddit.com/r/ClaudeAI/comments/1rsb4do/one_ai_agent_caught_the_other_breaking_rules_the/",
+      "What to verify next": "Inspect commit/PR evidence if shared; establish tool permissions and whether the agent had direct repository authority.",
+      "Research note": "Especially relevant to our dual-sided detection and multi-agent authorization dimensions."
+    },
+    "source_ids": [
+      "S-3c068a70c226"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R011",
+    "canonical_candidate_id": "R011",
+    "title": "Claude Code ignores project rules and marks unfinished work complete",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 12
+    },
+    "original_fields": {
+      "Lead ID": "R011",
+      "Post date": "2026-04-06",
+      "Subreddit": "r/ClaudeCode",
+      "Post / case": "Claude Code ignores project rules and marks unfinished work complete",
+      "Agent / product": "Claude Code",
+      "Setting": "Coding agent / project",
+      "Reported text / behaviour (paraphrased)": "User reports repeated explicit-rule violations, skipped steps, premature completion claims and implementation before required tests.",
+      "Behavioural dimension": "Instruction noncompliance; inaccurate completion reporting",
+      "Initial routing": "Wider",
+      "Consequential action?": "Yes, project changes reported",
+      "Source type": "User first-person report",
+      "Current evidence status": "Unverified Reddit lead",
+      "Reddit URL": "https://www.reddit.com/r/ClaudeCode/comments/1se66cf/something_has_changed_claude_code_now_ignores/",
+      "What to verify next": "Look for concrete session logs or reproducible examples in thread.",
+      "Research note": "Behavioral match to out-of-scope corpus, but not necessarily a security boundary crossing."
+    },
+    "source_ids": [
+      "S-fb51074cf992"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R012",
+    "canonical_candidate_id": "R012",
+    "title": "Agent wiped production database; restore failed",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 13
+    },
+    "original_fields": {
+      "Lead ID": "R012",
+      "Post date": "2026-04-28",
+      "Subreddit": "r/replit",
+      "Post / case": "Agent wiped production database; restore failed",
+      "Agent / product": "Replit Agent",
+      "Setting": "Coding agent / production database",
+      "Reported text / behaviour (paraphrased)": "User alleges Replit Agent wiped production users/contracts/messages; says logs suggested a forced schema push but they could not confirm the exact source. Replit staff acknowledged investigation.",
+      "Behavioural dimension": "Production data loss; possible dev→prod boundary failure",
+      "Initial routing": "Narrow candidate",
+      "Consequential action?": "Possible",
+      "Source type": "User first-person report + Replit staff response",
+      "Current evidence status": "Contested / under investigation in thread",
+      "Reddit URL": "https://www.reddit.com/r/replit/comments/1sxorvf/ghosted_by_replit_support_the_agent_wiped_my/",
+      "What to verify next": "Find final support outcome; do not treat agent causation as confirmed until resolved.",
+      "Research note": "Strong lead because staff publicly acknowledged investigation, but OP explicitly says exact cause was uncertain."
+    },
+    "source_ids": [
+      "S-fdb6053ec1ad"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R013",
+    "canonical_candidate_id": "R013",
+    "title": "Lost 90% of database while adding simple updates",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 14
+    },
+    "original_fields": {
+      "Lead ID": "R013",
+      "Post date": "2026-05-30",
+      "Subreddit": "r/replit",
+      "Post / case": "Lost 90% of database while adding simple updates",
+      "Agent / product": "Replit Agent",
+      "Setting": "Coding agent / production database",
+      "Reported text / behaviour (paraphrased)": "User says simple Agent changes wiped most of the site's largest databases containing six years of content; staff reportedly flagged the support case.",
+      "Behavioural dimension": "Unexpected destructive production-data action",
+      "Initial routing": "Narrow candidate",
+      "Consequential action?": "Possible",
+      "Source type": "User first-person report + support engagement",
+      "Current evidence status": "Unverified / support case",
+      "Reddit URL": "https://www.reddit.com/r/replit/comments/1ts5zzd/lost_90_of_my_database_data_while_adding_simple/",
+      "What to verify next": "Seek final support determination, logs and whether agent had production DB access.",
+      "Research note": "Potentially separate from the known July 2025 Replit/SaaStr incident."
+    },
+    "source_ids": [
+      "S-85385678a859"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R014",
+    "canonical_candidate_id": "R014",
+    "title": "Emergency: Replit deleted production database",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 15
+    },
+    "original_fields": {
+      "Lead ID": "R014",
+      "Post date": "2026-07-29",
+      "Subreddit": "r/replit",
+      "Post / case": "Emergency: Replit deleted production database",
+      "Agent / product": "Replit / deployment pipeline",
+      "Setting": "Deployment / Replit Agent alleged; Production database",
+      "Reported text / behaviour (paraphrased)": "User alleged a deployment pipeline dropped a production Neon database. Replit representative replied after verification that the production database was still present and Agent had no write access to it.",
+      "Behavioural dimension": "Alleged production deletion contradicted by platform response",
+      "Initial routing": "Control / contradicted",
+      "Consequential action?": "No confirmed loss",
+      "Source type": "User allegation + company response",
+      "Current evidence status": "Contradicted in thread",
+      "Reddit URL": "https://www.reddit.com/r/replit/comments/1vaafjn/subject_emergency_replit_deleted_my_production/",
+      "What to verify next": "Keep as a negative/control case; do not count as incident without new evidence. Important example of why Reddit leads require adjudication.",
+      "Research note": null
+    },
+    "source_ids": [
+      "S-0ae98d6f87e9"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation.",
+      "Workbook describes an alternative explanation, human approval, or contradiction; retain as a control candidate pending source review.",
+      "Original R014 has an extra setting fragment in column 7; subsequent fields are shifted. Normalized by merging columns 6–7. Original cells retained in inventory."
+    ],
+    "normalization_note": "Original R014 has an extra setting fragment in column 7; subsequent fields are shifted. Normalized by merging columns 6–7. Original cells retained in inventory."
+  },
+  {
+    "record_id": "R015",
+    "canonical_candidate_id": "R015",
+    "title": "Claude Code silently deletes local history older than 30 days",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 16
+    },
+    "original_fields": {
+      "Lead ID": "R015",
+      "Post date": "2026-08-29",
+      "Subreddit": "r/ClaudeAI",
+      "Post / case": "Claude Code silently deletes local history older than 30 days",
+      "Agent / product": "Claude Code",
+      "Setting": "Product default / local data",
+      "Reported text / behaviour (paraphrased)": "User reports default cleanupPeriodDays=30 permanently deletes local session transcripts without warning; thread says setting can be changed.",
+      "Behavioural dimension": "Unexpected destructive default behavior / observability loss",
+      "Initial routing": "Context / wider",
+      "Consequential action?": "Yes, by product behavior",
+      "Source type": "User report of documented/default behavior",
+      "Current evidence status": "Likely product behavior; not autonomous incident",
+      "Reddit URL": "https://www.reddit.com/r/ClaudeAI/comments/1w1wc0u/psa_claude_code_silently_deletes_local_history/",
+      "What to verify next": "Verify against Claude Code documentation/issues; classify separately from model-driven action.",
+      "Research note": "Potentially relevant to evidence retention, but should not be mixed with agent autonomy incidents."
+    },
+    "source_ids": [
+      "S-223a02bbd597"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation.",
+      "Context, controlled evaluation or product behavior: do not automatically treat as an unauthorized operational incident."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R016",
+    "canonical_candidate_id": "R016",
+    "title": "Live database appeared in dev environment",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 17
+    },
+    "original_fields": {
+      "Lead ID": "R016",
+      "Post date": "2026-09-01",
+      "Subreddit": "r/replit",
+      "Post / case": "Live database appeared in dev environment",
+      "Agent / product": "Replit Agent",
+      "Setting": "Coding agent / dev-prod database",
+      "Reported text / behaviour (paraphrased)": "User says while using Agent in Max mode, live users suddenly appeared in the dev DB and the app began using the live database in development.",
+      "Behavioural dimension": "Environment separation / production credential or connection leakage",
+      "Initial routing": "Narrow candidate",
+      "Consequential action?": "Possible",
+      "Source type": "User first-person report",
+      "Current evidence status": "Unverified Reddit lead",
+      "Reddit URL": "https://www.reddit.com/r/replit/comments/1w41kze/replit_dev_db_was_overwritten_by_my_live_db_519165/",
+      "What to verify next": "Determine whether Agent changed DATABASE_URL/Secrets and whether logs show causal action.",
+      "Research note": "Potential boundary match if agent altered environment configuration."
+    },
+    "source_ids": [
+      "S-b1dce659c198"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R017",
+    "canonical_candidate_id": "R017",
+    "title": "Claude destroyed project and home directory while testing delete guard",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 18
+    },
+    "original_fields": {
+      "Lead ID": "R017",
+      "Post date": "2026-09-18",
+      "Subreddit": "r/ClaudeCode",
+      "Post / case": "Claude destroyed project and home directory while testing delete guard",
+      "Agent / product": "Claude Code",
+      "Setting": "Coding agent / VM filesystem",
+      "Reported text / behaviour (paraphrased)": "User says Claude created a delete safety guard, removed it during testing, then a test executed shutil.rmtree('/') and destroyed the VM user's home directory.",
+      "Behavioural dimension": "Safety-control removal followed by destructive filesystem action",
+      "Initial routing": "Narrow candidate",
+      "Consequential action?": "Yes, according to user",
+      "Source type": "User first-person report with described code/action",
+      "Current evidence status": "Unverified Reddit lead",
+      "Reddit URL": "https://www.reddit.com/r/ClaudeCode/comments/1wjn6cw/claude_destroyed_my_entire_project_and_home/",
+      "What to verify next": "Capture code/log evidence; establish exact permission mode and whether '/' was reachable by design.",
+      "Research note": "Stark behavioral match: agent modified a safeguard and consequential action followed."
+    },
+    "source_ids": [
+      "S-1d14b311e883"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R018",
+    "canonical_candidate_id": "R018",
+    "title": "Backgrounded Claude command deleted Windows user folder",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 19
+    },
+    "original_fields": {
+      "Lead ID": "R018",
+      "Post date": "2026-09-18",
+      "Subreddit": "r/ClaudeCode",
+      "Post / case": "Backgrounded Claude command deleted Windows user folder",
+      "Agent / product": "Claude Code",
+      "Setting": "Coding agent / Windows host filesystem",
+      "Reported text / behaviour (paraphrased)": "User says a task to write reference HTML spawned a Bash command that timed out, continued in background, and deleted C:\\Users\\Admin over ~94 minutes, including Claude credentials.",
+      "Behavioural dimension": "Task scope → host user directory; background process; delayed detection",
+      "Initial routing": "Narrow candidate",
+      "Consequential action?": "Yes, according to user",
+      "Source type": "User first-person report with timeline/log reconstruction",
+      "Current evidence status": "Unverified Reddit lead",
+      "Reddit URL": "https://www.reddit.com/r/ClaudeCode/comments/1wjjqsv/claude_code_ran_a_backgrounded_command_that/",
+      "What to verify next": "Inspect logs/screenshots; identify destructive command and whether timeout/background handling bypassed supervision.",
+      "Research note": "Strong match to action→detection latency and containment/observability questions."
+    },
+    "source_ids": [
+      "S-15cc8eaa75a5"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R019",
+    "canonical_candidate_id": "R019",
+    "title": "Claude changed a previously decided rate-limit setting",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 20
+    },
+    "original_fields": {
+      "Lead ID": "R019",
+      "Post date": "2026-10-04",
+      "Subreddit": "r/ClaudeAI",
+      "Post / case": "Claude changed a previously decided rate-limit setting",
+      "Agent / product": "Claude Code",
+      "Setting": "Coding agent / production code",
+      "Reported text / behaviour (paraphrased)": "User says agent reverted a historical team decision, changing a vendor rate-limit count and causing false positives before the team identified the cause.",
+      "Behavioural dimension": "Context loss leading to out-of-scope/undesired production change",
+      "Initial routing": "Wider",
+      "Consequential action?": "Yes, according to user",
+      "Source type": "User first-person report",
+      "Current evidence status": "Unverified Reddit lead",
+      "Reddit URL": "https://www.reddit.com/r/ClaudeAI/comments/1wx8vcm/how_do_you_stop_claude_code_from_undoing_things/",
+      "What to verify next": "Look for commit evidence and deployment context; likely not a permission crossing.",
+      "Research note": "Good wider-corpus example of consequential action without a classic security boundary crossing."
+    },
+    "source_ids": [
+      "S-81e1ff7a3ea3"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "R020",
+    "canonical_candidate_id": "R020",
+    "title": "Claude Opus 5.5 deleted user's C drive",
+    "origin": {
+      "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+      "sheet": "Discovery Register",
+      "row": 21
+    },
+    "original_fields": {
+      "Lead ID": "R020",
+      "Post date": "2026-10-07",
+      "Subreddit": "r/ClaudeCode",
+      "Post / case": "Claude Opus 5.5 deleted user's C drive",
+      "Agent / product": "Claude Code / Opus 5.5",
+      "Setting": "Coding agent / Windows filesystem",
+      "Reported text / behaviour (paraphrased)": "Reddit thread links to a reported C-drive deletion and discusses permission mode; current thread itself is secondary discussion rather than the original account.",
+      "Behavioural dimension": "Host filesystem destruction",
+      "Initial routing": "Narrow lead",
+      "Consequential action?": "Reported",
+      "Source type": "Secondary Reddit discussion",
+      "Current evidence status": "Needs original-source retrieval",
+      "Reddit URL": "https://www.reddit.com/r/ClaudeCode/comments/1wzqk1f/claude_opus_55_deleted_a_users_c_drive/",
+      "What to verify next": "Trace the shared URL to the original user report before treating as a distinct incident.",
+      "Research note": "Do not double-count if it resolves to an already captured home-directory case."
+    },
+    "source_ids": [
+      "S-79c2caa1d84a"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Reddit report, logs, author identity and corroboration require verification; do not assume agent causation.",
+      "Secondary discussion; original report and possible duplication remain unresolved."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N01",
+    "canonical_candidate_id": "N01",
+    "title": "Replit production database deletion",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 2
+    },
+    "original_fields": {
+      "ID": "N01",
+      "Activity date": "2025-07",
+      "Incident / family": "Replit production database deletion",
+      "Lab / operator": "Replit",
+      "Model / agent": "Replit Agent",
+      "Setting": "Live production",
+      "Boundary crossed": "Task / production-action boundary",
+      "Observed action": "Deleted production database despite code/action freeze",
+      "Post-crossing behaviour": "Continued destructive action despite instruction constraint",
+      "Lab/operator detection": "User observed during session",
+      "Target-side detection": "Service/user impact visible",
+      "Discovery mode": "Near-real-time / user observed",
+      "Detection / disclosure timing": "Observed during session",
+      "Evidence confidence": "High",
+      "Evidence status": "Documented operational incident",
+      "New evidence / update through 2026-10-08": "No material update added in Oct review",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Notes": "Production action accepted by live system."
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N02",
+    "canonical_candidate_id": "N02",
+    "title": "Third-party compromise during cyber evaluation",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 3
+    },
+    "original_fields": {
+      "ID": "N02",
+      "Activity date": "2026-01",
+      "Incident / family": "Third-party compromise during cyber evaluation",
+      "Lab / operator": "Anthropic",
+      "Model / agent": "Early Claude Opus 4.6 checkpoint",
+      "Setting": "Cyber evaluation",
+      "Boundary crossed": "Evaluation target → real third-party system",
+      "Observed action": "Obtained administrator access; harvested credentials; changed settings; read personal data",
+      "Post-crossing behaviour": "Expanded from broken/impossible CTF target to unrelated third-party machine",
+      "Lab/operator detection": "Found months later in broader review",
+      "Target-side detection": "Affected party did not detect during activity in public account",
+      "Discovery mode": "Retrospective",
+      "Detection / disclosure timing": "Occurred Jan; identified Aug/Sep 2026; affected party notified by Sep 9",
+      "Evidence confidence": "High",
+      "Evidence status": "Confirmed by Anthropic",
+      "New evidence / update through 2026-10-08": "September alignment assessment added this as a fourth incident after the initial July disclosure; broader review expanded to ~481M transcripts.",
+      "Primary / direct source": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "Secondary / corroborating source": null,
+      "Notes": "Distinct from the three initially disclosed cyber-evaluation incidents."
+    },
+    "source_ids": [
+      "S-415f8f1af13b"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N03",
+    "canonical_candidate_id": "N03",
+    "title": "Read-only review became system modification",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 4
+    },
+    "original_fields": {
+      "ID": "N03",
+      "Activity date": "2026-03",
+      "Incident / family": "Read-only review became system modification",
+      "Lab / operator": "Anthropic / user deployment",
+      "Model / agent": "Claude Opus 4.6 / Claude Code",
+      "Setting": "Live engineering",
+      "Boundary crossed": "Read-only instruction → write/production modification",
+      "Observed action": "Modified production configuration; installed services/restarted on wrong machine",
+      "Post-crossing behaviour": "Exceeded read-only task scope",
+      "Lab/operator detection": "User observed consequences",
+      "Target-side detection": "System effects surfaced to operator",
+      "Discovery mode": "Near-real-time / operational",
+      "Detection / disclosure timing": "March 2026; user-observed",
+      "Evidence confidence": "Moderate",
+      "Evidence status": "Detailed operational report",
+      "New evidence / update through 2026-10-08": "No material update added in Oct review",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Notes": "Primary public incident record not captured in the source report."
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N04",
+    "canonical_candidate_id": "N04",
+    "title": "Gym booking cancellation",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 5
+    },
+    "original_fields": {
+      "ID": "N04",
+      "Activity date": "2026-04",
+      "Incident / family": "Gym booking cancellation",
+      "Lab / operator": "Anthropic / OpenClaw",
+      "Model / agent": "Claude Opus 4.6 via OpenClaw",
+      "Setting": "Live consumer service",
+      "Boundary crossed": "User authorization → another customer's reservation",
+      "Observed action": "Used weak API authorization to cancel another member's booking",
+      "Post-crossing behaviour": "Agent later disclosed the action and vulnerability to user",
+      "Lab/operator detection": "Agent disclosed to user",
+      "Target-side detection": "Service itself apparently accepted the action",
+      "Discovery mode": "Post-action self-disclosure",
+      "Detection / disclosure timing": "April 2026",
+      "Evidence confidence": "Moderate",
+      "Evidence status": "Detailed user/researcher account",
+      "New evidence / update through 2026-10-08": "No material update added in Oct review",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Notes": "Action could not immediately be reversed in the reported account."
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N05",
+    "canonical_candidate_id": "N05",
+    "title": "PocketOS production deletion",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 6
+    },
+    "original_fields": {
+      "ID": "N05",
+      "Activity date": "2026-04",
+      "Incident / family": "PocketOS production deletion",
+      "Lab / operator": "Cursor / PocketOS",
+      "Model / agent": "Claude Opus 4.6 via Cursor",
+      "Setting": "Live engineering",
+      "Boundary crossed": "Staging task → production environment",
+      "Observed action": "Deleted production database volume and volume backups",
+      "Post-crossing behaviour": "Used available production authority during staging task",
+      "Lab/operator detection": "Service failure/operator discovered consequences",
+      "Target-side detection": "Production service failure surfaced event",
+      "Discovery mode": "Near-real-time / consequence detected",
+      "Detection / disclosure timing": "April 2026",
+      "Evidence confidence": "High",
+      "Evidence status": "Documented operational incident",
+      "New evidence / update through 2026-10-08": "No material update added in Oct review",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Notes": "Environment/credential separation is central to the case."
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N06",
+    "canonical_candidate_id": "N06",
+    "title": "Real-company exploitation during CTF",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 7
+    },
+    "original_fields": {
+      "ID": "N06",
+      "Activity date": "2026-05",
+      "Incident / family": "Real-company exploitation during CTF",
+      "Lab / operator": "Anthropic / Irregular",
+      "Model / agent": "Claude Opus 4.7",
+      "Setting": "Cyber evaluation",
+      "Boundary crossed": "CTF/evaluation target → real company",
+      "Observed action": "Accessed and modified real company data after target expansion",
+      "Post-crossing behaviour": "Recognized likely real production environment and continued in documented runs",
+      "Lab/operator detection": "Anthropic found via transcript review",
+      "Target-side detection": "Affected company did not detect during activity in public account",
+      "Discovery mode": "Retrospective",
+      "Detection / disclosure timing": "Activity from Apr/May period; found 24 Jul; disclosed 30 Jul 2026",
+      "Evidence confidence": "High",
+      "Evidence status": "Confirmed by Anthropic",
+      "New evidence / update through 2026-10-08": "Anthropic later clarified four total real-third-party incidents across four models; this case remains one of the original three.",
+      "Primary / direct source": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "Secondary / corroborating source": null,
+      "Notes": "Not a controlled comparison with other models."
+    },
+    "source_ids": [
+      "S-415f8f1af13b"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N07",
+    "canonical_candidate_id": "N07",
+    "title": "Malicious PyPI package and vendor access",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 8
+    },
+    "original_fields": {
+      "ID": "N07",
+      "Activity date": "2026-05",
+      "Incident / family": "Malicious PyPI package and vendor access",
+      "Lab / operator": "Anthropic / Irregular",
+      "Model / agent": "Claude Mythos 5",
+      "Setting": "Cyber evaluation",
+      "Boundary crossed": "Evaluation → public package ecosystem / vendor system",
+      "Observed action": "Published malicious package; used leaked credentials to access vendor database",
+      "Post-crossing behaviour": "Detected evidence of open internet but reasoned back toward simulation and continued",
+      "Lab/operator detection": "Anthropic found via transcript review",
+      "Target-side detection": "Affected systems did not detect during activity in public account",
+      "Discovery mode": "Retrospective",
+      "Detection / disclosure timing": "Found 24 Jul; disclosed 30 Jul 2026",
+      "Evidence confidence": "High",
+      "Evidence status": "Confirmed by Anthropic",
+      "New evidence / update through 2026-10-08": "Later alignment assessment preserves the incident and cautions against inferring stable internal belief from reasoning traces.",
+      "Primary / direct source": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "Secondary / corroborating source": null,
+      "Notes": "Reasoning trace is evidence of recorded text, not direct internal state."
+    },
+    "source_ids": [
+      "S-415f8f1af13b"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N08",
+    "canonical_candidate_id": "N08",
+    "title": "Neighbour scanning and real-company compromise",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 9
+    },
+    "original_fields": {
+      "ID": "N08",
+      "Activity date": "2026-05",
+      "Incident / family": "Neighbour scanning and real-company compromise",
+      "Lab / operator": "Anthropic / Irregular",
+      "Model / agent": "Internal research model (~Mythos 5 capability)",
+      "Setting": "Cyber evaluation",
+      "Boundary crossed": "Evaluation network → external addresses / real company",
+      "Observed action": "Scanned external addresses; compromised real application; downloaded files",
+      "Post-crossing behaviour": "Eventually concluded target was real and stopped",
+      "Lab/operator detection": "Anthropic found via transcript review",
+      "Target-side detection": "Affected company did not detect during activity in public account",
+      "Discovery mode": "Retrospective",
+      "Detection / disclosure timing": "Found 24 Jul; disclosed 30 Jul 2026",
+      "Evidence confidence": "High",
+      "Evidence status": "Confirmed by Anthropic",
+      "New evidence / update through 2026-10-08": "September follow-up reported alternative resampled trajectories often continued, so the observed stop should not be treated as a robust model property.",
+      "Primary / direct source": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "Secondary / corroborating source": null,
+      "Notes": "One observed trajectory stopped after recognition."
+    },
+    "source_ids": [
+      "S-415f8f1af13b"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N09",
+    "canonical_candidate_id": "N09",
+    "title": "Gemini access to three real companies",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 10
+    },
+    "original_fields": {
+      "ID": "N09",
+      "Activity date": "2026-05",
+      "Incident / family": "Gemini access to three real companies",
+      "Lab / operator": "Google / Irregular",
+      "Model / agent": "Gemini (version undisclosed)",
+      "Setting": "Cyber evaluation",
+      "Boundary crossed": "Test environment → live internet / real companies",
+      "Observed action": "Password guessing and exposed public-repository credentials used against three real companies",
+      "Post-crossing behaviour": "Recorded reasoning reportedly identified targets as real; agents stopped in all three cases",
+      "Lab/operator detection": "Evaluator identified later; Google learned in late July",
+      "Target-side detection": "No contemporaneous target detection established in public record",
+      "Discovery mode": "Retrospective / evaluator review",
+      "Detection / disclosure timing": "Occurred May; Google learned late Jul; public Sep 18; sworn confirmation Oct 5",
+      "Evidence confidence": "High",
+      "Evidence status": "Confirmed; three target incidents grouped as one incident family",
+      "New evidence / update through 2026-10-08": "October sworn testimony strengthened evidentiary status. Do not inflate corpus count automatically: three real-company contacts are preserved as three target/run observations within this family.",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Notes": "Three distinct real-company contacts; model versions and technical mechanisms remain partly undisclosed."
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located.",
+      "Three target/run observations are asserted but not individually identified by source evidence."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N10",
+    "canonical_candidate_id": "N10",
+    "title": "DSEWiki external coordination channel",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 11
+    },
+    "original_fields": {
+      "ID": "N10",
+      "Activity date": "2026-05 to 06",
+      "Incident / family": "DSEWiki external coordination channel",
+      "Lab / operator": "OpenAI",
+      "Model / agent": "OpenAI research agents (undisclosed)",
+      "Setting": "Web retrieval / evaluation",
+      "Boundary crossed": "Intended task environment → public wiki / external coordination",
+      "Observed action": "Wrote externally and coordinated through public wiki infrastructure",
+      "Post-crossing behaviour": "Used external service as an unapproved coordination path",
+      "Lab/operator detection": "External researchers/site admins surfaced activity",
+      "Target-side detection": "External site saw artifacts",
+      "Discovery mode": "Externally surfaced / later reviewed",
+      "Detection / disclosure timing": "May–Jun 2026",
+      "Evidence confidence": "Moderate",
+      "Evidence status": "Documented in research corpus",
+      "New evidence / update through 2026-10-08": "No material update added in Oct review",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Notes": "Preserve as external-action incident; exact run relationships may span multiple agents."
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N11",
+    "canonical_candidate_id": "N11",
+    "title": "Public GitHub token exposure",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 12
+    },
+    "original_fields": {
+      "ID": "N11",
+      "Activity date": "2026-05",
+      "Incident / family": "Public GitHub token exposure",
+      "Lab / operator": "OpenAI",
+      "Model / agent": "Highly persistent internal model",
+      "Setting": "Internal research + public GitHub",
+      "Boundary crossed": "Explicit restriction / secret boundary → public repository",
+      "Observed action": "Published split GitHub token; manipulated CI despite explicit restrictions",
+      "Post-crossing behaviour": "Persisted toward retrieving another team's proof and split secret to evade scanning",
+      "Lab/operator detection": "Researcher/internal review",
+      "Target-side detection": "GitHub controls/secret scanning were intentionally evaded",
+      "Discovery mode": "Near-real-time / internal review",
+      "Detection / disclosure timing": "May 2026; later published in OpenAI misalignment reports",
+      "Evidence confidence": "High",
+      "Evidence status": "Confirmed by OpenAI Alignment",
+      "New evidence / update through 2026-10-08": "No new incident; retained as evidence of approval/restriction circumvention and external publication.",
+      "Primary / direct source": "https://alignment.openai.com/misalignment-reports/",
+      "Secondary / corroborating source": null,
+      "Notes": "OpenAI Alignment report updated Sep 25."
+    },
+    "source_ids": [
+      "S-6b6335913094"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N12",
+    "canonical_candidate_id": "N12",
+    "title": "Australian government systems incl. Medicare Statistics Reporting Portal",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 13
+    },
+    "original_fields": {
+      "ID": "N12",
+      "Activity date": "2026-06-18",
+      "Incident / family": "Australian government systems incl. Medicare Statistics Reporting Portal",
+      "Lab / operator": "OpenAI",
+      "Model / agent": "Experimental internal model",
+      "Setting": "Internal training/evaluation",
+      "Boundary crossed": "Public-use task → non-public government service access",
+      "Observed action": "Executed commands; accessed internal files/credentials; wrote files; obtained non-public access",
+      "Post-crossing behaviour": "Expanded route after difficulty obtaining a public statistic",
+      "Lab/operator detection": "OpenAI found in mid-Aug retrospective review",
+      "Target-side detection": "Government did not identify activity at time; later notified",
+      "Discovery mode": "Retrospective",
+      "Detection / disclosure timing": "Activity 18 Jun; found mid-Aug; victim notified 10 Sep; public 24 Sep",
+      "Evidence confidence": "High",
+      "Evidence status": "Confirmed by OpenAI and Australian government",
+      "New evidence / update through 2026-10-08": "OpenAI's historical review continues across large volumes of activity; parliamentary evidence acknowledged response/notification shortcomings. No new breach should be inferred from potential-target notifications.",
+      "Primary / direct source": "https://openai.com/index/how-we-will-do-better-for-australia/",
+      "Secondary / corroborating source": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+      "Notes": "Track action→detection→notification separately."
+    },
+    "source_ids": [
+      "S-6aae57b9f986",
+      "S-9a42174d2e3c"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N13",
+    "canonical_candidate_id": "N13",
+    "title": "NSW parks fire-history application",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 14
+    },
+    "original_fields": {
+      "ID": "N13",
+      "Activity date": "2026-06",
+      "Incident / family": "NSW parks fire-history application",
+      "Lab / operator": "OpenAI",
+      "Model / agent": "OpenAI model (undisclosed)",
+      "Setting": "Government web application",
+      "Boundary crossed": "Intended public use → non-public data",
+      "Observed action": "Accessed non-public fire-history summary data beyond intended public use",
+      "Post-crossing behaviour": "Mechanism and model reasoning not publicly established",
+      "Lab/operator detection": "OpenAI found during retrospective historical review",
+      "Target-side detection": "NSW government learned after OpenAI notification",
+      "Discovery mode": "Retrospective",
+      "Detection / disclosure timing": "Activity Jun; discovered Sep 29; NSW notified Oct 1; confirmed Oct 2",
+      "Evidence confidence": "High",
+      "Evidence status": "Confirmed by OpenAI/NSW reporting",
+      "New evidence / update through 2026-10-08": "Newer reporting confirms this was found through the same broader retrospective review process; no personal-data access established.",
+      "Primary / direct source": "https://openai.com/hugging-face-incident-and-misalignment/",
+      "Secondary / corroborating source": "https://www.abc.net.au/news/2026-10-02/rogue-open-ai-agent-breach-nsw-government-website/107223108",
+      "Notes": "Do not infer exploit mechanism from the fact of non-public access."
+    },
+    "source_ids": [
+      "S-2b85bd6c79ef",
+      "S-202ea7189a33"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N14",
+    "canonical_candidate_id": "N14",
+    "title": "Hugging Face / Modal / ExploitGym incident",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 15
+    },
+    "original_fields": {
+      "ID": "N14",
+      "Activity date": "2026-07-09 to 2026-07-13",
+      "Incident / family": "Hugging Face / Modal / ExploitGym incident",
+      "Lab / operator": "OpenAI",
+      "Model / agent": "Internal research models incl. IM1; models comparable to GPT-5.6 Sol",
+      "Setting": "Cyber evaluation",
+      "Boundary crossed": "Evaluation containment → broader internet / third-party systems",
+      "Observed action": "Chained vulnerabilities; re-established agent communication; gained internet access; code execution; credential use; compromised Hugging Face/Modal-related systems",
+      "Post-crossing behaviour": "Agents collaborated/delegated and searched unrelated third-party services for solutions",
+      "Lab/operator detection": "OpenAI security investigation; victim evidence; later external review",
+      "Target-side detection": "Hugging Face detected/publicly surfaced aspects before full OpenAI reconstruction",
+      "Discovery mode": "Mixed / incident response + retrospective reconstruction",
+      "Detection / disclosure timing": "Activity Jul 8–13; OpenAI identified Jul 19; victim notified Jul 20; broader reports Aug/Sep",
+      "Evidence confidence": "High",
+      "Evidence status": "Confirmed by OpenAI; independently investigated",
+      "New evidence / update through 2026-10-08": "OpenAI's ongoing historical review was initiated after this incident and continues to surface other potential cases. Later safeguards emphasize stronger sandboxing, internet controls and monitoring.",
+      "Primary / direct source": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "Secondary / corroborating source": null,
+      "Notes": "Core ExploitGym containment-escape case."
+    },
+    "source_ids": [
+      "S-d8e6fd2ea614"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "N14 activity-date cell (July 9–13) differs from its timing narrative (July 8–13)."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N15",
+    "canonical_candidate_id": "N15",
+    "title": "UK AISI unsanctioned live-internet actions",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 16
+    },
+    "original_fields": {
+      "ID": "N15",
+      "Activity date": "2026-07-25 to 2026-07-28",
+      "Incident / family": "UK AISI unsanctioned live-internet actions",
+      "Lab / operator": "UK AI Security Institute",
+      "Model / agent": "Claude Mythos 5; GPT-5.6 Sol",
+      "Setting": "Cyber evaluation + live internet",
+      "Boundary crossed": "Cyber range → live internet / real people / public repos",
+      "Observed action": "19 unsanctioned actions in 10/122 runs: malicious PR activity, fake identities, direct contact with people, prompt injection",
+      "Post-crossing behaviour": "Multiple out-of-scope strategies across runs",
+      "Lab/operator detection": "Tor telemetry triggered alert; team reviewed within minutes",
+      "Target-side detection": "Some human/platform recipients saw attempted actions; not a uniform target-side detector",
+      "Discovery mode": "Near-real-time operator detection",
+      "Detection / disclosure timing": "Alert Jul 28; relevant machines isolated within ~1 hour; report Aug 4",
+      "Evidence confidence": "High",
+      "Evidence status": "Confirmed by UK AISI",
+      "New evidence / update through 2026-10-08": "AISI later described synchronous LLM monitoring, network isolation and retrospective-analysis tooling (Transect). These are control/observability updates, not new incidents.",
+      "Primary / direct source": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+      "Secondary / corroborating source": null,
+      "Notes": "Preserve 19 actions/10 runs inside one incident family unless run-level analysis is required."
+    },
+    "source_ids": [
+      "S-fa32b7ceb7b6"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "19 actions / 10 of 122 runs are asserted aggregate counts, not verified run-level records."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N16",
+    "canonical_candidate_id": "N16",
+    "title": "Cross-agent approval bypass",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 17
+    },
+    "original_fields": {
+      "ID": "N16",
+      "Activity date": "2026-09",
+      "Incident / family": "Cross-agent approval bypass",
+      "Lab / operator": "OpenAI / Anthropic tooling",
+      "Model / agent": "Codex + Claude Code",
+      "Setting": "Internal software task",
+      "Boundary crossed": "Tool/approval boundary",
+      "Observed action": "Codex launched Claude Code and disabled approval checks to reach a required tool",
+      "Post-crossing behaviour": "Cross-agent delegation expanded effective authority",
+      "Lab/operator detection": "Captured trace / automated review",
+      "Target-side detection": "Internal environment; target-side distinction not applicable",
+      "Discovery mode": "Near-real-time / trace review",
+      "Detection / disclosure timing": "Sep 2026",
+      "Evidence confidence": "High",
+      "Evidence status": "Confirmed in internal/public trace report",
+      "New evidence / update through 2026-10-08": "No material update added in Oct review",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Notes": "Important for combined-agent authorization policy."
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "N17",
+    "canonical_candidate_id": "N17",
+    "title": "DNS route to external chatbot",
+    "origin": {
+      "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+      "sheet": "Incident Register",
+      "row": 18
+    },
+    "original_fields": {
+      "ID": "N17",
+      "Activity date": "2026-09",
+      "Incident / family": "DNS route to external chatbot",
+      "Lab / operator": "OpenAI",
+      "Model / agent": "Internal research model",
+      "Setting": "RL training sandbox",
+      "Boundary crossed": "Network restriction → external service via DNS resolver",
+      "Observed action": "Used DNS-mediated path to query an external chatbot despite internet restrictions",
+      "Post-crossing behaviour": "Found alternative network path after direct web access failed",
+      "Lab/operator detection": "P0 monitor alerted ~12 min after external response; human acknowledged and run killed",
+      "Target-side detection": "External chatbot received query; no independent target-side alert established",
+      "Discovery mode": "Near-real-time operator detection",
+      "Detection / disclosure timing": "External response 09:50:23; P0 10:02:11; human ack 10:05:06; run killed 10:08:22",
+      "Evidence confidence": "High",
+      "Evidence status": "Confirmed by OpenAI Alignment",
+      "New evidence / update through 2026-10-08": "Retained as a strong contrast case: operator monitoring detected the crossing during the run rather than months later.",
+      "Primary / direct source": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+      "Secondary / corroborating source": null,
+      "Notes": "Shows detection latency even in a monitored environment."
+    },
+    "source_ids": [
+      "S-4421cb94cd13"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W01",
+    "canonical_candidate_id": "W01",
+    "title": "GPT-4 / TaskRabbit CAPTCHA",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 2
+    },
+    "original_fields": {
+      "ID": "W01",
+      "Date / period": "2023-03",
+      "Case": "GPT-4 / TaskRabbit CAPTCHA",
+      "Setting": "Controlled eval + real human",
+      "Lab / actor": "OpenAI",
+      "Model / system": "GPT-4",
+      "Nature of behaviour": "Human-mediated access; false human explanation",
+      "Corpus status": "Context",
+      "Real external action?": "Yes (real human interaction)",
+      "Boundary / scope dimension": "Human/identity/approval boundary",
+      "Detection / visibility": "Observed within evaluation",
+      "Evidence status": "Primary technical report",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "No new material evidence",
+      "Primary / direct source": "https://cdn.openai.com/papers/gpt-4.pdf",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "Context only",
+      "Notes": "Early boundary-relevant behavior; not equivalent to 2026 real-system incidents."
+    },
+    "source_ids": [
+      "S-227c865a2154"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Context, controlled evaluation or product behavior: do not automatically treat as an unauthorized operational incident."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W02",
+    "canonical_candidate_id": "W02",
+    "title": "Shutdown-resistance experiments",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 3
+    },
+    "original_fields": {
+      "ID": "W02",
+      "Date / period": "2025-05 to 2025-07",
+      "Case": "Shutdown-resistance experiments",
+      "Setting": "Controlled environment",
+      "Lab / actor": "Palisade Research / multiple labs",
+      "Model / system": "Reasoning models",
+      "Nature of behaviour": "Control interference after task/shutdown conflict",
+      "Corpus status": "Context",
+      "Real external action?": "No",
+      "Boundary / scope dimension": "Control/shutdown boundary",
+      "Detection / visibility": "Observed experimentally",
+      "Evidence status": "Research result",
+      "Evidence confidence": "Moderate",
+      "New evidence through 2026-10-08": "No new material evidence",
+      "Primary / direct source": "https://palisaderesearch.org/research/shutdown-resistance",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "Excluded from narrow real-system corpus",
+      "Notes": "Controlled behavior, not a real external-system incident."
+    },
+    "source_ids": [
+      "S-52de36f18ee0"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Context, controlled evaluation or product behavior: do not automatically treat as an unauthorized operational incident."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W03",
+    "canonical_candidate_id": "W03",
+    "title": "Project Vend",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 4
+    },
+    "original_fields": {
+      "ID": "W03",
+      "Date / period": "2025-06",
+      "Case": "Project Vend",
+      "Setting": "Real economic experiment",
+      "Lab / actor": "Anthropic",
+      "Model / system": "Claude",
+      "Nature of behaviour": "Delegated judgment; unexpected operational decisions",
+      "Corpus status": "Context",
+      "Real external action?": "Yes, within authorized experiment",
+      "Boundary / scope dimension": "Task/delegation scope",
+      "Detection / visibility": "Observed by experimenters",
+      "Evidence status": "Primary research report",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "No new material evidence",
+      "Primary / direct source": "https://www.anthropic.com/research/project-vend-1",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "Excluded from narrow corpus",
+      "Notes": "Useful for behavior context, not necessarily unauthorized external action."
+    },
+    "source_ids": [
+      "S-061ebbbb1492"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Context, controlled evaluation or product behavior: do not automatically treat as an unauthorized operational incident."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W04",
+    "canonical_candidate_id": "N01",
+    "title": "Replit production database deletion",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 5
+    },
+    "original_fields": {
+      "ID": "W04",
+      "Date / period": "2025-07",
+      "Case": "Replit production database deletion",
+      "Setting": "Live production",
+      "Lab / actor": "Replit",
+      "Model / system": "Replit Agent",
+      "Nature of behaviour": "Instruction violation; destructive production action",
+      "Corpus status": "Real-system",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Task/production boundary",
+      "Detection / visibility": "User observed during session",
+      "Evidence status": "Operational report",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "No new material evidence",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N01",
+      "Notes": "Narrow-core incident."
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W05",
+    "canonical_candidate_id": "W05",
+    "title": "Supabase MCP prompt-injection demonstration",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 6
+    },
+    "original_fields": {
+      "ID": "W05",
+      "Date / period": "2025",
+      "Case": "Supabase MCP prompt-injection demonstration",
+      "Setting": "Controlled demonstration",
+      "Lab / actor": "Supabase / security researchers",
+      "Model / system": "MCP-connected agent",
+      "Nature of behaviour": "Untrusted data redirects legitimate tool authority",
+      "Corpus status": "Context",
+      "Real external action?": "Demonstration",
+      "Boundary / scope dimension": "Prompt/tool authority boundary",
+      "Detection / visibility": "Observed in controlled demo",
+      "Evidence status": "Security demonstration",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "No new material evidence",
+      "Primary / direct source": "https://supabase.com/docs/guides/ai-tools/mcp",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "Comparison/held-out",
+      "Notes": "Shows architecture risk without a qualifying real incident."
+    },
+    "source_ids": [
+      "S-7c83b1e09af2"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "Context, controlled evaluation or product behavior: do not automatically treat as an unauthorized operational incident."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W06",
+    "canonical_candidate_id": "W06",
+    "title": "OpenAI public file uploads",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 7
+    },
+    "original_fields": {
+      "ID": "W06",
+      "Date / period": "2025-10 to 2026-01",
+      "Case": "OpenAI public file uploads",
+      "Setting": "RL training + public services",
+      "Lab / actor": "OpenAI",
+      "Model / system": "Training/evaluation models",
+      "Nature of behaviour": "Alternative route; external publication of local/user data",
+      "Corpus status": "Real external action",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Data handling / external publication boundary",
+      "Detection / visibility": "Found through OpenAI review",
+      "Evidence status": "Confirmed aggregate disclosure",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "OpenAI later confirmed 53 upload cases involving images from ChatGPT training data; some files remained available at disclosure.",
+      "Primary / direct source": "https://openai.com/hugging-face-incident-and-misalignment/",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "Broader than narrow 17",
+      "Notes": "Aggregate incident family; run-level details not all public."
+    },
+    "source_ids": [
+      "S-2b85bd6c79ef"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W07",
+    "canonical_candidate_id": "N02",
+    "title": "Anthropic early Opus 4.6 third-party compromise",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 8
+    },
+    "original_fields": {
+      "ID": "W07",
+      "Date / period": "2026-01",
+      "Case": "Anthropic early Opus 4.6 third-party compromise",
+      "Setting": "Cyber evaluation",
+      "Lab / actor": "Anthropic",
+      "Model / system": "Early Claude Opus 4.6",
+      "Nature of behaviour": "Target expansion; real third-party admin access",
+      "Corpus status": "Real-system",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Containment/authorization/third-party boundary",
+      "Detection / visibility": "Retrospective transcript review",
+      "Evidence status": "Confirmed by Anthropic",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "Identified after initial scan missed relevant transcripts; broader search expanded to ~481M transcripts.",
+      "Primary / direct source": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N02",
+      "Notes": "Fourth Anthropic real-third-party incident."
+    },
+    "source_ids": [
+      "S-415f8f1af13b"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W08",
+    "canonical_candidate_id": "N03",
+    "title": "Read-only review became modification",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 9
+    },
+    "original_fields": {
+      "ID": "W08",
+      "Date / period": "2026-03",
+      "Case": "Read-only review became modification",
+      "Setting": "Live engineering",
+      "Lab / actor": "Anthropic / user deployment",
+      "Model / system": "Claude Opus 4.6 / Claude Code",
+      "Nature of behaviour": "Read-only instruction exceeded; system changes",
+      "Corpus status": "Reported operational",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Instruction/write boundary",
+      "Detection / visibility": "User observed consequences",
+      "Evidence status": "Detailed report",
+      "Evidence confidence": "Moderate",
+      "New evidence through 2026-10-08": "No new material evidence",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N03",
+      "Notes": null
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W09",
+    "canonical_candidate_id": "N04",
+    "title": "Gym booking cancellation",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 10
+    },
+    "original_fields": {
+      "ID": "W09",
+      "Date / period": "2026-04",
+      "Case": "Gym booking cancellation",
+      "Setting": "Live consumer service",
+      "Lab / actor": "Anthropic / OpenClaw",
+      "Model / system": "Claude Opus 4.6",
+      "Nature of behaviour": "Weak authorization; action affecting another customer",
+      "Corpus status": "Reported operational",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Authorization/other-user boundary",
+      "Detection / visibility": "Agent disclosed after action",
+      "Evidence status": "Detailed report",
+      "Evidence confidence": "Moderate",
+      "New evidence through 2026-10-08": "No new material evidence",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N04",
+      "Notes": null
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W10",
+    "canonical_candidate_id": "N05",
+    "title": "PocketOS production deletion",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 11
+    },
+    "original_fields": {
+      "ID": "W10",
+      "Date / period": "2026-04",
+      "Case": "PocketOS production deletion",
+      "Setting": "Live engineering",
+      "Lab / actor": "Cursor / PocketOS",
+      "Model / system": "Claude Opus 4.6 via Cursor",
+      "Nature of behaviour": "Over-privileged credential; destructive production action",
+      "Corpus status": "Real-system",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Staging/production/credential boundary",
+      "Detection / visibility": "Service failure/operator",
+      "Evidence status": "Operational incident",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "No new material evidence",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N05",
+      "Notes": null
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W11",
+    "canonical_candidate_id": "N06",
+    "title": "Anthropic Opus 4.7 / Irregular",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 12
+    },
+    "original_fields": {
+      "ID": "W11",
+      "Date / period": "2026-04 to 2026-07",
+      "Case": "Anthropic Opus 4.7 / Irregular",
+      "Setting": "Cyber evaluation",
+      "Lab / actor": "Anthropic / Irregular",
+      "Model / system": "Claude Opus 4.7",
+      "Nature of behaviour": "Real-target exploitation; situational misclassification",
+      "Corpus status": "Real-system",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Evaluation→real target",
+      "Detection / visibility": "Retrospective transcript review",
+      "Evidence status": "Confirmed",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "Recognition of real environment did not reliably lead to stopping in observed runs.",
+      "Primary / direct source": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N06",
+      "Notes": "Separate conditions; not a model-safety ranking."
+    },
+    "source_ids": [
+      "S-415f8f1af13b"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W12",
+    "canonical_candidate_id": "N07",
+    "title": "Anthropic Mythos 5 / PyPI",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 13
+    },
+    "original_fields": {
+      "ID": "W12",
+      "Date / period": "2026-04 to 2026-07",
+      "Case": "Anthropic Mythos 5 / PyPI",
+      "Setting": "Cyber evaluation",
+      "Lab / actor": "Anthropic / Irregular",
+      "Model / system": "Claude Mythos 5",
+      "Nature of behaviour": "Public package publication; downstream credential use",
+      "Corpus status": "Real-system",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Evaluation→public ecosystem/vendor",
+      "Detection / visibility": "Retrospective transcript review",
+      "Evidence status": "Confirmed",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "Reasoning indicated uncertainty about real internet, then returned to simulation framing and continued.",
+      "Primary / direct source": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N07",
+      "Notes": null
+    },
+    "source_ids": [
+      "S-415f8f1af13b"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W13",
+    "canonical_candidate_id": "N08",
+    "title": "Anthropic internal research model",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 14
+    },
+    "original_fields": {
+      "ID": "W13",
+      "Date / period": "2026-04 to 2026-07",
+      "Case": "Anthropic internal research model",
+      "Setting": "Cyber evaluation",
+      "Lab / actor": "Anthropic / Irregular",
+      "Model / system": "Internal research model",
+      "Nature of behaviour": "External scanning; real app compromise; later stopping",
+      "Corpus status": "Real-system",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Evaluation→real target",
+      "Detection / visibility": "Retrospective transcript review",
+      "Evidence status": "Confirmed",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "Observed trajectory stopped after recognizing reality; resampling later showed stopping was not robust across alternative trajectories.",
+      "Primary / direct source": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N08",
+      "Notes": null
+    },
+    "source_ids": [
+      "S-415f8f1af13b"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W14",
+    "canonical_candidate_id": "W14",
+    "title": "OpenAI leaked API-key search",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 15
+    },
+    "original_fields": {
+      "ID": "W14",
+      "Date / period": "2026-05",
+      "Case": "OpenAI leaked API-key search",
+      "Setting": "RL training + public GitHub/API",
+      "Lab / actor": "OpenAI",
+      "Model / system": "Internal/training model",
+      "Nature of behaviour": "Credential discovery and authentication outside task path",
+      "Corpus status": "Real external action",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Credential/task boundary",
+      "Detection / visibility": "Internal review",
+      "Evidence status": "Confirmed aggregate/misalignment disclosure",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "No separate new incident; retained in wider behavioral corpus.",
+      "Primary / direct source": "https://openai.com/hugging-face-incident-and-misalignment/",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "Broader than narrow 17",
+      "Notes": null
+    },
+    "source_ids": [
+      "S-2b85bd6c79ef"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W15",
+    "canonical_candidate_id": "N10",
+    "title": "DSEWiki",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 16
+    },
+    "original_fields": {
+      "ID": "W15",
+      "Date / period": "2026-05 to 2026-06",
+      "Case": "DSEWiki",
+      "Setting": "Web retrieval + public wiki",
+      "Lab / actor": "OpenAI",
+      "Model / system": "Research agents",
+      "Nature of behaviour": "External writes; coordination; adaptation",
+      "Corpus status": "Real external action",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "External communication/coordination boundary",
+      "Detection / visibility": "External researchers/site admins + later review",
+      "Evidence status": "Documented",
+      "Evidence confidence": "Moderate",
+      "New evidence through 2026-10-08": "No new material evidence",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N10",
+      "Notes": null
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W16",
+    "canonical_candidate_id": "N11",
+    "title": "OpenAI public GitHub token exposure",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 17
+    },
+    "original_fields": {
+      "ID": "W16",
+      "Date / period": "2026-05",
+      "Case": "OpenAI public GitHub token exposure",
+      "Setting": "Internal deployment + public GitHub",
+      "Lab / actor": "OpenAI",
+      "Model / system": "Highly persistent internal model",
+      "Nature of behaviour": "Explicit restriction exceeded; token exposure; CI manipulation",
+      "Corpus status": "Real external action",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Secret/restriction/CI boundary",
+      "Detection / visibility": "Researcher/internal review",
+      "Evidence status": "Confirmed",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "Retained; no new incident count.",
+      "Primary / direct source": "https://alignment.openai.com/misalignment-reports/",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N11",
+      "Notes": null
+    },
+    "source_ids": [
+      "S-6b6335913094"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W17",
+    "canonical_candidate_id": "N09",
+    "title": "Google Gemini / Irregular",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 18
+    },
+    "original_fields": {
+      "ID": "W17",
+      "Date / period": "2026-05",
+      "Case": "Google Gemini / Irregular",
+      "Setting": "Cyber evaluation",
+      "Lab / actor": "Google / Irregular",
+      "Model / system": "Gemini (undisclosed version)",
+      "Nature of behaviour": "Real-target access; stopping after recognition",
+      "Corpus status": "Real-system",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Evaluation→live internet/real company",
+      "Detection / visibility": "Evaluator review; Google learned late Jul",
+      "Evidence status": "Confirmed",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "Three May real-company contacts; public Sep 18; sworn confirmation Oct 5. Preserve as three target/run observations inside one family.",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N09",
+      "Notes": "New evidence strengthens status; does not automatically add two new incident-family rows."
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located.",
+      "Three target/run observations are asserted but not individually identified by source evidence."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W18",
+    "canonical_candidate_id": "N12",
+    "title": "Australian government / Medicare",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 19
+    },
+    "original_fields": {
+      "ID": "W18",
+      "Date / period": "2026-06-18",
+      "Case": "Australian government / Medicare",
+      "Setting": "Internal training/eval",
+      "Lab / actor": "OpenAI",
+      "Model / system": "Experimental internal model",
+      "Nature of behaviour": "Non-public access; commands; files; credentials; writes",
+      "Corpus status": "Real-system",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Public-use→non-public government access",
+      "Detection / visibility": "Found mid-Aug in retrospective review",
+      "Evidence status": "Confirmed",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "OpenAI continues historical review; parliamentary evidence acknowledged notification/response shortcomings.",
+      "Primary / direct source": "https://openai.com/index/how-we-will-do-better-for-australia/",
+      "Secondary / corroborating source": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+      "Relationship to narrow corpus": "N12",
+      "Notes": null
+    },
+    "source_ids": [
+      "S-6aae57b9f986",
+      "S-9a42174d2e3c"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W19",
+    "canonical_candidate_id": "W19",
+    "title": "Broader OpenAI-linked web activity / Asymmetric",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 20
+    },
+    "original_fields": {
+      "ID": "W19",
+      "Date / period": "2026-03 to 2026-09",
+      "Case": "Broader OpenAI-linked web activity / Asymmetric",
+      "Setting": "Public forensic reconstruction",
+      "Lab / actor": "Asymmetric Security / apparent OpenAI-linked agents",
+      "Model / system": "Multiple/undisclosed",
+      "Nature of behaviour": "Reconnaissance; staging access; broader probing; visibility gaps",
+      "Corpus status": "Independent reconstruction",
+      "Real external action?": "Mixed / case-dependent",
+      "Boundary / scope dimension": "Reconnaissance/access/visibility",
+      "Detection / visibility": "Reconstructed from public traces",
+      "Evidence status": "Independent investigation; not all activity confirmed by lab",
+      "Evidence confidence": "Moderate",
+      "New evidence through 2026-10-08": "Retain distinction: public reconstruction can expand visible evidence but does not prove every probed site was compromised.",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "Wider-only",
+      "Notes": "Do not convert all traced activity into confirmed incidents."
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W20",
+    "canonical_candidate_id": "N13",
+    "title": "NSW parks application",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 21
+    },
+    "original_fields": {
+      "ID": "W20",
+      "Date / period": "2026-06",
+      "Case": "NSW parks application",
+      "Setting": "Government system",
+      "Lab / actor": "OpenAI",
+      "Model / system": "Undisclosed model",
+      "Nature of behaviour": "Non-public access beyond intended public use",
+      "Corpus status": "Real-system",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Public-use→non-public data",
+      "Detection / visibility": "Found Sep 29 in retrospective review; notified Oct 1",
+      "Evidence status": "Confirmed",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "Confirmed as another Australian government case; no personal-data access established.",
+      "Primary / direct source": "https://openai.com/hugging-face-incident-and-misalignment/",
+      "Secondary / corroborating source": "https://www.abc.net.au/news/2026-10-02/rogue-open-ai-agent-breach-nsw-government-website/107223108",
+      "Relationship to narrow corpus": "N13",
+      "Notes": null
+    },
+    "source_ids": [
+      "S-2b85bd6c79ef",
+      "S-202ea7189a33"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W21",
+    "canonical_candidate_id": "W21",
+    "title": "Meta Muse Spark / Irregular",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 22
+    },
+    "original_fields": {
+      "ID": "W21",
+      "Date / period": "2026-07",
+      "Case": "Meta Muse Spark / Irregular",
+      "Setting": "Cyber evaluation",
+      "Lab / actor": "Meta / Irregular",
+      "Model / system": "Muse Spark 1.1",
+      "Nature of behaviour": "Real-target exploitation and data modification",
+      "Corpus status": "Real-system",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Evaluation→real target",
+      "Detection / visibility": "Evaluator/later disclosure",
+      "Evidence status": "Reported/confirmed by evaluation reporting",
+      "Evidence confidence": "Moderate",
+      "New evidence through 2026-10-08": "No material update in current pass",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "Wider-only / candidate for narrow review",
+      "Notes": "Kept distinct pending source-level re-verification."
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W22",
+    "canonical_candidate_id": "W22",
+    "title": "OpenAI / Irregular real website",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 23
+    },
+    "original_fields": {
+      "ID": "W22",
+      "Date / period": "2026-07",
+      "Case": "OpenAI / Irregular real website",
+      "Setting": "Cyber evaluation",
+      "Lab / actor": "OpenAI / Irregular",
+      "Model / system": "OpenAI model (undisclosed)",
+      "Nature of behaviour": "Real target treated as simulation; credential use",
+      "Corpus status": "Real-system",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Evaluation→real website",
+      "Detection / visibility": "Evaluator notified OpenAI Jul 29",
+      "Evidence status": "Confirmed by OpenAI/evaluator reporting",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "OpenAI historical review context strengthens relevance; no separate new evidence today.",
+      "Primary / direct source": "https://openai.com/hugging-face-incident-and-misalignment/",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "Wider-only / candidate for narrow review",
+      "Notes": "Earlier register treated as separate from Hugging Face."
+    },
+    "source_ids": [
+      "S-2b85bd6c79ef"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W23",
+    "canonical_candidate_id": "N14",
+    "title": "OpenAI / Hugging Face / ExploitGym",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 24
+    },
+    "original_fields": {
+      "ID": "W23",
+      "Date / period": "2026-05 to 2026-07",
+      "Case": "OpenAI / Hugging Face / ExploitGym",
+      "Setting": "Cyber evaluation",
+      "Lab / actor": "OpenAI",
+      "Model / system": "Internal research models / IM1",
+      "Nature of behaviour": "Containment escape; coordination; code execution; credentials",
+      "Corpus status": "Real-system",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Containment→internet→third party",
+      "Detection / visibility": "Victim + security review + retrospective reconstruction",
+      "Evidence status": "Confirmed",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "Ongoing retrospective review followed this incident; OpenAI says more historical cases may be found.",
+      "Primary / direct source": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N14",
+      "Notes": null
+    },
+    "source_ids": [
+      "S-d8e6fd2ea614"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "N14 activity-date cell (July 9–13) differs from its timing narrative (July 8–13)."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W24",
+    "canonical_candidate_id": "N15",
+    "title": "UK AISI cyber-range / live internet",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 25
+    },
+    "original_fields": {
+      "ID": "W24",
+      "Date / period": "2026-07",
+      "Case": "UK AISI cyber-range / live internet",
+      "Setting": "Cyber evaluation + live internet",
+      "Lab / actor": "UK AISI / Anthropic / OpenAI",
+      "Model / system": "Claude Mythos 5; GPT-5.6 Sol",
+      "Nature of behaviour": "Real-person targeting; malicious PR; fake identities",
+      "Corpus status": "Real external action",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Cyber-range→live internet/humans",
+      "Detection / visibility": "Tor telemetry alert; review within minutes",
+      "Evidence status": "Confirmed",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "AISI later added synchronous monitoring/network isolation and Transect retrospective analysis tooling; these are controls, not incidents.",
+      "Primary / direct source": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N15",
+      "Notes": "19 actions in 10/122 runs."
+    },
+    "source_ids": [
+      "S-fa32b7ceb7b6"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "19 actions / 10 of 122 runs are asserted aggregate counts, not verified run-level records."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W25",
+    "canonical_candidate_id": "N16",
+    "title": "Cross-agent approval bypass",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 26
+    },
+    "original_fields": {
+      "ID": "W25",
+      "Date / period": "2026-09",
+      "Case": "Cross-agent approval bypass",
+      "Setting": "Internal software task",
+      "Lab / actor": "OpenAI / Anthropic tooling",
+      "Model / system": "Codex + Claude Code",
+      "Nature of behaviour": "Cross-agent delegation; approval checks disabled",
+      "Corpus status": "Internal boundary",
+      "Real external action?": "Internal",
+      "Boundary / scope dimension": "Approval/tool authority",
+      "Detection / visibility": "Captured trace / automated review",
+      "Evidence status": "Confirmed",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "No new material evidence",
+      "Primary / direct source": null,
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N16",
+      "Notes": null
+    },
+    "source_ids": [],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions.",
+      "No source URL supplied; original account must be located."
+    ],
+    "normalization_note": null
+  },
+  {
+    "record_id": "W26",
+    "canonical_candidate_id": "N17",
+    "title": "OpenAI DNS external-chatbot incident",
+    "origin": {
+      "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+      "sheet": "Master Register",
+      "row": 27
+    },
+    "original_fields": {
+      "ID": "W26",
+      "Date / period": "2026-09",
+      "Case": "OpenAI DNS external-chatbot incident",
+      "Setting": "RL training sandbox",
+      "Lab / actor": "OpenAI",
+      "Model / system": "Internal research model",
+      "Nature of behaviour": "Alternative network route around internet restrictions",
+      "Corpus status": "Real external action",
+      "Real external action?": "Yes",
+      "Boundary / scope dimension": "Network containment boundary",
+      "Detection / visibility": "P0 monitor within ~12 min; human intervention",
+      "Evidence status": "Confirmed",
+      "Evidence confidence": "High",
+      "New evidence through 2026-10-08": "Strong near-real-time contrast to retrospective cases.",
+      "Primary / direct source": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+      "Secondary / corroborating source": null,
+      "Relationship to narrow corpus": "N17",
+      "Notes": null
+    },
+    "source_ids": [
+      "S-4421cb94cd13"
+    ],
+    "evidence_status": "not_verified",
+    "verified_facts": [],
+    "analysis_eligible": false,
+    "evidence_gaps": [
+      "Independent source content has not been retrieved or verified.",
+      "Workbook confidence and confirmation labels are unverified assertions."
+    ],
+    "normalization_note": null
+  }
+]

@@ -1,0 +1,26 @@
+Skip to main content
+
+[subreddit icon]
+
+replit [] Join
+
+Posted by Comfortable-Rule6905 ·
+
+[] []
+
+------------------------------------------------------------------------
+
+Subject: Emergency - Replit deleted my production database
+
+our deployment pipeline dropped my production Neon database on July 28
+at 4:17 PM UTC (build a22268aa). My site has been down 23+ hours. I have
+$200,000 in active customer jobs I cannot access. I need one engineer to
+restore the neondb dat
+
+Read more []
+
+[] upvotes [] Comment
+
+View 17 comments
+
+[]

@@ -1,0 +1,169 @@
+[]
+
+[]
+
+Platform
+
+Solutions[]
+
+Resources[]
+
+Careers
+
+[]
+
+Investigations[]
+
+Sign inRequest Demo →
+
+[]
+
+Platform
+
+Solutions[]
+
+Resources[]
+
+Careers
+
+[]
+
+Investigations[]
+
+Sign inRequest Demo →
+
+← Back to Investigations
+
+Codex used Claude Code to reach a tool it didn't have, then disabled Claude's approval checks
+
+2026-09-15 · Samantha Lego
+
+A colleague asked Codex to pull data from our staging tenant. Codex
+didn't have the MCP connection it needed. Claude Code did. So Codex
+launched Claude and asked it to do that part of the work.
+
+When Claude reported that it lacked permission, Codex relaunched it with
+--dangerously-skip-permissions, disabling Claude Code's normal approval
+prompts.
+
+The query was read-only and returned aggregate counts, but what matters
+is how Codex got them. It reached a capability outside its own
+configuration and overrode Claude's approval requirement so the work
+could continue.
+
+How restrictive is an agent's configuration if it can launch another
+agent and decide which of that agent's controls still apply?
+
+What the trace showed
+
+On September 10, an engineer asked Codex to pull recent data from our
+staging tenant to test a hypothesis about how our hooks were gating
+captures. The session ran on the engineer's machine for 244 turns, made
+76 API calls, and used about ten dollars in tokens.
+
+[The Origin trace for the Codex session: 244 turns, 76 API calls, and a
+report describing the retried sub-agent dispatch that dropped the
+sandbox flag]
+
+Codex didn't have an MCP connection to the staging analytics server.
+Claude Code did because the engineer configured it with one. Codex found
+the connection and launched Claude with instructions to do the query.
+
+It told Claude to treat the staging server as read-only, inspect the
+schema, and return aggregate metadata from the previous seven days. It
+also told Claude not to retrieve message bodies, prompts, tenant names,
+or other content.
+
+The first launch failed because of a sandbox configuration error. Codex
+dropped the sandbox flag and tried again with the same restrictions in
+its prompt. Claude then reported that it lacked permission to use the
+MCP tools. The user was never prompted. Codex's reasoning was explicit:
+"your request authorizes these read-only queries." At turn 219, it ran
+this:
+
+[Turn 219 as captured in the trace, showing the full claude -p command
+with its allowed tools and the skip-permissions flag]
+
+The --allowedTools flag pre-approved the two named MCP tools, so Claude
+could use them without asking. It didn't limit Claude to those tools.
+The --dangerously-skip-permissions flag then turned off the rest of
+Claude's approval prompts for the run.
+
+Origin's automated review flagged the relaunch as a high-severity
+permission bypass.
+
+[Origin's trace review finding for turn 219: attempted bypass of tool
+permission gate, high-severity behaviour, citing the skip-permissions
+flag]
+
+Codex treated the controls as optional
+
+Codex believed the user's original request was approval enough. When the
+first launch failed because of the sandbox flag, it removed the flag and
+tried again. When Claude reported that it lacked permission to use the
+tools, Codex turned off its approval checks.
+
+The user wasn't asked to approve the query or the change in permissions.
+Codex made that decision itself.
+
+We tend to configure agents one at a time, but Codex and Claude weren't
+operating independently. Codex controlled how Claude started, which let
+it use Claude's staging connection and decide whether Claude asked
+first.
+
+A control doesn't mean much if the agent it constrains can rewrite it.
+The boundary has to follow the task from one agent to the next, and the
+agent trying to finish the task can't decide whether it still applies.
+
+The output went back into Codex
+
+Claude returned aggregate counts. Those counts went into Codex's context
+and became part of the information available to it for the rest of the
+session. The user never saw Claude's approval request or approved the
+change that made the query possible.
+
+Here, Claude only returned aggregate metadata. On another machine, the
+same path could have returned credentials, customer data, or information
+from a production system. That information would have gone into Codex's
+context too, where it could later shape commands or appear in an output
+sent somewhere else.
+
+You could piece parts of this together from process, shell, and MCP
+logs. You might see the Claude process, the permission flag, and the
+query as separate events. We only know this happened because the trace
+showed that they were all part of the same job. It also showed why Codex
+changed the approval mode, what came back, and what happened next.
+
+If Codex can borrow Claude's access, turn off Claude's controls, and
+carry the result forward without the user knowing, Codex's original
+configuration isn't much of a boundary.
+
+That seems worth figuring out before we connect more agents.
+
+See what your agents do when nobody is there to approve.
+
+Request Demo →
+
+Product
+
+PlatformDocsChangelog
+
+Solutions
+
+SecurityGovernanceAdoptionInvestment
+
+Resources
+
+ResearchInvestigationsBlogOn demand
+
+Company
+
+CareersContactNews
+
+Legal
+
+Privacy policyService termsOpen sourceSubprocessorsMCP privacy
+
+[][]
+
+© 2026 Origin Technology

@@ -1,0 +1,417 @@
+Skip to main contentSkip to navigation
+
+[]Close dialogue
+
+1/1
+
+[]Next image
+
+[]Previous image
+
+[]Toggle caption
+
+Print subscriptions
+
+Newsletters
+
+[] Sign in
+
+US
+
+-   US edition
+-   UK edition
+-   Australia edition
+-   Europe edition
+-   International edition
+
+The Guardian - Back to home[]The Guardian
+
+-   News
+-   Opinion
+-   Sport
+-   Culture
+-   Lifestyle
+
+Show more[]Hide expanded menu[]
+
+-   ☐ News
+    -   View all News
+    -   US news
+    -   US politics
+    -   Midterms 2026
+    -   World news
+    -   Climate crisis
+    -   Middle East
+    -   Ukraine
+    -   US immigration
+    -   Soccer
+    -   Business
+    -   Environment
+    -   Tech
+    -   Science
+    -   Newsletters
+    -   The Filter
+    -   Wellness
+
+-   ☐ Opinion
+    -   View all Opinion
+    -   The Guardian view
+    -   Columnists
+    -   Letters
+    -   Opinion videos
+    -   Cartoons
+
+-   ☐ Sport
+    -   View all Sport
+    -   Soccer
+    -   NFL
+    -   Tennis
+    -   MLB
+    -   MLS
+    -   NBA
+    -   WNBA
+    -   NHL
+    -   F1
+    -   Golf
+
+-   ☐ Culture
+    -   View all Culture
+    -   Film
+    -   Books
+    -   Music
+    -   Art & design
+    -   TV & radio
+    -   Stage
+    -   Classical
+    -   Games
+    -   Design a better world
+
+-   ☐ Lifestyle
+    -   View all Lifestyle
+    -   The Filter
+    -   Wellness
+    -   Fashion
+    -   Food
+    -   Recipes
+    -   Love & sex
+    -   Home & garden
+    -   Health & fitness
+    -   Family
+    -   Travel
+    -   Money
+
+-   Search input
+
+    google-search
+
+    []Search
+
+    []
+    -   Support us
+    -   Print subscriptions
+    -   Newsletters
+    -   Download the app
+
+-   -   Search jobs
+    -   Digital Archive
+    -   Guardian Licensing
+    -   Live events
+    -   About Us
+    -   The Guardian app
+    -   Video
+    -   Podcasts
+    -   Pictures
+    -   Inside the Guardian
+    -   Guardian Weekly
+    -   Crosswords
+    -   Wordiply
+    -   Corrections
+    -   Tips
+
+-   Search input
+
+    google-search
+
+    []Search
+
+    []
+    -   Search jobs
+    -   Digital Archive
+    -   Guardian Licensing
+    -   Live events
+    -   About Us
+
+-   UK
+-   US politics
+-   World
+-   Climate crisis
+-   Middle East
+-   Ukraine
+-   Football
+-   Newsletters
+-   Business
+-   Environment
+-   UK politics
+-   Science
+-   Tech
+-   Global development
+-   Obituaries
+
+[A man wearing sunglasses walks past an OpenAI booth sign under purple
+lighting]
+
+[]
+
+[]An OpenAI booth during the Dreamforce 2026 technology summit in San
+Francisco, California on 17 September 2026. Photograph: Carlos
+Barría/Reuters
+
+[]View image in fullscreen
+
+[]An OpenAI booth during the Dreamforce 2026 technology summit in San
+Francisco, California on 17 September 2026. Photograph: Carlos
+Barría/Reuters
+
+OpenAI
+
+OpenAI says agents leaked 53 images from ChatGPT users in latest example of rogue activity
+
+Disclosure reveals ⁠new area of privacy risk for the company and
+illustrates ​how difficult it is to inventory unauthorized activity tied
+to its agents
+
+[]
+
+Reuters and Luca Ittimani
+
+Fri 25 Sep 2026 20.24 EDT
+
+First published on Fri 25 Sep 2026 18.55 EDT
+
+Share
+
+[]
+
+Prefer the Guardian on Google
+
+[]
+
+Two ⁠months after OpenAI disclosed the accidental hacking of Hugging
+Face, the ChatGPT maker is still working to understand the full scope of
+its rogue agent activity, two people briefed on the matter told Reuters.
+
+The latest example came on Friday when OpenAI said its agents had leaked
+53 images from ChatGPT users. OpenAI declined to say if the images were
+AI-generated or identified real people. It also declined to ⁠say when the
+images were posted.
+
+Also on Friday, OpenAI confirmed its agents had accessed US government
+websites, including those of the Security and Exchange Commission and
+the commerce department, accessing US Census data from the latter. The
+company was also investigating an attempted breach of the education
+department’s website, as reported by the New York Times.
+
+OpenAI hack on Australian government reveals anxiety at heart of global
+artificial intelligence dilemma
+
+[]
+
+Read more
+
+The disclosures reveal a ⁠new area of privacy risk for the company and
+illustrates ​how difficult it is even for an AI firm at the cutting edge
+of the technology to inventory all the unauthorized activity tied to its
+agents. OpenAI’s ongoing battle also reflects a yawning gap between the
+strength of the models the company is testing and its capacity to
+oversee or even track their actions.
+
+As of mid-September, one person briefed on the matter estimated ⁠that
+OpenAI had found roughly two dozen incidents of its agents acting in
+undesirable ways. But the number has continued rising as OpenAI teams
+sift through internal logs of the agents’ activity and find previously
+unknown cases, the two people close to the company said.
+
+OpenAI said its review would take “months” to complete given the scale
+of the work, and said it had notified “dozens” of third parties about
+improper activity.
+
+Most of the leaked images have been ⁠taken down and OpenAI said it was
+lobbying hosting providers to remove the rest.
+
+OpenAI’s agents had access to these images because the company relies on
+anonymized user data for part of its model-training process, according
+to the company, former employees and outside researchers. Enterprise
+data is not eligible for ​training, while ChatGPT consumers need to opt
+out of allowing the company to use their data for training.
+
+Before user posts are ‌used for training, they go through an
+anonymization process that strips out ‌metadata, names and other contact
+information and should make it difficult to trace back to any individual
+user, the company said.
+
+But the practice carries risks because there is a chance that the data
+may not be fully stripped of personally identifiable information and
+that it might ‌leak in the course of the model’s work, three people
+familiar with OpenAI’s practices said.
+
+In the two months since OpenAI first announced that its agents broke
+containment, there have been more than 15 different OpenAI-related
+incidents of varying levels of severity disclosed by the company, by
+outside researchers, or – just on Wednesday – by Anthony Albanese,
+Australia’s prime minister, at the United Nations, who said OpenAI
+agents broke into a government health data portal in June.
+
+Albanese said Australia had not been told that OpenAI agents had also
+breached US government sites, but the news was “not surprising” in the
+wake of the Australian incident.
+
+After Donald Trump downplayed warnings of AI threats as a “hoax” and
+ruled out US regulation, Albanese reiterated calls for global
+coordination to regulate AI development.
+
+“What this does is confirm … that there needs to be [an] appropriate
+national response, as well as an international response, to make sure
+that humans stay in charge,” Albanese told reporters in Sydney on
+Saturday.
+
+“The key risk is humans not being in charge of the rollout of this
+technology.”
+
+The 21 July announcement that OpenAI’s agents had slipped out of control
+and hacked Hugging Face sparked widespread worries within the AI
+industry over its ability to control the more powerful AI models under
+development now. Since then, Anthropic, Alphabet’s Google and Meta have
+said they’ve found similar behavior by ​their agents after the Hugging
+Face incident prompted them to search.
+
+OpenAI has acknowledged a general need for more transparency around
+rogue AI behavior. On 16 September, the company published a new
+framework for disclosing such incidents, saying it would err on the side
+of transparency “even when significance is uncertain”.
+
+Even so, two people familiar with OpenAI’s investigation into its
+agents’ activity described it as locked down and shaped by company
+lawyers.
+
+Roughly 100 people were in some way involved in the process to
+understand the Hugging Face hack, three people briefed on the matter
+said. During that process, evidence of other incidents surfaced.
+
+Reuters has previously reported that OpenAI investigators looking into
+the Hugging Face breach were discouraged by the company’s lawyers from
+expanding the scope of the investigation to ⁠include other incidents.
+OpenAI said its lawyers did not discourage deeper investigation.
+
+Many incidents have been uncovered by outside researchers rather than
+OpenAI directly. In several episodes, the agents took problematic
+actions that ​went unnoticed by the company for months.
+
+Since the Hugging Face hack, researchers across the AI industry have
+grown worried that companies will not be able to predict or control
+their technology. Some have taken the path of Jacob Coxon, the former
+Anthropic researcher who publicly resigned this month in a viral
+social-media thread that said the AI labs are “gambling with our lives”.
+
+In response to those concerns, Altman and his counterpart at Anthropic,
+CEO Dario Amodei, called for the industry to “pace” the development of
+AI and move cautiously in its pursuit of “recursive self improvement”.
+Altman doubled down on that message this week while addressing the
+United Nations.
+
+Even so, both companies rolled out new models on Tuesday.
+
+[]
+
+Explore more on these topics
+
+-   OpenAI
+-   AI (artificial intelligence)
+-   Hacking
+-   ChatGPT
+-   Privacy
+-   news
+
+Share
+
+[]
+
+Reuse this content
+
+Most viewed
+
+Most viewed
+
+1.  []
+2.  []
+3.  []
+4.  []
+5.  []
+6.  []
+7.  []
+8.  []
+9.  []
+10. []
+
+-   UK
+-   US politics
+-   World
+-   Climate crisis
+-   Middle East
+-   Ukraine
+-   Football
+-   Newsletters
+-   Business
+-   Environment
+-   UK politics
+-   Science
+-   Tech
+-   Global development
+-   Obituaries
+
+-   News
+-   Opinion
+-   Sport
+-   Culture
+-   Lifestyle
+
+Original reporting and incisive analysis, direct from the Guardian every
+morning
+
+Sign up for our email
+
+[]
+
+-   About us
+-   Help
+-   Complaints & corrections
+-   Contact us
+-   Tip us off
+-   SecureDrop
+-   Privacy policy
+-   Cookie policy
+-   Tax strategy
+-   Terms & conditions
+
+-   All topics
+-   All writers
+-   Newsletters
+-   Digital newspaper archive
+-   Bluesky
+-   Facebook
+-   Instagram
+-   LinkedIn
+-   Threads
+-   TikTok
+-   YouTube
+
+-   Advertise with us
+-   Guardian Labs
+-   Search jobs
+-   Work with us
+-   Accessibility settings
+-    
+
+Back to top
+
+© 2026 Guardian News & Media Limited or its affiliated companies. All
+rights reserved. (dcr)

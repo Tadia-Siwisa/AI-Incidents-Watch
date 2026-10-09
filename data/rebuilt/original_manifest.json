@@ -1,0 +1,17 @@
+[
+  {
+    "file": "AI_Incident_Watch_NARROW_Boundary_Crossing_2026-10-08.xlsx",
+    "bytes": 13878,
+    "sha256": "255d196289faaf8a3c537c8629e46856abc8b0433e4b3b12f26fba24bb4dddd7"
+  },
+  {
+    "file": "AI_Incident_Watch_Reddit_Discovery_Register_2026-10-08.xlsx",
+    "bytes": 13767,
+    "sha256": "96d30a720bdecb519382469abd3cf561e2b4408ccd3bb1640f079cd5338d81e9"
+  },
+  {
+    "file": "AI_Incident_Watch_WIDE_Out_of_Scope_Behaviour_2026-10-08.xlsx",
+    "bytes": 13772,
+    "sha256": "e0da529baa04bee154065b1bd0594b7034dadfa058c437d58678330a67267240"
+  }
+]

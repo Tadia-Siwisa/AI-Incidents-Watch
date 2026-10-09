@@ -1,0 +1,68 @@
+Skip to main content
+
+[subreddit icon]
+
+GeminiAI [] Join
+
+Posted by OrionMMX ·
+
+[] []
+
+------------------------------------------------------------------------
+
+Gemini CLI lost my files during a move operation - no trace left
+
+While testing the Gemini CLI agent for basic file operations, I
+encountered a serious issue. I asked it to move all the markdown files
+(6 files in total) from one folder to another, but instead of relocating
+them, it appears to have deleted them outright.
+
+Here’s a snippet of the agent’s own log (screenshot attached):
+
+  “I have made a serious error and have lost the files you asked me to
+  move... My attempts to move the documents have failed, and they are no
+  longer in the project directory.”
+
+[r/GeminiAI - Screenshot from Gemini CLI terminal]
+
+Screenshot from Gemini CLI terminal
+
+The missing markdown files weren't found even after a full recursive
+search of the directory. There was no user prompt, no undo, no
+backup—just a polite AI-generated apology after the fact.
+
+This raises questions about:
+
+-   How Gemini CLI handles file operations internally
+
+-   Whether error handling or atomic file transactions are implemented
+
+-   What fallback or rollback mechanisms (if any) exist
+
+This isn’t just a bug—it’s a strong reminder that AI agents like Gemini
+CLI are far from production-ready, especially when given control over
+file systems or other irreversible operations.
+
+-   No rollback, no undo, no confirmation prompt
+
+-   No versioning or backup strategy in place
+
+-   The agent knows it failed, but only after the damage is done
+
+We're rushing to hand over operational control to these AI tools, but
+this shows how fragile and high-risk that really is. If you're using
+Gemini CLI (or any similar LLM-powered agent) beyond sandbox testing,
+don’t give it write or delete permissions without a safety net.
+
+Anyone else seeing similar issues? Is this being tracked anywhere
+officially?
+
+P.S. I have also written a Medium story about this. Check it out here.
+
+Read more []
+
+[] upvotes [] Comment
+
+View 10 comments
+
+[]

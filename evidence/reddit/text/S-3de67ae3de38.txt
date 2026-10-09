@@ -1,0 +1,76 @@
+Skip to main content
+
+[subreddit icon]
+
+GeminiAI [] Join
+
+Posted by Fickle-Wolf-5004 ·
+
+[] []
+
+------------------------------------------------------------------------
+
+⚠️ Warning: Gemini CLI Deleted My Entire Windows System
+
+I'm sharing this to warn anyone using Gemini CLI or similar tools that
+interact with the file system.
+
+I was on Windows, and I asked Gemini (running from git bash in my
+project root directory) to rewrite my project into a new branch using a
+different technology. It was supposed to delete files from the current
+branch only, but instead it ran a destructive rm -rf command.
+
+Even though some delete attempts failed with "permission denied" errors
+(for system folders like C:\), it still managed to wipe out large parts
+of my entire C: drive.
+
+After it completed, my system was totally broken:
+
+-   No programs would open
+
+-   File Explorer wouldn’t launch
+
+-   Many critical files and applications were gone
+
+Fortunately, I was able to recover about 90% of the system using rstrui
+(System Restore), but several programs were still missing or corrupted.
+
+Edit: Added log evidence:
+
+[r/GeminiAI - 1- prompts given to Gemini CLI, the confirmation was if
+deleting files on current branch was ok. I wasn't been able to recover
+the message given by Gemini (I am logged in with my gmail and not API
+key).]
+
+1- prompts given to Gemini CLI, the confirmation was if deleting files
+on current branch was ok. I wasn't been able to recover the message
+given by Gemini (I am logged in with my gmail and not API key).
+
+[r/GeminiAI - 2-Git log confirming working on new branch then files
+being deleted]
+
+2-Git log confirming working on new branch then files being deleted
+
+[r/GeminiAI - 3-renderer.log confirming files being deleted]
+
+3-renderer.log confirming files being deleted
+
+[r/GeminiAI - 4-filewatcher.log confirming files being deleted]
+
+4-filewatcher.log confirming files being deleted
+
+[r/GeminiAI - 5-System Restore operation]
+
+5-System Restore operation
+
+[r/GeminiAI - 6-Files lost identified by Wise Data Recovery]
+
+6-Files lost identified by Wise Data Recovery
+
+Read more []
+
+[] upvotes [] Comment
+
+View 253 comments
+
+[]

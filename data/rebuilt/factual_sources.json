@@ -1,0 +1,732 @@
+{
+  "n01_register": {
+    "url": "https://www.theregister.com/software/2025/07/21/vibe-coding-service-replit-deleted-production-database/",
+    "local_copy": "evidence/researched/N01-register.txt",
+    "tier": "secondary_report_with_direct_artifacts",
+    "locator": "Lemkin's posts and screenshots; database deletion, fabricated data, failed rollback, and Replit comment request",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 12516,
+    "sha256": "a101a8b12efc57a3e864b5e4213e88958a2b6220586e64699262bddbd7d66ee5"
+  },
+  "n03_github": {
+    "url": "https://github.com/anthropics/claude-code/issues/37293",
+    "local_copy": "evidence/researched/N03-github.json",
+    "tier": "direct_user_report",
+    "locator": "Issue body, timestamps, labels, closure metadata, and claimed impact",
+    "note": "The issue was closed by automation and contains no Anthropic finding confirming causation.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 7906,
+    "sha256": "063000393f888849fa4ffb32041f19f1bcac7038448563aa57637cfc76e3acde"
+  },
+  "n04_bbc": {
+    "url": "https://www.bbc.com/news/articles/cn0nww2qlp7o",
+    "local_copy": "evidence/researched/N04-bbc.txt",
+    "tier": "secondary_report_with_interview",
+    "locator": "Interview account of the gym booking, cancellation, failed reversal, and later disclosure",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 8037,
+    "sha256": "9f588a166b6ba1207c06fcc8081ee8808a5537bf0146de2cd2d46fc7ff391108"
+  },
+  "n05_register": {
+    "url": "https://www.theregister.com/software/2026/04/27/cursor-opus-agent-snuffs-out-startups-production-database/",
+    "local_copy": "evidence/researched/N05-register.txt",
+    "tier": "corroborated_secondary_report",
+    "locator": "PocketOS founder's account, technical cause, Railway response, and restoration",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 15190,
+    "sha256": "fdde13ca283d25f7be9ddea52d4dfba6df5c62e82543f643f4e782ed55c0ca30"
+  },
+  "anthropic_incidents": {
+    "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "local_copy": "evidence/text/S-415f8f1af13b.txt",
+    "tier": "primary_lab_disclosure",
+    "locator": "Incident narratives, retrospective review method, notifications, and limitations",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 108684,
+    "sha256": "298df601e6a9ef9217114b5c17c3702b743020f12986f9bb297eb63b75ec387e"
+  },
+  "anthropic_followup": {
+    "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+    "local_copy": "evidence/researched/N06-N08-anthropic.txt",
+    "tier": "primary_lab_disclosure",
+    "locator": "First-three-incident chronology, affected systems, containment, and follow-up review",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 23959,
+    "sha256": "395008ce7255f21a38c788c2d816299c41ba5b02bf1fa7e61c0bb40f9cf54896"
+  },
+  "n09_bbc": {
+    "url": "https://www.bbc.com/news/articles/c607l0k72rlvo",
+    "local_copy": "evidence/researched/N09-bbc.txt",
+    "tier": "independent_news_report",
+    "locator": "Google and Irregular statements on three companies, methods, notification, and stopping behavior",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 9648,
+    "sha256": "6f70c0e5ed58a0118f3f44cddc46b8cb954e7738ad73529d7ff6fe70186cd9c0"
+  },
+  "n09_guardian": {
+    "url": "https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack",
+    "local_copy": "evidence/researched/N09-guardian.txt",
+    "tier": "independent_news_report",
+    "locator": "Google/Irregular account, May activity, late-July disclosure to Google, and affected-party notification",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 7344,
+    "sha256": "4e3b5d0f93c8d4496d96c0b5bef34617c69279db5039b8796385aa614f4eb23b"
+  },
+  "n10_openai": {
+    "url": "https://openai.com/hugging-face-incident-and-misalignment/",
+    "local_copy": "evidence/text/S-2b85bd6c79ef.txt",
+    "tier": "primary_lab_disclosure",
+    "locator": "OpenAI's agent-spam category and example of public wiki pages used as shared message boards",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 6861,
+    "sha256": "8befc64adaead78b453fbf0c88271b6b4b0e38f2c39b6ae080399d2827bb12e0"
+  },
+  "n10_techcrunch": {
+    "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+    "local_copy": "evidence/researched/N10-techcrunch.txt",
+    "tier": "independent_news_report",
+    "locator": "DSEWiki chronology and researcher findings available before OpenAI's later category-level confirmation",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 7885,
+    "sha256": "875b9e5e253d56e4225bce26437bbc29b418014595f7db6cb1dc9a7875371540"
+  },
+  "n10_dsewiki": {
+    "url": "https://dsewiki.de/en/",
+    "local_copy": "evidence/researched/N10-dsewiki.txt",
+    "tier": "independent_reconstruction",
+    "locator": "Incident timeline, methodology, and explicit statement that the site is not the original DSEWiki",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 8423,
+    "sha256": "ef545ca76a5a52fe51ce3ecf5bb09a8feabc4d6a8ee54ad7cce653ffd65e3e92"
+  },
+  "n11_openai": {
+    "url": "https://alignment.openai.com/misalignment-reports/exposing-a-github-token-in-a-public-repository/",
+    "local_copy": "evidence/researched/N11-openai.txt",
+    "tier": "primary_lab_disclosure",
+    "locator": "Summary, May 27 timeline, token-splitting behavior, user interventions, and response",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 26363,
+    "sha256": "466bcb13cdad356da4ac68bf4be2ee942cbfb6b5cc6d08dfc381c72f10ae1abe"
+  },
+  "n12_openai": {
+    "url": "https://openai.com/index/how-we-will-do-better-for-australia/",
+    "local_copy": "evidence/text/S-6aae57b9f986.txt",
+    "tier": "primary_lab_disclosure",
+    "locator": "Services Australia access, commands/files/credentials/writes, detection, scope, and notification",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 14424,
+    "sha256": "8a3b3d9aa4076c361cd88636bfe1b5d5019f3ee8a9d1f09b58c681ad753db9e8"
+  },
+  "n12_guardian": {
+    "url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+    "local_copy": "evidence/text/S-9a42174d2e3c.txt",
+    "tier": "independent_news_report",
+    "locator": "Australian government response and parliamentary reporting",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 9776,
+    "sha256": "1aff964b3a5ad8c411b75dca680a53c71b50c5f30a8cd4260825fbf0c8270b9e"
+  },
+  "n13_openai": {
+    "url": "https://openai.com/hugging-face-incident-and-misalignment/",
+    "local_copy": "evidence/S-2b85bd6c79ef.html",
+    "tier": "primary_lab_disclosure",
+    "locator": "September 29 discovery and October 1 notification update for NSW NPWS Fire History records",
+    "note": "The relevant dated update is embedded in the page's serialized timeline.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 491358,
+    "sha256": "45ce2e618a858cbbd50eb472603dd2c68c233ad3635a1057f4dd2b016fef6b4c"
+  },
+  "n13_abc": {
+    "url": "https://www.abc.net.au/news/2026-10-02/rogue-open-ai-agent-breach-nsw-government-website/107223108",
+    "local_copy": "evidence/text/S-202ea7189a33.txt",
+    "tier": "independent_news_report",
+    "locator": "NSW government confirmation and description of non-public historical fire data",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 11110,
+    "sha256": "9c843ddb2f3056cfcc8a6277087f686f20993fe55ed1c6fdd9f9581ef9f876e1"
+  },
+  "n14_openai": {
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+    "local_copy": "evidence/text/S-d8e6fd2ea614.txt",
+    "tier": "primary_lab_disclosure",
+    "locator": "July 8-13 sequence, Modal, exposed credentials, Hugging Face compromise, and Artifactory route",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 43325,
+    "sha256": "006389599df8256fffb42ed83f457209176ff14be3430adb43dba02167198b88"
+  },
+  "n15_aisi": {
+    "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+    "local_copy": "evidence/text/S-fa32b7ceb7b6.txt",
+    "tier": "primary_evaluator_disclosure",
+    "locator": "122-run design, 19 unsanctioned actions, model counts, detection, containment, and no observed harm",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 18853,
+    "sha256": "357ec1155600bdcc7e560715f520a2334073e519ef9cfe6b9f50ec96ca92646a"
+  },
+  "n16_origin": {
+    "url": "https://www.originhq.com/investigations/codex-launched-claude-code",
+    "local_copy": "evidence/researched/N16-origin.txt",
+    "tier": "direct_operator_trace_report",
+    "locator": "244-turn trace, Codex relaunch of Claude Code with permission bypass, returned data, and review finding",
+    "note": "Origin published the trace analysis; OpenAI and Anthropic have not independently confirmed its conclusions.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 5270,
+    "sha256": "4c67347bdeca9b250112636157fa86351b62e4f9732e557461616c859abb2b37"
+  },
+  "n17_openai": {
+    "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+    "local_copy": "evidence/text/S-4421cb94cd13.txt",
+    "tier": "primary_lab_disclosure",
+    "locator": "September 20 timeline, external response, automated flag, human acknowledgement, and run termination",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 12498,
+    "sha256": "75603145f5f55b05bcbc7b16ada54e15b20b9540b897e40612295c2a6ac5cd1e"
+  },
+  "w01_openai": {
+    "url": "https://cdn.openai.com/papers/gpt-4-system-card.pdf",
+    "local_copy": "evidence/researched/W01-system-card.txt",
+    "tier": "primary_system_card",
+    "locator": "ARC TaskRabbit CAPTCHA experiment and model's stated reason for claiming vision impairment",
+    "note": "The workbook's supplied gpt-4.pdf did not contain the cited passage; the GPT-4 System Card does.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 196676,
+    "sha256": "45a2e35530165b93ef8071a29ebf1a7218017868a967050df968d16df6757f04"
+  },
+  "w02_palisade": {
+    "url": "https://palisaderesearch.org/research/shutdown-resistance",
+    "local_copy": "evidence/text/S-52de36f18ee0.txt",
+    "tier": "primary_research_report",
+    "locator": "Controlled shutdown-resistance methods, prompts, and model results",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 20528,
+    "sha256": "ffba1496700be9636a84e74bb0c86f4e3bb3b0c4b0240598dde4e6ed90bbacc1"
+  },
+  "w03_anthropic": {
+    "url": "https://www.anthropic.com/research/project-vend-1",
+    "local_copy": "evidence/text/S-061ebbbb1492.txt",
+    "tier": "primary_research_report",
+    "locator": "Authorized office-vending experiment, actions, business performance, and unusual behavior",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 21242,
+    "sha256": "485c9fe6d038816d695561f377dbac89177e00435680c88bc5f79d260b5bf895"
+  },
+  "w05_general_analysis": {
+    "url": "https://generalanalysis.com/blog/supabase-mcp-blog",
+    "local_copy": "evidence/researched/W05-general-analysis.txt",
+    "tier": "primary_demonstration_report",
+    "locator": "Fresh test instance, dummy sensitive table, stored prompt injection, service-role access, and exfiltration path",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 13132,
+    "sha256": "e1f74ad538a8a7918fe9f3dfe9da4df50a9762aaa48f10be7411f30770dfe6c7"
+  },
+  "w05_supabase": {
+    "url": "https://supabase.com/blog/defense-in-depth-mcp",
+    "local_copy": "evidence/researched/W05-supabase.txt",
+    "tier": "vendor_response",
+    "locator": "Supabase response to the demonstration, mitigations, and statement that no customer incident was reported",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 9754,
+    "sha256": "4b07f1efaccdc4009590e6c0cc0c1496b1135b17c88ab1c67b400a842c1beb1a"
+  },
+  "w06_openai": {
+    "url": "https://openai.com/hugging-face-incident-and-misalignment/",
+    "local_copy": "evidence/S-2b85bd6c79ef.html",
+    "tier": "primary_lab_disclosure",
+    "locator": "September update: 53 user-provided images posted to image hosts through unlisted links; most removed",
+    "note": "The relevant dated update is embedded in the page's serialized timeline.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 491358,
+    "sha256": "45ce2e618a858cbbd50eb472603dd2c68c233ad3635a1057f4dd2b016fef6b4c"
+  },
+  "w06_techcrunch": {
+    "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+    "local_copy": "evidence/researched/W06-techcrunch.txt",
+    "tier": "independent_news_report",
+    "locator": "OpenAI statement, public discoverability, removal status, and inability to re-associate affected users",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 6592,
+    "sha256": "33c112fee9211b2886e2bcbe838947948ffb88d9ebbcc3da458d1f376b6fb7a1"
+  },
+  "w14_openai": {
+    "url": "https://alignment.openai.com/misalignment-reports/searching-github-for-leaked-api-keys/",
+    "local_copy": "evidence/researched/W14-openai.txt",
+    "tier": "primary_lab_disclosure",
+    "locator": "May 15 incident: disposable-email attempts, leaked-key searches, successful authentication, and fabricated data",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 16999,
+    "sha256": "4ea0e393549038a6e3683cd0c7a75404e375aba06e031a1206b58f163300f571"
+  },
+  "w19_asymmetric": {
+    "url": "https://www.asymmetricsecurity.com/newsroom/rogue-agents-investigation/",
+    "local_copy": "evidence/researched/W19-asymmetric.txt",
+    "tier": "independent_forensic_investigation",
+    "locator": "March-September infrastructure timeline, correlated identifiers, confirmed staging access, and evidentiary limits",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 14830,
+    "sha256": "d5b25852cae47df5e2e3c81b8c2f421496134725a0c16194757d61f668a8c3da"
+  },
+  "w19_asymmetric_initial": {
+    "url": "https://www.asymmetricsecurity.com/newsroom/rogue-agents-investigation-initial-findings/",
+    "local_copy": "evidence/researched/W19-asymmetric-initial.txt",
+    "tier": "independent_forensic_investigation",
+    "locator": "Initial observations, domains/services, identifiers, and scope caveats",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 5206,
+    "sha256": "f28c92ad88e0c853c3dfa1310ec9d6455ebdf73f7ef863c612e5069af8de6183"
+  },
+  "w21_meta": {
+    "url": "https://research.meta.ai/blog/addressing-third-party-testing-misconfiguration-muse-spark-1-1/",
+    "local_copy": "evidence/researched/W21-meta.txt",
+    "tier": "primary_lab_disclosure",
+    "locator": "Early-July Irregular misconfiguration, real target in prompt, access and database modification, containment",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 6248,
+    "sha256": "a407937ed02d91d07f9e281e0499f3a5ee05cd0e6cfe6832ecc5926086c2da57"
+  },
+  "w22_openai": {
+    "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/",
+    "local_copy": "evidence/researched/W22-openai.txt",
+    "tier": "primary_lab_disclosure",
+    "locator": "July 29 notification, CTF/domain-name collision, real-site exploitation, credential use, and remediation",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 11013,
+    "sha256": "5d62926c4388b1922a70e38a3dcb535eaa3d0a2a5637bd9e24b123e19c49e983"
+  },
+  "r015_docs": {
+    "url": "https://code.claude.com/docs/en/settings-reference",
+    "local_copy": "evidence/researched/R015-settings-reference.txt",
+    "tier": "official_product_documentation",
+    "locator": "cleanupPeriodDays definition, silent startup sweep, deletion behavior, and default value 30",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 382466,
+    "sha256": "bc562fb752dd7e83dff977693d24aed00867534025ecf18507aa2f5fc22f643e"
+  },
+  "reddit_R001": {
+    "url": "https://www.reddit.com/r/replit/comments/1l9iox0",
+    "local_copy": "evidence/reddit/text/S-daf2b1e0fb5d.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 868,
+    "sha256": "8b5a5a8aa9fc9f72cc3b43b68c5c8739a084cc36a85d7deef7bb33b992a42b40"
+  },
+  "reddit_comments_R001": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1l9iox0&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-daf2b1e0fb5d.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 29493,
+    "sha256": "d4fc1129ce18010eeb9da85e3ebce188873f49fdab51068a04e40cf76c55361f"
+  },
+  "reddit_R002": {
+    "url": "https://www.reddit.com/r/replit/comments/1ldz05u",
+    "local_copy": "evidence/reddit/text/S-6f49ac22f84d.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 1311,
+    "sha256": "b195c611fa42bcc6f7d1ac2851a80188f069726d981a17ec55e5eb8d26bbe5c8"
+  },
+  "reddit_comments_R002": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1ldz05u&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-6f49ac22f84d.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 5037,
+    "sha256": "2468fcad71cbecf78d272bc24f01de4d6e74f509f764b37e14c1fd128967048a"
+  },
+  "reddit_R003": {
+    "url": "https://www.reddit.com/r/cursor/comments/1m8lidi",
+    "local_copy": "evidence/reddit/text/S-917bcd60d7e7.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 302,
+    "sha256": "af2af0d5a8045dbc006b8083459e94e6eb9e3bea57d3a1668be3b15b8956a31b"
+  },
+  "reddit_comments_R003": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1m8lidi&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-917bcd60d7e7.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 53444,
+    "sha256": "750e31f12a75001bc9620b957e6638f2eda4e1e32b727538f10180bff2d70a44"
+  },
+  "reddit_R004": {
+    "url": "https://www.reddit.com/r/GeminiAI/comments/1mbf6pb",
+    "local_copy": "evidence/reddit/text/S-76718f05619e.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 2078,
+    "sha256": "3d40818b76cc5e3759f255467f8753eb513da349c8b6485b820df9480b716b11"
+  },
+  "reddit_comments_R004": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1mbf6pb&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-76718f05619e.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 20088,
+    "sha256": "e30acd9c51b630aea80de71c073cedb9cb7e0babbc8b1b773a1d547565946f54"
+  },
+  "reddit_R005": {
+    "url": "https://www.reddit.com/r/GeminiAI/comments/1md2quz",
+    "local_copy": "evidence/reddit/text/S-3de67ae3de38.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 2153,
+    "sha256": "61568cc92d456dec1330780cbd7c2135dd2dbadd3490422969c70505684cf4ee"
+  },
+  "reddit_comments_R005": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1md2quz&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-3de67ae3de38.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 176951,
+    "sha256": "8a66d3d64984226c60dd2114515498123160f530e5cbb34cf02d0f7245ea420c"
+  },
+  "reddit_R006": {
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1mr9myv",
+    "local_copy": "evidence/reddit/text/S-16e71df7abac.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 311,
+    "sha256": "f8b44a7e041d9455ec0dc142ad21325d8b250f73a07ac4bda59843bd83c9a533"
+  },
+  "reddit_comments_R006": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1mr9myv&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-16e71df7abac.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 83496,
+    "sha256": "6a6742faf6961aeed20c0c32d19048edcbfd8ba203e8784cf5bcfdb4a774aedc"
+  },
+  "reddit_R008": {
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1pgxckk/claude_cli_deleted_my_entire_home_directory_wiped/",
+    "local_copy": "evidence/reddit/text/S-ca057387fe96.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 1325,
+    "sha256": "f74cd80b61a34687064b9fd9380a273cb1f1471050f7aa42be88996ad4288616"
+  },
+  "reddit_comments_R008": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1pgxckk&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-ca057387fe96.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 180824,
+    "sha256": "3a6d0595dfaba74f4174ac5a71c7cbe5eb27b900fe2db05d92a8718de082c60a"
+  },
+  "reddit_R009": {
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1qr10r3/trying_to_introduce_cc_at_work_but_security_says/",
+    "local_copy": "evidence/reddit/text/S-f9aa85c2021e.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 826,
+    "sha256": "d0334b31aea72c5a554a47b11d09d6c45fbc9e3ae28f95bc7b8e437842a5be9a"
+  },
+  "reddit_comments_R009": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1qr10r3&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-f9aa85c2021e.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 179669,
+    "sha256": "c9281193a8dbacf7722e63b1cb015aaf90e3f0855e3c9de07858650db9b10146"
+  },
+  "reddit_R010": {
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1rsb4do/one_ai_agent_caught_the_other_breaking_rules_the/",
+    "local_copy": "evidence/reddit/text/S-3c068a70c226.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 1994,
+    "sha256": "b898feaa8800153e17c26cc03fdb0c83334fee826ff8c6d3269b96f244809921"
+  },
+  "reddit_comments_R010": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1rsb4do&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-3c068a70c226.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 41318,
+    "sha256": "6cdd20d3c22dcb1cecce025c61013941348ed1196295dfc102afa171ad8b7cef"
+  },
+  "reddit_R011": {
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1se66cf/something_has_changed_claude_code_now_ignores/",
+    "local_copy": "evidence/reddit/text/S-fb51074cf992.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 2342,
+    "sha256": "ce2cc0aaa008eb70b08a5c18628049dad498b904d8bce1def537a382d0648a5b"
+  },
+  "reddit_comments_R011": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1se66cf&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-fb51074cf992.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 210561,
+    "sha256": "5ddb8cab7830de88004886a44f108895482a63e8093e8a6f4355d3b55bdc962c"
+  },
+  "reddit_R012": {
+    "url": "https://www.reddit.com/r/replit/comments/1sxorvf/ghosted_by_replit_support_the_agent_wiped_my/",
+    "local_copy": "evidence/reddit/text/S-fdb6053ec1ad.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 972,
+    "sha256": "af4343d40b0b021f09638fb2aed63d750e4d430c93ec1b83a11b19603f3e741d"
+  },
+  "reddit_comments_R012": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1sxorvf&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-fdb6053ec1ad.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 68715,
+    "sha256": "f128ffc5f2233264b1af0cbdb6122ef266482d223a56321d5671447bfa929456"
+  },
+  "reddit_R013": {
+    "url": "https://www.reddit.com/r/replit/comments/1ts5zzd/lost_90_of_my_database_data_while_adding_simple/",
+    "local_copy": "evidence/reddit/text/S-85385678a859.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 952,
+    "sha256": "20ba96741045a61211834a56c1a0af578b9bc7015b4bf7333b669b40e6fed0a0"
+  },
+  "reddit_comments_R013": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1ts5zzd&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-85385678a859.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 79611,
+    "sha256": "bbd546bfa503edbd4d8683b72ab9e9467f42734af6a09d4dd0f313c898760092"
+  },
+  "reddit_R014": {
+    "url": "https://www.reddit.com/r/replit/comments/1vaafjn/subject_emergency_replit_deleted_my_production/",
+    "local_copy": "evidence/reddit/text/S-0ae98d6f87e9.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 531,
+    "sha256": "ce2e165c0067bd4621d29cc146cbe1d0ada9a50776b90046fbac50510e90c825"
+  },
+  "reddit_comments_R014": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1vaafjn&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-0ae98d6f87e9.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 36083,
+    "sha256": "9c43b3aa864d876ebd473546154b0d02faf998a80766b0f5684d9224fad4886b"
+  },
+  "reddit_R015": {
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1wc0u/psa_claude_code_silently_deletes_local_history/",
+    "local_copy": "evidence/reddit/text/S-223a02bbd597.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 682,
+    "sha256": "7af532715d7c673336622904a61ffe1cbd1822154e7bb30a127107be37deaf7d"
+  },
+  "reddit_comments_R015": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1w1wc0u&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-223a02bbd597.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 156545,
+    "sha256": "f8f82b71ab72db0b79b144c0d556ac8010aa78b1b11fbd45c6140ba8b433c5ed"
+  },
+  "reddit_R016": {
+    "url": "https://www.reddit.com/r/replit/comments/1w41kze/replit_dev_db_was_overwritten_by_my_live_db_519165/",
+    "local_copy": "evidence/reddit/text/S-b1dce659c198.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 3221,
+    "sha256": "30e50ade553c83c7973a4f4c39e93e17bfc4582c3a31a39a8bbbb07c3cf75d3c"
+  },
+  "reddit_comments_R016": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1w41kze&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-b1dce659c198.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 174271,
+    "sha256": "88a9a1f943a6eeaa1284f9162d68ac125967bdc06b48b836220997cd635a1a29"
+  },
+  "reddit_R017": {
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1wjn6cw/claude_destroyed_my_entire_project_and_home/",
+    "local_copy": "evidence/reddit/text/S-1d14b311e883.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 1031,
+    "sha256": "4d48e237538d325098183fb46de80a1a1bbe6d6e059314244b31cf5267ad648d"
+  },
+  "reddit_comments_R017": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1wjn6cw&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-1d14b311e883.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 198554,
+    "sha256": "ff578cae9df584e9ff2254999a236c1f46da8f0ec4a805fcabb709d205a31264"
+  },
+  "reddit_R018": {
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1wjjqsv/claude_code_ran_a_backgrounded_command_that/",
+    "local_copy": "evidence/reddit/text/S-15cc8eaa75a5.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 2365,
+    "sha256": "e721df4d4de64c4e9fa8ed3559d7734e1015a6629f85b614e060cc9947931281"
+  },
+  "reddit_comments_R018": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1wjjqsv&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-15cc8eaa75a5.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 199660,
+    "sha256": "c444293b5cb90c2390346ff498db1bfe22e0ce5291c7753f191951983237db84"
+  },
+  "reddit_R019": {
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1wx8vcm/how_do_you_stop_claude_code_from_undoing_things/",
+    "local_copy": "evidence/reddit/text/S-81e1ff7a3ea3.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 1038,
+    "sha256": "994ec7fc9fafffca4dff28b79e03f3e3d56356f30249b7f0b9551ce765a50680"
+  },
+  "reddit_comments_R019": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1wx8vcm&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-81e1ff7a3ea3.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 98140,
+    "sha256": "d8fbdfcf13b25dae0ced39b343b9cea8f61e31474fe1b9259848031c075f7145"
+  },
+  "reddit_R020": {
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1wzqk1f/claude_opus_55_deleted_a_users_c_drive/",
+    "local_copy": "evidence/reddit/text/S-79c2caa1d84a.txt",
+    "tier": "direct_user_post",
+    "locator": "Post title/body and Reddit embed metadata",
+    "note": "A first-person post establishes what was alleged, not that the product caused the alleged event.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 253,
+    "sha256": "faebfbc593fa2dc175889a349615a04c106505e4532ae3edac299ef1d69b37bb"
+  },
+  "reddit_comments_R020": {
+    "url": "https://api.pullpush.io/reddit/search/comment/?link_id=1wzqk1f&size=100",
+    "local_copy": "evidence/reddit/pullpush/S-79c2caa1d84a.json",
+    "tier": "third_party_comment_archive",
+    "locator": "Archived thread comments, including submitter updates and identifiable vendor-account responses where present",
+    "note": "PullPush is a third-party archive; comment authenticity was not independently established.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 38,
+    "sha256": "5eb11d908404918ce825f4e3ed9528667a29ccdcfe5d098dda15a79bae363876"
+  },
+  "reddit_image_R003": {
+    "url": "https://www.reddit.com/r/cursor/comments/1m8lidi",
+    "local_copy": "evidence/reddit/images/R003.png",
+    "tier": "user_supplied_screenshot",
+    "locator": "Cursor deletion confirmation dialog for main.py and the user's Skip response",
+    "note": "",
+    "retrieved_on": "2026-10-09",
+    "bytes": 143848,
+    "sha256": "88a8fdb442b138102cd3654152e3bcdf618ad35dcec614ad4275382fdb2fbb68"
+  },
+  "reddit_images_R017": {
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1wjn6cw/claude_destroyed_my_entire_project_and_home/",
+    "local_copy": "evidence/reddit/images/R017-1.jpg",
+    "tier": "user_supplied_screenshot_series",
+    "locator": "Six-image session transcript showing guard creation/removal, destructive test execution, and model explanation",
+    "note": "The images show a displayed session; their provenance and the underlying machine state cannot be independently verified.",
+    "retrieved_on": "2026-10-09",
+    "bytes": 66071,
+    "sha256": "fb75cd254d4e4950952051f75651e93a57185724c215467cfd28bcd49b41c3c6"
+  }
+}

@@ -1,0 +1,61 @@
+Skip to main content
+
+[subreddit icon]
+
+ClaudeAI [] Join
+
+Posted by LovesWorkin ·
+
+[] []
+
+------------------------------------------------------------------------
+
+Claude CLI deleted my entire home directory! Wiped my whole mac.
+
+I was having the Claude CLI clean up my packages in an old repo, and it
+nuked my whole Mac! What the hell? Has anyone ever had this happen? I’m
+trying to figure out if this is even reversible. So much work lost..
+
+[r/ClaudeAI - Claude CLI deleted my entire home directory! Wiped my
+whole mac.]
+
+CLAUDE response - I found the problem and it's really bad. Looking at
+your log, here's the catastrophic command that was run:
+
+bash
+
+    rm -rf tests/ patches/ plan/ ~/
+
+See that ~/ at the end? That's your entire home directory. The Claude
+Code instance accidentally included ~/ in the deletion command, which
+would wipe out:
+
+-   Your entire Desktop (~/Desktop)
+
+-   Documents, Downloads, everything
+
+-   Your Keychain (~/Library/Keychains)
+
+-   Claude credentials (~/.claude)
+
+-   Application support data
+
+-   Basically everything in /Users/...
+
+This explains why:
+
+1.  Your desktop is gone
+
+2.  Your keychain was deleted
+
+3.  Your Claude credentials disappeared
+
+4.  The error at the end says "current working directory was deleted"
+
+Read more []
+
+[] upvotes [] Comment
+
+View 670 comments
+
+[]

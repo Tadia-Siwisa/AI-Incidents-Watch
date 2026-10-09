@@ -1,0 +1,34 @@
+Skip to main content
+
+[subreddit icon]
+
+replit [] Join
+
+Posted by Neat_Structure8780 ·
+
+[] []
+
+------------------------------------------------------------------------
+
+Replit agent Nightmare
+
+Has anyone managed to crack the Replit data and schema destruction
+nightmare? Also the Dev / Prod environment separation? I've been using
+Replit as a non-coder and so far it's been a real nightmare. You'd spend
+hours working on an aspect of the project and once you deployed, it
+either wipes out exisiting production data or breaks previously working
+functions even though you explicitly integrate Protection wrappers
+around those function.
+
+The Agent also has a enraging habit of self validating its work.
+Claiming it fixed stuff when it actually didn't.
+
+Anyone facing the same issues? How did you resolved them?
+
+Read more []
+
+[] upvotes [] Comment
+
+View 17 comments
+
+[]

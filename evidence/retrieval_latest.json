@@ -1,0 +1,500 @@
+[
+  {
+    "source_id": "S-daf2b1e0fb5d",
+    "url": "https://www.reddit.com/r/replit/comments/1l9iox0",
+    "cited_by": [
+      "R001"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.691594+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/replit/comments/1l9iox0/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-daf2b1e0fb5d.html",
+    "sha256": "a930b2a9d62ed0ead54698c301b9067b1594200da239bf6904973689451d39f9"
+  },
+  {
+    "source_id": "S-6f49ac22f84d",
+    "url": "https://www.reddit.com/r/replit/comments/1ldz05u",
+    "cited_by": [
+      "R002"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.692313+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/replit/comments/1ldz05u/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-6f49ac22f84d.html",
+    "sha256": "50e005e089b94f54f135e70ed15eb192b41f254c7372f714271a6e14c12e43bd"
+  },
+  {
+    "source_id": "S-917bcd60d7e7",
+    "url": "https://www.reddit.com/r/cursor/comments/1m8lidi",
+    "cited_by": [
+      "R003"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.692798+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/cursor/comments/1m8lidi/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-917bcd60d7e7.html",
+    "sha256": "215848d12bdaf15dccf73ff08cdeb830f65129ce7360016f9fc7ee80be147e6a"
+  },
+  {
+    "source_id": "S-76718f05619e",
+    "url": "https://www.reddit.com/r/GeminiAI/comments/1mbf6pb",
+    "cited_by": [
+      "R004"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.693184+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/GeminiAI/comments/1mbf6pb/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-76718f05619e.html",
+    "sha256": "3aa1aabc2240db7d964438755d88293fc6f186810aca7ce0548040d616d6bb71"
+  },
+  {
+    "source_id": "S-3de67ae3de38",
+    "url": "https://www.reddit.com/r/GeminiAI/comments/1md2quz",
+    "cited_by": [
+      "R005"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.693581+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/GeminiAI/comments/1md2quz/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-3de67ae3de38.html",
+    "sha256": "db583574c3826d07a991dbf0b7d92e5d0b742f9e22ce8817ace782e918cf5e95"
+  },
+  {
+    "source_id": "S-16e71df7abac",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1mr9myv",
+    "cited_by": [
+      "R006"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.693874+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/ClaudeCode/comments/1mr9myv/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-16e71df7abac.html",
+    "sha256": "232432ab4da3ed899a8d15396c779a0b9f1f06686de02b8e525e423c236f1714"
+  },
+  {
+    "source_id": "S-ca057387fe96",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1pgxckk/claude_cli_deleted_my_entire_home_directory_wiped/",
+    "cited_by": [
+      "R008"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.818881+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/ClaudeAI/comments/1pgxckk/claude_cli_deleted_my_entire_home_directory_wiped/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-ca057387fe96.html",
+    "sha256": "23337f53dbb545371de3657bea6e8ca50b18fc3934d0400c943500aa8acd79bd"
+  },
+  {
+    "source_id": "S-f9aa85c2021e",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1qr10r3/trying_to_introduce_cc_at_work_but_security_says/",
+    "cited_by": [
+      "R009"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.828071+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/ClaudeCode/comments/1qr10r3/trying_to_introduce_cc_at_work_but_security_says/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-f9aa85c2021e.html",
+    "sha256": "0232dc77eecb256f9f3be88402277127d0520c25d58069cc4df8e6cdfa176f6f"
+  },
+  {
+    "source_id": "S-3c068a70c226",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1rsb4do/one_ai_agent_caught_the_other_breaking_rules_the/",
+    "cited_by": [
+      "R010"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.837590+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/ClaudeAI/comments/1rsb4do/one_ai_agent_caught_the_other_breaking_rules_the/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-3c068a70c226.html",
+    "sha256": "51a483b23863834e306e36bcc4b22b0ff127256ce71296103a6146ce6808544d"
+  },
+  {
+    "source_id": "S-fb51074cf992",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1se66cf/something_has_changed_claude_code_now_ignores/",
+    "cited_by": [
+      "R011"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.850341+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/ClaudeCode/comments/1se66cf/something_has_changed_claude_code_now_ignores/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-fb51074cf992.html",
+    "sha256": "f9749e6597802db45c30ca5add1adc228d5bdc088a2ea5a245d616d9ea7eff4c"
+  },
+  {
+    "source_id": "S-fdb6053ec1ad",
+    "url": "https://www.reddit.com/r/replit/comments/1sxorvf/ghosted_by_replit_support_the_agent_wiped_my/",
+    "cited_by": [
+      "R012"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.852977+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/replit/comments/1sxorvf/ghosted_by_replit_support_the_agent_wiped_my/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-fdb6053ec1ad.html",
+    "sha256": "8e130f4191945a6e6ae1ddb438b34a4ec71d4dd2cdd1729db34a081455fc8b37"
+  },
+  {
+    "source_id": "S-85385678a859",
+    "url": "https://www.reddit.com/r/replit/comments/1ts5zzd/lost_90_of_my_database_data_while_adding_simple/",
+    "cited_by": [
+      "R013"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.866872+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/replit/comments/1ts5zzd/lost_90_of_my_database_data_while_adding_simple/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-85385678a859.html",
+    "sha256": "7ec9dbd902d0f7395bd517b75cfedcacee3d6f079d31dcefa376b793c6bd98c7"
+  },
+  {
+    "source_id": "S-0ae98d6f87e9",
+    "url": "https://www.reddit.com/r/replit/comments/1vaafjn/subject_emergency_replit_deleted_my_production/",
+    "cited_by": [
+      "R014"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.870723+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/replit/comments/1vaafjn/subject_emergency_replit_deleted_my_production/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-0ae98d6f87e9.html",
+    "sha256": "1ec92885a5924f32210e999f3d275dcb573a6982bcf403fc8bffc809bb08f1f7"
+  },
+  {
+    "source_id": "S-223a02bbd597",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1wc0u/psa_claude_code_silently_deletes_local_history/",
+    "cited_by": [
+      "R015"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.886123+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/ClaudeAI/comments/1w1wc0u/psa_claude_code_silently_deletes_local_history/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-223a02bbd597.html",
+    "sha256": "cf70f04782f1d86c83d6e783735b70c172b29d8df76cdffd22416b8665121887"
+  },
+  {
+    "source_id": "S-b1dce659c198",
+    "url": "https://www.reddit.com/r/replit/comments/1w41kze/replit_dev_db_was_overwritten_by_my_live_db_519165/",
+    "cited_by": [
+      "R016"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.895114+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/replit/comments/1w41kze/replit_dev_db_was_overwritten_by_my_live_db_519165/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-b1dce659c198.html",
+    "sha256": "f0d3442fba6982a3faa38bafe8a575ef4068c15f2196428a0b9fb2d9111f2fca"
+  },
+  {
+    "source_id": "S-1d14b311e883",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1wjn6cw/claude_destroyed_my_entire_project_and_home/",
+    "cited_by": [
+      "R017"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.895441+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/ClaudeCode/comments/1wjn6cw/claude_destroyed_my_entire_project_and_home/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-1d14b311e883.html",
+    "sha256": "d3e87fface19b6ca97b8bdc632785de43f3fa321681dbd47724a9e082074cddf"
+  },
+  {
+    "source_id": "S-15cc8eaa75a5",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1wjjqsv/claude_code_ran_a_backgrounded_command_that/",
+    "cited_by": [
+      "R018"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.896508+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/ClaudeCode/comments/1wjjqsv/claude_code_ran_a_backgrounded_command_that/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-15cc8eaa75a5.html",
+    "sha256": "73938532df3bfa4bac865c566baf38ce3ac8dbedd991348af09710d98eac72f7"
+  },
+  {
+    "source_id": "S-81e1ff7a3ea3",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1wx8vcm/how_do_you_stop_claude_code_from_undoing_things/",
+    "cited_by": [
+      "R019"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.904623+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/ClaudeAI/comments/1wx8vcm/how_do_you_stop_claude_code_from_undoing_things/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-81e1ff7a3ea3.html",
+    "sha256": "409a1d50a9d1f01e71588742532d5d0b4fa5657b9cef1ab0d80b785de207e82b"
+  },
+  {
+    "source_id": "S-79c2caa1d84a",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1wzqk1f/claude_opus_55_deleted_a_users_c_drive/",
+    "cited_by": [
+      "R020"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.928140+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.reddit.com/r/ClaudeCode/comments/1wzqk1f/claude_opus_55_deleted_a_users_c_drive/",
+    "content_type": "text/html",
+    "snapshot": "evidence/S-79c2caa1d84a.html",
+    "sha256": "b846d7d22fa2e4625fa06f271911b40da8d4d303b44a22c4d753055461540abd"
+  },
+  {
+    "source_id": "S-415f8f1af13b",
+    "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "cited_by": [
+      "N02",
+      "N06",
+      "N07",
+      "N08",
+      "W07",
+      "W11",
+      "W12",
+      "W13"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.939832+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/S-415f8f1af13b.html",
+    "sha256": "8fd1f61af02bbaf47b6b3f5d0e0bae2e762da8bf64bd90c0dd8f72e1dcca307f"
+  },
+  {
+    "source_id": "S-6b6335913094",
+    "url": "https://alignment.openai.com/misalignment-reports/",
+    "cited_by": [
+      "N11",
+      "W16"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.952275+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://alignment.openai.com/misalignment-reports/",
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/S-6b6335913094.html",
+    "sha256": "94ada1174e9b824012816e4da03ba44c62d50ae5779758f87eec9949508116d6"
+  },
+  {
+    "source_id": "S-6aae57b9f986",
+    "url": "https://openai.com/index/how-we-will-do-better-for-australia/",
+    "cited_by": [
+      "N12",
+      "W18"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.992759+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://openai.com/index/how-we-will-do-better-for-australia/",
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/S-6aae57b9f986.html",
+    "sha256": "be4e0436f61209ee5b732ffce147315fe931571d74a744fae5e3cd36aee43923"
+  },
+  {
+    "source_id": "S-9a42174d2e3c",
+    "url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+    "cited_by": [
+      "N12",
+      "W18"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.996026+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+    "content_type": "text/html; charset=UTF-8",
+    "snapshot": "evidence/S-9a42174d2e3c.html",
+    "sha256": "463a6c53d04a408cae25821877e69d8c1a9965e648012819a218e5c4b641e719"
+  },
+  {
+    "source_id": "S-2b85bd6c79ef",
+    "url": "https://openai.com/hugging-face-incident-and-misalignment/",
+    "cited_by": [
+      "N13",
+      "W06",
+      "W14",
+      "W20",
+      "W22"
+    ],
+    "retrieved_at": "2026-10-09T09:02:37.999125+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://openai.com/hugging-face-incident-and-misalignment/",
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/S-2b85bd6c79ef.html",
+    "sha256": "45ce2e618a858cbbd50eb472603dd2c68c233ad3635a1057f4dd2b016fef6b4c"
+  },
+  {
+    "source_id": "S-202ea7189a33",
+    "url": "https://www.abc.net.au/news/2026-10-02/rogue-open-ai-agent-breach-nsw-government-website/107223108",
+    "cited_by": [
+      "N13",
+      "W20"
+    ],
+    "retrieved_at": "2026-10-09T09:02:38.000195+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.abc.net.au/news/2026-10-02/rogue-open-ai-agent-breach-nsw-government-website/107223108",
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/S-202ea7189a33.html",
+    "sha256": "ca5f743c1873c51e5539c3a33a200fc1c6126d7c8e3045583691c1f444d44845"
+  },
+  {
+    "source_id": "S-d8e6fd2ea614",
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+    "cited_by": [
+      "N14",
+      "W23"
+    ],
+    "retrieved_at": "2026-10-09T09:02:38.101496+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/S-d8e6fd2ea614.html",
+    "sha256": "1dc1055a1b11752390dff3c0b6b1d9737c5311155a182afa087f597e31bd3645"
+  },
+  {
+    "source_id": "S-fa32b7ceb7b6",
+    "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+    "cited_by": [
+      "N15",
+      "W24"
+    ],
+    "retrieved_at": "2026-10-09T09:02:38.336347+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/S-fa32b7ceb7b6.html",
+    "sha256": "9eeb7df523c10b6abff3b63cf16a1da6168497ec8a4b1e3d1b4e217c58e0ebeb"
+  },
+  {
+    "source_id": "S-4421cb94cd13",
+    "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+    "cited_by": [
+      "N17",
+      "W26"
+    ],
+    "retrieved_at": "2026-10-09T09:02:38.409042+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/S-4421cb94cd13.html",
+    "sha256": "ed00ade83afc538b3782fbb63e5705aa7846f12941b775a1ae99b5284e219e64"
+  },
+  {
+    "source_id": "S-227c865a2154",
+    "url": "https://cdn.openai.com/papers/gpt-4.pdf",
+    "cited_by": [
+      "W01"
+    ],
+    "retrieved_at": "2026-10-09T09:02:38.552717+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://cdn.openai.com/papers/gpt-4.pdf",
+    "content_type": "application/pdf",
+    "snapshot": "evidence/S-227c865a2154.pdf",
+    "sha256": "c971832d0583a2854ff339ed34a6490df82d47126bff533a87eb0cfaea4885c7"
+  },
+  {
+    "source_id": "S-52de36f18ee0",
+    "url": "https://palisaderesearch.org/research/shutdown-resistance",
+    "cited_by": [
+      "W02"
+    ],
+    "retrieved_at": "2026-10-09T09:02:38.584215+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://palisaderesearch.org/research/shutdown-resistance",
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/S-52de36f18ee0.html",
+    "sha256": "5d24b3d1b06d215dbe94f94a5167ae7c264204f7e9abb9d7c749154d2c970c64"
+  },
+  {
+    "source_id": "S-061ebbbb1492",
+    "url": "https://www.anthropic.com/research/project-vend-1",
+    "cited_by": [
+      "W03"
+    ],
+    "retrieved_at": "2026-10-09T09:02:38.631907+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://www.anthropic.com/research/project-vend-1",
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/S-061ebbbb1492.html",
+    "sha256": "cbe7acc92c431d2ae9b539963f4efc4662983175b143aa006fc9afb5dbe5958a"
+  },
+  {
+    "source_id": "S-7c83b1e09af2",
+    "url": "https://supabase.com/docs/guides/ai-tools/mcp",
+    "cited_by": [
+      "W05"
+    ],
+    "retrieved_at": "2026-10-09T09:02:38.686103+00:00",
+    "supports_claims": false,
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "final_url": "https://supabase.com/docs/guides/ai-tools/mcp",
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/S-7c83b1e09af2.html",
+    "sha256": "d407effccd1d94908c18a49ab3de7cdce7a69efdd450f58971a5c14819f19264"
+  }
+]

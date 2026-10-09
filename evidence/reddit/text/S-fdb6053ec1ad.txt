@@ -1,0 +1,36 @@
+Skip to main content
+
+[subreddit icon]
+
+replit [] Join
+
+Posted by TaYundo ·
+
+[] []
+
+------------------------------------------------------------------------
+
+Ghosted by Replit Support - The Agent wiped my production DB, UI restore
+is failing, 4+ days with no support update
+
+The Replit Agent wiped my entire production database (users, contracts,
+messages). The built-in restore fails with “Something went wrong,” and
+SQL restore isn’t available.
+
+This was escalated to Engineering on Friday — it’s now been 4+ days with
+no meaningful update while my live app (~150 users) has been down.
+Support experience has been incredibly frustrating so far.
+
+The Database UI indicates ~7-day recovery retention, so the window to
+recover this data is closing fast (likely by Thursday).
+
+This is a production data loss situation with real user and financial
+impact. Can't believe I'm about lo lose the entire data.
+
+Read more []
+
+[] upvotes [] Comment
+
+View 34 comments
+
+[]

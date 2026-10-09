@@ -1,0 +1,88 @@
+Skip to main content
+
+[subreddit icon]
+
+replit [] Join
+
+Posted by Ecstatic_Builder8325 ·
+
+[] []
+
+------------------------------------------------------------------------
+
+Replit Dev DB was overwritten by my Live DB: 519165
+
+I was surprised today I suddenly cannot login to my dev environment.
+Then I found out that all my users from the live db is in my dev db.
+Which is weird. Then there's a notice in my admin database that says
+"External DATABASE_URL detected. Production database options are not
+available when using an external database. Remove DATABASE_URL from
+Secrets to use Replit database features.".
+
+This just happened suddenly while I'm using the Replit AI agent in Max
+mode. I'm draining all my credits as it's gonna expire tomorrow anyway,
+so I need to use it.
+
+But suddenly, after adding a few tweaks in my app, I'm now using the
+live database in the dev.
+
+Then I can no longer republish the app as it says:
+External database detected. Remove DATABASE_URL from Secrets to use
+Replit database features.
+
+I asked the agent why this happened and when did it happen, and the
+Agent says:
+I cannot determine the exact creation timestamp from the workspace.
+Replit’s secret inspection only confirms whether a secret exists; it
+does not expose its creation history, and secrets are not stored in Git.
+
+What I can establish is:
+
+- `DATABASE_URL` was already expected by the project from the **initial
+commit on May 28, 2026**.
+
+- The related `PGHOST`, `PGUSER`, `PGPASSWORD`, `PGDATABASE`, and
+`PGPORT` values are also present as secrets.
+
+- Replit reports these as secret overrides rather than runtime-managed
+database variables.
+
+- A July 13 commit already refers to users and companies existing in the
+database and explicitly discusses operating against a “live DB.”
+
+- The external database backup feature was added on August 25 and has
+successfully backed up the database since August 28.
+
+- None of today’s commits added or changed `DATABASE_URL`.
+
+The most likely explanation is that Replit automatically created or
+preserved this external database secret when the project was originally
+provisioned or migrated from the legacy Neon setup. Replit documents
+that database provisioning can automatically create `DATABASE_URL`, and
+legacy Neon projects commonly also had the `PG*` variables.
+
+So this was almost certainly **not added by today’s code changes**, and
+there is no evidence that I or today’s task merges created it. The exact
+“who added it and when” would require Replit’s Secrets/account activity
+history, which is not exposed through the project files or the available
+environment-variable API.
+
+So Replit didn't know it happened today, but I have evidence that it did
+happen today (pasted it on as a prompt) and ask the AI why, and this is
+its answer:
+
+That upload is important evidence of a real database switch, not just a
+login problem. I’ll locate that document in both environment views,
+compare its timestamps/status, and inspect today’s runtime logs for the
+point when the dev server reconnected. I’ll keep this read-only.
+
+Anyway, I already filed a ticket. Just waiting for Quinn to respond.
+Thank you!
+
+Read more []
+
+[] upvotes [] Comment
+
+View 81 comments
+
+[]

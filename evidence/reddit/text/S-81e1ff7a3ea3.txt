@@ -1,0 +1,39 @@
+Skip to main content
+
+[subreddit icon]
+
+ClaudeAI [] Join
+
+Posted by JustDevelopment1534 ·
+
+[] []
+
+------------------------------------------------------------------------
+
+How do you stop Claude Code from undoing things your team already decided?
+
+I have been writing code for 8 years and my team uses Claude Code every
+day now. Mostly it is great.
+
+One thing keeps biting us - the agent changes something back to a way we
+moved away from long ago. It is not wrong from its side, it just does
+not know why we did it that way. The reason is sitting in some old PR
+that nobody opens.
+
+Last time it was a rate-limit count we had set for a vendor. The agent
+changed it back, and we had false positives for a while before anyone
+noticed why.
+
+We tried putting rules in CLAUDE.md. Works for a few. But the file keeps
+growing, and for half the rules nobody remembers where they came from.
+
+How are you handling this? Is CLAUDE.md enough for your team or did you
+find something better?
+
+Read more []
+
+[] upvotes [] Comment
+
+View 64 comments
+
+[]

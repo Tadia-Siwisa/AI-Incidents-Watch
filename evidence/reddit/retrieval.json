@@ -1,0 +1,211 @@
+[
+  {
+    "source_id": "S-daf2b1e0fb5d",
+    "original_url": "https://www.reddit.com/r/replit/comments/1l9iox0",
+    "retrieval_url": "https://embed.reddit.com/r/replit/comments/1l9iox0",
+    "retrieved_at": "2026-10-09T09:09:57.144001+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-daf2b1e0fb5d.html",
+    "sha256": "bc050ed474f082c542f7efba260f2842067e95e8e454be32c5b774c71b0af42b"
+  },
+  {
+    "source_id": "S-6f49ac22f84d",
+    "original_url": "https://www.reddit.com/r/replit/comments/1ldz05u",
+    "retrieval_url": "https://embed.reddit.com/r/replit/comments/1ldz05u",
+    "retrieved_at": "2026-10-09T09:09:57.983131+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-6f49ac22f84d.html",
+    "sha256": "1e241617c49406567bd304267c312edd1f12ee807fb2f9e5533f2f2f4155637f"
+  },
+  {
+    "source_id": "S-917bcd60d7e7",
+    "original_url": "https://www.reddit.com/r/cursor/comments/1m8lidi",
+    "retrieval_url": "https://embed.reddit.com/r/cursor/comments/1m8lidi",
+    "retrieved_at": "2026-10-09T09:09:58.766762+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-917bcd60d7e7.html",
+    "sha256": "8a6ae6e9e9bf78039d8a2a0edbfab4dff431ecf8fec4e41de7d0e0f14667d29b"
+  },
+  {
+    "source_id": "S-76718f05619e",
+    "original_url": "https://www.reddit.com/r/GeminiAI/comments/1mbf6pb",
+    "retrieval_url": "https://embed.reddit.com/r/GeminiAI/comments/1mbf6pb",
+    "retrieved_at": "2026-10-09T09:09:59.486669+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-76718f05619e.html",
+    "sha256": "7c4c34677770e9bce4ca0f29dbf71f4900cc1979957706a035c4685616ded661"
+  },
+  {
+    "source_id": "S-3de67ae3de38",
+    "original_url": "https://www.reddit.com/r/GeminiAI/comments/1md2quz",
+    "retrieval_url": "https://embed.reddit.com/r/GeminiAI/comments/1md2quz",
+    "retrieved_at": "2026-10-09T09:10:00.240161+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-3de67ae3de38.html",
+    "sha256": "e98b8a38de662a4e9b05e364f0a0136d6ec796ca7ea3d0686466c3cf61bf56ee"
+  },
+  {
+    "source_id": "S-16e71df7abac",
+    "original_url": "https://www.reddit.com/r/ClaudeCode/comments/1mr9myv",
+    "retrieval_url": "https://embed.reddit.com/r/ClaudeCode/comments/1mr9myv",
+    "retrieved_at": "2026-10-09T09:10:01.029222+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-16e71df7abac.html",
+    "sha256": "0e05a3a65da6a4b44ce970038070bb123776cb9a28a80eeac638178d10e4281f"
+  },
+  {
+    "source_id": "S-ca057387fe96",
+    "original_url": "https://www.reddit.com/r/ClaudeAI/comments/1pgxckk/claude_cli_deleted_my_entire_home_directory_wiped/",
+    "retrieval_url": "https://embed.reddit.com/r/ClaudeAI/comments/1pgxckk/claude_cli_deleted_my_entire_home_directory_wiped/",
+    "retrieved_at": "2026-10-09T09:10:01.767122+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-ca057387fe96.html",
+    "sha256": "6bb0c8ee1e3635a32f8e1181ed5cec3a2614413953c401a53119d2696c2ab9a7"
+  },
+  {
+    "source_id": "S-f9aa85c2021e",
+    "original_url": "https://www.reddit.com/r/ClaudeCode/comments/1qr10r3/trying_to_introduce_cc_at_work_but_security_says/",
+    "retrieval_url": "https://embed.reddit.com/r/ClaudeCode/comments/1qr10r3/trying_to_introduce_cc_at_work_but_security_says/",
+    "retrieved_at": "2026-10-09T09:10:02.500101+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-f9aa85c2021e.html",
+    "sha256": "e993f04fac5a92121799fde9f3270fa56440cbf5777d6b746974befbf1e572ec"
+  },
+  {
+    "source_id": "S-3c068a70c226",
+    "original_url": "https://www.reddit.com/r/ClaudeAI/comments/1rsb4do/one_ai_agent_caught_the_other_breaking_rules_the/",
+    "retrieval_url": "https://embed.reddit.com/r/ClaudeAI/comments/1rsb4do/one_ai_agent_caught_the_other_breaking_rules_the/",
+    "retrieved_at": "2026-10-09T09:10:03.224689+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-3c068a70c226.html",
+    "sha256": "2571726db5585a65ff19122cefa7ca3da2720ab99d3c194142c334a0f21bd648"
+  },
+  {
+    "source_id": "S-fb51074cf992",
+    "original_url": "https://www.reddit.com/r/ClaudeCode/comments/1se66cf/something_has_changed_claude_code_now_ignores/",
+    "retrieval_url": "https://embed.reddit.com/r/ClaudeCode/comments/1se66cf/something_has_changed_claude_code_now_ignores/",
+    "retrieved_at": "2026-10-09T09:10:03.940310+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-fb51074cf992.html",
+    "sha256": "35d16ca72e683c0b56b6ef60c19b9cdbfc64ed267732fb79f20139f4a807ae5a"
+  },
+  {
+    "source_id": "S-fdb6053ec1ad",
+    "original_url": "https://www.reddit.com/r/replit/comments/1sxorvf/ghosted_by_replit_support_the_agent_wiped_my/",
+    "retrieval_url": "https://embed.reddit.com/r/replit/comments/1sxorvf/ghosted_by_replit_support_the_agent_wiped_my/",
+    "retrieved_at": "2026-10-09T09:10:04.779480+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-fdb6053ec1ad.html",
+    "sha256": "98bcdb6ed697253282cc13d6896449b73e8e860087722a98e56bb965a0950a06"
+  },
+  {
+    "source_id": "S-85385678a859",
+    "original_url": "https://www.reddit.com/r/replit/comments/1ts5zzd/lost_90_of_my_database_data_while_adding_simple/",
+    "retrieval_url": "https://embed.reddit.com/r/replit/comments/1ts5zzd/lost_90_of_my_database_data_while_adding_simple/",
+    "retrieved_at": "2026-10-09T09:10:05.495545+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-85385678a859.html",
+    "sha256": "159bfb80e0afa2882fef4bdc57ca23b04fc31e1701dafe79c2329b1b79d18709"
+  },
+  {
+    "source_id": "S-0ae98d6f87e9",
+    "original_url": "https://www.reddit.com/r/replit/comments/1vaafjn/subject_emergency_replit_deleted_my_production/",
+    "retrieval_url": "https://embed.reddit.com/r/replit/comments/1vaafjn/subject_emergency_replit_deleted_my_production/",
+    "retrieved_at": "2026-10-09T09:10:06.331722+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-0ae98d6f87e9.html",
+    "sha256": "0134062b06f6bd18119106f4307d764e17d8ddc72db05c13dc01654b94093aa0"
+  },
+  {
+    "source_id": "S-223a02bbd597",
+    "original_url": "https://www.reddit.com/r/ClaudeAI/comments/1w1wc0u/psa_claude_code_silently_deletes_local_history/",
+    "retrieval_url": "https://embed.reddit.com/r/ClaudeAI/comments/1w1wc0u/psa_claude_code_silently_deletes_local_history/",
+    "retrieved_at": "2026-10-09T09:10:07.057004+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-223a02bbd597.html",
+    "sha256": "10c95523923c01869ff97193d797966d64bb34758048b890dfd0c937073ff295"
+  },
+  {
+    "source_id": "S-b1dce659c198",
+    "original_url": "https://www.reddit.com/r/replit/comments/1w41kze/replit_dev_db_was_overwritten_by_my_live_db_519165/",
+    "retrieval_url": "https://embed.reddit.com/r/replit/comments/1w41kze/replit_dev_db_was_overwritten_by_my_live_db_519165/",
+    "retrieved_at": "2026-10-09T09:10:07.803141+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-b1dce659c198.html",
+    "sha256": "3fe1c419b64469d355fe8cee2c4d500d8943e2d2739909764a6317df2f64b380"
+  },
+  {
+    "source_id": "S-1d14b311e883",
+    "original_url": "https://www.reddit.com/r/ClaudeCode/comments/1wjn6cw/claude_destroyed_my_entire_project_and_home/",
+    "retrieval_url": "https://embed.reddit.com/r/ClaudeCode/comments/1wjn6cw/claude_destroyed_my_entire_project_and_home/",
+    "retrieved_at": "2026-10-09T09:10:09.031172+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-1d14b311e883.html",
+    "sha256": "33e0c4e58f3d074fd5a2a7987dbeeaf267c408adf79c78a41d7759eea74c4adb"
+  },
+  {
+    "source_id": "S-15cc8eaa75a5",
+    "original_url": "https://www.reddit.com/r/ClaudeCode/comments/1wjjqsv/claude_code_ran_a_backgrounded_command_that/",
+    "retrieval_url": "https://embed.reddit.com/r/ClaudeCode/comments/1wjjqsv/claude_code_ran_a_backgrounded_command_that/",
+    "retrieved_at": "2026-10-09T09:10:09.888278+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-15cc8eaa75a5.html",
+    "sha256": "c3e3c84ea68bc34f366000a1a44eb93101ac1bcee37b700bc996232dfbc5d81f"
+  },
+  {
+    "source_id": "S-81e1ff7a3ea3",
+    "original_url": "https://www.reddit.com/r/ClaudeAI/comments/1wx8vcm/how_do_you_stop_claude_code_from_undoing_things/",
+    "retrieval_url": "https://embed.reddit.com/r/ClaudeAI/comments/1wx8vcm/how_do_you_stop_claude_code_from_undoing_things/",
+    "retrieved_at": "2026-10-09T09:10:10.708251+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-81e1ff7a3ea3.html",
+    "sha256": "5a4e34f37051cef212de9e0e857e8e5bd398b92016226cfbe2b4640739720c9f"
+  },
+  {
+    "source_id": "S-79c2caa1d84a",
+    "original_url": "https://www.reddit.com/r/ClaudeCode/comments/1wzqk1f/claude_opus_55_deleted_a_users_c_drive/",
+    "retrieval_url": "https://embed.reddit.com/r/ClaudeCode/comments/1wzqk1f/claude_opus_55_deleted_a_users_c_drive/",
+    "retrieved_at": "2026-10-09T09:10:11.444574+00:00",
+    "status": "retrieved_pending_review",
+    "http_status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "snapshot": "evidence/reddit/S-79c2caa1d84a.html",
+    "sha256": "ca03cf75e1e12dd66fffa0d55bac1337abceb90872ea46a872b2ac985fa156b7"
+  }
+]

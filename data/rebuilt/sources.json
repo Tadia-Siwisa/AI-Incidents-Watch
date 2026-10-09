@@ -1,0 +1,244 @@
+[
+  {
+    "source_id": "S-daf2b1e0fb5d",
+    "url": "https://www.reddit.com/r/replit/comments/1l9iox0",
+    "cited_by": [
+      "R001"
+    ]
+  },
+  {
+    "source_id": "S-6f49ac22f84d",
+    "url": "https://www.reddit.com/r/replit/comments/1ldz05u",
+    "cited_by": [
+      "R002"
+    ]
+  },
+  {
+    "source_id": "S-917bcd60d7e7",
+    "url": "https://www.reddit.com/r/cursor/comments/1m8lidi",
+    "cited_by": [
+      "R003"
+    ]
+  },
+  {
+    "source_id": "S-76718f05619e",
+    "url": "https://www.reddit.com/r/GeminiAI/comments/1mbf6pb",
+    "cited_by": [
+      "R004"
+    ]
+  },
+  {
+    "source_id": "S-3de67ae3de38",
+    "url": "https://www.reddit.com/r/GeminiAI/comments/1md2quz",
+    "cited_by": [
+      "R005"
+    ]
+  },
+  {
+    "source_id": "S-16e71df7abac",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1mr9myv",
+    "cited_by": [
+      "R006"
+    ]
+  },
+  {
+    "source_id": "S-ca057387fe96",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1pgxckk/claude_cli_deleted_my_entire_home_directory_wiped/",
+    "cited_by": [
+      "R008"
+    ]
+  },
+  {
+    "source_id": "S-f9aa85c2021e",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1qr10r3/trying_to_introduce_cc_at_work_but_security_says/",
+    "cited_by": [
+      "R009"
+    ]
+  },
+  {
+    "source_id": "S-3c068a70c226",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1rsb4do/one_ai_agent_caught_the_other_breaking_rules_the/",
+    "cited_by": [
+      "R010"
+    ]
+  },
+  {
+    "source_id": "S-fb51074cf992",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1se66cf/something_has_changed_claude_code_now_ignores/",
+    "cited_by": [
+      "R011"
+    ]
+  },
+  {
+    "source_id": "S-fdb6053ec1ad",
+    "url": "https://www.reddit.com/r/replit/comments/1sxorvf/ghosted_by_replit_support_the_agent_wiped_my/",
+    "cited_by": [
+      "R012"
+    ]
+  },
+  {
+    "source_id": "S-85385678a859",
+    "url": "https://www.reddit.com/r/replit/comments/1ts5zzd/lost_90_of_my_database_data_while_adding_simple/",
+    "cited_by": [
+      "R013"
+    ]
+  },
+  {
+    "source_id": "S-0ae98d6f87e9",
+    "url": "https://www.reddit.com/r/replit/comments/1vaafjn/subject_emergency_replit_deleted_my_production/",
+    "cited_by": [
+      "R014"
+    ]
+  },
+  {
+    "source_id": "S-223a02bbd597",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1w1wc0u/psa_claude_code_silently_deletes_local_history/",
+    "cited_by": [
+      "R015"
+    ]
+  },
+  {
+    "source_id": "S-b1dce659c198",
+    "url": "https://www.reddit.com/r/replit/comments/1w41kze/replit_dev_db_was_overwritten_by_my_live_db_519165/",
+    "cited_by": [
+      "R016"
+    ]
+  },
+  {
+    "source_id": "S-1d14b311e883",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1wjn6cw/claude_destroyed_my_entire_project_and_home/",
+    "cited_by": [
+      "R017"
+    ]
+  },
+  {
+    "source_id": "S-15cc8eaa75a5",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1wjjqsv/claude_code_ran_a_backgrounded_command_that/",
+    "cited_by": [
+      "R018"
+    ]
+  },
+  {
+    "source_id": "S-81e1ff7a3ea3",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1wx8vcm/how_do_you_stop_claude_code_from_undoing_things/",
+    "cited_by": [
+      "R019"
+    ]
+  },
+  {
+    "source_id": "S-79c2caa1d84a",
+    "url": "https://www.reddit.com/r/ClaudeCode/comments/1wzqk1f/claude_opus_55_deleted_a_users_c_drive/",
+    "cited_by": [
+      "R020"
+    ]
+  },
+  {
+    "source_id": "S-415f8f1af13b",
+    "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "cited_by": [
+      "N02",
+      "N06",
+      "N07",
+      "N08",
+      "W07",
+      "W11",
+      "W12",
+      "W13"
+    ]
+  },
+  {
+    "source_id": "S-6b6335913094",
+    "url": "https://alignment.openai.com/misalignment-reports/",
+    "cited_by": [
+      "N11",
+      "W16"
+    ]
+  },
+  {
+    "source_id": "S-6aae57b9f986",
+    "url": "https://openai.com/index/how-we-will-do-better-for-australia/",
+    "cited_by": [
+      "N12",
+      "W18"
+    ]
+  },
+  {
+    "source_id": "S-9a42174d2e3c",
+    "url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day",
+    "cited_by": [
+      "N12",
+      "W18"
+    ]
+  },
+  {
+    "source_id": "S-2b85bd6c79ef",
+    "url": "https://openai.com/hugging-face-incident-and-misalignment/",
+    "cited_by": [
+      "N13",
+      "W06",
+      "W14",
+      "W20",
+      "W22"
+    ]
+  },
+  {
+    "source_id": "S-202ea7189a33",
+    "url": "https://www.abc.net.au/news/2026-10-02/rogue-open-ai-agent-breach-nsw-government-website/107223108",
+    "cited_by": [
+      "N13",
+      "W20"
+    ]
+  },
+  {
+    "source_id": "S-d8e6fd2ea614",
+    "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+    "cited_by": [
+      "N14",
+      "W23"
+    ]
+  },
+  {
+    "source_id": "S-fa32b7ceb7b6",
+    "url": "https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing",
+    "cited_by": [
+      "N15",
+      "W24"
+    ]
+  },
+  {
+    "source_id": "S-4421cb94cd13",
+    "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot",
+    "cited_by": [
+      "N17",
+      "W26"
+    ]
+  },
+  {
+    "source_id": "S-227c865a2154",
+    "url": "https://cdn.openai.com/papers/gpt-4.pdf",
+    "cited_by": [
+      "W01"
+    ]
+  },
+  {
+    "source_id": "S-52de36f18ee0",
+    "url": "https://palisaderesearch.org/research/shutdown-resistance",
+    "cited_by": [
+      "W02"
+    ]
+  },
+  {
+    "source_id": "S-061ebbbb1492",
+    "url": "https://www.anthropic.com/research/project-vend-1",
+    "cited_by": [
+      "W03"
+    ]
+  },
+  {
+    "source_id": "S-7c83b1e09af2",
+    "url": "https://supabase.com/docs/guides/ai-tools/mcp",
+    "cited_by": [
+      "W05"
+    ]
+  }
+]

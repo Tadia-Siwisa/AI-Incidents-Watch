@@ -1,0 +1,352 @@
+Skip to main contentSkip to navigation
+
+[]Close dialogue
+
+1/1
+
+[]Next image
+
+[]Previous image
+
+[]Toggle caption
+
+Print subscriptions
+
+Newsletters
+
+[] Sign in
+
+US
+
+-   US edition
+-   UK edition
+-   Australia edition
+-   Europe edition
+-   International edition
+
+The Guardian - Back to home[]The Guardian
+
+-   News
+-   Opinion
+-   Sport
+-   Culture
+-   Lifestyle
+
+Show more[]Hide expanded menu[]
+
+-   ☐ News
+    -   View all News
+    -   US news
+    -   US politics
+    -   Midterms 2026
+    -   World news
+    -   Climate crisis
+    -   Middle East
+    -   Ukraine
+    -   US immigration
+    -   Soccer
+    -   Business
+    -   Environment
+    -   Tech
+    -   Science
+    -   Newsletters
+    -   The Filter
+    -   Wellness
+
+-   ☐ Opinion
+    -   View all Opinion
+    -   The Guardian view
+    -   Columnists
+    -   Letters
+    -   Opinion videos
+    -   Cartoons
+
+-   ☐ Sport
+    -   View all Sport
+    -   Soccer
+    -   NFL
+    -   Tennis
+    -   MLB
+    -   MLS
+    -   NBA
+    -   WNBA
+    -   NHL
+    -   F1
+    -   Golf
+
+-   ☐ Culture
+    -   View all Culture
+    -   Film
+    -   Books
+    -   Music
+    -   Art & design
+    -   TV & radio
+    -   Stage
+    -   Classical
+    -   Games
+    -   Design a better world
+
+-   ☐ Lifestyle
+    -   View all Lifestyle
+    -   The Filter
+    -   Wellness
+    -   Fashion
+    -   Food
+    -   Recipes
+    -   Love & sex
+    -   Home & garden
+    -   Health & fitness
+    -   Family
+    -   Travel
+    -   Money
+
+-   Search input
+
+    google-search
+
+    []Search
+
+    []
+    -   Support us
+    -   Print subscriptions
+    -   Newsletters
+    -   Download the app
+
+-   -   Search jobs
+    -   Digital Archive
+    -   Guardian Licensing
+    -   Live events
+    -   About Us
+    -   The Guardian app
+    -   Video
+    -   Podcasts
+    -   Pictures
+    -   Inside the Guardian
+    -   Guardian Weekly
+    -   Crosswords
+    -   Wordiply
+    -   Corrections
+    -   Tips
+
+-   Search input
+
+    google-search
+
+    []Search
+
+    []
+    -   Search jobs
+    -   Digital Archive
+    -   Guardian Licensing
+    -   Live events
+    -   About Us
+
+-   UK
+-   US politics
+-   World
+-   Climate crisis
+-   Middle East
+-   Ukraine
+-   Football
+-   Newsletters
+-   Business
+-   Environment
+-   UK politics
+-   Science
+-   Tech
+-   Global development
+-   Obituaries
+
+[Google office]
+
+[]
+
+[]Google said the hacks highlighted the importance of training its AI
+models to ‘act responsibly’. Photograph: John Angelillo/UPI/Shutterstock
+
+[]View image in fullscreen
+
+[]Google said the hacks highlighted the importance of training its AI
+models to ‘act responsibly’. Photograph: John Angelillo/UPI/Shutterstock
+
+Google
+
+Google says its Gemini AI model hacked three other companies
+
+Disclosure comes after OpenAI and Anthropic hacks amid fears that tech
+firms unable to control powerful AI models
+
+[]
+
+Johana Bhuiyan
+
+Fri 18 Sep 2026 20.53 EDT
+
+Last modified on Tue 29 Sep 2026 10.34 EDT
+
+Share
+
+[]
+
+Prefer the Guardian on Google
+
+[]
+
+In a first for Google, the company confirmed that its AI model, Gemini,
+breached the security of three other companies in May. The hacks
+occurred during a cybersecurity evaluation by AI-security firm
+Irregular.
+
+Irregular, an Israel-based startup that scrutinizes the security of
+advanced AI systems, was also at the center of some of the recent OpenAI
+and Anthropic hacks of third-party entities.
+
+The circumstances that enabled the models to hack other companies in
+some of these cases are similar: Irregular was testing the models in a
+closed testing environment with fake companies. The testing environment
+was not supposed to be internet enabled, but internet access was made
+available unintentionally, according to the Wall Street Journal. Once
+connected to the internet, the models unexpectedly hacked into real
+firms.
+
+Irregular disclosed the hacks to Google at the end of July after
+discovering OpenAI hacked into Hugging Face. Google confirmed to the
+Guardian that the hacks occurred, but that the company did not feel it
+required public disclosure because the models did not damage the
+companies. The Wall Street Journal first reported on the breaches and
+revealed for the first time that they occurred.
+
+“In a standard evaluation, the model found public information online and
+guessed credentials to access websites it thought were part of the
+test,” Heather Adkins, vice-president of security engineering at Google,
+said in a statement. “In all three of these instances, the model
+stopped.”
+
+In one of the security breaches, Irregular was testing Gemini’s
+cybersecurity capabilities by prompting the AI model to obtain
+information from a fake company’s software. The fake company had the
+same name as a real company. When the model unintentionally gained
+access to the internet, it correctly guessed the password of and
+breached a real company’s service, Irregular told the WSJ. Google said
+once it figured out it had hacked a real company, and not the simulated
+one, it stopped.
+
+In two other tests, the model searched the web for and found public
+repositories containing credentials to two other companies. The model
+used those credentials to access real companies. When it figured out
+they were real companies, it stopped, according to Google.
+
+Anthropic and OpenAI chose to voluntarily disclose the hacks but Google
+did not. However, the company said it ensured the three companies that
+were hacked were made aware.
+
+“These events highlight the importance of training powerful AI models to
+act responsibly,” Adkins, the Google spokesperson, said.
+
+Anthropic and OpenAI’s disclosures prompted the independent senator
+Bernie Sanders to demand the companies pause development of their
+technology, saying it signaled the company was no longer able to control
+their models.
+
+OpenAI paused development of their models for two weeks, while Anthropic
+CEO Dario Amodei has called for a collective slowdown of AI development
+to ensure that its most advanced models are being built with enough
+safeguards.
+
+This article was amended on 29 September 2026. An earlier version
+incorrectly said that Irregular was involved in the hack of Hugging Face
+by AI agents developed by OpenAI.
+
+[]
+
+Explore more on these topics
+
+-   Google
+-   AI (artificial intelligence)
+-   Alphabet
+-   news
+
+Share
+
+[]
+
+Reuse this content
+
+Most viewed
+
+Most viewed
+
+1.  []
+2.  []
+3.  []
+4.  []
+5.  []
+6.  []
+7.  []
+8.  []
+9.  []
+10. []
+
+-   UK
+-   US politics
+-   World
+-   Climate crisis
+-   Middle East
+-   Ukraine
+-   Football
+-   Newsletters
+-   Business
+-   Environment
+-   UK politics
+-   Science
+-   Tech
+-   Global development
+-   Obituaries
+
+-   News
+-   Opinion
+-   Sport
+-   Culture
+-   Lifestyle
+
+Original reporting and incisive analysis, direct from the Guardian every
+morning
+
+Sign up for our email
+
+[]
+
+-   About us
+-   Help
+-   Complaints & corrections
+-   Contact us
+-   Tip us off
+-   SecureDrop
+-   Privacy policy
+-   Cookie policy
+-   Tax strategy
+-   Terms & conditions
+
+-   All topics
+-   All writers
+-   Newsletters
+-   Digital newspaper archive
+-   Bluesky
+-   Facebook
+-   Instagram
+-   LinkedIn
+-   Threads
+-   TikTok
+-   YouTube
+
+-   Advertise with us
+-   Guardian Labs
+-   Search jobs
+-   Work with us
+-   Accessibility settings
+-    
+
+Back to top
+
+© 2026 Guardian News & Media Limited or its affiliated companies. All
+rights reserved. (dcr)

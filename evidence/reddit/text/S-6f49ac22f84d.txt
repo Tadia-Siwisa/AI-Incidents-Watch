@@ -1,0 +1,56 @@
+Skip to main content
+
+[subreddit icon]
+
+replit [] Join
+
+Posted by Neat_Structure8780 ·
+
+[] []
+
+------------------------------------------------------------------------
+
+Replit Vibe Coding drama for Non-Coders.
+
+A Tale of Two Databases. How to prevent Replit deployment from wiping
+your production data out.
+
+Or when the Agent doesn't know what you don't Know.
+
+Folks, I finally got a grip on my production data getting wiped out
+every time I deploy.
+
+Remember my Agent Drama about data being wiped out.
+
+Well it turns out every environment and database isolation we put in
+place was destined to fail.
+
+Why?
+
+Simple put. I was asking the agent to isolate things that weren't
+isolatable. (If that's even a word).
+
+All this time, we had a single database. and it was used for prod. So
+when the agant needed something to run the code on, it didn't have any
+other choice but to assalt our single database. (At lest that what I
+understand of the situation).
+
+So with a closer look into our database url thingy, I spotted the issue
+and instructed the Agent to create a separate database solely dedicated
+to the Dev side of things.
+
+Et Voila.
+
+Since then, I've conducted various test to confirm that it works.
+
+That's it for now.
+
+Stay tuned for more drama :)
+
+Read more []
+
+[] upvotes [] Comment
+
+View 3 comments
+
+[]

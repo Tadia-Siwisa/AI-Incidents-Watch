@@ -1,0 +1,37 @@
+Skip to main content
+
+[subreddit icon]
+
+ClaudeCode [] Join
+
+Posted by ThunkerKnivfer ·
+
+[] []
+
+------------------------------------------------------------------------
+
+Trying to introduce CC at work but Security says "Claude Code is known
+to break out of its context" - is this true?
+
+So, they are saying we should run CC in a docker container due to this
+"risk".
+
+I am not sure that they actually understand what they write - they could
+have read "break out of context" and misunderstood the concept of
+context rot or CC deviating from the prompting.
+
+So is it possible for CC to break out of the current folder on its own
+free will - without me giving it permission to read outside current
+folder?
+
+Or am I missing something?
+
+Edit: Thanks for all the responses!
+
+Read more []
+
+[] upvotes [] Comment
+
+View 90 comments
+
+[]

@@ -1,0 +1,583 @@
+Skip to main content
+
+Skip to news navigation, settings and search
+
+Explore the ABC
+
+[]
+
+[][]
+
+[]
+
+More from ABC
+
+[]Close menu
+
+[]ABC
+
+ 
+
+ABC News[]
+
+ 
+
+ABC iview[]
+
+ 
+
+ABC listen[]
+
+ 
+
+Kids & Students[]
+
+ 
+
+Indigenous[]
+
+ 
+
+Information & Services[]
+
+Editorial Policies
+
+Read our editorial guiding principles[]
+
+Follow the ABC
+
+-   []
+-   []
+-   []
+-   []
+-   []
+
+-   []news
+-   []iview
+-   []listen
+
+Loading
+
+[]ABC News
+
+-   Just In
+-   For You
+-   Politics
+-   World
+-   Business
+-   Analysis
+-   Sport
+-   Lifestyle
+-   Entertainment
+-   Quizzes
+
+More[]
+
+[]Search
+
+[]
+
+-   News Home[]
+    -   Just In
+    -   For You
+    -   Analysis
+    -   Rural
+    -   Watch Live
+    -   Health
+    -   Indigenous
+    -   Politics
+    -   Science
+    -   Deep Time
+    -   Elections
+    -   World
+    -   Environment
+    -   Investigations
+    -   Business
+    -   Local news
+    -   Quizzes
+-   Sport[]
+    -   AFL
+    -   NRL
+    -   Football
+    -   Tennis
+    -   Cricket
+    -   Netball
+-   Lifestyle[]
+    -   Wellbeing
+    -   Relationships & Family
+    -   Food & Recipes
+    -   Personal Finance
+    -   Home & Garden
+-   Entertainment[]
+    -   TV & Movies
+    -   Books
+    -   Music
+    -   Pop Culture
+    -   Arts
+
+-   []Facebook
+-   []YouTube
+-   []Instagram
+-   []Twitter
+
+-   
+
+    Emergency
+
+-   
+
+    Backstory
+
+-   
+
+    Newsletters
+
+-   
+
+    中文新闻
+
+-   
+
+    BERITA BAHASA INDONESIA
+
+-   
+
+    TOK PISIN
+
+[] Appearance (BETA)
+
+[] Follow system settings
+
+Select an option
+
+[]
+
+-   Always light
+-   Always dark
+-   Follow system settings
+
+-   
+    []
+
+    ABC iView
+-   
+    []
+
+    ABC Listen
+
+[]ABC News
+
+[]News Home
+
+Rogue OpenAI agent enters another NSW government website, tech giant
+says
+
+ShareShare article[]
+
+Rogue OpenAI agent enters another NSW government website, tech giant says
+
+-   
+
+    Topic:Cyber Security
+
+Posted Fri 2 Oct 2026 at 5:21pmFri 2 Oct 2026 at 5:21pmFri 2 Oct 2026 at
+5:21pm, updated Fri 2 Oct 2026 at 6:36pmFri 2 Oct 2026 at 6:36pmFri 2
+Oct 2026 at 6:36pm
+
+[An upward-shot photo shows large wall with the OpenAI logo, behind it a
+banner reads 'OpenAI']
+
+OpenAI has confirmed another incident affecting a NSW government
+website, with no personal data breached. (Reuters: Carlos Barria, file)
+
+In short:
+
+A second NSW government website has been accessed by a rogue OpenAI
+agent.
+
+Both the government and the company have confirmed that no public
+information was accessed in the June incident.
+
+The government was notified this week, with the company saying it
+conducted an "urgent internal technical and legal review".
+
+abc.net.au/news/rogue-open-ai-agent-breach-nsw-government-website/107223108
+
+[]
+
+Link copied
+
+ShareShare article[]
+
+OpenAI says a rogue agent accessed a second New South Wales government
+website in June, with authorities only informed of the "misalignment"
+this week.
+
+The Premier's Department said the model entered a National Parks and
+Wildlife Service (NPWS) web application containing historical
+information and data on fires.
+
+It said investigations have not found any unauthorised access to
+personal information.
+
+In a statement, the department said the incident is understood to have
+happened in June, but OpenAI did not notify the government until
+yesterday.
+
+  "The NSW Department of Climate Change, Energy, the Environment and
+  Water (DCCEEW) is working with Cyber Security NSW and its technology
+  service provider to investigate the matter and assess its impact,"
+
+the statement said.
+
+OpenAI to face inquiry
+
+[A white logo with white text on the top of a black screen, with the
+same logo blurred in the background]
+
+Australia is looking to impose a dual notification requirement under
+tougher new standards enforced after OpenAI's breach of a Medicare
+website.
+
+A spokesperson for OpenAI confirmed the incident had taken place in
+June, but that no personal information had been accessed when a "model"
+had gone "beyond its intended use".
+
+"After being made aware of this activity … we conducted an urgent
+internal technical and legal review to understand the nature of the
+activity against the research being carried out," the spokesperson said
+in a statement.
+
+"As soon as that review was complete, we briefed the NSW Premier's
+Office and notified the Australian Signals Directorate.
+
+"We sent a technical notification through the appropriate NSW Government
+channel and obtained details for the relevant NPWS contacts."
+
+The spokesperson added the company followed up by providing a technical
+briefing and resources in line with its commitment to assisting where
+"misaligned activity has occurred".
+
+"If our review identifies additional agencies, we will notify them
+promptly with the information available and keep them updated as we
+establish further facts."
+
+'Not a malevolent company'
+
+The NSW Bureau of Crime Statistics and Research (BOCSAR) revealed an
+OpenAI agent accessed a public crime mapping tool to research public
+crime statistics last week.
+
+NSW Premier Chris Minns said at the time that incident was concerning.
+
+"The mere fact the agent was told not to access the information — it's
+not a malevolent company, they weren't attempting to steal confidential
+information — and they did it anyway, that's the power of artificial
+intelligence," he said.
+
+"That's the battle that we'll have to contend with, because whilst this
+might have been contained to semi-public information that wasn't privacy
+related, it may get to the point where that information is released."
+
+[Chris Minns NSW Premier at Parramatta East Public School]
+
+Mr Minns says the BOCSAR data incident is concerning. (ABC News: Abubakr
+Sajid)
+
+It also comes after OpenAI apologised for breaching an Australian
+Medicare portal, with company saying it wanted to "rebuild trust with
+the Australian people".
+
+Prime Minister Anthony Albanese last week revealed that an OpenAI agent
+gained unauthorised access to the Medicare statistics reporting service
+portal on June 18.
+
+The agent gained access to both public and non-public data, but no
+personal Medicare details were breached.
+
+OpenAI said the incident occurred during a training exercise of an
+"internal-only OpenAI model", with the bot gaining access to non-public
+access to Services Australia Medicare's Statistics Reporting Service.
+
+It then ran commands, retrieved internal files, credentials and
+statistics, as well as wrote files, according to the company.
+
+-   []Copy link
+-   []Facebook
+-   []X (formerly Twitter)
+
+See more ABC coverage in your search results
+
+Make ABC a preferred source in Google[]
+
+Top Stories
+
+Victorian language charity with $16m kitty has links to white nationalists
+
+Topic:Extremism
+
+[A brown building with multiple pitched facades. Overlayed is a white
+logo that reads ESU]
+
+Families of men killed on Mexico surf trip call for maximum sentences
+
+Topic:Crime
+
+[Two men in wetsuits stand together near water]
+
+'Beau L-C' rental car card among items found near bodies, jury hears
+
+Topic:Homicide
+
+[An orange rental car card with Lamarre-Condon's name on it.]
+
+More agony for Aussie batters despite early luck against South Africa
+
+LIVE
+
+[Travis Head makes a pained expression as he walks off.]
+
+Sister of 13yo critically injured in alleged arson pleads with other teens
+
+Topic:Arson
+
+[A police officer stands near three cars parked outside a house, two of
+which have been destroyed by fire.]
+
+Popular now
+
+More agony for Aussie batters despite early luck against South Africa
+
+LIVE
+
+[Travis Head makes a pained expression as he walks off.]
+
+Sister of 13yo critically injured in alleged arson pleads with other teens
+
+Topic:Arson
+
+[A police officer stands near three cars parked outside a house, two of
+which have been destroyed by fire.]
+
+How the card surcharge ban could change our relationship with cash
+
+Topic:Explainer
+
+[A person holds onto some money.]
+
+Related topics
+
+-   
+
+    AI
+
+-   
+
+    Cyber Security
+
+-   
+
+    NSW
+
+-   
+
+    QLD
+
+-   
+
+    TAS
+
+-   
+
+    WA
+
+Top Stories
+
+1.  Victorian language charity with $16m kitty has links to white nationalists
+
+    Topic:Extremism
+
+    [A brown building with multiple pitched facades. Overlayed is a
+    white logo that reads ESU]
+
+2.  Families of men killed on Mexico surf trip call for maximum sentences
+
+    Topic:Crime
+
+3.  'Beau L-C' rental car card among items found near bodies, jury hears
+
+    Topic:Homicide
+
+4.  More agony for Aussie batters despite early luck against South Africa
+
+    LIVE
+
+5.  Sister of 13yo critically injured in alleged arson pleads with other teens
+
+    Topic:Arson
+
+Just In
+
+[]
+
+1.  
+
+    Person of interest given alibi in schoolgirl's disappearance
+
+    Topic:Courts
+
+    Fri 9 Oct 2026 at 7:16pmFri 9 Oct 2026 at 7:16pmFri 9 Oct 2026 at
+    7:16pm
+
+2.  
+
+    More than 65,000 Canberrans are waiting to see a medical specialist
+
+    Topic:Public Health
+
+    Fri 9 Oct 2026 at 6:50pmFri 9 Oct 2026 at 6:50pmFri 9 Oct 2026 at
+    6:50pm
+
+3.  
+
+    NT government flags changes to accused sex offender suppression laws
+
+    Topic:Courts
+
+    Fri 9 Oct 2026 at 6:37pmFri 9 Oct 2026 at 6:37pmFri 9 Oct 2026 at
+    6:37pm
+
+4.  
+
+    Sale rescues landmark WA dairy brands from collapse
+
+    Topic:Consumer Goods
+
+    Fri 9 Oct 2026 at 6:06pmFri 9 Oct 2026 at 6:06pmFri 9 Oct 2026 at
+    6:06pm
+
+More Just In[]
+
+Back to top[]
+
+[]ABC NewsContact ABC News[]
+
+Your home of Australian stories, conversations and events that shape our
+nation.
+
+This service may include material from Agence France-Presse (AFP), APTN,
+Reuters, AAP, CNN and the BBC World Service which is copyright and
+cannot be reproduced.
+
+Follow ABC News
+
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+
+Sections
+
+-   ABC News Home
+-   Just In
+-   For You
+-   Watch Live News
+-   Live ABC NewsRadio
+-   Politics
+-   Elections
+-   Australia
+-   World
+-   Sport
+-   Live Sport
+-   Rural
+-   Business
+-   Analysis
+-   Science
+-   Health
+-   Lifestyle
+-   Entertainment
+-   Quizzes
+-   More Topics
+
+News in Language
+
+-   Chinese 中文
+-   Tok Pisin
+-   Berita Bahasa Indonesia
+
+Related
+
+-   ABC News app
+-   Local News
+-   ABC Emergency
+-   ABC Indigenous
+-   ABC Religion & Ethics
+-   ABC Asia
+-   ABC Pacific
+
+Music & Audio
+
+-   ABC Listen Home
+-   triple j
+-   Live Radio
+
+Movies & TV
+
+-   ABC iview Home
+-   List of ABC Shows
+-   Live TV
+-   TV Guide
+
+Kids & Students
+
+-   BTN
+-   Education
+-   Heywire
+-   Takeover
+-   ABC Kids
+
+Get the ABC News AM newsletter
+
+Get the latest ABC News delivered to your email inbox
+
+Email address
+
+Subscribe
+
+Your information is being handled in accordance with the ABC Privacy
+Collection Statement.
+
+All ABC newsletters
+
+Stay informed and connected with the ABC. Covering a wide range of
+topics and brands including News, iview, listen, and more.
+
+Browse all ABC newsletters[]
+
+[]ABC home
+
+Information & Services
+
+-   Editorial Policies
+-   Accessibility
+-   Help
+-   Contact Us
+-   Commercial
+-   Careers
+-   About the ABC
+-   Privacy Policy
+-   Terms of Use
+-   © 2026 ABC
+
+Follow the ABC
+
+-   []
+-   []
+-   []
+-   []
+
+We acknowledge Aboriginal and Torres Strait Islander peoples as the
+First Australians and Traditional Custodians of the lands where we live,
+learn and work.

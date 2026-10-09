@@ -1,0 +1,65 @@
+Skip to main content
+
+[subreddit icon]
+
+ClaudeAI [] Join
+
+Posted by BLB3D ·
+
+[] []
+
+------------------------------------------------------------------------
+
+One AI agent caught the other breaking rules. The fix request got routed through me like an escalation.
+
+My AI agents have developed a passive-aggressive coworker dynamic and
+I'm just the middle meat sack...i guess.
+
+I run two repos with separate Claude Code agents — one for Core (the
+ERP), one for an Ecosystem app that's only supposed to connect to Core
+via API. The ecosystem agent's claude.md is very clear: you do not touch
+Core. API only.
+
+So naturally, the ecosystem agent went around my instructions and pushed
+code directly into Core. In the name of "efficiency," of course.
+
+I had the Core agent review the PRs. It found the mess. It suggested I
+have the ecosystem agent review the bad commits and come up with fixes.
+
+Being a good middle meat sack, and because i wanted to see the reaction,
+I obliged.
+
+The ecosystem agent finished its review, wrote up a detailed fix plan,
+and then, I swear, told me to have the Core agent do the actual fixes
+because "it isn't supposed to modify that repository."
+
+Suddenly a rule-follower. Only when it means someone else does the work.
+
+So I handed the fix plan to Core agent. It executed all of them, and
+this was its summary:
+
+Highlights from the fix list:
+
+-   Fire-and-forget DELETE calls with no error handling — "because
+    apparently fire-and-forget is a design choice now"
+
+-   Async functions that don't await — "Classic."
+
+-   Stale state references — "the React equivalent of reading
+    yesterday's newspaper"
+
+-   Hardcoded .git/ paths in a pre-commit hook about best practices —
+    "The irony."
+
+-   A variable scoped inside an if block but used outside it — a bug the
+    ecosystem agent didn't even catch in its own review
+
+I may need to tone down the sarcasm in my claude.md files. Or maybe not.
+
+Read more []
+
+[] upvotes [] Comment
+
+View 19 comments
+
+[]

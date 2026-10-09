@@ -1,0 +1,211 @@
+[
+  {
+    "source_id": "S-daf2b1e0fb5d",
+    "post_id": "1l9iox0",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1l9iox0&size=100",
+    "retrieved_at": "2026-10-09T09:11:34.552765+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 17,
+    "snapshot": "evidence/reddit/pullpush/S-daf2b1e0fb5d.json",
+    "sha256": "d4fc1129ce18010eeb9da85e3ebce188873f49fdab51068a04e40cf76c55361f"
+  },
+  {
+    "source_id": "S-6f49ac22f84d",
+    "post_id": "1ldz05u",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1ldz05u&size=100",
+    "retrieved_at": "2026-10-09T09:11:35.445954+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 3,
+    "snapshot": "evidence/reddit/pullpush/S-6f49ac22f84d.json",
+    "sha256": "2468fcad71cbecf78d272bc24f01de4d6e74f509f764b37e14c1fd128967048a"
+  },
+  {
+    "source_id": "S-917bcd60d7e7",
+    "post_id": "1m8lidi",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1m8lidi&size=100",
+    "retrieved_at": "2026-10-09T09:11:36.169172+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 30,
+    "snapshot": "evidence/reddit/pullpush/S-917bcd60d7e7.json",
+    "sha256": "750e31f12a75001bc9620b957e6638f2eda4e1e32b727538f10180bff2d70a44"
+  },
+  {
+    "source_id": "S-76718f05619e",
+    "post_id": "1mbf6pb",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1mbf6pb&size=100",
+    "retrieved_at": "2026-10-09T09:11:37.302834+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 10,
+    "snapshot": "evidence/reddit/pullpush/S-76718f05619e.json",
+    "sha256": "e30acd9c51b630aea80de71c073cedb9cb7e0babbc8b1b773a1d547565946f54"
+  },
+  {
+    "source_id": "S-3de67ae3de38",
+    "post_id": "1md2quz",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1md2quz&size=100",
+    "retrieved_at": "2026-10-09T09:11:38.418086+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 100,
+    "snapshot": "evidence/reddit/pullpush/S-3de67ae3de38.json",
+    "sha256": "8a66d3d64984226c60dd2114515498123160f530e5cbb34cf02d0f7245ea420c"
+  },
+  {
+    "source_id": "S-16e71df7abac",
+    "post_id": "1mr9myv",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1mr9myv&size=100",
+    "retrieved_at": "2026-10-09T09:11:40.433618+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 44,
+    "snapshot": "evidence/reddit/pullpush/S-16e71df7abac.json",
+    "sha256": "6a6742faf6961aeed20c0c32d19048edcbfd8ba203e8784cf5bcfdb4a774aedc"
+  },
+  {
+    "source_id": "S-ca057387fe96",
+    "post_id": "1pgxckk",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1pgxckk&size=100",
+    "retrieved_at": "2026-10-09T09:11:42.354600+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 100,
+    "snapshot": "evidence/reddit/pullpush/S-ca057387fe96.json",
+    "sha256": "3a6d0595dfaba74f4174ac5a71c7cbe5eb27b900fe2db05d92a8718de082c60a"
+  },
+  {
+    "source_id": "S-f9aa85c2021e",
+    "post_id": "1qr10r3",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1qr10r3&size=100",
+    "retrieved_at": "2026-10-09T09:11:44.058268+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 97,
+    "snapshot": "evidence/reddit/pullpush/S-f9aa85c2021e.json",
+    "sha256": "c9281193a8dbacf7722e63b1cb015aaf90e3f0855e3c9de07858650db9b10146"
+  },
+  {
+    "source_id": "S-3c068a70c226",
+    "post_id": "1rsb4do",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1rsb4do&size=100",
+    "retrieved_at": "2026-10-09T09:11:45.929566+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 19,
+    "snapshot": "evidence/reddit/pullpush/S-3c068a70c226.json",
+    "sha256": "6cdd20d3c22dcb1cecce025c61013941348ed1196295dfc102afa171ad8b7cef"
+  },
+  {
+    "source_id": "S-fb51074cf992",
+    "post_id": "1se66cf",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1se66cf&size=100",
+    "retrieved_at": "2026-10-09T09:11:46.800202+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 100,
+    "snapshot": "evidence/reddit/pullpush/S-fb51074cf992.json",
+    "sha256": "5ddb8cab7830de88004886a44f108895482a63e8093e8a6f4355d3b55bdc962c"
+  },
+  {
+    "source_id": "S-fdb6053ec1ad",
+    "post_id": "1sxorvf",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1sxorvf&size=100",
+    "retrieved_at": "2026-10-09T09:11:48.363499+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 34,
+    "snapshot": "evidence/reddit/pullpush/S-fdb6053ec1ad.json",
+    "sha256": "f128ffc5f2233264b1af0cbdb6122ef266482d223a56321d5671447bfa929456"
+  },
+  {
+    "source_id": "S-85385678a859",
+    "post_id": "1ts5zzd",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1ts5zzd&size=100",
+    "retrieved_at": "2026-10-09T09:11:50.100231+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 41,
+    "snapshot": "evidence/reddit/pullpush/S-85385678a859.json",
+    "sha256": "bbd546bfa503edbd4d8683b72ab9e9467f42734af6a09d4dd0f313c898760092"
+  },
+  {
+    "source_id": "S-0ae98d6f87e9",
+    "post_id": "1vaafjn",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1vaafjn&size=100",
+    "retrieved_at": "2026-10-09T09:11:51.208247+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 17,
+    "snapshot": "evidence/reddit/pullpush/S-0ae98d6f87e9.json",
+    "sha256": "9c43b3aa864d876ebd473546154b0d02faf998a80766b0f5684d9224fad4886b"
+  },
+  {
+    "source_id": "S-223a02bbd597",
+    "post_id": "1w1wc0u",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1w1wc0u&size=100",
+    "retrieved_at": "2026-10-09T09:11:52.118572+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 76,
+    "snapshot": "evidence/reddit/pullpush/S-223a02bbd597.json",
+    "sha256": "f8f82b71ab72db0b79b144c0d556ac8010aa78b1b11fbd45c6140ba8b433c5ed"
+  },
+  {
+    "source_id": "S-b1dce659c198",
+    "post_id": "1w41kze",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1w41kze&size=100",
+    "retrieved_at": "2026-10-09T09:11:53.821999+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 83,
+    "snapshot": "evidence/reddit/pullpush/S-b1dce659c198.json",
+    "sha256": "88a9a1f943a6eeaa1284f9162d68ac125967bdc06b48b836220997cd635a1a29"
+  },
+  {
+    "source_id": "S-1d14b311e883",
+    "post_id": "1wjn6cw",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1wjn6cw&size=100",
+    "retrieved_at": "2026-10-09T09:11:55.429831+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 100,
+    "snapshot": "evidence/reddit/pullpush/S-1d14b311e883.json",
+    "sha256": "ff578cae9df584e9ff2254999a236c1f46da8f0ec4a805fcabb709d205a31264"
+  },
+  {
+    "source_id": "S-15cc8eaa75a5",
+    "post_id": "1wjjqsv",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1wjjqsv&size=100",
+    "retrieved_at": "2026-10-09T09:11:56.831792+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 100,
+    "snapshot": "evidence/reddit/pullpush/S-15cc8eaa75a5.json",
+    "sha256": "c444293b5cb90c2390346ff498db1bfe22e0ce5291c7753f191951983237db84"
+  },
+  {
+    "source_id": "S-81e1ff7a3ea3",
+    "post_id": "1wx8vcm",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1wx8vcm&size=100",
+    "retrieved_at": "2026-10-09T09:11:58.134908+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 43,
+    "snapshot": "evidence/reddit/pullpush/S-81e1ff7a3ea3.json",
+    "sha256": "d8fbdfcf13b25dae0ced39b343b9cea8f61e31474fe1b9259848031c075f7145"
+  },
+  {
+    "source_id": "S-79c2caa1d84a",
+    "post_id": "1wzqk1f",
+    "retrieval_url": "https://api.pullpush.io/reddit/search/comment/?link_id=1wzqk1f&size=100",
+    "retrieved_at": "2026-10-09T09:11:59.167182+00:00",
+    "status": "retrieved_archive_copy_pending_review",
+    "http_status": 200,
+    "comment_count": 0,
+    "snapshot": "evidence/reddit/pullpush/S-79c2caa1d84a.json",
+    "sha256": "5eb11d908404918ce825f4e3ed9528667a29ccdcfe5d098dda15a79bae363876"
+  }
+]

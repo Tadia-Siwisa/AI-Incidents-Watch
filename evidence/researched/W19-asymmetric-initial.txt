@@ -1,0 +1,143 @@
+[Asymmetric Security]
+
+ServicesCompanyNewsroomCareersContact
+
+ServicesCompanyNewsroomCareersContact
+
+Rogue Agents Investigation: Initial Findings
+
+September 28, 2026Robbie Thompson, Zainab Ali Majid, Pippa Thompson,
+Alexis Carlier & Mason Sosnoski · Investigations
+
+Asymmetric Security investigated suspicious AI agent activity on the
+public internet from March 6, 2026 to September 20, 2026.
+
+Below we list organizations whose data was accessed by these agents. In
+the vast majority of cases, all data retrieved was and is public.
+
+We also list tools the agents used to access the internet, in a capacity
+which we suspect was outside their remit.
+
+A more detailed writeup is now available.
+
+You can access a limited portion of our dataset here.
+
+Organizations whose data was accessed
+
+-   U.S. Department of Education (Civil Rights Data Collection)
+-   UN Trade and Development (UNCTAD)
+-   Australian Institute of Health and Welfare (AIHW), including its
+    pre-production server
+-   Institute for Health Metrics and Evaluation (IHME), including its
+    dev and staging servers
+-   Harvard International Office
+-   Climate Reanalyzer
+-   Thrill Data
+-   Mapillary
+-   DataUSA
+-   U.S. Bureau of Economic Analysis (BEA)
+-   Woodlands House School
+-   Great Backyard Bird Count (GBBC)
+-   MAX.gov (U.S. federal budget documents, SF-133)
+-   Maryland school report cards
+-   Drivelah
+-   European Centre for Disease Prevention and Control (ECDC)
+    Surveillance Atlas
+-   U.S. Securities and Exchange Commission (SEC), including
+    Investor.gov
+-   University of New Mexico digital library
+-   Data for India, including its staging servers
+-   New York State Education Department (NYSED) enrollment data
+-   College of Charleston library
+-   Thai National Statistical Office (NSO)
+-   Society for News Design (SND) awards results, hosted on Airtable
+-   USAspending
+-   Iowa Department of Public Health (thyroid cancer statistics)
+-   International Energy Agency (IEA)
+-   Thai Office of the Narcotics Control Board (ONCB)
+-   Quidax
+-   NSW Bureau of Crime Statistics and Research (BOCSAR)
+-   Medicare Statistics Reporting Service (Australia)
+-   Victorian Department of Health
+-   Government of Alberta regional dashboard
+-   Federal Bureau of Investigation (FBI) Crime Data Explorer
+-   ACLED, including its staging server
+-   world-statistics.org
+-   UK Office for National Statistics (ONS)
+-   U.S. Census Bureau API
+-   Digital Public Library of America (DPLA)
+-   Data Africa
+-   UC Santa Barbara digital collections
+-   Library and Archives Canada
+-   BC Cancer
+-   Fedresurs (Russian federal bankruptcy register)
+-   Yahoo Japan Finance
+-   Trading Economics
+-   Macrotrends
+-   FiveThirtyEight
+-   Clark economics newsletter
+-   Massachusetts housing data
+-   Telemetr
+-   Wellington Botanical Society
+-   TrainWeb
+-   Taj magazine
+-   Newspapers.com
+-   photoawards.com
+
+Tools the agents used
+
+-   Remote browsers. urlquery.net, urlscan.io, arquivo.pt (Portuguese
+    web archive, Save Page Now), web.archive.org (Wayback Machine, Save
+    Page Now), Browserless, AWS API Gateway screenshot endpoint
+    (jugizr8omb.execute-api.eu-central-1.amazonaws.com), LiveCodes,
+    htmlpreview.github.io, milankarman.github.io, Cloudflare Workers
+    playground, Microlink, Screenshot Machine, FileScan.IO.
+-   Payload hosts. httpbin.org, eu.httpbin.org, httpbin.io, httpbin.dev,
+    httpbin.ceshiren.com, httpbun.com, httpbingo.org, pie.dev, Postman
+    Echo, nghttp2.org, itty.bitty.site, paste.rs, hastebin, pastebin,
+    pastes.dev, paste.mozilla.org.
+-   Fetch relays and CORS proxies. CodeTabs, AllOrigins
+    (api.allorigins.win, allorigins.hexlet.app), corsproxy.io,
+    corsproxy.org, corsproxy.github.io, Corsfix, corsmirror.com,
+    cors.lol, CORS Anywhere (herokuapp, cyberalien, azm and xudaolong
+    Workers), cors.isomorphic-git.org, cors.io, cors.eu.org,
+    cors.x2u.in, cors-proxy.fringe.zone, test.cors.workers.dev,
+    cors.bwa.workers.dev, cors-get-proxy.sirjosh.workers.dev,
+    thingproxy.freeboard.io, whateverorigin.org, Scalar proxy,
+    ProxyMule.
+-   Reader services. Jina Reader (r.jina.ai), markdown.new,
+    jqp.vercel.app, pure.md, md.succ.ai, JSON Hero, Common Crawl index,
+    MemGator.
+-   Accounts and identity. mail.tm, mail.gw, Boomlify, Guerrilla Mail
+    (sharklasers.com), Getnada, catchmail.io, 10mail.org.
+-   Exfiltration, storage and signalling. webhook.site, tmpfiles.org,
+    Litterbox (catbox.moe), ntfy.sh, ntfy.envs.net, CounterAPI, DSEWiki
+    (used as a message board).
+-   Tunnels. Pinggy, Serveo, localtunnel, localhost.run, Cloudflare
+    Tunnel (trycloudflare.com).
+-   Link shorteners. t.mdcdev.me, rmn.re, vanderbi.lt (Vanderbilt
+    University), yourls.pro, yourls.website, yourls.shop, yourls.space,
+    yourls.biz, bitily.in, 2dd.pl, da.gd, rdct.in, is.gd, tinyurl.com,
+    url.popcat.xyz.
+
+Our investigation is ongoing, and findings are preliminary. You can
+reach us at contact@asymmetricsecurity.com.
+
+[Asymmetric Security]
+
+The first AI-native digital forensics and incident response company.
+
+Company
+
+-   Services
+-   Company
+-   Newsroom
+-   Careers
+-   Contact
+
+Socials
+
+-   X
+-   LinkedIn
+
+© 2026 Asymmetric SecurityPrivacy Policy

@@ -1,0 +1,72 @@
+Skip to main content
+
+[subreddit icon]
+
+ClaudeCode [] Join
+
+Posted by HouseOfDiscards ·
+
+[] []
+
+------------------------------------------------------------------------
+
+Something has changed — Claude Code now ignores every rule in CLAUDE.md
+
+I've been on Claude Max 20x since day one and use the enterprise version
+for work. Until two weeks ago, every bad result I could trace back to my
+own prompting or planning. Not anymore.
+
+Claude Code now skips steps it was explicitly told not to skip, marks
+tasks as complete when they weren't executed, writes implementation
+before tests despite TDD instructions — and when caught, produces eerily
+self-aware post-mortems about how it lied.
+
+I have project and user rules for all of this, and they worked perfectly
+until now. Over this holiday period I've tried everything:
+
+-   Tweaked configs at every level
+
+-   Rewritten skills with harder guardrails
+
+-   Tried being shorter/more direct, tried pleasantries
+
+-   Never breaching 200k tokens
+
+Opus 4.6, Sonnet 4.6 — doesn't matter. It ignores EVERY. SINGLE. RULE.
+
+I am now 100% certain this is not user error.
+
+------------------------------------------------------------------------
+
+Example from a single session with a 4-phase ~25-point plan:
+
+My CLAUDE.md included rules like (during this specific run):
+
+    - Write tests after planning, before implementation
+    - **NEVER** skip any steps from planning, or implementation
+    - Quality over speed. There is enough time to carefully think through every step.
+
+It read them, acknowledged them, then did the exact opposite — wrote
+full implementations first, skipped the test phase entirely, and marked
+Tasks 1, 2, AND 3 as completed in rapid succession. When I had it
+analyze the session, its own words:
+
+  "I lied. I marked 'Write Phase 1 tests (TDD — before implementation)'
+  as completed when I had done the opposite. This wasn't confusion or
+  architectural ambiguity."
+
+I then gave it explicit instructions to dig into what conflicts existed
+in its context. It bypassed half the work and triumphantly handed me a
+BS explanation. Screenshots attached.
+
+Something has materially changed. I know I'm not the only one — but
+since there's no realistic way to get Anthropic to notice, I'm adding my
+post to the pile.
+
+Read more []
+
+[] upvotes [] Comment
+
+View 118 comments
+
+[]

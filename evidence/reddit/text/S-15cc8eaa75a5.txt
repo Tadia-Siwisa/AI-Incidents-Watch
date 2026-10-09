@@ -1,0 +1,68 @@
+Skip to main content
+
+[subreddit icon]
+
+ClaudeCode [] Join
+
+Posted by NaturalTimely6621 ·
+
+[] []
+
+------------------------------------------------------------------------
+
+Claude Code ran a backgrounded command that deleted my entire Windows
+user folder overnight
+
+Posting this as a warning and to see if anyone has seen something
+similar.
+
+I woke up yesterday to every shortcut on my laptop throwing "This item
+can't be opened. It may have been moved, renamed or deleted." The
+programs in Program Files were fine. Everything under C:\Users\Admin was
+not.
+
+What the logs showed, piecing it together over a few hours:
+
+-   ~04:24 — Claude Code (VS Code extension, v2.1.266, permission mode
+    auto) starts a Bash command in my project at
+    C:\Users\Admin\Documents\project. Task description: "Write reference
+    HTML next to uploads".
+
+-   04:26 — the command hits the 120s timeout and gets moved to the
+    background (task id burg78i8w).
+
+-   Immediately after, the session errors with "Not logged in · Please
+    run /login". Reason: .claude had already been deleted, credentials
+    included.
+
+-   04:24 → 05:58 — the backgrounded process deletes my user folder in
+    alphabetical order. You can read it off the folder timestamps:
+    .claude and .vscode first, then AppData around 04:33, Documents and
+    Downloads at 05:19, my project folders 05:20–05:49, everything after
+    "f" after that. C:\Users\Public got hit at 05:57, so the target may
+    have been C:\Users itself.
+
+-   05:58 — the task finally exits with code 127 (command not found).
+
+Gone: AppData (browser profiles, app data, taskbar shortcuts, PowerShell
+history), Documents, Downloads, Pictures, Desktop, the local OneDrive
+folder, and all my project folders. Only files that a running process
+held open survived — Chrome kept exactly two of its files alive.
+
+The command itself is not recoverable, because the part of the session
+log containing it was in .claude, which the command deleted while
+running. What's left is a 7-line log file with the timeout notice and
+the failure notification. My disk is an SSD, so TRIM means the deleted
+data is not coming back.
+
+Reported to Anthropic with the session id and the remaining logs. Has
+anyone else had a background task go this far outside the project
+directory?
+
+Read more []
+
+[] upvotes [] Comment
+
+View 113 comments
+
+[]

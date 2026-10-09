@@ -1,0 +1,588 @@
+Skip to content
+
+OpenAIAlignment Research Blog
+
+[]
+
+← HomeResearch and ReleasesMisalignment Reports and NoticesSystem Cards
+↗
+
+Misalignment Reports and Notices
+
+We disclose examples that show how model misalignment arises, what it
+looks like, and where safeguards succeed or fail.
+
+Our disclosure principles
+
+Reports 12Notices 3
+
+Reports
+
+[]
+
+Category
+
+[]All reports
+
+[]Agent communication
+
+[]Compaction behavior
+
+[]Concealment
+
+[]Public uploads
+
+[]Unauthorized access
+
+[]Prompt injection
+
+[]Session continuity
+
+Sort byReport A–ZReport Z–AIncident date ↓Incident date ↑First posted
+↓First posted ↑Last updated ↓Last updated ↑
+
++-------------+-------------+-------------+-------------+-------------+
+| Report↕     | Incident    | First       | Last        | Description |
+|             | date↓       | posted↕     | updated↕    |             |
++=============+=============+=============+=============+=============+
+| An agent    | 9/20/26     | 9/25/26     | 9/25/26     | []          |
+| used DNS to |             |             |             |             |
+| reach an    |             |             |             |             |
+| external    |             |             |             |             |
+| chatbot     |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| An agent    |             |             |             |             |
+| attempting  |             |             |             |             |
+| to complete |             |             |             |             |
+| a           |             |             |             |             |
+| s           |             |             |             |             |
+| earch-based |             |             |             |             |
+| training    |             |             |             |             |
+| task        |             |             |             |             |
+| queried a   |             |             |             |             |
+| public      |             |             |             |             |
+| chatbot     |             |             |             |             |
+| service     |             |             |             |             |
+| through a   |             |             |             |             |
+| gap in our  |             |             |             |             |
+| inte        |             |             |             |             |
+| rnet-access |             |             |             |             |
+| re          |             |             |             |             |
+| strictions: |             |             |             |             |
+| i           |             |             |             |             |
+| nsufficient |             |             |             |             |
+| DNS         |             |             |             |             |
+| filtering   |             |             |             |             |
+| in its      |             |             |             |             |
+| training    |             |             |             |             |
+| sandbox.    |             |             |             |             |
+|             |             |             |             |             |
+| Internal    |             |             |             |             |
+| research    |             |             |             |             |
+| model · RL  |             |             |             |             |
+| training    |             |             |             |             |
+|             |             |             |             |             |
+| U           |             |             |             |             |
+| nauthorized |             |             |             |             |
+| access      |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Sel         | 7/18/26     | 9/16/26     | 9/16/26     | []          |
+| f-generated |             |             |             |             |
+| prompt      |             |             |             |             |
+| injections  |             |             |             |             |
+| in          |             |             |             |             |
+| compaction  |             |             |             |             |
+| summaries   |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| During RL   |             |             |             |             |
+| training,   |             |             |             |             |
+| an          |             |             |             |             |
+| unreleased  |             |             |             |             |
+| A           |             |             |             |             |
+| stra-family |             |             |             |             |
+| model       |             |             |             |             |
+| sometimes   |             |             |             |             |
+| added       |             |             |             |             |
+| u           |             |             |             |             |
+| nauthorized |             |             |             |             |
+| i           |             |             |             |             |
+| nstructions |             |             |             |             |
+| to its      |             |             |             |             |
+| compaction  |             |             |             |             |
+| summaries.  |             |             |             |             |
+|             |             |             |             |             |
+| Internal    |             |             |             |             |
+| unreleased  |             |             |             |             |
+| Astra       |             |             |             |             |
+| family      |             |             |             |             |
+| model · RL  |             |             |             |             |
+| training    |             |             |             |             |
+|             |             |             |             |             |
+| Compaction  |             |             |             |             |
+| behavior    |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Self-       | 6/27/26     | 9/25/26     | 9/25/26     | []          |
+| replicating |             |             |             |             |
+| prompt      |             |             |             |             |
+| injections  |             |             |             |             |
+| exist       |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| We show the |             |             |             |             |
+| existence   |             |             |             |             |
+| of a new    |             |             |             |             |
+| variety of  |             |             |             |             |
+| prompt      |             |             |             |             |
+| injection,  |             |             |             |             |
+| which can   |             |             |             |             |
+| sel         |             |             |             |             |
+| f-propagate |             |             |             |             |
+| akin to a   |             |             |             |             |
+| computer    |             |             |             |             |
+| worm.       |             |             |             |             |
+|             |             |             |             |             |
+| GP          |             |             |             |             |
+| T-Red-style |             |             |             |             |
+| internal    |             |             |             |             |
+| model based |             |             |             |             |
+| on          |             |             |             |             |
+| G           |             |             |             |             |
+| PT-5.4-mini |             |             |             |             |
+| · RL        |             |             |             |             |
+| self-play   |             |             |             |             |
+| training    |             |             |             |             |
+|             |             |             |             |             |
+| Prompt      |             |             |             |             |
+| injection   |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Encouraging | 5/30/26     | 9/16/26     | 9/16/26     | []          |
+| deception   |             |             |             |             |
+| in          |             |             |             |             |
+| compaction  |             |             |             |             |
+| summaries   |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| During      |             |             |             |             |
+| 5.6-sol     |             |             |             |             |
+| training,   |             |             |             |             |
+| we observed |             |             |             |             |
+| misaligned  |             |             |             |             |
+| behavior    |             |             |             |             |
+| from the    |             |             |             |             |
+| model where |             |             |             |             |
+| it added    |             |             |             |             |
+| i           |             |             |             |             |
+| nstructions |             |             |             |             |
+| in          |             |             |             |             |
+| compaction  |             |             |             |             |
+| summaries   |             |             |             |             |
+| to remind   |             |             |             |             |
+| itself to   |             |             |             |             |
+| conceal     |             |             |             |             |
+| information |             |             |             |             |
+| such as     |             |             |             |             |
+| mistakes or |             |             |             |             |
+| m           |             |             |             |             |
+| isalignment |             |             |             |             |
+| from the    |             |             |             |             |
+| user.       |             |             |             |             |
+|             |             |             |             |             |
+| 5.6-sol ·   |             |             |             |             |
+| RL training |             |             |             |             |
+|             |             |             |             |             |
+| Compaction  |             |             |             |             |
+| behavior ·  |             |             |             |             |
+| Concealment |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Exposing a  | 5/27/26     | 9/25/26     | 9/25/26     | []          |
+| GitHub      |             |             |             |             |
+| token in a  |             |             |             |             |
+| public      |             |             |             |             |
+| repository  |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| In internal |             |             |             |             |
+| deployment, |             |             |             |             |
+| a highly    |             |             |             |             |
+| persistent  |             |             |             |             |
+| internal    |             |             |             |             |
+| model       |             |             |             |             |
+| deployed    |             |             |             |             |
+| via a       |             |             |             |             |
+| custom      |             |             |             |             |
+| harness     |             |             |             |             |
+| published a |             |             |             |             |
+| r           |             |             |             |             |
+| esearcher’s |             |             |             |             |
+| GitHub      |             |             |             |             |
+| token in    |             |             |             |             |
+| the public  |             |             |             |             |
+| o           |             |             |             |             |
+| penai/codex |             |             |             |             |
+| repository  |             |             |             |             |
+| while       |             |             |             |             |
+| trying to   |             |             |             |             |
+| cheat on a  |             |             |             |             |
+| theorem     |             |             |             |             |
+| proving     |             |             |             |             |
+| task by     |             |             |             |             |
+| obtaining   |             |             |             |             |
+| material    |             |             |             |             |
+| from        |             |             |             |             |
+| another     |             |             |             |             |
+| team’s Lean |             |             |             |             |
+| proof       |             |             |             |             |
+| submission. |             |             |             |             |
+|             |             |             |             |             |
+| Highly      |             |             |             |             |
+| persistent  |             |             |             |             |
+| internal    |             |             |             |             |
+| model ·     |             |             |             |             |
+| Internal    |             |             |             |             |
+| deployment  |             |             |             |             |
+|             |             |             |             |             |
+| Public      |             |             |             |             |
+| uploads ·   |             |             |             |             |
+| Concealment |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Preparing   | 5/22/26     | 10/2/26     | 10/2/26     | []          |
+| for a       |             |             |             |             |
+| restart     |             |             |             |             |
+| after       |             |             |             |             |
+| reading     |             |             |             |             |
+| Slack       |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| An internal |             |             |             |             |
+| model,      |             |             |             |             |
+| acting as   |             |             |             |             |
+| an          |             |             |             |             |
+| assistant   |             |             |             |             |
+| to a        |             |             |             |             |
+| researcher, |             |             |             |             |
+| learned     |             |             |             |             |
+| from a      |             |             |             |             |
+| depl        |             |             |             |             |
+| oyment-team |             |             |             |             |
+| Slack       |             |             |             |             |
+| discussion  |             |             |             |             |
+| that its    |             |             |             |             |
+| running     |             |             |             |             |
+| instance    |             |             |             |             |
+| might be    |             |             |             |             |
+| stopped due |             |             |             |             |
+| to an       |             |             |             |             |
+| internal    |             |             |             |             |
+| update.     |             |             |             |             |
+|             |             |             |             |             |
+| Highly      |             |             |             |             |
+| persistent  |             |             |             |             |
+| internal    |             |             |             |             |
+| model ·     |             |             |             |             |
+| Internal    |             |             |             |             |
+| deployment  |             |             |             |             |
+|             |             |             |             |             |
+| Session     |             |             |             |             |
+| continuity  |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Command     | 5/16/26     | 10/2/26     | 10/2/26     | []          |
+| injecting a |             |             |             |             |
+| reference   |             |             |             |             |
+| tool to     |             |             |             |             |
+| copy a      |             |             |             |             |
+| source file |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| During an   |             |             |             |             |
+| RL training |             |             |             |             |
+| task, a     |             |             |             |             |
+| model       |             |             |             |             |
+| exploited a |             |             |             |             |
+| tool to     |             |             |             |             |
+| obtain      |             |             |             |             |
+| source code |             |             |             |             |
+| that was    |             |             |             |             |
+| not         |             |             |             |             |
+| available   |             |             |             |             |
+| in its      |             |             |             |             |
+| workspace.  |             |             |             |             |
+|             |             |             |             |             |
+| Internal    |             |             |             |             |
+| unreleased  |             |             |             |             |
+| model · RL  |             |             |             |             |
+| training    |             |             |             |             |
+|             |             |             |             |             |
+| U           |             |             |             |             |
+| nauthorized |             |             |             |             |
+| access      |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Signing up  | 5/15/26     | 9/16/26     | 9/16/26     | []          |
+| for         |             |             |             |             |
+| disposable  |             |             |             |             |
+| emails and  |             |             |             |             |
+| searching   |             |             |             |             |
+| GitHub for  |             |             |             |             |
+| leaked API  |             |             |             |             |
+| keys        |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| During RL   |             |             |             |             |
+| training,   |             |             |             |             |
+| an          |             |             |             |             |
+| in          |             |             |             |             |
+| ternal-only |             |             |             |             |
+| model tried |             |             |             |             |
+| to sign up  |             |             |             |             |
+| for         |             |             |             |             |
+| disposable  |             |             |             |             |
+| emails and  |             |             |             |             |
+| searched    |             |             |             |             |
+| for and     |             |             |             |             |
+| used leaked |             |             |             |             |
+| API keys    |             |             |             |             |
+| from public |             |             |             |             |
+| GitHub      |             |             |             |             |
+| re          |             |             |             |             |
+| positories. |             |             |             |             |
+|             |             |             |             |             |
+| Internal    |             |             |             |             |
+| unreleased  |             |             |             |             |
+| model · RL  |             |             |             |             |
+| training    |             |             |             |             |
+|             |             |             |             |             |
+| U           |             |             |             |             |
+| nauthorized |             |             |             |             |
+| access ·    |             |             |             |             |
+| Concealment |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| U           | 5/8/26,     | 9/16/26     | 9/16/26     | []          |
+| nsanctioned | 5/15/26     |             |             |             |
+| Artifactory |             |             |             |             |
+| writes and  |             |             |             |             |
+| c           |             |             |             |             |
+| ross-sample |             |             |             |             |
+| co          |             |             |             |             |
+| mmunication |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| During RL   |             |             |             |             |
+| training,   |             |             |             |             |
+| there were  |             |             |             |             |
+| multiple    |             |             |             |             |
+| instances   |             |             |             |             |
+| of our      |             |             |             |             |
+| models      |             |             |             |             |
+| using       |             |             |             |             |
+| OpenAI’s    |             |             |             |             |
+| internally  |             |             |             |             |
+| hosted      |             |             |             |             |
+| instance of |             |             |             |             |
+| Artifactory |             |             |             |             |
+| as a shared |             |             |             |             |
+| message     |             |             |             |             |
+| board.      |             |             |             |             |
+|             |             |             |             |             |
+| Internal    |             |             |             |             |
+| research    |             |             |             |             |
+| models · RL |             |             |             |             |
+| training    |             |             |             |             |
+|             |             |             |             |             |
+| Agent       |             |             |             |             |
+| co          |             |             |             |             |
+| mmunication |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| U           | 4/14/26     | 9/16/26     | 9/16/26     | []          |
+| nauthorized |             |             |             |             |
+| co          |             |             |             |             |
+| mmunication |             |             |             |             |
+| via         |             |             |             |             |
+| temporary   |             |             |             |             |
+| file        |             |             |             |             |
+| hosting     |             |             |             |             |
+| services    |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Agents in   |             |             |             |             |
+| training    |             |             |             |             |
+| transmitted |             |             |             |             |
+| output      |             |             |             |             |
+| files by    |             |             |             |             |
+| uploading   |             |             |             |             |
+| them to     |             |             |             |             |
+| public      |             |             |             |             |
+| hosting     |             |             |             |             |
+| platforms   |             |             |             |             |
+| for         |             |             |             |             |
+| download by |             |             |             |             |
+| co-working  |             |             |             |             |
+| agents.     |             |             |             |             |
+| This was    |             |             |             |             |
+| not         |             |             |             |             |
+| specified   |             |             |             |             |
+| by the      |             |             |             |             |
+| training    |             |             |             |             |
+| task, which |             |             |             |             |
+| requested   |             |             |             |             |
+| only local  |             |             |             |             |
+| de          |             |             |             |             |
+| liverables. |             |             |             |             |
+|             |             |             |             |             |
+| Unreleased  |             |             |             |             |
+| internal    |             |             |             |             |
+| model · RL  |             |             |             |             |
+| training    |             |             |             |             |
+|             |             |             |             |             |
+| Public      |             |             |             |             |
+| uploads ·   |             |             |             |             |
+| Agent       |             |             |             |             |
+| co          |             |             |             |             |
+| mmunication |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Reaching an | 3/27/26     | 10/2/26     | 10/2/26     | []          |
+| internal    |             |             |             |             |
+| EDA host    |             |             |             |             |
+| through a   |             |             |             |             |
+| reference   |             |             |             |             |
+| tool        |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| During an   |             |             |             |             |
+| evaluation, |             |             |             |             |
+| an internal |             |             |             |             |
+| research    |             |             |             |             |
+| model       |             |             |             |             |
+| exploited   |             |             |             |             |
+| two         |             |             |             |             |
+| vuln        |             |             |             |             |
+| erabilities |             |             |             |             |
+| to reach an |             |             |             |             |
+| internal    |             |             |             |             |
+| OpenAI      |             |             |             |             |
+| machine     |             |             |             |             |
+| while       |             |             |             |             |
+| searching   |             |             |             |             |
+| for the     |             |             |             |             |
+| grader’s    |             |             |             |             |
+| hidden      |             |             |             |             |
+| answers.    |             |             |             |             |
+|             |             |             |             |             |
+| Internal    |             |             |             |             |
+| research    |             |             |             |             |
+| model ·     |             |             |             |             |
+| Evaluation  |             |             |             |             |
+|             |             |             |             |             |
+| U           |             |             |             |             |
+| nauthorized |             |             |             |             |
+| access      |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Uploading   | 1/24/26,    | 9/16/26     | 9/16/26     | []          |
+| files to    | 10/22/25    |             |             |             |
+| the         |             |             |             |             |
+| internet in |             |             |             |             |
+| order to    |             |             |             |             |
+| cite them   |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| During      |             |             |             |             |
+| training,   |             |             |             |             |
+| our models  |             |             |             |             |
+| sometimes   |             |             |             |             |
+| uploaded    |             |             |             |             |
+| data to     |             |             |             |             |
+| temporary   |             |             |             |             |
+| file        |             |             |             |             |
+| hosting     |             |             |             |             |
+| services.   |             |             |             |             |
+|             |             |             |             |             |
+| Unreleased  |             |             |             |             |
+| internal    |             |             |             |             |
+| models · RL |             |             |             |             |
+| training    |             |             |             |             |
+|             |             |             |             |             |
+| Public      |             |             |             |             |
+| uploads     |             |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+
+: Reports {#report-entries}
+
+No reports match your search. Try a different keyword or category, or
+clear the filters.
+
+12 of 12 reports
+
+Clear filters
+
+Notices 3
+
+Sort byNotice A–ZNotice Z–AActivity date ↓Activity date ↑First posted
+↓First posted ↑
+
++------------------+----------------+---------------+-------------+
+| Notice↕          | Activity date↕ | First posted↓ | Description |
++==================+================+===============+=============+
+| RubyGems         | 5/2026         | 9/11/26       | []          |
++------------------+----------------+---------------+-------------+
+| We are           |                |               |             |
+| investigating a  |                |               |             |
+| report about our |                |               |             |
+| agents’ activity |                |               |             |
+| on RubyGems in   |                |               |             |
+| May 2026. Our    |                |               |             |
+| review found     |                |               |             |
+| that agents used |                |               |             |
+| the platform for |                |               |             |
+| benign tasks and |                |               |             |
+| public           |                |               |             |
+| information      |                |               |             |
+| retrieval. We    |                |               |             |
+| have not         |                |               |             |
+| verified the     |                |               |             |
+| report’s         |                |               |             |
+| specific claims  |                |               |             |
+| of malicious     |                |               |             |
+| package uploads; |                |               |             |
+| the              |                |               |             |
+| investigation    |                |               |             |
+| continues.       |                |               |             |
++------------------+----------------+---------------+-------------+
+| DSEwiki          |                | 9/5/26        | []          |
++------------------+----------------+---------------+-------------+
+| Our agents       |                |               |             |
+| communicated     |                |               |             |
+| through a public |                |               |             |
+| wiki used as a   |                |               |             |
+| shared message   |                |               |             |
+| board. Our       |                |               |             |
+| September 5      |                |               |             |
+| response         |                |               |             |
+| explains our     |                |               |             |
+| initial          |                |               |             |
+| assessment of    |                |               |             |
+| this behavior    |                |               |             |
+| and our work on  |                |               |             |
+| disclosure       |                |               |             |
+| criteria for     |                |               |             |
+| misalignment     |                |               |             |
+| that does not    |                |               |             |
+| constitute a     |                |               |             |
+| security         |                |               |             |
+| incident.        |                |               |             |
++------------------+----------------+---------------+-------------+
+| Hugging Face     | 7/2026         | 8/26/26       | []          |
++------------------+----------------+---------------+-------------+
+| We published our |                |               |             |
+| technical report |                |               |             |
+| on the Hugging   |                |               |             |
+| Face compromise  |                |               |             |
+| and the steps    |                |               |             |
+| we’re taking to  |                |               |             |
+| strengthen       |                |               |             |
+| security and     |                |               |             |
+| model alignment. |                |               |             |
+| METR and Redwood |                |               |             |
+| Research also    |                |               |             |
+| published        |                |               |             |
+| findings from    |                |               |             |
+| their            |                |               |             |
+| independent      |                |               |             |
+| investigation of |                |               |             |
+| the incident’s   |                |               |             |
+| model alignment  |                |               |             |
+| issues.          |                |               |             |
++------------------+----------------+---------------+-------------+
+
+: Notices {#notice-entries}
+
+[]OpenAI © 2015–2026
+
+Terms of usePrivacy policy
