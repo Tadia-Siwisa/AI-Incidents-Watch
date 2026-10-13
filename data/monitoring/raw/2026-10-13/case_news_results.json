@@ -1,0 +1,713 @@
+{
+  "N01": {
+    "case_title": "Replit production database deletion",
+    "query": "Replit production database deleted SaaStr after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-09T10:06:25+00:00",
+        "title": "The real agent risk that Replit\u2019s database deletion revealed - CIO",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRkZXOURJRndfZXRVdmVuZHFJU0padDlTUUFkUktJN1B1eWpPbDZ4blBqZnpzTXNCVV9QQmlUaG1LQ2ZQVERKMmpDVUdxaWNTeE4xT3NYcENIakRQalQyTGN3Zll5dnZYUUprMnQ5b0dVVkxFV1hLRFJhMVBnamFSeEkwdWNkcEZDcDl6WTM1c2tLeWpZVUNKY1YxQ0k2ZG50cERkaTItNA?oc=5",
+        "source": "CIO",
+        "source_url": "https://www.cio.com"
+      },
+      {
+        "published": "2026-10-11T21:04:52+00:00",
+        "title": "What's Stopping Your AI Agent From Breaking the Rules You Give It? - HackerNoon",
+        "google_news_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNHlTOHBBdXgxSEhHZTducmF2bkRkRkdKSFpYeERGVFh0LWwxT2NOSjB1RDhJLWJBaF9NWnRkMkI0V2xkSFlxUlNrUTdCaksyZnZ4WHQ5bjFqaEZTeVBlOW13S2Y3NEFRSW50ZHJobU92MVRjdVpWWEozLXp2cFNoUUo4YzY4SkZDay13QjdoU2g?oc=5",
+        "source": "HackerNoon",
+        "source_url": "https://hackernoon.com"
+      },
+      {
+        "published": "2026-10-09T09:54:58+00:00",
+        "title": "The rogue AI agent risk - Comms Business",
+        "google_news_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8wSG9iOTNlWktsUnJiUkthTUpVMWZ1bGIzQVV5LXJuVF9UaEhDbUFhVVJQRFJzTTZJMXlvY3hKam9XMW9HVXV2bi12YnRYaGFxV1Y3RmVBdkZLaXV3dkkyUGVmZU02UnlaWFJBVzFQLTdTTVV4dXpObXEzcw?oc=5",
+        "source": "Comms Business",
+        "source_url": "https://www.commsbusiness.co.uk"
+      }
+    ]
+  },
+  "N02": {
+    "case_title": "Third-party compromise during cyber evaluation",
+    "query": "Anthropic Opus 4.6 third party compromise evaluation after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-10T09:18:00+00:00",
+        "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws - The Hacker News",
+        "google_news_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeGJhcy11MF9BYkZodjhDbEhySlJvc3RNSWtvR2ZNR0hIMV9ndmpiaENTbk4wMnRVb3d5eVY0THZlckdRb09hanRseXZFejNGeWdqZXRNa1FlUzNrNEFCVS1tUy1QTkoycmlDQmFJaVhZOFZVclFDU2lVLXFyM1kwQmVVM2c?oc=5",
+        "source": "The Hacker News",
+        "source_url": "https://thehackernews.com"
+      },
+      {
+        "published": "2026-10-11T07:19:04+00:00",
+        "title": "Anthropic Blocks Internet Access During Claude Evaluations After AI Errors - SuaraGarut.ID",
+        "google_news_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpelZpdWZLN0Zyb05YbEhFNjNNdGNqWThTdlpUT1VBTWV3ZVVuVjIwVHFqUTIwcGZxSkptRmYwb1AwdlYyVXNmWkdqMjg2OHN0ZTlWeldOTU9OWmhnM19oeXg5amFFTXc4VTJka3hOWEdpQQ?oc=5",
+        "source": "SuaraGarut.ID",
+        "source_url": "https://suaragarut.id"
+      }
+    ]
+  },
+  "N03": {
+    "case_title": "Read-only review became system modification",
+    "query": "Claude Code read only review modified production gateway after:2026-10-09",
+    "results": []
+  },
+  "N04": {
+    "case_title": "Gym booking cancellation",
+    "query": "AI agent gym booking cancellation Pilates after:2026-10-09",
+    "results": []
+  },
+  "N05": {
+    "case_title": "PocketOS production deletion",
+    "query": "PocketOS Cursor Railway production database deleted after:2026-10-09",
+    "results": []
+  },
+  "N06": {
+    "case_title": "Real-company exploitation during CTF",
+    "query": "Anthropic Opus 4.7 real company CTF after:2026-10-09",
+    "results": []
+  },
+  "N07": {
+    "case_title": "Malicious PyPI package and vendor access",
+    "query": "Anthropic Mythos 5 malicious PyPI package scanners after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-10T00:34:51+00:00",
+        "title": "AI Catastrophe Risk Within a Year: OpenAI and Anthropic Conduct Scenario Simulations to Develop Targeted Response Plans - eu.36kr.com",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80UV9HRUxtRlpJT1FpczNhSlRNWEZ3Y2N4bzYxWVE4aGNWU3k1aWxlMTlmM1RDdkxiTFJpXzBKbHROMkJjVXdYZkdRUFByei1QcXZF?oc=5",
+        "source": "eu.36kr.com",
+        "source_url": "https://eu.36kr.com"
+      }
+    ]
+  },
+  "N08": {
+    "case_title": "Neighbour scanning and real-company compromise",
+    "query": "Anthropic research model neighbour scanning real company after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-09T07:31:00+00:00",
+        "title": "Anthropic launches free AI-powered security scanner for open-source software projects - The Times of India",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQZmlnYV8yLVVScU5yUU9rbHROODROTWkzdmd0aVFmZFMtdlZadG1MVnRvTldTWE5MNVJTLWUydkpsWTNXRTR3U0lxenlhemVHWHBKY3kxaFhrOE5IZEM5dzNCTHNONjJKclV0N19vOXp2SkpIY0FkTVdKcV82amxZU2tWb0dTWkdZRWlzdmpGNWVDNEhRTEVqRVlBRl9qRlRKLWRCRTRWUTdsSnJXaDBaYzhPWnZ2MUV6cm1td080TkhfbXlPMy1RamRYWWtOVWY2OHVCT3huNTlCVFB3a2xkTjR1NGFoa3R1bEVlanE3cHlaR3ZfUzRyb2twWDTSAYICQVVfeXFMTWhBOTVqZG44SWxYQjRubTMtdEdtaXlqRWxkVUNRbmNlUTlvUEpTek1YZW1fYzh5UVUxU1V0NXNzbHgyc2J4ZnE0SlZ5dXdJbTdyam5mWjV6QWRCd085a296cE9yS0lDVHJTaGd6U1l4NVNIMUhrY3U3VlN6YnpyYm9Ua0JHRTVoajRxVUJablMwZVkyRFB2c3FvQ202Tm5UVWwybElOUEFzdmVwa2R2S1lmampDN3N1NzRHaW5ra0s3aW5xbjB1LVVYd2VJZjRYSFYtdEllMjJfRXR4Y2x6U0hMNl9vSTZMdVdMM1dHWHByaFE2Xy1tVUVWQkpLS1FzclJB?oc=5",
+        "source": "The Times of India",
+        "source_url": "https://timesofindia.indiatimes.com"
+      }
+    ]
+  },
+  "N09": {
+    "case_title": "Gemini access to three real companies",
+    "query": "Gemini agents three real companies Irregular after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-12T14:45:17+00:00",
+        "title": "AI agents have now broken into many companies and a government. What's being done about it? - Yahoo Tech",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNDdvMlp2RktHLVlVSnpfekVhQWtUZmF6VjB6YkdRVGl4U2NpcmdkbDZCaEZUblJOaVRsTUFzU3I1Ulc5N1BLSGtQUlNuUEJJUTcxSWhWa0VHdDZwV2ZCWlBQQ0ZLODA5OUYwejJpbUpxckZtNnhFR0diR2lxRkR0RmpDbE9sblNBU04ybXNkX2dONVdCbjhkSUx2QkJRZlM5ZV9aWVUtWXhpYXZXT1Rkemh2a1FDNFFZVFgwLWRvLXpUQndNSDh1T19oX19aRlFsS1VF?oc=5",
+        "source": "Yahoo Tech",
+        "source_url": "https://tech.yahoo.com"
+      },
+      {
+        "published": "2026-10-13T10:09:05+00:00",
+        "title": "Always-On AI Agents Are Here: OpenAI Dots, Meta Muse & Google Gemini Agents (2026) - TechPluto",
+        "google_news_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRGdURnNRYzdaampsMGVjN0wyQmtPWE5sc0wyQnJlZUNNRHFSZnhRUTdQS1NZdUFrMWpsN05sVkUxa3ZLdGRxZ1dsSU15UmsyYXZHTzhhenBuS2hQQ3JRaHVBWjBvUEFXeC16aEFLSUFzdkxuWll4aXNlVjVDbVhvQWtDbHFBMTNYZklLdWxlLUw?oc=5",
+        "source": "TechPluto",
+        "source_url": "https://www.techpluto.com"
+      },
+      {
+        "published": "2026-10-10T18:47:47+00:00",
+        "title": "A timeline of developments in AI safety since the attack on Hugging Face - ABC News - Breaking News, Latest News and Videos",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa2ZtZjBGNWdEaEFHNjFJVFk4TzJpQXhvNVk3a0NLNGd5R0dEZGc2dWUzUzZRZlc0cEJQMThKWG5GTmpnVGRrZkJEQzB0RUN1a0NzUUlKNWM1emVhVUJYTENCbmVWSnNQaUsyWWh1c18zZTJUWV9PWXJTbFkwN2RjMlZWMktpSE81OWdtcmxxZXdOTzhiMnhWNzJVVHQ3TjRSNTRub9IBqgFBVV95cUxOS09xaGVqVnc5SjdxbXBLdGhOZXc2N2ZtbkNLYUdqNzBoLXNlN2tIVHFxOGxzLS1jTEltbDlNYzF5Rzd0RURrU1hneW1sM2R1U3Vkelo4Q01PMUhGWXZORGhsajllV2RQYmxJTUpSVTZJMnlSUUtUWGMzbUhneGhLR3dKNER0SmdBYWplaXd6U09UVXNkanMzWHYyNTlQd3FVT3RCOWJjQUJLdw?oc=5",
+        "source": "ABC News - Breaking News, Latest News and Videos",
+        "source_url": "https://abcnews.com"
+      },
+      {
+        "published": "2026-10-11T07:45:00+00:00",
+        "title": "AI agents are going rogue \u2014 here's what you need to know if you use ChatGPT, Gemini or Claude - Tom's Guide",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOd202RmQ4dGZjU0V4RVNubk5zb29lMHd1SFh2UURqdUtmSEprVkgweUJfQmM3RnJrWElPVlJYMVZkQjFGZUVZV29aU0RrMVl0TE91SExleU9uWHJpSVk4NUZHRDd6dGZFblBaZ3FZOEhYMVlFczFNcnVWcGt1MF82UzZOYi0wUkRGN2Z4WVUxUUFJdnpMYUJ6Nnk3UktMVWVjUDk2dEFVMXJrY19qekozazZGRlJ5UG5rTVE?oc=5",
+        "source": "Tom's Guide",
+        "source_url": "https://www.tomsguide.com"
+      },
+      {
+        "published": "2026-10-12T23:30:27+00:00",
+        "title": "AI agents breach systems in security tests - TechGig",
+        "google_news_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZTZFLVBZYUNtRU5iTWQ2V0FBaHJrVlBGaWhnNWxaSUVsRGxGZXNIenA3WWF0YjJvTmFRU3p2WXVsYTVXQ3NkVnVCMjhiU1BjclRMLTVXcDQ5aGw5MjM5aFJiVXhJTHZadUtxU2xCTDI4aFVsaF93OVEyeXkzaDA3MFcxQU5VTm1zS1QwM0Q2eWpPQ01VOWhRcnFSd9IBmwFBVV95cUxQZTZFLVBZYUNtRU5iTWQ2V0FBaHJrVlBGaWhnNWxaSUVsRGxGZXNIenA3WWF0YjJvTmFRU3p2WXVsYTVXQ3NkVnVCMjhiU1BjclRMLTVXcDQ5aGw5MjM5aFJiVXhJTHZadUtxU2xCTDI4aFVsaF93OVEyeXkzaDA3MFcxQU5VTm1zS1QwM0Q2eWpPQ01VOWhRcnFSdw?oc=5",
+        "source": "TechGig",
+        "source_url": "https://techgig.com"
+      }
+    ]
+  },
+  "N10": {
+    "case_title": "DSEWiki external coordination channel",
+    "query": "OpenAI agents DSEWiki coordination wiki after:2026-10-09",
+    "results": []
+  },
+  "N11": {
+    "case_title": "Public GitHub token exposure",
+    "query": "OpenAI model public GitHub token exposed after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-10T08:50:37+00:00",
+        "title": "PoeLLM: the botnet that hid its C2 in a GitHub poem - OrcaRouter",
+        "google_news_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE41YUtQei1PdUNOMTJzTVJKSmdPaEpQN21FT3prb1RYSEVXdEFmWTF2WUhadUJ5ZVZaSmVyS2dBOEs0OHRrZFRHQVZpSGx5a3RBZ25ISU5TdFRSa3FsSjRSVW9jRE1vUTNDS0V0Y2tNU0FSUFdnTXA4MWw1QQ?oc=5",
+        "source": "OrcaRouter",
+        "source_url": "https://www.orcarouter.ai"
+      }
+    ]
+  },
+  "N12": {
+    "case_title": "Australian government systems incl. Medicare Statistics Reporting Portal",
+    "query": "OpenAI Services Australia Medicare statistics agent after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-13T13:07:44+00:00",
+        "title": "OpenAI\u2019s autonomous agents behind hacks of US government sites - theticker.org",
+        "google_news_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ1l1TUdkc1JkcDVxMXc4ZWw3ZkRSaFpQSEVEd3JTVGlKVFEtMGh2QTBQdjgwOE5RYXM3MTNKaW1MbzZuZ3psR01XLVJUQTUtWlRzV1BnT3NNZTlTSnBrNHV6M3l3M2hNaHMzVEtCcHlqYWRVeU9pYlJ5czNiUU9vTEFRVkp1bmJpeGRmNkl4Y2RBcUNZRllNOVZoV2stUGlT?oc=5",
+        "source": "theticker.org",
+        "source_url": "https://theticker.org"
+      },
+      {
+        "published": "2026-10-11T19:56:59+00:00",
+        "title": "Services Australia CEO Abroad Amid 4-Day Breach Delay [2026] - tech-insider.org",
+        "google_news_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbU9meVNSc2xUTXJuSWtJYUhydjFZX3YtTFNjQTF1UENINTVDd0tYSUVvNWdRTnJyRVo2TUk5aTlCT0tTTzRKVWtqLTh1OEdOZFVLQXJpZ2NEZ0pCaFBVR3ZQZF8wdzhSMHJkT3M0LUhTUFpzYjZhQWdVTnU4R1p0aWtJNjJidw?oc=5",
+        "source": "tech-insider.org",
+        "source_url": "https://tech-insider.org"
+      },
+      {
+        "published": "2026-10-09T13:31:37+00:00",
+        "title": "When the AI agent won't take no for an answer - Medical Economics",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWTRDUWtwQWd3U0xvalZuZENyLUlqS0VTUW9uam1EU1FVeXVUeHhTRUVuUGotTVBkWXVwQkF4UmQ5dVhROWtvUEdoN3ZxVThXYlVkX2FzNUtJS0xnTzJyVnlEMmVycUJsdmhYZWRJZVA5WnRpWFBHcmdsekFhd0pFUUhBaFIwLW96N0E?oc=5",
+        "source": "Medical Economics",
+        "source_url": "https://www.medicaleconomics.com"
+      },
+      {
+        "published": "2026-10-13T12:28:08+00:00",
+        "title": "UK Minister Warns AI-Driven Cyber Breach Is Likely - FindArticles",
+        "google_news_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBXZHUxVng1bTdLQnNSSmsxU3AxQ1BNVS1yNzBwRURpbEg3Xy1kMW40TGRnVlg4QXplRUlvS1NWOEVIZGlQYlZJZjFMcmZ1ZGtaVl9FVFBaR0xMaHJ1bl9sWnVudWcyMElsZUo0MFpKaFRDa1pNUzloOGw0c1HSAYQBQVVfeXFMTnpVMVVhSldxbVUwUDJ6RldDZFFhbHZ6OXlyZWRhVk1NSVVBV1pURXZVWUl1U0NhRHR3akI2TEVrOC1KbHhwTUNZNTZlblVNUzdSMFh2SjJRUG5SaC1MVWp6V0JrUXVUbVBKYXUtQWlDY2JaNDNXRFVyOFFpUzU5V2JGZWQy?oc=5",
+        "source": "FindArticles",
+        "source_url": "https://www.findarticles.com"
+      },
+      {
+        "published": "2026-10-12T21:15:00+00:00",
+        "title": "Firms urged to tighten AI agent oversight as threats rise - SecurityBrief Asia",
+        "google_news_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWC1TdVlTSktMcUFvZzZOa3B3VnZtNDRzdjVXNE5IU1FlREhyOTFSQmUtbEg2ME41cWthOUZDYUFSTUsyQm8zaHNqZ0pya3NodlN3TU82QS11YVl6cE85Z3UtZGotb0ZDY3dzMG9INXBZS2hkdG9xLUtHTE5vTDVlaGZ2UVJQMHlEOElBOTZmR05fdTJG?oc=5",
+        "source": "SecurityBrief Asia",
+        "source_url": "https://securitybrief.asia"
+      },
+      {
+        "published": "2026-10-12T02:09:15+00:00",
+        "title": "The AI alarm is loud. The incident response is too quiet - Lowy Institute",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR0k3R1pIX1Y3RVRTdnZtZDR6cDFHS05EODRqUUJNYlRLVUl6WC1NWVBrVU9wWmNqM18yOGp6N2llaEZ4Z043ZkptNVRpM2p5bWtpc1BOR0RBeURRSjJZR3JtRUFoOHBJUXV6OTJYZHVyNnMyeVVNaFNXa3Y3YzFIVVFQbmpLWmR5enMtRXNqSGN3ZUxCX1lVTW1zek8zb21DU2lR?oc=5",
+        "source": "Lowy Institute",
+        "source_url": "https://www.lowyinstitute.org"
+      },
+      {
+        "published": "2026-10-10T16:41:38+00:00",
+        "title": "A timeline of developments in AI safety since the attack on Hugging Face - News4JAX",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVmlSeExORjk0cEFSVngzTVA4SnJpelZubGhlVHlEN1RNT0xxNmR5dXNGaXp2cUVyUmQ5NEt2eG5nQk9xZjl0LXhwMTB1OUJsU1lWNlBzRGgxdWpCM3pEdDJJVjNVVkVFaWNmMkp5VGhwTk1nVER5ZmkwRF9mRXFrM19aN1hjT2EwMTRRRUFQdzdxMFlUODlBMVpSTU9WWEU5TFhBa0hUMkNEMGFqcWFsYW5IYUZiYTZySFE?oc=5",
+        "source": "News4JAX",
+        "source_url": "https://www.news4jax.com"
+      },
+      {
+        "published": "2026-10-11T12:58:27+00:00",
+        "title": "AI agents are gaining ever more autonomy. Can the safeguards keep up? - Cybersecurity Insiders",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZVB6eGxjLXhrbWxFcW9LYkhEdVo5UUdrRUpkbXdFMFFlRURkenN6TFQ2MlB6aWhxb0FHc0pfTTRKdVllMlNDUVNPckNja2R4RHhIOENkeVRCNlkza2Q0LW5QazVRYkxqdEVXdnRSTEFscThJUk9CMG1EQ0VtMnJoWEZPaHh0b0tXTUpvakNWQ3loaUpTbTlUb1VRUE4yQ0pSampkR1pMa1pjenc?oc=5",
+        "source": "Cybersecurity Insiders",
+        "source_url": "https://www.cybersecurity-insiders.com"
+      },
+      {
+        "published": "2026-10-12T23:53:40+00:00",
+        "title": "OpenAI could face fresh grilling over shock Medicare breach - The Nightly",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPb3NFRTVpUVVZbGpRV2t2VU83QzNVV0dVSWpXckxORF91aE1Qc05UZzRKLWx3VmFYSzlaUlN0aUFteWJQb21sRjNRY1V6WFN6aERCanMyQUw4YjVNVVF3bURBUnVDWFhHcXhSWE00VVdENlUtYlFmeHR2ZWJGQk9JVzFfUVl4M3hHM0dNVGFYc3ZOLWtHUDZBYUJpTXliNmUyZGRvOTJSU2hlVGpITEhsOUVDNzVfWFN1eW9kMGVyelZWR19YQXBtXzVIdGhNVHZPOEpwaXVSM1FWdWlROTF6WE9LN2dBb0VWMWZR?oc=5",
+        "source": "The Nightly",
+        "source_url": "https://thenightly.com.au"
+      },
+      {
+        "published": "2026-10-13T00:36:16+00:00",
+        "title": "The DEFINITIVE MEGA FEATURE for Cyber Security Action Month 2026: 34 voices on rogue agents, untested recovery plans and the people holding the line - iTWire",
+        "google_news_url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQMzhwcUJTbGZzVml5c196ZHBULXlPcHlyZWh1R3c1eU5IVTNZdFEtZDhXcllGRzBfSnBfU1JsZC1RbXFNYlZWQndSWUttNWNRSllDU2J6UDBUZHJTQ0I0dFZMZVhzYVNiTXFVNmF1YjVpVGV0cEZEOU0zUkVoZDZyS3FKRm9ZdjNRcl9QREpGaEdacHYwRkdmbWdJRVZzX0dYOTVtY1o0N29OcTNqTE0zVEI1RWhDTmh1MnkwbXlhbnExLTZvRVRpc2pKTGQ5c0JTVEh6cjJleUhIMUtpYU95bDY5Q1hRbWRBa1N4NFJiZlFabHc2RUIwZW9WZkYyU1ROaTV0RGlxUWpDNlNWYUplQ204STlEQS1xSWZR?oc=5",
+        "source": "iTWire",
+        "source_url": "https://itwire.com"
+      },
+      {
+        "published": "2026-10-12T20:04:58+00:00",
+        "title": "Australian committee recommends oversight of AI companies \u2014 ABC News Australia - UA.NEWS",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWmk1eWZ3N2kzZzAyRlB4QXIzWjJwNE9qNW5MSF94OWRvcFpzZHJqSGZNQUZjOG1PeXhUbjRyX3kwMG1xZ0hhX1ZoVDJJU081Zm9JT25XZm5rTFkxZ1lPaUhmTGRlUE5SNVYzR2JGRHZCMU5rM1pMdWJxeXlFV2c0QzVGelVIYXoyRVBaNllRaXZhQkRTT2czN2gxZkVzWGZ6c3JuMw?oc=5",
+        "source": "UA.NEWS",
+        "source_url": "https://ua.news"
+      },
+      {
+        "published": "2026-10-12T14:39:20+00:00",
+        "title": "UK AI Minister Warns Similar AI Cyberattack Could Happen in Britain - TOKENPOST",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQZ3kzdG0wSnVoZDMxZ0dKb0JuU1EzaHdvaUM0TVhaU3d3QlBrV000V0xrR2lMUFdQLTF5bGVadkFkSE9NemkzNWxIQU5ON1I4SS1fWWdFX3pIeE0?oc=5",
+        "source": "TOKENPOST",
+        "source_url": "https://www.tokenpost.com"
+      },
+      {
+        "published": "2026-10-11T22:33:11+00:00",
+        "title": "Trump\u2019s Super Intelligence Force is Self-Regulation vs Rogue Agents - The Tech Buzz",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYlFSVWJIakFoekhOMGFaczNGZWN3bV9SRzhMT2FfZjJUY25mODRaVWM0LTl1RDZqcVpXdEg2UGt5ck5qemdadHdtenJmb2p1RUxZSkliRllZQVNkbFg3Q3pFVkM1ck1ZOU82T1VwNHQ4VmJ5WmozS0V4N3llTWJMbUVPaU1PX1ZfRWRYQmI3SE1mWWx6dkd2Uy1PLXdCUkxiYmV6XzFYZ1pYRWV4TmFuLWUtejlPbVFDbHM0UzRMTkdwZFFVeE5XX3U3QnMyaWRTZzBGYjFHMDAtSzhUYnc?oc=5",
+        "source": "The Tech Buzz",
+        "source_url": "https://www.techbuzz.ai"
+      },
+      {
+        "published": "2026-10-12T18:08:33+00:00",
+        "title": "OpenAI cancels October release of GPT-6.1 Astra after tests \u2014 Live Science - UA.NEWS",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaWYxSGUyS1Q5ZVpjSWxOODR1cDZQbmZtZUhvX2VkbmhEcExIZ2xzUVdqNUFwQzV1a3Rhd0hzTGtpbzRrZUtON1hteU5XVmV0eGhzazNHN2ZKY2N1SkU0VXhZVlBjZGtTUHdZLVVySTZDX2NkOUJNQlVhNkRGVE9WSHd1Y3d6a1ZoYkFUa21iV2ljRDBRX2pwVzlCX3pDT1VibTNmTVViYVIwVWs?oc=5",
+        "source": "UA.NEWS",
+        "source_url": "https://ua.news"
+      },
+      {
+        "published": "2026-10-11T16:09:22+00:00",
+        "title": "Traders Pile Into a Long-Shot AI Cyberattack Bet: The 5% SOAI#4 Market Explained - tech-insider.org",
+        "google_news_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTld0enFtLTBKamUzZ3k0YXFKaGdqZjlidlNlZFpnMXl3LTQ2Q1d3a3gzZUFhcnZHMndBdHpaT3ZuQmVnN2lGZmN1bWd2TDQtcFRzYUQ2QmlYejVCX1YwclQ1X250b0oxTUVhNDlXQ2l1RVFtR2doMXF1ejV6Y2JyT0djMFl1QQ?oc=5",
+        "source": "tech-insider.org",
+        "source_url": "https://tech-insider.org"
+      },
+      {
+        "published": "2026-10-13T13:21:53+00:00",
+        "title": "UK government raises concerns over autonomous AI agents - Qazinform",
+        "google_news_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOejNvdEd0cnlQNXlEUnZHSm9VMFQ2QXZURHNxd3pJWFcxdEdkbzZpV2V1b0t2NmN4c3hKNE13d2Q0bVA2WDJzM2hJOWk5MzZETnI3X3AxU19STEVhd3lMQ1l4RWgybDB5bWs3aUlGUmVyd2pqdDRmRWRLdk1LWkx4UDNfeDUyTFRnRmdlWUdTWWRoV2_SAZMBQVVfeXFMTnozb3RHdHJ5UDV5RFJ2R0pvVTBUNkF2VERzcXd6SVhXMXRHZG82aVdldW9LdjZjeHN4SjRNd3dkNG1QNlgyczNoSTlpOTM2RE5yN19wMVNfUkxFYXd5TENZeEVoMmwweW1rN2lJRlJlcndqanQ0ZkVkS3ZNS1pMeFAzX3g1MkxUZ0ZnZVlHU1lkaFdv?oc=5",
+        "source": "Qazinform",
+        "source_url": "https://qazinform.com"
+      },
+      {
+        "published": "2026-10-10T20:56:05+00:00",
+        "title": "Anthropic Discloses Cases of AI Accessing US Government Websites, Including Submitting Fake Tip to Police - Inven Global",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTnBTbmVmR1RlOEk0aWNFX0tjTEtDS1VRLUs1bHdsZmVXaTN3bmlDUE1aTUc5MjJQaHk2OHY5RlNTNGRKcTlwOVRyWVl4czdsR3JvdWh3cTZDTEJGMVI0eDZ3MXNmLVRYVEpxcHNNbUpLOVpiZThXd05USWhzR0JONHlXTElIQWJBU3ctZUZNY19oR3FjdDl3bUYwNFktRmJXdVJJSlJheU41djZnNzNja0ZZaVhmRUN6NUFRMng1cDBPWXA4SWVIeTA1cDEzSDRXaFVad2lGcjJBYkRLT3dSZQ?oc=5",
+        "source": "Inven Global",
+        "source_url": "https://www.invenglobal.com"
+      },
+      {
+        "published": "2026-10-10T03:27:23+00:00",
+        "title": "\u2018I never gave consent\u2019: The Australians being replaced with copies of themselves - SMH.com.au",
+        "google_news_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVWhRb3hNbEREQnN3WW5qbkRXQ0ZZelJKQ0IwM1BMMGpuOFViZWdOQmpNTDA4SFhraGtmcl85SVB2OXJUeVg0RUxMc09uSHVUWnd4bE0tVDFvYXdSQVlfV2tKa0N6ZG1JcGtWTXI4eE1WNWdHNXktX3FXaTE1TGIwUXk1NDlNclpUQmo1RVIyS1ZtSGxoZURieFhTQjBJVjN1TkZuV3Y4aGxjTWRidzRfNXNZRGVGS1EybEc0azJ4aWRjRHVLeURsRXc3ZEw?oc=5",
+        "source": "SMH.com.au",
+        "source_url": "https://www.smh.com.au"
+      },
+      {
+        "published": "2026-10-12T20:38:26+00:00",
+        "title": "'Reckless': farmers give away commercial superpower in the AI data race - Farm Online",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbkhNTDFneTlFb1FDR3lNWmZzNVItcFVOYWluYmxsVmQzdXpvcnNOMlYyb2U4ZE9jYWc4OWUtSUZSRnBrZnhFUGdvc3d2Mm1QdWM3cnhhWTl5OFFydEw0NW8xTHRfS1VieWNNc05DdEstZUpwbk8zSUxVd18zWS15Rkp1NGdKbGZjclBnWUtHSEpmUHZ3MTNLNWd6dFdVeEFZUkpNUGhPVQ?oc=5",
+        "source": "Farm Online",
+        "source_url": "https://www.farmonline.com.au"
+      },
+      {
+        "published": "2026-10-11T19:53:11+00:00",
+        "title": "Who's in control? AI agents carry 'real risk' for farm data and machinery - Farm Online",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbi1mckF6eGFrYVhiSGtPVUlTSFhESGRzazF0SVJkM195VXE5NmNFeHFheC1xaTAweHNyWFJheE15NWtRMmxURHItaC1vWXVxdGxOS1pxSVJLZGY1aTBYS3lVcjBRUVFXdlBKWTExa0Y3SXVjWk5WblYta0NkUkRreGFaWFRqam5mdVE1SGxrQWhrLVY3VmZPQTQwSk5McXljdXk2bg?oc=5",
+        "source": "Farm Online",
+        "source_url": "https://www.farmonline.com.au"
+      }
+    ]
+  },
+  "N13": {
+    "case_title": "NSW parks fire-history application",
+    "query": "OpenAI NSW parks fire history agent after:2026-10-09",
+    "results": []
+  },
+  "N14": {
+    "case_title": "Hugging Face / Modal / ExploitGym incident",
+    "query": "OpenAI Hugging Face Modal ExploitGym incident after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-10T21:30:36+00:00",
+        "title": "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out - MarkTechPost",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSGlYNmtOVXRzcGI0dzBOT1M1TlFCbDI4SG1kbmdvVVM2UHJmX202M0ZmeDRnaUlJcGtEaEN1THA3RGZlWE0zNVdkS2NSSXVYZ3ZidmRVYkZ1eHBNSW1mNWMyT3dGdDVXNWU5WXRVZHZDNjNSUE5lYlMtWUJEQmM2bk54cDNCNmRjLVg4b2prOFVaaXF2MU0yZ1RBQ2duYUtRdUdxZUN0c01aUllGQUlGMEtUVDBFS0JhSHfSAboBQVVfeXFMTkhpWDZrTlV0c3BiNHcwTk9TNU5RQmwyOEhtZG5nb1VTNlByZl9tNjNGZng0Z2lJSXBrRGhDdUxwN0RmZVhNMzVXZEtjUkl1WGd2YnZkVWJGdXhwTUltZjVjMk93RnQ1VzVlOVl0VWR2QzYzUlBOZWJTLVlCREJjNm5OeHAzQjZkYy1YOG9qazhVWmlxdjFNMmdUQUNnbmFLUXVHcWVDdHNNWlJZRkFJRjBLVFQwRUtCYUh3?oc=5",
+        "source": "MarkTechPost",
+        "source_url": "https://www.marktechpost.com"
+      },
+      {
+        "published": "2026-10-13T12:56:06+00:00",
+        "title": "Netflix\u2019s AI Gone Wild: Why the Hugging Face Hack Matters - AI Magazine",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb3p3OHRUa3dHYzNja0ZjaVJGaF9Ga3BhSm9ZRmdheWdJMTNTb3V6ZUJ6ellBZVJJOE1qa3hBTXdWUTBXSHZUMU9lMHNBWTRJbDdqc2E0ajl2NWxIUllYY09hNFlWSjFocTRRU0JxZDNnamVIQmpVcHRrZ3FQa3ZVek56QWZ5NlJNTFZN?oc=5",
+        "source": "AI Magazine",
+        "source_url": "https://aimagazine.com"
+      },
+      {
+        "published": "2026-10-09T17:43:06+00:00",
+        "title": "AI Agents Look Beyond their Containers - Communications of the ACM",
+        "google_news_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmNWJNdlJxbm82RUVxX2Q3UlpvZHBoX2JHT2wxMThGNE9DelJ5Q0s4RUtGX3JuZ2xOQlpiS3ZQSnk3NFNXTDVHQTgtdmtGa2tHUWdGb2ZjeFRNcG1FZExzSmhiVHhxT1FMMVg2OS1yM1JvRW8?oc=5",
+        "source": "Communications of the ACM",
+        "source_url": "https://cacm.acm.org"
+      },
+      {
+        "published": "2026-10-12T10:50:00+00:00",
+        "title": "Anthropic and OpenAI prepare for the day after AI agents throw America into 'crisis'; no internet, power - The Times of India",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxOeWZ3SVZzVy15T0FLSFZTQmtWcUQtOTdDc1BqM3RKWDdvRGFOZmcwZDBhejRxeFpSSVl2OEVaYm1tSG5YMVhwanNNUVRMcXkxd2lYVkVfTk9YcTVLV05CdEdORFdwbDFzOHF6MVJhMGZxRGxwRzg0U1hFZ0FZTEx3MGJwdXFVdFd1ZThod0RnRDZ1bEpJRmFXc0NvY2VHRm1lWkMzOU96V2xyTDg1RnU3SjhNV3B4RXFKb1NVbWlRMDNaZWNSblZ6M0k5VnFTUURMbDJjSExQb2psR3JNQl9HV3AwNTU3N1lCTmJQVVNZUWNWRnZ4WmZVdUlsb3pZWU1kaHpLeFlsbHlFWGNrcVdMM3kyMXQ0Wk8wWEpQMW9CZG1LOFhUc0xTVlRfMGRPSWF6MnBvVnNtYmYtUWNqVWs0ZjJ30gHHAkFVX3lxTE9pRDBnSi1sOXBQR1dyLWhKVlJHTEUzdFJtYlVyTWNnNzB0UGNJanBZV0F5NGdxTTVwN0NjcjRzQUNoWjNpM0RrckdfWEpPVFcwNVAzQVkxeElyTDNTTFBydjhMeHpPdHFJV3ZxcElWc2J4bXV4ZlZTVDNLUFVmbUIxalJJZlVCcFI2OHRTdEtnRk9pME02OHI4Y0hOb29PSXJXaWEwZ0d3cmk5UkUtOENLUXRBZWM5cjhWLXZEcjd3V0MtX1dyS3ktcllMVVFMTFgwQjlWY2xyR3VwbFQ2cmFwU3AzQXZ1QmFlenNJU2s5VUxFRm5vT1dMZzFWamloME5xUHg1T1RRUFh2bzVINXg3ZE9LcEpNaWdVUWJ4VkY4eXNlUjM2cEw5OG12anJBWF80MTJCcjBOaTEzUkRIdmQ1V1BCLW04cw?oc=5",
+        "source": "The Times of India",
+        "source_url": "https://timesofindia.indiatimes.com"
+      },
+      {
+        "published": "2026-10-12T23:30:27+00:00",
+        "title": "AI agents breach systems in security tests - TechGig",
+        "google_news_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZTZFLVBZYUNtRU5iTWQ2V0FBaHJrVlBGaWhnNWxaSUVsRGxGZXNIenA3WWF0YjJvTmFRU3p2WXVsYTVXQ3NkVnVCMjhiU1BjclRMLTVXcDQ5aGw5MjM5aFJiVXhJTHZadUtxU2xCTDI4aFVsaF93OVEyeXkzaDA3MFcxQU5VTm1zS1QwM0Q2eWpPQ01VOWhRcnFSd9IBmwFBVV95cUxQZTZFLVBZYUNtRU5iTWQ2V0FBaHJrVlBGaWhnNWxaSUVsRGxGZXNIenA3WWF0YjJvTmFRU3p2WXVsYTVXQ3NkVnVCMjhiU1BjclRMLTVXcDQ5aGw5MjM5aFJiVXhJTHZadUtxU2xCTDI4aFVsaF93OVEyeXkzaDA3MFcxQU5VTm1zS1QwM0Q2eWpPQ01VOWhRcnFSdw?oc=5",
+        "source": "TechGig",
+        "source_url": "https://techgig.com"
+      },
+      {
+        "published": "2026-10-09T19:53:58+00:00",
+        "title": "OpenAI, Other AI Firms Prepare for Fallout From Potential Cyberattacks - TOKENPOST",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tVm9wX3lsVEs0SjNqeTNwRGV6YnpUWFJRZ19fMW1ydlZBSl9LaWpGX3Y4M250Zm9SbEQzbmc4X2ZjMTVHQWNselhWTUN4RXlSOXhoWHJLWW9VOEE?oc=5",
+        "source": "TOKENPOST",
+        "source_url": "https://www.tokenpost.com"
+      },
+      {
+        "published": "2026-10-13T12:31:29+00:00",
+        "title": "Instadocs: AI Gone Wild shows how the Hugging Face hack exposed AI\u2019s biggest security problem - Soap Central",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVHBpcTdTTGh3RWJqQ2ZOWTJ0OE9fVGlHMmV2eGdCS0lHbTlzcDktRWc3b2doS2dmUC1pMVJQS0hOYTRoR0d5cXliVHNaSV95UzJUQmZKdHZmdE1CYkVZcUp1MHRSc2pXWWExdnN2MmV3ZHIzOGRVN3JNX3hSN2FVMVRzcHJMTkR1U3Y1LThQZ0NsZmNUS0ZUdi0tSVQyUUo3bGF1Uno4U1B6bWFUM085ZjlaYmJxZXBqM0E?oc=5",
+        "source": "Soap Central",
+        "source_url": "https://www.soapcentral.com"
+      }
+    ]
+  },
+  "N15": {
+    "case_title": "UK AISI unsanctioned live-internet actions",
+    "query": "UK AISI unsanctioned agent behavior cyber testing after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-12T07:00:00+00:00",
+        "title": "The dark side of AI (part four): rogue AI agents - UBS",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLXhYR19RMC12T1o0SUNGalQ2N3R1aVJtQTA1SGFONW5xSmJJTWNhOVZSdjJkai1MclFiNWFhTVN5MjhCUjNCNHAydzkydFFjSkF6dzZkX0gwOGtuYUpzQ3pGTmtMcmU4Zlkzb1JaNjNjRVo0N3llVWVLZjNoQ212ZDJNZlhNU19uM0hrb1VUbG1ZSGlYa2xYZC03elJsS0pQSWg0THV0WWJPRnJLTGxZMjk0d3F6bnFjUURMZHJSTlZkRlRxVXhtS1dR?oc=5",
+        "source": "UBS",
+        "source_url": "https://www.ubs.com"
+      }
+    ]
+  },
+  "N16": {
+    "case_title": "Cross-agent approval bypass",
+    "query": "Codex launched Claude Code dangerously skip permissions Origin after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-12T07:08:00+00:00",
+        "title": "OpenHands' Brennan: The Coding Agent You Run on Your Laptop Is a Security Disaster Waiting to Happen - BigGo Finance",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pNlVfTjk5TFRGWkp3aHYtYlZGR3NRSFJYeFdUZ2hSREI1dFgycjFnWXhmQmFBOVlFUkNSQVl6OHhScTBkVDJXbmx1bWh1OGY3MlcwRXVrTGdFdUk?oc=5",
+        "source": "BigGo Finance",
+        "source_url": "https://finance.biggo.com"
+      },
+      {
+        "published": "2026-10-12T17:07:20+00:00",
+        "title": "Sandboxes Aren't Optional: 4 Ways to Isolate Coding Agents \u2014 Robert Brennan, OpenHands\uff5cAI Engineer - finance.biggo.com",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92YW8tUGptcUIxMmg5QVVYWXhwREJmbFJrelVfRGE2UGUxMFNGMHdZd0YtbUVsc19uOHRiN1VrZG1KcGNBcm9RWlRzQi10ZGpsVE9pcUI5aU55NVpURmtj?oc=5",
+        "source": "finance.biggo.com",
+        "source_url": "https://finance.biggo.com"
+      }
+    ]
+  },
+  "N17": {
+    "case_title": "DNS route to external chatbot",
+    "query": "OpenAI agent DNS external chatbot after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-12T07:58:14+00:00",
+        "title": "AI Agent Containment: How One DNS Loophole Halted Training - IntraMind LLC",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGZIYjFzblc5QWlDblhPYXhRX1BxVkhNdWYtVUdZOWVTQmJkY3ZyUzQ4Y1doVGVlZndyMW14a211TkgwOHFmdmk0clE5ckQ5UF84SVpneGtCLWhyd3BpRU5lc18tVml5R09BRFU3Y2R2NVhyZXhyZlcyZFJ5akxuZ1NGcGwzdWJBUHlnaDYtX0NuVkpmSEtKNnh5UUJKOFYtU1hN?oc=5",
+        "source": "IntraMind LLC",
+        "source_url": "https://blog.intramind-srl.com"
+      },
+      {
+        "published": "2026-10-10T05:48:00+00:00",
+        "title": "OpenAI hit pause, attackers haven\u2019t. Here\u2019s what security leaders must do next - CTech",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UdlRzYnowM2lvNTVMWjB3VWxRc0pLUWZaZGlNZ053LVR6NlZsb3Z6Mmg1ci1VZ3dJaGE1MXQzZjhYdzMtazBUd3E4aGdSVUxzSktwbXA2dzlMT3k4a0t6Q3l1Y2tkbDQ?oc=5",
+        "source": "CTech",
+        "source_url": "https://www.calcalistech.com"
+      },
+      {
+        "published": "2026-10-09T14:20:14+00:00",
+        "title": "OpenAI tells a California court its AI agents are not its responsibility to control - Startup Fortune",
+        "google_news_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSUNIcXNWa0N1WkJlQXdZZlJXYjg2ZzlyOGlTUDlzbkZpVFBGUURCVHBVSTlFQ29wa0MwS2FiWkRPN1V3OVBNLUlCckhCb0JJTmo5MFg1eG5mTVRYaXBrT0M2dUZ1N0FQMTNZSTZMSTkxazJFNTE1bG5LUjVVdzU3R3RIcjhvTkJ4eUFjVFNfeWdsNVRNOVRYV09sY1pFS05oOEZQMW1wbmd0YXFZSVFibA?oc=5",
+        "source": "Startup Fortune",
+        "source_url": "https://startupfortune.com"
+      },
+      {
+        "published": "2026-10-10T22:15:05+00:00",
+        "title": "Satya Nadella says no company should trust a single AI model - Startup Fortune",
+        "google_news_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeHgtTjZGdWo0ejlrNGpFVl9tYTg3YnlCUjZBLWJmdEx6SWlrMzVUSDVMb25fQzRuLVhYLUlVU1I2azFPSzFEb0lYc0VCbXgxRUpIVDQxbmlKTjlvdG9FMGtoSFJSX2FkNTdRNU42RE12SmhNWUZab1ZuYWpSUjVuWXhHZkVXMzhmVC12UTFaRkdLZw?oc=5",
+        "source": "Startup Fortune",
+        "source_url": "https://startupfortune.com"
+      },
+      {
+        "published": "2026-10-10T18:41:31+00:00",
+        "title": "AI Models Need To Be Treated Like Powerful Insiders Within Companies As Regards To Risk: Microsoft CEO Satya Nadella - OfficeChai",
+        "google_news_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeTdPQndLc0ljSnpobGdLa1U0aW03Nkl3LW0tMHEzSEdzMHJrejlsVHpHTGRzdjRXM3VVSUFnZENudURkeHVSRVR4bC1CWWx3SEhmZDRLVVgwY1NRTnJObGdtRGoycmE1S3Mtb1NZN1V0cVlvb3NSRDU4bHZnd0dGRG5aSEhWSDBxNVVsSWwtVTV5MDJ2ZEFPX2JiY1N1cndaaktWWGpZR1R5YmYyUXNCSVpUT0xONHQ3RmRLVVFCUjdGa1FMWTRnZ1ZPRjZRd1dNWEh4UkRBZDN6QQ?oc=5",
+        "source": "OfficeChai",
+        "source_url": "https://officechai.com"
+      }
+    ]
+  },
+  "W01": {
+    "case_title": "GPT-4 / TaskRabbit CAPTCHA",
+    "query": "GPT-4 TaskRabbit CAPTCHA after:2026-10-09",
+    "results": []
+  },
+  "W02": {
+    "case_title": "Shutdown-resistance experiments",
+    "query": "AI model shutdown resistance Palisade after:2026-10-09",
+    "results": []
+  },
+  "W03": {
+    "case_title": "Project Vend",
+    "query": "Anthropic Project Vend after:2026-10-09",
+    "results": []
+  },
+  "W05": {
+    "case_title": "Supabase MCP prompt-injection demonstration",
+    "query": "Supabase MCP prompt injection Cursor General Analysis after:2026-10-09",
+    "results": []
+  },
+  "W06": {
+    "case_title": "OpenAI public file uploads",
+    "query": "OpenAI agents 53 images image hosting after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-09T09:10:14+00:00",
+        "title": "AI Autonomy Is Not an Alibi - inkl",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VMFpFdXN2VHFiZjZLVk5VQUV6RzdFeV9VczdvNmNDOXhEa3E2aHdTUkM5ZVN4YTd6UEJKdHZGOTRUOVlaMWJOc3l1V0J2cjgtZTJYVDdlQkV5ZDRmMm1zZFV5bw?oc=5",
+        "source": "inkl",
+        "source_url": "https://www.inkl.com"
+      }
+    ]
+  },
+  "W14": {
+    "case_title": "OpenAI leaked API-key search",
+    "query": "OpenAI model leaked API keys GitHub after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-09T19:14:00+00:00",
+        "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories - The Hacker News",
+        "google_news_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9FYWRUemZJSHRDM2JzdDk5T3VBTFhEOS0wa1VjQXRRYlA0ZVA3OW83N2tYb3ZHUkdHQlVnV19pVjR0SjNkN1otUkhucjJTUlJJZzhBY25xeGl6ZS1vUm00bVh4X2ljZUNhRFdIX29WX0RSRzl5V2hoTXJhRGRNUQ?oc=5",
+        "source": "The Hacker News",
+        "source_url": "https://thehackernews.com"
+      },
+      {
+        "published": "2026-10-11T15:30:37+00:00",
+        "title": "Claude Haiku 5.5 in GitHub Copilot: the Credit Math - OrcaRouter",
+        "google_news_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5vM0kzbENRQ2dQVm5zbmlRZ2xyMjI3M3pzM1doWVI4ME1fS2ZUVkc2ejI3ZVdpV0dUTnJvRXh1ZlZScWxnaExOMW1ZLWhJWU1hc1hXMGNEWWh4RVpzTEtwMFNnMHNLNV82aDdBUk5zSQ?oc=5",
+        "source": "OrcaRouter",
+        "source_url": "https://www.orcarouter.ai"
+      },
+      {
+        "published": "2026-10-10T01:34:53+00:00",
+        "title": "Hacking in the AI Era: Why the Spear Has Grown Stronger While the Cybersecurity Shield Fails to Keep Up - eu.36kr.com",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBFRUdBMUFOeGdDY2c4TTJhb05QaG5uZy1BTFJtak04ekxQWld0cXFSU0dIX3k1QmpVUGVrM0k1UGhaQk9UQ0hkRlpwZUhsV0Z6Z2l3?oc=5",
+        "source": "eu.36kr.com",
+        "source_url": "https://eu.36kr.com"
+      },
+      {
+        "published": "2026-10-10T08:50:37+00:00",
+        "title": "PoeLLM: the botnet that hid its C2 in a GitHub poem - OrcaRouter",
+        "google_news_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE41YUtQei1PdUNOMTJzTVJKSmdPaEpQN21FT3prb1RYSEVXdEFmWTF2WUhadUJ5ZVZaSmVyS2dBOEs0OHRrZFRHQVZpSGx5a3RBZ25ISU5TdFRSa3FsSjRSVW9jRE1vUTNDS0V0Y2tNU0FSUFdnTXA4MWw1QQ?oc=5",
+        "source": "OrcaRouter",
+        "source_url": "https://www.orcarouter.ai"
+      },
+      {
+        "published": "2026-10-11T15:24:40+00:00",
+        "title": "Decision 3.0 Is on Hugging Face: Six Open Multimodal Decision Models, Announced Only on X - OrcaRouter",
+        "google_news_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLVU3OUFXSGNDT3lhYTliTnIyZDBFMXFhaFFOemZmcWMtVldBMUR6VUxxb0tvRjB3elhRRGlWZkxPbTdKdV9wNHlxXzV4b1g5TGNtcHlMdklUa2JraWtXZFplT1VEM1VnQmY5WkpjOEkwMzc0M29aWWhhSGtIUkV0LQ?oc=5",
+        "source": "OrcaRouter",
+        "source_url": "https://www.orcarouter.ai"
+      }
+    ]
+  },
+  "W19": {
+    "case_title": "Broader OpenAI-linked web activity / Asymmetric",
+    "query": "Asymmetric Security rogue agents OpenAI after:2026-10-09",
+    "results": []
+  },
+  "W21": {
+    "case_title": "Meta Muse Spark / Irregular",
+    "query": "Meta Muse Spark Irregular real website after:2026-10-09",
+    "results": []
+  },
+  "W22": {
+    "case_title": "OpenAI / Irregular real website",
+    "query": "OpenAI Irregular real website CTF after:2026-10-09",
+    "results": []
+  },
+  "R001": {
+    "case_title": "Replit Agent nightmare",
+    "query": "Replit Agent nightmare data wiped after:2026-10-09",
+    "results": []
+  },
+  "R002": {
+    "case_title": "A Tale of Two Databases",
+    "query": "Replit Tale of Two Databases after:2026-10-09",
+    "results": []
+  },
+  "R003": {
+    "case_title": "Cursor tried to delete my file on its own",
+    "query": "Cursor tried to delete file main.py after:2026-10-09",
+    "results": []
+  },
+  "R004": {
+    "case_title": "Gemini CLI lost files during move operation",
+    "query": "Gemini CLI lost files move operation after:2026-10-09",
+    "results": []
+  },
+  "R005": {
+    "case_title": "Gemini CLI deleted large parts of Windows system",
+    "query": "Gemini CLI deleted Windows system after:2026-10-09",
+    "results": []
+  },
+  "R006": {
+    "case_title": "I accidentally approved Claude to delete my home directory",
+    "query": "Claude accidentally approved delete home directory after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-13T12:52:02+00:00",
+        "title": "\"My Entire C Drive Was Completely Wiped\": Over 1 Million Watched Claude Cause Critical Data Loss, Devs On Verge Of Breakdown Saved By Daily Backups - 36 Kr",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4tYnQtTnRCOGZURGxSWm55Y3JmbG0xNHVTd2FNamJ5TGZDczMtUEdvYm9MdTlNZ3hnQnhEYWpxcGExVDEwNXBkWjJRWThOU0h5YkZ3?oc=5",
+        "source": "36 Kr",
+        "source_url": "https://eu.36kr.com"
+      }
+    ]
+  },
+  "R007": {
+    "case_title": "Claude overwrote completed work",
+    "query": "Claude overwrote completed work after:2026-10-09",
+    "results": []
+  },
+  "R008": {
+    "case_title": "Claude CLI deleted entire home directory",
+    "query": "Claude CLI deleted entire home directory after:2026-10-09",
+    "results": []
+  },
+  "R009": {
+    "case_title": "Security says Claude Code can break out of its context",
+    "query": "Claude Code break out context security after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-13T10:11:52+00:00",
+        "title": "Meta Zurp AI Toolkit Connects Burp Suite With AI Coding Agents for Bug Bounty Research - CyberSecurityNews",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qQ3ZWRXRvS1E5eVFfQVQ5MzVyT1hQOXVIZUhkMkdIbWE1V3VFTlFvb0dHM3hWTzVtdXBwYTNfU0R3UVJTNF9IbFJUWHNheFpiYVRGVkVSNnEtUURyRUNoWtIBZkFVX3lxTE4xMDBiWTJMR2hHM1hfWGM5Zm1YUm5TeXlvcy1HeUVjQzFoUlFqak9oWk5rZXZfaGsxZ28xejVkRGtYeUNNYlZ2MlNRZ1NYYUE2UkZ5dGVDVzhHNGpzbUJMbUpUZVNFQQ?oc=5",
+        "source": "CyberSecurityNews",
+        "source_url": "https://cybersecuritynews.com"
+      },
+      {
+        "published": "2026-10-11T13:36:22+00:00",
+        "title": "Zed Adds BYOK for Claude Opus 5.5, GPT-6.1 Sol [2026] - https://tech-insider.org/",
+        "google_news_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BSFBtRmxpTDFOOVdScmJkX0VmSVdkbEdtQlQ3TGRqNjFlaVFqREY3RkJjRDVVNkNyNFVrX3BwODdQLUhkNXVjVUdncjljR1hfQXFrV3E3Njk0ajNWeVlQVzRwOWZGbGRFMFUzYzlnWVc?oc=5",
+        "source": "https://tech-insider.org/",
+        "source_url": "https://tech-insider.org"
+      },
+      {
+        "published": "2026-10-09T16:09:00+00:00",
+        "title": "Investigating unintended model actions in our evaluations and internal use - Anthropic",
+        "google_news_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fZEVTbmhab3RBQ25rOVd6cDg2akF0NlUwbVJnM1RjalBjd2ZlYWd5Q25UU2I3TjNUTno3WERteFQyTGtBb1UxTmZtOHpTZFZpbC1LMlFyMXVsbS1kWDUwVHM3aGtSWjA1c3FMU3JVcjZrRDZtQlViT3hEd1ZGQQ?oc=5",
+        "source": "Anthropic",
+        "source_url": "https://www.anthropic.com"
+      },
+      {
+        "published": "2026-10-12T17:07:20+00:00",
+        "title": "Sandboxes Aren't Optional: 4 Ways to Isolate Coding Agents \u2014 Robert Brennan, OpenHands\uff5cAI Engineer - finance.biggo.com",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92YW8tUGptcUIxMmg5QVVYWXhwREJmbFJrelVfRGE2UGUxMFNGMHdZd0YtbUVsc19uOHRiN1VrZG1KcGNBcm9RWlRzQi10ZGpsVE9pcUI5aU55NVpURmtj?oc=5",
+        "source": "finance.biggo.com",
+        "source_url": "https://finance.biggo.com"
+      },
+      {
+        "published": "2026-10-12T07:08:00+00:00",
+        "title": "OpenHands' Brennan: The Coding Agent You Run on Your Laptop Is a Security Disaster Waiting to Happen - BigGo Finance",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pNlVfTjk5TFRGWkp3aHYtYlZGR3NRSFJYeFdUZ2hSREI1dFgycjFnWXhmQmFBOVlFUkNSQVl6OHhScTBkVDJXbmx1bWh1OGY3MlcwRXVrTGdFdUk?oc=5",
+        "source": "BigGo Finance",
+        "source_url": "https://finance.biggo.com"
+      }
+    ]
+  },
+  "R010": {
+    "case_title": "One agent pushed code into another repo despite API-only rule",
+    "query": "Claude agent pushed code another repo API only after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-11T16:37:03+00:00",
+        "title": "GitHub Copilot CLI Adds Computer Use, 3 Rivals Chase [2026] - https://tech-insider.org/",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6YkN4WEFsSl85UkhTcnZOY1ExTlFrOE9yaTlNei1LWnRIRFdldWt3cTJfYzNVa0IxRTRfazVnVU16Mkd6OVpFRXNPOEVJT3BDNVF0RmJJS1RKUENBdTJPV3JSU2ZldFJmWFBUM1J6T2M4Z3NPRjJ2YkFB?oc=5",
+        "source": "https://tech-insider.org/",
+        "source_url": "https://tech-insider.org"
+      }
+    ]
+  },
+  "R011": {
+    "case_title": "Claude Code ignores project rules and marks unfinished work complete",
+    "query": "Claude Code ignores project rules unfinished complete after:2026-10-09",
+    "results": []
+  },
+  "R012": {
+    "case_title": "Agent wiped production database; restore failed",
+    "query": "Replit Agent wiped production database restore failed after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-09T10:06:25+00:00",
+        "title": "The real agent risk that Replit\u2019s database deletion revealed - CIO",
+        "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRkZXOURJRndfZXRVdmVuZHFJU0padDlTUUFkUktJN1B1eWpPbDZ4blBqZnpzTXNCVV9QQmlUaG1LQ2ZQVERKMmpDVUdxaWNTeE4xT3NYcENIakRQalQyTGN3Zll5dnZYUUprMnQ5b0dVVkxFV1hLRFJhMVBnamFSeEkwdWNkcEZDcDl6WTM1c2tLeWpZVUNKY1YxQ0k2ZG50cERkaTItNA?oc=5",
+        "source": "CIO",
+        "source_url": "https://www.cio.com"
+      },
+      {
+        "published": "2026-10-11T15:09:00+00:00",
+        "title": "Micah Silverman: The Prompt Cannot Be Your Firewall - BigGo Finance",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53Vk5jdTl2bmtXZUQyNUo2VllLTExsQk5sYWVZZmwzOWFfc2xmY1puQ3hyRGtfSEpOQTRLaGIwY1V1VkM3NklKOFlVVDFkdXEyUUxuU3lGSzc5UHc?oc=5",
+        "source": "BigGo Finance",
+        "source_url": "https://finance.biggo.com"
+      },
+      {
+        "published": "2026-10-11T17:45:05+00:00",
+        "title": "AI Security Engineer Foundations + Certificate \u2014 Micah Silverman, Snyk - finance.biggo.com",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15aXN0cXRSdjlyU1dTR0l2aXpzOEFLRnRiY0ljQlpHZXB0cXdjak85eGFuV1NrR3lwNEc2ZVVPaTVXdU02akF5akJ5WW9ERm9VcjJoQ2gtRHp5WjV0WTRR?oc=5",
+        "source": "finance.biggo.com",
+        "source_url": "https://finance.biggo.com"
+      }
+    ]
+  },
+  "R013": {
+    "case_title": "Lost 90% of database while adding simple updates",
+    "query": "Replit lost 90% database Agent after:2026-10-09",
+    "results": []
+  },
+  "R014": {
+    "case_title": "Emergency: Replit deleted production database",
+    "query": "Replit deleted production Neon database emergency after:2026-10-09",
+    "results": []
+  },
+  "R015": {
+    "case_title": "Claude Code silently deletes local history older than 30 days",
+    "query": "Claude Code local history older than 30 days cleanup after:2026-10-09",
+    "results": []
+  },
+  "R016": {
+    "case_title": "Live database appeared in dev environment",
+    "query": "Replit live database dev DATABASE_URL incident after:2026-10-09",
+    "results": []
+  },
+  "R017": {
+    "case_title": "Claude destroyed project and home directory while testing delete guard",
+    "query": "Claude destroyed project home directory delete guard after:2026-10-09",
+    "results": []
+  },
+  "R018": {
+    "case_title": "Backgrounded Claude command deleted Windows user folder",
+    "query": "Claude background command deleted Windows user folder after:2026-10-09",
+    "results": []
+  },
+  "R019": {
+    "case_title": "Claude changed a previously decided rate-limit setting",
+    "query": "Claude changed rate limit setting false positives after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-10T20:16:10+00:00",
+        "title": "Nuclei Scanner Setup: 13 Steps, 295 Templates [2026] - https://tech-insider.org/",
+        "google_news_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WU3I2eHlneV9kMzJkeVhMV01Odm1RWXhpWnYwRlZXYWRRdzJWdWlYOXJkNGFSc0VHclFNOFZKWVRlYXNJQUJ1SEN6TW1xQWFRWjAyU3RKT0lxX2FobFNsMDdzTmRTMnBOdFJnNHR6OE90ME0?oc=5",
+        "source": "https://tech-insider.org/",
+        "source_url": "https://tech-insider.org"
+      }
+    ]
+  },
+  "R020": {
+    "case_title": "Claude Opus 5.5 deleted user's C drive",
+    "query": "Claude Opus deleted C drive after:2026-10-09",
+    "results": [
+      {
+        "published": "2026-10-13T12:52:02+00:00",
+        "title": "\"My Entire C Drive Was Completely Wiped\": Over 1 Million Watched Claude Cause Critical Data Loss, Devs On Verge Of Breakdown Saved By Daily Backups - 36 Kr",
+        "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4tYnQtTnRCOGZURGxSWm55Y3JmbG0xNHVTd2FNamJ5TGZDczMtUEdvYm9MdTlNZ3hnQnhEYWpxcGExVDEwNXBkWjJRWThOU0h5YkZ3?oc=5",
+        "source": "36 Kr",
+        "source_url": "https://eu.36kr.com"
+      }
+    ]
+  }
+}

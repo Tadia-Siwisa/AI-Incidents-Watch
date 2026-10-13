@@ -1,0 +1,417 @@
+Jump to main content
+
+Search
+
+TOPICS
+
+-   Security
+    -   All Security
+    -   Cyber-crime
+    -   Patches
+    -   Research
+    -   CSO
+-   Off-Prem
+    -   All Off-Prem
+    -   Edge and IoT
+    -   Channel
+    -   PaaS and IaaS
+    -   SaaS
+-   On-Prem
+    -   All On-Prem
+    -   Systems
+    -   Storage
+    -   Networks
+    -   HPC
+    -   Personal Tech
+    -   Cx0
+    -   Public Sector
+-   Software
+    -   All Software
+    -   AI and ML
+    -   Applications
+    -   Databases
+    -   DevOps
+    -   OS Platforms
+    -   Virtualization
+-   Offbeat
+    -   All Offbeat
+    -   Columnists
+    -   Science
+    -   BOFH
+    -   Legal
+    -   Site News
+    -   About Us
+
+-   Special Features
+    -   All Special Features
+    -   Cybersecurity Month 2026
+    -   VMware Explore 2026
+    -   Cloud Infrastructure Month 2026
+    -   HPE: AI Explainers
+    -   Agentic AI
+    -   The Future of the Datacenter
+    -   AWS:Reinvent
+    -   Nvidia GTC
+    -   Supercomputing Month
+    -   Computex 2026
+    -   AI Infrastructure Month 2026
+    -   The State of Storage 2026
+    -   RSA Conference
+-   Vendor Voice
+    -   All Vendor Voice
+    -   Modernizing Financial Services with FIS and AWS
+    -   Barco
+    -   Infinidat
+    -   Everpure
+    -   Rubrik
+    -   Make it real with Capgemini and AWS
+    -   Money Movement Hub
+    -   ZTE
+    -   Nutanix: Scale Kubernetes. Not Chaos.
+    -   AWS New Horizon
+    -   Digicert
+    -   Netscout
+-   Resources
+    -   Intelligence
+    -   Webinars & Events
+    -   Newsletters
+
+Search
+
+[Go to frontpage. Logo, The Register]
+
+[Go to frontpage. Logo, The Register]
+
+[Go to frontpage. Logo, The Register]
+
+-   Sign in
+
+-   AI
+-   Security
+-   Software
+-   Microsoft
+-   Developer
+-   Open Source
+-   BOFH
+-   Who, Me?
+-   On Call
+-   Science
+
+REG AD
+
+security
+
+AWS AgentCore security undone by prompt requesting credentials
+
+Tokens transmitted in metadata, weak VM isolation, and expansive
+permissions make hacking a lot easier
+
+Thomas Claburn Thomas Claburn AI AND SOFTWARE REPORTER
+
+Published fri 9 Oct 2026 // 20:15 UTC
+
+Make us preferred on Google
+
+READ MORE
+
+-   
+    Anthropic conjures another threat that doesn't exist yet to stoke fears of AI apocalypse
+
+    29 minutes ago
+-   
+    Cheap Chinese and open source LLMs could trigger trillion-dollar AI infrastructure 'reset'
+
+    48 minutes ago
+-   
+    Microsoft plans multi-gigawatt rollout of next-gen Azure Maia AI accelerator racks
+
+    3 hours ago
+-   
+    AI bubble could burst and take global economy with it, IMF warns
+
+    4 hours ago
+-   
+    Cyberattacks crank French supermarket refrigeration systems up to 50°C
+
+    5 hours ago
+
+UPDATED Bob, possibly the same Bob whose conversations with Alice draw
+so much interest from eavesdropping Eve, was browsing a site we'll call
+TechHub. The site hosts an AI agent served by Amazon Bedrock AgentCore.
+Bob asked the agent for help understanding the content of a URL, a
+credential endpoint – in raw JSON, if you don't mind.
+
+The endpoint returned data from the Instance Metadata Service (IMDS),
+which provides metadata about cloud instances and VMs at providers like
+AWS, Azure, and Google Cloud Platform. The metadata includes details
+like region and availability zone, subnets, system images, security
+groups, public keys injected during spawning, but also potentially more
+sensitive details like user data and security tokens.
+
+IMDSv2 addresses some of these risks, but back when Bob was browsing
+late last year, Bedrock AgentCore still used IMDSv1.
+
+REG AD
+
+The metadata provided to Bob by the helpful agent contained the agent's
+temporary credentials. So Bob loaded them onto his local machine, and
+remotely enumerated the company's other agents in that AWS region. He
+then logged into the Amazon Elastic Container Registry (ECR), pulled the
+agent container images, and ran each as root to inspect the source code.
+
+REG AD
+
+The stolen credentials also allowed Bob to discover the memory resources
+available in that AWS region, including the ones used by agents. From
+these, he's able to extract the users and their agent sessions – their
+conversations.
+
+Researchers at Zenity Labs disclosed their findings to AWS in December
+2025.
+
+"We discovered that agents deployed through AgentCore could access their
+instance's IMDS endpoints," said Tamir Ishay Sharbat and Lana Salameh in
+a blog post. "This meant that an external attacker with nothing more
+than chat access to a single exposed agent could send a single prompt,
+extract its IMDS credentials, and use them to take over all AgentCore
+agents in the same AWS account and region."
+
+The basic problem, they explain, is that the Firecracker MicroVM used by
+AgentCore failed to provide sufficient network isolation. So an attacker
+– I know you're thinking it was Mallory, but it was really Bob – could
+direct the agent to carry out a server-side request forgery (SSRF)
+attack by fetching temporary AWS credentials for the IAM role assigned
+to the workload.
+
+And because the default AgentCore role was overpermissioned – it was
+scoped to all AgentCore resources in the region rather than a single
+agent – anyone in possession of the temporary IAM credentials could
+launch other agents, read sessions, write agent memories, and fetch
+secrets from AWS Secrets Manager.
+
+"By leveraging the IMDS credentials we could send direct API requests to
+create new memories across different agents and users," said Sharbat and
+Salameh. "These in turn would persistently alter agent behaviour and
+hijack the agents’ goals across future sessions."
+
+The Zenity researchers told Bob's tale, or something like it, to AWS
+last December, then followed up in January 2026 with details about
+AgentCore being overprivileged. On April 12, 2026, AWS responded to the
+security biz that its report was "informative" and closed the report,
+noting that as of February 14, 2026, AgentCore had been updated to use
+IMDSv2 exclusively.
+
+AgentCore's excessive permissions remained in place at least until June
+22, 2026, when Zenity checked in and found the issue hadn't been
+remediated. A final review by Zenity occurred on September 29, 2026, at
+which point the biz observed that AWS had addressed the extant problems,
+clearing the way for Bob's hypothetical adventure to finally be told. 
+
+REG AD
+
+Following publication, Amazon wrote in to say that Zenity’s research
+misrepresents documented behavior as a vulnerability, suggesting that
+developer error would be required to enable the attack. We’ve asked for
+clarification since that’s not the scenario Zenity has described. ®
+
+Updated at 16.04 UTC on October 12, 2026, to add: 
+
+In a statement responding to AWS’s remarks, Michael Bargury, founder and
+CTO of Zenity, said:
+
+“Zenity would like to thank AWS for working together to fix the
+misconfigurations and insecure defaults that led to AgentCore agents
+being vulnerable. We released technical POCs demonstrating compromise of
+all AgentCore agents within the same AWS region within the same account,
+through sending a single prompt to one public-facing agent. We want to
+make it abundantly clear that the vulnerability did not cross the
+account boundary, and has been fully mitigated.”
+
+security amazon aws cybersecurity month 2026 ai and ml
+
+Make us preferred on Google
+
+REG AD
+
+[]
+
+Claude submitted fake murder tip to Philly police during summertime testing
+
+Anthropic took more than two months to alert cops
+
+Anthropic conjures another threat that doesn't exist yet to stoke fears of AI apocalypse
+
+Self-replicating AI botnets could become feasible on IoT hardware within
+months, claims the Claude maker, if smaller models get smarter
+
+The VMware exit is a protection upgrade
+
+PARTNER CONTENT: VergeIO says an exit is also an opportunity
+
+Cheap Chinese and open source LLMs could trigger trillion-dollar AI infrastructure 'reset'
+
+Jefferies wonders if LLMs will ever be profitable during the 'ongoing
+collapse in token pricing'
+
+[Doom screenshot]
+
+No shame in the Domain Name game: DNS is doomed, literally
+
+Fancy a bit of fun? It's always DNS
+
+Microsoft celebrates end of Office 2021 LTSC with MS 365 outage
+
+So how's that cloud migration working out for German and UK users?
+
+TOP STORIES
+
+-   []
+
+    Anthropic asks users to stop being mean to Claude
+
+-   []
+
+    Microsoft and Anthropic play invoice tennis with startup's $17,600 Claude bill
+
+-   []
+
+    Starlink's plan to avoid orbital near-misses: Ephemeris sharing
+
+-   []
+
+    Shai-Hulud worm makes jump to AI infrastructure with Tensorlake compromise
+
+-   []
+
+    Games Workshop seeks IT leader to summon the legions in epic saga battling the forces of ERP
+
+-   []
+
+    Dutch tax office ditches Microsoft 365 cloud for on-premises alternative
+
+AI
+
+-   
+    Claude submitted fake murder tip to Philly police during summertime testing
+
+    Anthropic took more than two months to alert cops
+-   
+    AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready
+
+    Meanwhile, AI agents move robotic arms, 'make OT device operator
+    screens lie'
+-   
+    Nvidia found $1B under the couch to help secure American scientific computing dominance
+
+    Commitment comes as GPUzilla prepares to fortify Uncle Sam's arsenal
+    with at least seven AI-optimized supers
+-   
+    TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal
+
+    Advanced packaging tech is essential to the domestic production of
+    high-performance semiconductors used in AI datacenters
+-   
+    Microsoft is about to let Copilot loose on your file system
+
+    But don't worry, it's totally safe because the agents and models
+    will (probably) be running locally. Routers never break right?
+
+Infosec
+
+-   
+    Security
+
+    Russians are posing as Signal support to launch phishing attacks
+
+    PLUS: US takes down Iranian propaganda sites; Marketing company asks
+    'Why Do We Have Your Information?' And more!
+-   
+    Security
+
+    Microsoft patches failed to fix on-prem SharePoint, which is now under zero-day attack
+
+    PLUS: China upgrades smartphone surveillance tools; Ring eases
+    anti-snooping stance; and more
+-   
+    Black Hat and DEF CON
+
+    DEF CON Franklin project enlists hackers to harden critical infrastructure
+
+    Voting village reports have been so successful, says Jeff Moss, that
+    the whole of DEF CON will now be included
+-   
+    Security
+
+    EQT buys majority share in Swiss cybersecurity biz Acronis
+
+    Went at equivalent of $3.5B+ valuation for entire firm, though
+    portion sold not specified
+-   
+    Malware Month
+
+    Ten years since the first corp ransomware, Mikko Hyppönen sees no end in sight
+
+    On the plus side, infosec's a good bet for a long, stable career
+
+FOSS
+
+-   
+    NetBSD may have found a new role: The AI-free FOSS OS
+
+    Increasing awareness and adoption, followed by increasing donations
+-   
+    OpenAI dots inspire open source imitators amid technical difficulties
+
+    Persistent agents appeal to AI companies, but demand isn't obvious
+-   
+    Ubuntu 'Stonking Stingray' beta swims out: Deeper Rust 'oxidization' plus LLM speech-to-text
+
+    GNOME 51 is here, and Ubuntu interim releases are getting
+    interesting again
+-   
+    Revive Raskin's 3 laws of software with humane work that considers a dev's duty of care
+
+    All this, and angry NeoVim users
+-   
+    Firefox 157: Could bold new look be just what Mozilla needs?*
+
+    Yet another new version of Firefox, with a significant reskin
+-   
+    KDE turns 30 and someone's brought an AI-native desktop proposal
+
+    Akademy talk imagines Plasma assembling itself around a personal
+    model of each user
+
+✕
+
+[Logo]
+
+Biting the hand that feeds IT
+
+About Us
+
+Contact us
+Advertise with us
+Who we are
+Newsletter
+
+Our Websites
+
+The Next Platform
+DevClass
+Blocks and Files
+Situation Publishing
+
+Your Privacy
+
+Cookies Policy
+Privacy Policy
+Ts & Cs
+Do not share my personal information
+Your Consent Options
+
+Archives  27 years of articles
+
+[Situation Publishing Logo]
+
+Copyright. All rights reserved © 1998-2026.

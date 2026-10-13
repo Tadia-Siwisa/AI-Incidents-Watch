@@ -1,0 +1,211 @@
+English
+
+中文
+
+Deutsch
+
+Home
+
+Article
+
+"My entire C drive was completely wiped," more than 1 million people watched Claude "get into trouble", the developer was on the verge of a breakdown: fortunately, daily backups are in place.
+
+CSDN2026-10-13 15:27
+
+Can AI really clean up the C drive, but do you dare to let it make
+decisions on its own?
+
+"Just hand the task over to AI and come back in a few hours to check the
+results" — sounds tempting, right? But what if the entire C drive gets
+wiped out before the code is even finished writing?
+
+Recently, developer Zac shared his "bizarre encounter" on X: he let
+Claude Code under Anthropic execute tasks autonomously, only for Claude
+Opus 5.5 to delete all data on his entire C drive: "Oh my god, Opus 5.5
+just deleted my entire C drive!" — as of press time, this post has
+received more than 1 million views.
+
+[]
+
+Luckily, Zac had set up daily automatic backups in advance, which
+prevented a real data disaster: "Thank God, I set up automatic daily
+backups to my Synology NAS (Network-Attached Storage), otherwise I would
+have completely broken down."
+
+To keep AI from pausing, he turned off permission confirmation
+
+After the incident, Zac further explained his workflow: he often lets
+Claude Code run continuously for hours without any human intervention
+throughout the process. To prevent the Agent from pausing frequently
+waiting for authorization, he also used a command line parameter named
+--dangerously-skip-permissions.
+
+This parameter skips permission confirmation, allowing Claude Code to
+execute commands directly without asking for the user's approval each
+time.
+
+According to him, he has been using this workflow since Opus 4.6 and
+never encountered similar problems before. This time, he suspects the
+problem lies in PowerShell syntax processing, calling it a simple
+"PowerShell syntax concatenation error" that eventually caused the
+deletion operation to spread to the entire C drive.
+
+However, Zac has not yet disclosed the complete command logs or
+screenshots, so the public cannot confirm which specific command
+triggered the deletion, nor can it conclude that the problem lies with
+the model itself, the script syntax, or any other link.
+
+Zac said thanks to the daily automatic backups, he has restored about
+98% of the data and added new protective measures to the system. He also
+admitted that he was not entirely without responsibility: "No one is
+more to blame for this than myself. At the end of the day, all of us are
+still in the 'Wild West' of this ever-evolving AI world."
+
+Even so, he still believes that basic protection to prevent the entire
+disk from being accidentally wiped should not rely entirely on user
+self-configuration — after all, not everyone is as in the habit of
+regular backups as he is. If the lost data is project code, personal
+files or important work materials, the consequences will be unthinkable.
+
+Anthropic's response: Why didn't you use Auto Mode?
+
+This accident soon drew a response from Boris Cherny, Head of Claude
+Code. He responded on X saying that this is exactly why Anthropic
+recommends using Auto Mode.
+
+He stated that Auto Mode will perform risk judgment before command
+execution, intercepting behaviors that may cause irreversible
+consequences, are destructive, or attempt to operate resources outside
+the current environment. Boris Cherny believes that if Zac had used this
+mode, this operation would almost certainly have been intercepted: "Why
+didn't you use Auto Mode?"
+
+[]
+
+According to Anthropic's introduction, Auto Mode has become the default
+permission mode for Claude Code Pro, Max and Team users since August 14,
+2026.
+
+Different from directly skipping permission confirmation, Auto Mode does
+not let AI do whatever it wants: it sends tool calls to a dedicated
+classifier for inspection, focusing on intercepting dangerous behaviors;
+if an operation is intercepted, Claude will try to find a safer way to
+execute it, or request user approval.
+
+Anthropic also released a set of internal test data: in an experiment
+involving 1053 paid testers, human participants only identified and
+intercepted 13.6% of dangerous commands, while the interception rate of
+Auto Mode was as high as 89%.
+
+The problem is, Zac doesn't think Claude Code's Auto Mode is suitable
+for himself. He explained that after turning on Auto Mode, task
+execution is often interrupted, forcing him to intervene repeatedly,
+which feels like he has been "babysitting" the whole time and cannot
+really let go to let AI do the work.
+
+Anthropic itself also revealed that about 25% of interactive Claude Code
+sessions choose the mode that completely skips permission confirmation
+at startup — which means, many users are indeed willing to actively turn
+off part of the protection measures in pursuit of efficiency.
+
+Netizens are divided: Is this Windows' fault, or Zac's own problem?
+
+As the incident was exposed and spread, onlookers quickly split into
+several camps. Some think the problem lies with Windows and PowerShell,
+some question that Zac did not do a good job of project isolation, and
+others say bluntly that it is Zac's own operational problem.
+
+One developer pointed the finger at Windows and PowerShell. He believes
+that PowerShell has a relatively complex pipeline mechanism that allows
+multiple commands to be executed in series; when LLM generates commands,
+symbols such as slashes in the path may also have problems during
+processing — once the command chain contains deletion or overwriting
+operations, errors may lead to unexpected consequences.
+
+Therefore, he said: "I will try my best to use Bash in daily work, but
+in Windows development, it is difficult to completely avoid PowerShell.
+Also, don't think ChatGPT is that good, its ability to handle this kind
+of problem is even worse than Claude."
+
+Another group of netizens think the problem may lie in project directory
+management: "Do these people ever create a separate dedicated directory
+for the project and correctly specify the working directory in Claude
+Code? Or is it that they really hand over everything to the Agent and
+don't manage anything themselves?"
+
+Others shared the opposite experience, thinking this is more like Zac's
+lack of competence: one netizen said that he has cumulatively used
+billions of Tokens in the past 6 months, but has never encountered the
+situation where AI deletes key system files or the root directory.
+
+Some Linux users also lost files even when Auto Mode was turned on
+
+If the previous debate can be attributed to different operating habits,
+then another netizen's experience made the situation more complicated: a
+Linux user said that just last week, his home directory and another hard
+drive also suffered data deletion accidents, and he was using Auto Mode
+at that time.
+
+According to his description, the problem did not come from a wrong
+command or script, but that Claude Code wrote a problematic test for the
+file system code in the project, which eventually led to data loss.
+
+This netizen said that because he had a complete backup and his system
+configuration was managed through dotfiles, it was not difficult to
+restore. But he emphasized that this shows that similar problems are not
+unique to Windows, and it cannot be assumed that turning on Auto Mode is
+absolutely safe.
+
+In fact, Anthropic also clearly reminded in the official documentation
+that although Auto Mode can reduce risks, it cannot completely eliminate
+risks, so users are still advised to run the Agent in an isolated
+environment as much as possible.
+
+AI can really clean up the C drive, but do you dare to let it decide on its own?
+
+Of course, the comment section is not full of accident reports, some
+netizens also shared a very contrasting experience.
+
+Question: "Can you help me clean up the C drive?"
+
+AI: "No problem."
+
+This netizen said that he did let AI clean up the C drive, and finally
+cleared 65GB of useless data, including files created many years ago
+that he had long forgotten, and residual caches left by programs that
+had been uninstalled long ago.
+
+It's the same C drive cleaning task: on one side 65GB of space was
+successfully released, on the other side the entire disk was deleted —
+but even with successful cases, do you really dare to hand over this
+matter entirely to AI? As developers get more and more used to handing
+over the terminal and file system to AI, the real problem to be solved
+is no longer just whether it can write the code, but whether its
+mistakes can be intercepted in time, and whether the data can be
+recovered when it makes mistakes.
+
+After all, not everyone who lets AI run tasks overnight has a NAS
+silently backing up in the background.
+
+Reference link:
+https://madrobot.blog/2026/10/07/claude-opus-5-5-deleted-c-drive-claude-code-auto-mode-boris-cherny/
+
+https://x.com/PerceptualPeak/status/2107621483392446572
+
+This article is from WeChat Official Account "CSDN", compiled by Zheng
+Liyuan, authorized for release by 36Kr.
+
+该文观点仅代表作者本人，36氪平台仅提供信息存储空间服务。
+
+For media inquiries, interview requests, business collaboration and
+Recruit global ecological partners, please contact business@36kr.com.
+
+Partner：startuprad.io
+
+Friendly Links: ai.36kr.com
+
+36kr Europe (eu.36kr.com) delivers global business and markets news,
+data, analysis, and video to the world, dedicated to building value and
+providing business service for companies’ global expansion.
+
+© 2024 36kr.com. All rights reserved.

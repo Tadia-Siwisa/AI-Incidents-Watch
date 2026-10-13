@@ -1,0 +1,94 @@
+Skip to main content
+
+[subreddit icon]
+
+AI_Agents [] Join
+
+Posted by kiwibooks ·
+
+[] []
+
+------------------------------------------------------------------------
+
+An AI agent reportedly got a user's QuickBooks account suspended. What
+the rules say, and 5 ways to connect agents to your books more safely
+
+Disclosure: I'm the founder of KiwiBooks, and I used to lead product for
+QuickBooks Self-Employed at Intuit.
+
+In August, Josh Pigford posted on X asking "who's building
+agent-friendly bookkeeping?" His reason: he wrote that Intuit had
+suspended his decade-old QuickBooks account after he used an AI agent to
+help categorize transactions. He shared a screenshot of the notice,
+which cites "unusual activity," says the account was locked "while we
+investigate," and calls the step "purely precautionary."
+
+His account is self-reported. The public post doesn't say how the agent
+reached QuickBooks (signing in through a browser with his password, or
+an approved app connection), how long the lock lasted, or how it was
+resolved. I searched Reddit, Intuit's forums, Hacker News, LinkedIn and
+the trade press, and his is the only first-hand public report I could
+find of a suspension after using an AI agent. One post isn't a pattern.
+
+General lockouts are easier to find, though. People describe admin
+accounts deactivated over suspicious activity, ID checks, and waits of
+about two days. Developers describe "Token revoked" errors after rapid
+token refreshes, and integrations losing API access after app review.
+
+What the rules say
+
+-   The QuickBooks Online Terms of Service ban unauthorized access or
+    use, including scraping, and let Intuit suspend or terminate
+    accounts "at any time in our discretion."
+
+-   Intuit's developer terms prohibit "scraping, automated retrieval,
+    botting, crawling" and reserve the right to suspend access without
+    notice.
+
+-   Every app touching real company data has to complete an app
+    assessment, even private ones.
+
+-   The API allows 500 requests per minute per company, and read calls
+    are metered.
+
+So an agent that signs in with your password and clicks around is
+outside the approved path. So is a script that hammers the API.
+
+To be fair, Intuit is building for AI: built-in agents, official Claude
+and ChatGPT connectors (US-only, limited to listed actions), and an
+open-source MCP server that still requires production approval.
+
+If you're pointing an agent at QuickBooks today
+
+1.  Use approved connections. Choose Intuit's official connectors or an
+    approved app over tools that sign in as you.
+
+2.  Don't hand an agent your password. You're responsible for your
+    credentials, and in my view an agent logging in as you is more
+    likely to look like "unusual activity."
+
+3.  Respect rate limits. Throttle scripts and avoid rapid, repeated
+    token refreshes.
+
+4.  Keep an independent export. A recent trial balance, general ledger
+    detail and bank statements will keep you working if you're locked
+    out mid-close.
+
+5.  Know the recovery path. Keep ID handy and plan for reviews that can
+    take a day or more.
+
+I can't tell you that connecting an agent will get you locked out. The
+evidence doesn't support that. What it does show is that the approved
+paths are narrow and a lot is left to the platform's discretion.
+
+For those of you building or running agents: have you connected one to
+real accounting data yet? Which path did you use, and what's held you
+back?
+
+Read more []
+
+[] upvotes [] Comment
+
+View 3 comments
+
+[]

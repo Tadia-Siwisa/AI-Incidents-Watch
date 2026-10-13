@@ -1,0 +1,101 @@
+[
+  {
+    "file": "anthropic-unintended-model-actions.html",
+    "url": "https://www.anthropic.com/news/investigating-unintended-model-actions",
+    "final_url": "https://www.anthropic.com/news/investigating-unintended-model-actions",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 156179,
+    "sha256": "a706b1dbddd4f478b3890240543babcca57a0b7ffe28c2c130eaec28c019fede"
+  },
+  {
+    "file": "cbs-false-homicide-tip.html",
+    "url": "https://www.cbsnews.com/news/philadelphia-police-anthropic-ai-false-homicide-tip/",
+    "final_url": "https://www.cbsnews.com/news/philadelphia-police-anthropic-ai-false-homicide-tip/",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 623805,
+    "sha256": "7cacdad017dfa51478b1077dc858946608f108f5c85af900a3bb6eba1f2e9c73"
+  },
+  {
+    "file": "washington-post-anthropic-government-sites.html",
+    "url": "https://www.washingtonpost.com/technology/2026/10/09/anthropic-discloses-incidents-its-ai-models-misusing-government-sites/",
+    "final_url": "https://www.washingtonpost.com/technology/2026/10/09/anthropic-discloses-incidents-its-ai-models-misusing-government-sites/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 1378753,
+    "sha256": "4ecddab060519a9937269bc23228c50ac03d12db1c6fb37314e36666f4a0d886"
+  },
+  {
+    "file": "36kr-c-drive.html",
+    "url": "https://eu.36kr.com/en/p/4023946254651264",
+    "final_url": "https://eu.36kr.com/en/p/4023946254651264",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 59459,
+    "sha256": "3d44d81cc3e091a69a575a7676dbd56316582af94c72e62e90201a47e13ce6b2"
+  },
+  {
+    "file": "wikimedia-openai-rogue-agents.html",
+    "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+    "final_url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 102908,
+    "sha256": "e75c7773c8fd67d3a2009ba748de6a13a7e987d1391e9963d9511b80f2bf777d"
+  },
+  {
+    "file": "epoch-innovationeval.html",
+    "url": "https://epoch.ai/publications/innovationeval",
+    "final_url": "https://epoch.ai/publications/innovationeval",
+    "status": 200,
+    "content_type": "text/html",
+    "bytes": 256981,
+    "sha256": "2c05a79a37d29a7052590a15e018c54ee7680a473a4b8fce6f7084f6d8ddf26f"
+  },
+  {
+    "file": "transluce-us-canada-gov.html",
+    "url": "https://transluce.org/us-canada-gov",
+    "final_url": "https://transluce.org/us-canada-gov",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 54969,
+    "sha256": "ce303fd0daac8fd984a8d3700cb8084d963426abe0df09ca149ca9f63a5b8e5d"
+  },
+  {
+    "file": "aws-2026-127.html",
+    "url": "https://aws.amazon.com/security/security-bulletins/2026-127-aws/",
+    "final_url": "https://aws.amazon.com/security/security-bulletins/2026-127-aws/",
+    "status": 200,
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 302908,
+    "sha256": "7b2a5baccca1fa33846db17cea12b04ac52e7f8e54c52b1cf3b3932482e60851"
+  },
+  {
+    "file": "register-agentcore.html",
+    "url": "https://www.theregister.com/security/2026/10/09/aws_agentcore_security_undone_by_prompt_requesting_credentials/5302436",
+    "final_url": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 175947,
+    "sha256": "1a4bb9f7ad5a4b3b92c7979344c10190eefb379c801110ff406de73b954cc927"
+  },
+  {
+    "file": "reddit-four-drives-oembed.json",
+    "url": "https://www.reddit.com/oembed?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fdatarecovery%2Fcomments%2F1x41h5r%2F",
+    "final_url": "https://www.reddit.com/oembed?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fdatarecovery%2Fcomments%2F1x41h5r%2F",
+    "status": 200,
+    "content_type": "application/json",
+    "bytes": 897,
+    "sha256": "19cf9a35a1137b07534e76847681133787cf2f323c4a4afbe8d6141a1a0996f5"
+  },
+  {
+    "file": "x-c-drive-oembed.json",
+    "url": "https://publish.twitter.com/oembed?url=https%3A%2F%2Fx.com%2FPerceptualPeak%2Fstatus%2F2107621483392446572&omit_script=true",
+    "final_url": "https://publish.x.com/oembed?url=https%3A%2F%2Fx.com%2FPerceptualPeak%2Fstatus%2F2107621483392446572&omit_script=true",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 920,
+    "sha256": "312adc9a7c532cc40f069cbf0ad8fa700c7896ccac000b17db8a154a84917d70"
+  }
+]

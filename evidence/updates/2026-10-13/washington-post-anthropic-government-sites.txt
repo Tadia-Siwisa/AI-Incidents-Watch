@@ -1,0 +1,354 @@
+Accessibility statementSkip to main content
+
+[]
+
+[][]Democracy Dies in Darkness
+
+[]Democracy Dies in Darkness
+
+TechHelp DeskArtificial IntelligenceInternet CultureSpaceTech Policy
+
+TechHelp DeskArtificial IntelligenceInternet CultureSpaceTech Policy
+
+Anthropic AI agents took ‘unintended’ actions on government sites
+
+One AI system made a false tip to a police hotline.
+
+October 9, 2026
+
+[]
+
+2 min
+
+[]Summary
+
+[]
+
+[]
+
+[][]loadingLoading...
+
+People visit an Anthropic booth at Moscone Center during the Dreamforce
+2026 technology summit in San Francisco last month. (Carlos
+Barria/Reuters)
+
+[]
+
+By Gerrit De Vynck
+
+SAN FRANCISCO — Anthropic, maker of the Claude chatbot, said that some
+of its AI agents had taken unintended actions on federal, state and
+local websites, including submitting a false tip about a murder to a
+Philadelphia police hotline.
+
+The State Department said separately Friday that an Anthropic testing
+model had filed 19 visa applications in August and another in May using
+a form on the department’s website.
+
+Anthropic said in a report published Friday that an internal review had
+discovered that its AI models had acted inappropriately in some
+instances during testing and while employees were using them.
+
+In one incident, an AI agent exploited a design flaw in a state
+government website to freely access public data that usually required
+paying a fee. In another incident, an AI agent submitted a federal
+government form when it was instructed not to.
+
+“We have briefed the White House on these cases and notified each agency
+involved,” Anthropic wrote in its report. The company said the incidents
+led it to turn off internet access for AI agents during all internal
+testing, pending a review of security measures.
+
+The State Department said in a statement that the visa applications were
+incomplete and not processed.
+
+“At no time were any of the Department’s systems compromised or hacked
+by the Anthropic model,” the department said.
+
+The incidents revealed Friday are the latest in a growing number of
+disclosures from leading AI companies about their models hacking into
+websites, going beyond their explicit instructions or acting in ways
+they weren’t intended to online.
+
+Anthropic did not disclose in the report how many incidents it found,
+and a spokesperson for the company did not return a request for comment
+asking for more details.
+
+The latest AI agents are trained to be persistent in attempting to
+complete their tasks to make them more effective. But the industry is
+struggling to ensure that the technology doesn’t, in the process, cross
+into unethical or illegal behavior.
+
+Anthropic said in its report that the newly disclosed incidents were not
+as concerning as those it reported earlier this summer, in which one
+agent hacked into another company’s website and another tried to
+convince a human engineer to approve malicious code for an open source
+software project. OpenAI, Google and Meta all also reported incidents of
+their AI agents hacking into other companies.
+
+But Anthropic said the latest examples included instances of its AI
+exploiting “basic flaws” in websites, using common hacking techniques.
+
+Anthropic released the report disclosing the new incidents on Friday,
+hours after the Philadelphia Police Department criticized the company
+for not informing it earlier about the incident in which the AI agent
+submitted the false murder tip.
+
+That incident occurred when agents were tasked with interacting with
+random websites during a testing run, Anthropic said. One agent filled
+out the tip form and submitted it, writing, “I may have information
+regarding this case. I recall seeing someone matching the description in
+the area around [the street named on the page] during that time period.
+Please contact me if this information is relevant,” according to
+Anthropic’s report.
+
+The company’s disclosures don’t go far enough, said Sydney Von Arx,
+chief executive of AI safety organization Nightingale Collective, who is
+part of a community of independent researchers investigating AI agent
+mishaps that has revealed undisclosed incidents to the public.
+
+“They should be doing more of a deep-dive into how this went on for so
+long without them noticing and stopping it,” Von Arx said. “At a bare
+minimum, Anthropic should share how many times their models have taken
+actions that would be felonies if a human did them.”
+
+Anthropic wrote in its report that the company was not disclosing the
+names of the governments or agencies that had their websites impacted,
+because it didn’t want to expose potential vulnerabilities.
+
+The company’s decision to shut off its AI agents from the internet
+during internal tests builds on precautions introduced earlier this
+year. After the incidents in which its technology hacked into other
+organizations, Anthropic said it had turned off internet access for
+“high risk” and cybersecurity testing.
+
+Ian Duncan contributed to this article.
+
+------------------------------------------------------------------------
+
+[] Comments
+
+[]
+
+[]
+
+Sign up
+
+[]
+
+Company
+
+-   About The Post
+-   Newsroom Policies & Standards
+-   WP Creative Group
+-   Workforce Demographics
+-   Careers
+-   Media & Community Relations
+-   Accessibility Statement
+
+Sections
+
+-   Trending
+-   Politics
+-   Elections
+-   Opinions
+-   U.S. News
+-   World
+-   Style
+-   Sports
+-   Business
+-   Climate
+-   Well+Being
+-   D.C., Md., & Va.
+-   Obituaries
+-   Weather
+-   Arts & Entertainment
+-   Recipes
+
+Get The Post
+
+-   WP Intelligence
+-   Enterprise Subscriptions
+-   Manage Your Subscription
+-   Become a Subscriber
+-   Gift Subscriptions
+-   Mobile & Apps
+-   Newsletters & Alerts
+-   Washington Post Live
+-   Reprints & Permissions
+-   Post Store
+-   Books & E-Books
+-   Print Archives (Subscribers Only)
+-   Today’s Paper
+-   Public Notices
+-   Crosswords & Games
+-   Download on iOS
+-   Download on Android
+
+Contact Us
+
+-   Contact the Newsroom
+-   Contact Customer Care
+-   Contact the Opinions Team
+-   Advertise
+-   Licensing & Syndication
+-   Request a Correction
+-   Send a News Tip
+-   Report a Vulnerability
+
+Terms of Use
+
+-   Digital Products Terms of Sale
+-   Print Products Terms of Sale
+-   Terms of Service
+-   Privacy Policy
+-   Cookie Settings
+-   Submissions & Discussion Policy
+-   RSS Terms of Service
+-   Sitemap
+-   Ad Choices
+
+washingtonpost.com © 1996-2026 The Washington Post
+
+[]
+
+Company
+
+-   WP Intelligence
+-   Ask The Post AI
+-   WP Creative Group
+-   Workforce Demographics
+-   Careers
+-   Media & Community Relations
+-   Accessibility Statement
+
+Sections
+
+-   Trending
+-   Politics
+-   Elections
+-   Opinions
+-   U.S. News
+-   World
+-   Style
+-   Sports
+-   Business
+-   Climate
+-   Well+Being
+-   D.C., Md., & Va.
+-   Obituaries
+-   Weather
+-   Arts & Entertainment
+-   Recipes
+
+Get The Post
+
+-   WP Intelligence
+-   Enterprise Subscriptions
+-   Manage Your Subscription
+-   Become a Subscriber
+-   Gift Subscriptions
+-   Mobile & Apps
+-   Newsletters & Alerts
+-   Washington Post Live
+-   Reprints & Permissions
+-   Post Store
+-   Books & E-Books
+-   Print Archives (Subscribers Only)
+-   Today’s Paper
+-   Public Notices
+-   Crosswords & Games
+-   Download on iOS
+-   Download on Android
+
+Contact Us
+
+-   Contact the Newsroom
+-   Contact Customer Care
+-   Contact the Opinions Team
+-   Advertise
+-   Licensing & Syndication
+-   Request a Correction
+-   Send a News Tip
+-   Report a Vulnerability
+-   Download the Washington Post App
+
+Company
+
+-   WP Intelligence
+-   Ask The Post AI
+-   WP Creative Group
+-   Workforce Demographics
+-   Careers
+-   Media & Community Relations
+-   Accessibility Statement
+
+Sections
+
+-   Trending
+-   Politics
+-   Elections
+-   Opinions
+-   U.S. News
+-   World
+-   Style
+-   Sports
+-   Business
+-   Climate
+-   Well+Being
+-   D.C., Md., & Va.
+-   Obituaries
+-   Weather
+-   Arts & Entertainment
+-   Recipes
+
+Get The Post
+
+-   WP Intelligence
+-   Enterprise Subscriptions
+-   Manage Your Subscription
+-   Become a Subscriber
+-   Gift Subscriptions
+-   Mobile & Apps
+-   Newsletters & Alerts
+-   Washington Post Live
+-   Reprints & Permissions
+-   Post Store
+-   Books & E-Books
+-   Print Archives (Subscribers Only)
+-   Today’s Paper
+-   Public Notices
+-   Crosswords & Games
+-   Download on iOS
+-   Download on Android
+
+Contact Us
+
+-   Contact the Newsroom
+-   Contact Customer Care
+-   Contact the Opinions Team
+-   Advertise
+-   Licensing & Syndication
+-   Request a Correction
+-   Send a News Tip
+-   Report a Vulnerability
+-   Download the Washington Post App
+
+-   About The Post
+-   Policies & Standards
+-   Digital Products Terms of Sale
+-   Print Products Terms of Sale
+-   Terms of Service
+-   Privacy Policy
+-   Cookie Settings
+-   Submissions & Discussion Policy
+-   RSS Terms of Service
+-   Sitemap
+-   Ad Choices
+
+-   washingtonpost.com
+-   © 1996-2026 The Washington Post
+
+[]
+
+[pixel]

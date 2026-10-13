@@ -1,0 +1,7 @@
+{
+  "baseline_as_of": "2026-10-09",
+  "last_adjudicated": "2026-10-13",
+  "baseline_case_count": 46,
+  "workbook": "AI_Incident_Watch_Evidence_Updates.xlsx",
+  "notification_note": "The chat cannot initiate messages between active sessions. Use the saved checkpoint for the next incremental scan, or add an external scheduled notification channel."
+}

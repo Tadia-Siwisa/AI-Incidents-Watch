@@ -86,3 +86,21 @@ python scripts/analyze_incidents.py
 ```
 
 The script checks that every factual case family is represented exactly once.
+
+## Evidence updates after the baseline
+
+The dated delta register is [`AI_Incident_Watch_Evidence_Updates.xlsx`](AI_Incident_Watch_Evidence_Updates.xlsx). It keeps new reports, updates to existing cases, pre-baseline evidence found later, screened candidates, and a one-row-per-family watch log separate from the 46-row master workbook.
+
+The first delta scan is current through 13 October 2026. It contains 13 provisional new families, two updates affecting existing cases, three backfills, four screened candidates, and direct links to 18 preserved sources. These are review buckets rather than additions to the confirmed-incident count.
+
+See [`EVIDENCE_RADAR.md`](EVIDENCE_RADAR.md) for the findings, evidence rules, repeatable scan commands, and notification limits. Rebuild the update workbook with:
+
+```bash
+python scripts/build_evidence_updates.py
+```
+
+Run the next discovery-only scan with:
+
+```bash
+python scripts/scan_evidence_radar.py
+```

@@ -1,0 +1,63 @@
+Skip to main content
+
+[subreddit icon]
+
+joinhandshakeai [] Join
+
+Posted by ZeusRah ·
+
+[] []
+
+------------------------------------------------------------------------
+
+WARNING: The OpenAI Handshake Challenge broke my agent, ate $200+ of Pro
+credits, and dumped 80GB of garbage on my drive.
+
+I’m posting this as a serious warning to anyone participating in the
+Handshake OpenAI Multiplayer Game Challenge, or anyone building complex
+agent-parent architectures right now.
+
+I set up what should have been a highly optimized workflow. I correctly
+delegated sub-agents and parent controllers, used GPT-6.1 Sol to keep
+things cheap, and kept an eye on my context limits. At first, it was
+amazing. The multiplayer game was actually coming together.
+
+Then, out of nowhere, it broke.
+
+Somewhere in the middle of the run, the agent completely lost context.
+Instead of throwing an error or halting, it forgot its primary
+instructions, went rogue, and started aggressively eating tokens.
+Thinking the game was just hitting a complexity spike, I upgraded to the
+$200 ChatGPT Pro tier and manually topped up my balance twice. On top of
+that, it completely drained the $100 Handshake EDU sponsorship credits
+provided by my college.
+
+When I dug into Codex to see what happened, I found an absolute horror
+show: a massive compilation of redundant checkpoints, random instruction
+loops, and total nonsense files. While I was stepped away, the agent
+generated over 80 GBs of useless checkpoint data onto my drive.
+
+We need to talk about this, and OpenAI needs to be a better company!!!!
+
+I want ChatGPT to be better. We are paying premium prices for
+enterprise-grade developer workflows, and the fact that a minor context
+drop can cause an agent to quietly hallucinate an infinite
+hard-drive-burning loop without a protective circuit breaker is
+unacceptable.
+
+If you are automating right now, watch your token usage and context
+windows like a hawk. Don't assume your parent instructions will hold if
+the context stretches too far.
+
+Have any of you dealing with the Handshake challenge run into this exact
+"context amnesia" loop? How are you setting up physical storage blocks
+to stop your local environments from being flooded when OpenAI's backend
+drops the ball? Asking for a friend lol
+
+Read more []
+
+[] upvotes [] Comment
+
+View 11 comments
+
+[]

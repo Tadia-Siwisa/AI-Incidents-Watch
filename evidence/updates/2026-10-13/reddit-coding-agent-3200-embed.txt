@@ -1,0 +1,49 @@
+Skip to main content
+
+[subreddit icon]
+
+ChatGPTCoding [] Join
+
+Posted by erwinalp5 ·
+
+[] []
+
+------------------------------------------------------------------------
+
+Our coding agent got stuck in a loop and burned $3,200 overnight
+
+small team of 5, we let a coding agent pick up tickets overnight and
+open PRs so there's work waiting in the morning
+
+Tuesday ended normally but Wednesday morning the billing dashboard had a
+weird spike
+
+after digging in we found the agent hit a flaky test that kept failing
+and decided the fix was to rewrite the test with a slightly different
+approach 4,800 times between 11:40pm and 6:15am
+
+$3,200 spent in tokens on a team that budgets $600/mo for agents
+
+we had a spend alert for the whole org, however nothing per run because
+usage only showed up in the monthly bill and nobody checked it in
+between
+
+the dumb part is the ticket was a one line config change. the agent did
+exactly what agents do when nothing tells them to stop, it went rogue
+
+we had to explain it to finance and send a very awkward message in the
+eng channel
+
+we now have a hard budget per run, a max retry count per tool call and
+the agent stops and opens a draft PR if it hits either, which honestly
+should have existed from day one
+
+soo.. how others are capping spend on overnight runs?
+
+Read more []
+
+[] upvotes [] Comment
+
+View 49 comments
+
+[]

@@ -1,0 +1,53 @@
+Skip to main content
+
+[subreddit icon]
+
+datarecovery [] Join
+
+Posted by izebrra ·
+
+[] []
+
+------------------------------------------------------------------------
+
+URGENT: Trying to recover deleted FL Studio (.flp) projects from
+external SSDs — DMDE, TestDisk and PhotoRec haven’t found them
+
+Hi everyone,
+I’m trying to help someone recover their lost FL Studio projects from
+external SSDs (Samsung and SanDisk).
+We’ve been attempting data recovery using tools including DMDE, TestDisk
+and PhotoRec, but so far we haven’t been able to find any of the
+original .flp project files.
+The recovery tools are finding lots of other files, but not the actual
+FL Studio projects we’re looking for.
+A few details:
+The drives are external SSDs connected to a Mac.
+The missing projects were saved as .flp files, not ZIP files.
+We’ve tried multiple recovery tools without finding the projects.
+We have a new SSD available to store recovered files safely.
+We’re trying to avoid paying hundreds or thousands for professional
+recovery.
+My questions:
+Why would recovery software find other files but not a single .flp file?
+Is it possible that the .flp files are still there but the recovery
+software doesn’t recognise their file signatures?
+Would a custom file recovery scanner built using Claude Code or Codex be
+worth attempting?
+Is there any software specifically capable of recovering deleted FL
+Studio projects?
+Is there anything else we should try before giving up?
+These projects are extremely important, and we’re willing to try
+technical solutions as long as they don’t risk damaging the remaining
+data.
+Any advice from data recovery specialists or people who’ve successfully
+recovered FL Studio projects would be massively appreciated.
+Thank you!
+
+Read more []
+
+[] upvotes [] Comment
+
+View 3 comments
+
+[]

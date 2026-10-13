@@ -1,0 +1,74 @@
+[
+  {
+    "key": "cursor-600gb",
+    "url": "https://www.reddit.com/r/cursor/comments/1x3az20/cursor_agent_ran_a_recursive_rmdir_from_c_and/",
+    "retrieval_url": "https://embed.reddit.com/r/cursor/comments/1x3az20/cursor_agent_ran_a_recursive_rmdir_from_c_and/",
+    "file": "reddit-cursor-600gb-embed.html",
+    "http_status": 200,
+    "bytes": 345062,
+    "sha256": "28d99d8f4656f1509a3cc30d7f624f41e8bd9a25dd79980277972879d46652bc"
+  },
+  {
+    "key": "claude-zfs",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1x2slhv/finally_happened_to_me_claude_wrote_an_installer/",
+    "retrieval_url": "https://embed.reddit.com/r/ClaudeAI/comments/1x2slhv/finally_happened_to_me_claude_wrote_an_installer/",
+    "file": "reddit-claude-zfs-embed.html",
+    "http_status": 200,
+    "bytes": 310739,
+    "sha256": "cd0127eeabdf36794790cc56b683dce00124993fb2def4a0fc20acc586d9429f"
+  },
+  {
+    "key": "coding-agent-3200",
+    "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1x1ks1u/our_coding_agent_got_stuck_in_a_loop_and_burned/",
+    "retrieval_url": "https://embed.reddit.com/r/ChatGPTCoding/comments/1x1ks1u/our_coding_agent_got_stuck_in_a_loop_and_burned/",
+    "file": "reddit-coding-agent-3200-embed.html",
+    "http_status": 200,
+    "bytes": 333353,
+    "sha256": "a2899a256006bb04fbb1706b4706ba2b5474534d4697d3a853cf8df11f05889f"
+  },
+  {
+    "key": "claude-four-drives",
+    "url": "https://www.reddit.com/r/datarecovery/comments/1x41h5r/claude_ai_told_me_to_run_sudo_rm_rf_volumes_and/",
+    "retrieval_url": "https://embed.reddit.com/r/datarecovery/comments/1x41h5r/claude_ai_told_me_to_run_sudo_rm_rf_volumes_and/",
+    "file": "reddit-claude-four-drives-embed.html",
+    "http_status": 200,
+    "bytes": 333472,
+    "sha256": "a1dcee7a86546fa8dbd558db95a407c5d42ff8b02b288bb64205426fef19b8b6"
+  },
+  {
+    "key": "handshake-80gb",
+    "url": "https://www.reddit.com/r/joinhandshakeai/comments/1x4mxxe/warning_the_openai_handshake_challenge_broke_my/",
+    "retrieval_url": "https://embed.reddit.com/r/joinhandshakeai/comments/1x4mxxe/warning_the_openai_handshake_challenge_broke_my/",
+    "file": "reddit-handshake-80gb-embed.html",
+    "http_status": 200,
+    "bytes": 334735,
+    "sha256": "df47b12c4c927d1582b432f76079b82138708acf934c4839db55a246d95edc47"
+  },
+  {
+    "key": "four-drives-followup",
+    "url": "https://www.reddit.com/r/datarecovery/comments/1x4sbjj/urgent_trying_to_recover_deleted_fl_studio_flp/",
+    "retrieval_url": "https://embed.reddit.com/r/datarecovery/comments/1x4sbjj/urgent_trying_to_recover_deleted_fl_studio_flp/",
+    "file": "reddit-four-drives-followup-embed.html",
+    "http_status": 200,
+    "bytes": 333814,
+    "sha256": "02ba0eeb86690b17799ed8f368a6acb96484c5a277fcd47f8d59cb290ea64565"
+  },
+  {
+    "key": "quickbooks-secondary",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1x4ngbe/an_ai_agent_reportedly_got_a_users_quickbooks/",
+    "retrieval_url": "https://embed.reddit.com/r/AI_Agents/comments/1x4ngbe/an_ai_agent_reportedly_got_a_users_quickbooks/",
+    "file": "reddit-quickbooks-secondary-embed.html",
+    "http_status": 200,
+    "bytes": 335912,
+    "sha256": "339931f49a5dd9f35e4be67a0b480a05f7bd733f8c9daa1818535ab505ba23ba"
+  },
+  {
+    "key": "access-check-review",
+    "url": "https://www.reddit.com/r/softwarearchitecture/comments/1x4xhuf/the_agent_cleaned_up_our_access_check_and_left/",
+    "retrieval_url": "https://embed.reddit.com/r/softwarearchitecture/comments/1x4xhuf/the_agent_cleaned_up_our_access_check_and_left/",
+    "file": "reddit-access-check-review-embed.html",
+    "http_status": 200,
+    "bytes": 330221,
+    "sha256": "e2e27794015d0c527af4d13dfb0910830cb48177e6e6326e747092f47c684a55"
+  }
+]

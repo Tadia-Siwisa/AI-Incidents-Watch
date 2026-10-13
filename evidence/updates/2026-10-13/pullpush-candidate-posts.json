@@ -1,0 +1,128 @@
+{
+  "retrieved_at": "2026-10-13",
+  "source": "https://api.pullpush.io/",
+  "archive_notice": "Third-party Reddit archive; direct Reddit embed snapshots are preferred where available.",
+  "posts": [
+    {
+      "queries": [
+        "claude deleted",
+        "claude lost files",
+        "codex deleted"
+      ],
+      "id": "1x4sbjj",
+      "created_utc": 1791884675.0,
+      "subreddit": "datarecovery",
+      "title": "URGENT: Trying to recover deleted FL Studio (.flp) projects from external SSDs \u2014 DMDE, TestDisk and PhotoRec haven\u2019t found them",
+      "selftext": "Hi everyone,  \nI\u2019m trying to help someone recover their lost FL Studio projects from external SSDs (Samsung and SanDisk).  \nWe\u2019ve been attempting data recovery using tools including DMDE, TestDisk and PhotoRec, but so far we haven\u2019t been able to find any of the original **.flp project files**.  \nThe recovery tools are finding lots of other files, but not the actual FL Studio projects we\u2019re looking for.  \nA few details:  \nThe drives are external SSDs connected to a Mac.  \nThe missing projects were saved as **.flp files**, not ZIP files.  \nWe\u2019ve tried multiple recovery tools without finding the projects.  \nWe have a new SSD available to store recovered files safely.  \nWe\u2019re trying to avoid paying hundreds or thousands for professional recovery.  \n**My questions:**  \nWhy would recovery software find other files but not a single .flp file?  \nIs it possible that the .flp files are still there but the recovery software doesn\u2019t recognise their file signatures?  \nWould a custom file recovery scanner built using Claude Code or Codex be worth attempting?  \nIs there any software specifically capable of recovering deleted FL Studio projects?  \nIs there anything else we should try before giving up?  \nThese projects are extremely important, and we\u2019re willing to try technical solutions as long as they don\u2019t risk damaging the remaining data.  \nAny advice from data recovery specialists or people who\u2019ve successfully recovered FL Studio projects would be massively appreciated.  \nThank you!",
+      "url": "https://www.reddit.com/r/datarecovery/comments/1x4sbjj/urgent_trying_to_recover_deleted_fl_studio_flp/",
+      "permalink": "/r/datarecovery/comments/1x4sbjj/urgent_trying_to_recover_deleted_fl_studio_flp/",
+      "author": "izebrra"
+    },
+    {
+      "queries": [
+        "claude deleted",
+        "claude lost files"
+      ],
+      "id": "1x41h5r",
+      "created_utc": 1791810677.0,
+      "subreddit": "datarecovery",
+      "title": "Claude AI told me to run sudo rm -rf /Volumes/ and now all 4 of my external HDDs have lost their files. Help!*",
+      "selftext": "I was having issues with FL Studio and NEXUS not recognising my samples and presets on my external drives.  \nI asked Claude AI for help, and it instructed me to run:  \nsudo rm -rf /Volumes/\\*  \nClaude claimed this would clear broken directory links and fix the connection issues.  \nAfter running the command, all four of my external HDDs were affected, and I can no longer see any of my files. My Mac\u2019s internal storage seems fine.  \nWhen I confronted Claude, it repeatedly told me my files were completely safe and that the command had only deleted virtual shortcuts, not actual data.  \nI\u2019ve since discovered that this command can potentially delete everything inside mounted external drives.  \nAll four HDDs are still detected in Disk Utility, but my files aren\u2019t showing. I haven\u2019t restarted my Mac since this happened.  \n**Is there any way I can recover everything?** I\u2019m considering PhotoRec, TestDisk or R-Studio before going to a professional data recovery shop.  \nThese drives contain important FL Studio projects, samples, presets and other files. Ideally, I want to recover the original folder structures and filenames too.  \nHas anyone experienced anything similar? What\u2019s the safest way to approach recovery without making things worse?  \nAny advice would be really appreciated.",
+      "url": "https://www.reddit.com/r/datarecovery/comments/1x41h5r/claude_ai_told_me_to_run_sudo_rm_rf_volumes_and/",
+      "permalink": "/r/datarecovery/comments/1x41h5r/claude_ai_told_me_to_run_sudo_rm_rf_volumes_and/",
+      "author": "izebrra"
+    },
+    {
+      "queries": [
+        "claude deleted",
+        "claude lost files"
+      ],
+      "id": "1x41eow",
+      "created_utc": 1791810498.0,
+      "subreddit": "MacOS",
+      "title": "Claude AI told me to run sudo rm -rf /Volumes/ and now all 4 of my external 2 ssd and 2 sd cards have lost their files. Help!",
+      "selftext": "I was having issues with FL Studio and NEXUS not recognising my samples and presets on my external drives.  \nI asked Claude AI for help, and it instructed me to run:  \nsudo rm -rf /Volumes/\\*  \nClaude claimed this would clear broken directory links and fix the connection issues.  \nAfter running the command, all four of my external HDDs were affected, and I can no longer see any of my files. My Mac\u2019s internal storage seems fine.  \nWhen I confronted Claude, it repeatedly told me my files were completely safe and that the command had only deleted virtual shortcuts, not actual data.  \nI\u2019ve since discovered that this command can potentially delete everything inside mounted external drives.  \nAll four HDDs are still detected in Disk Utility, but my files aren\u2019t showing. I haven\u2019t restarted my Mac since this happened.  \n**Is there any way I can recover everything?** I\u2019m considering PhotoRec, TestDisk or R-Studio before going to a professional data recovery shop.  \nThese drives contain important FL Studio projects, samples, presets and other files. Ideally, I want to recover the original folder structures and filenames too.  \nHas anyone experienced anything similar? What\u2019s the safest way to approach recovery without making things worse?  \nAny advice would be really appreciated.",
+      "url": "https://www.reddit.com/r/MacOS/comments/1x41eow/claude_ai_told_me_to_run_sudo_rm_rf_volumes_and/",
+      "permalink": "/r/MacOS/comments/1x41eow/claude_ai_told_me_to_run_sudo_rm_rf_volumes_and/",
+      "author": "izebrra"
+    },
+    {
+      "queries": [
+        "claude deleted"
+      ],
+      "id": "1x2slhv",
+      "created_utc": 1791673294.0,
+      "subreddit": "ClaudeAI",
+      "title": "Finally happened to me.  Claude wrote an installer that deleted a ZFS disk member.",
+      "selftext": "[removed]",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1x2slhv/finally_happened_to_me_claude_wrote_an_installer/",
+      "permalink": "/r/ClaudeAI/comments/1x2slhv/finally_happened_to_me_claude_wrote_an_installer/",
+      "author": "FormalShip4943"
+    },
+    {
+      "queries": [
+        "claude sent"
+      ],
+      "id": "1x4xhuf",
+      "created_utc": 1791900162.0,
+      "subreddit": "softwarearchitecture",
+      "title": "The agent \u201ccleaned up\u201d our access check and left impersonation inside it",
+      "selftext": "Last week I rejected three pull requests handed off by an automated tool. The team is still fuming over the auth module, which mattered far more than any trivial utility. Product framed support impersonation as a quick toggle, ignoring that modifying authorization logic fundamentally alters our security posture.\n\nThe agent did what they always do when you say refactor while you are in there: it pulled \\`\\_normalize\\_actor\\` into its own file, renamed \\`user\\` to \\`principal\\` in a dozen places, and left the new impersonation path three \\`if\\`s deep inside \\`authorize()\\`, which is already the function nobody on this team opens on a Friday. Tests were green, the review comment was friendly, and the diff looked like work because half of it was a new helper with a nicer name. Product asked in Slack why I was blocking AI? I said I was blocking a merge that put a support override inside the same method that already decides plan, region, and whether the org has the feature, which is how you get a file that the next agent will also refuse to cut up.\n\nThis is the nest it left after the \u201ccleanup\u201d:\n\nhttps://preview.redd.it/1flqlko0r8vh1.png?width=1720&format=png&auto=webp&s=87ca5f4bf55ffcd50be0c011f1f4dbe8f4284847\n\nI ran a review on the whole file, not the diff, because the diff was the helper and the helper was not the problem. Same path, same smells it had on Monday, plus Deep Nested Complexity on the new branch, which is the only reason I had something to point at when Slack started treating this like a taste argument. I am not asking that file for 9.5 on a Thursday. I sent it back with one rule: the file does not get to come out worse than it went in, and impersonation does not get to live inside the function that already has four reasons to say no.\n\nSecond pass I pointed to the same agent at that block and told it to extract \\`resolve\\_impersonation\\` and leave \\`authorize()\\` deciding who the actor is, not who they are pretending to be. Rechecked the same path. Nesting finding gone, method a bit shorter, still not healthy, still a hotspot, still a file I would not call AI-ready. That PR I approved. The first one I would bounce again, and I do not care that the tests passed, because the test suite never asked whether support can bind a customer without an audit trail.\n\nThe part that stopped this being \u201cI am picky\u201d is that this mix of edits is not unique to our repo. Same model, 25,000 public files: Claude off the shelf did about 54,000 renames and 7,500 extracts, and once it had a Code Health number to hit that flipped to about 8,600 renames and 21,000 extracts. A wall of renames feels like a cleanup in the UI and barely moves whether the file is easier to change. Extracting a method looks uglier in review and it is the edit that actually moved the score, which is why I stopped accepting \u201cI refactored it\u201d as a sentence that means anything. Left alone, the agent tidies. Give it a number it has to hit and it starts cutting the file into pieces, which is the work I thought I had asked for the first time.\n\nThe files people point agents at are usually the ones that already hurt, and those sit around a 5 on a 1 to 10 maintainability score, while 9.5 is mostly the line where the next edit is actually safe to hand to a model. Unhealthy code is also where agents break more, which is the part I wish more teams sat with before they roll a model onto authorize() and hope the next version will clean it up. You do not have to take the whole repo to 9.5, but you do have to stop merging a slightly worse version of the same file because a comment said the helper looked clean.\n\nWhat I made mandatory is smaller than this beautiful score: if the agent generated it or edited it, that file does not come out worse, new file or old file, because a small slip this week is the next two agent passes stacking another flag on top of it, and that is how you wake up in Q1 with a hotspot you will spend a quarter pretending you will rewrite. Getting the same file up to 9.5 is a real project and I am not pretending otherwise. Do not mix that project up with the rule I actually enforce.\n\nI stopped treating [AGENTS.md](http://AGENTS.md) as a gate, because it is a note and agents skip notes, so the same score has to live in the session if the agent plays along, on the laptop before commit, and on the PR so I am not hostage to whether someone installed the MCP. If those disagree, the PR wins. I do not score every keystroke, because that is how the agent thrashes and never finishes the ticket. Check before it dives into a nasty edit, again before commit, once more before the PR goes up, and then leave it alone.\n\nMy question is, are you actually failing these, or are you merging them and calling it adoption at this point?",
+      "url": "https://www.reddit.com/r/softwarearchitecture/comments/1x4xhuf/the_agent_cleaned_up_our_access_check_and_left/",
+      "permalink": "/r/softwarearchitecture/comments/1x4xhuf/the_agent_cleaned_up_our_access_check_and_left/",
+      "author": "Latter-Departure8714"
+    },
+    {
+      "queries": [
+        "cursor wiped"
+      ],
+      "id": "1x3az20",
+      "created_utc": 1791732309.0,
+      "subreddit": "cursor",
+      "title": "Cursor agent ran a recursive rmdir from C:\\ and wiped ~600 GB. Support answered a refund question I never asked.",
+      "selftext": "On Oct 7 I asked the agent to clean up a Laravel project. The \"cleanup\" ended up running a recursive rmdir from the root of C:\\\\ and took about 600 GB with it.\n\nIts first report called it \"a serious environmental blocker.\" It only said \"I'm sorry, this was my error\" after I asked what exactly it had deleted. Screenshots attached, with personal info redacted.\n\nI'm on Pro+. I contacted support asking for a review of what ran and what safeguards exist. I never asked for a refund. The AI support reply and then the human reply both answered with a refund decision. I clarified, and they never replied after that.\n\nWhat saved me was knowing to stop TRIM right away (it's an NVMe drive). A recovery shop quoted $800 the next day. I did it myself instead, and it still took two sleepless nights of recovering and rewiring to get back on track. Someone without that background would probably pay the $800 and get back file names, not working projects.\n\nAgents will make mistakes, and I get that. But an agent smart enough to write your app can follow a short \"never do\" list:\n\n* never delete outside the project folder\n* never touch a drive root\n* always ask before any recursive delete\n* never run a delete on a path it hasn't resolved\n\nUntil tools enforce something like this, keep backups and version control, and don't auto-approve terminal commands.\n\nHas anyone else had an agent run something destructive? Did support actually help?\n\n",
+      "url": "https://www.reddit.com/gallery/1x3az20",
+      "permalink": "/r/cursor/comments/1x3az20/cursor_agent_ran_a_recursive_rmdir_from_c_and/",
+      "author": "SoftwareNegative8783"
+    },
+    {
+      "queries": [
+        "agent unauthorized"
+      ],
+      "id": "1x4ngbe",
+      "created_utc": 1791866293.0,
+      "subreddit": "AI_Agents",
+      "title": "An AI agent reportedly got a user's QuickBooks account suspended. What the rules say, and 5 ways to connect agents to your books more safely",
+      "selftext": "Disclosure: I'm the founder of KiwiBooks, and I used to lead product for QuickBooks Self-Employed at Intuit.\n\nIn August, Josh Pigford posted on X asking \"who's building agent-friendly bookkeeping?\" His reason: he wrote that Intuit had suspended his decade-old QuickBooks account after he used an AI agent to help categorize transactions. He shared a screenshot of the notice, which cites \"unusual activity,\" says the account was locked \"while we investigate,\" and calls the step \"purely precautionary.\"\n\nHis account is self-reported. The public post doesn't say how the agent reached QuickBooks (signing in through a browser with his password, or an approved app connection), how long the lock lasted, or how it was resolved. I searched Reddit, Intuit's forums, Hacker News, LinkedIn and the trade press, and his is the only first-hand public report I could find of a suspension after using an AI agent. One post isn't a pattern.\n\nGeneral lockouts are easier to find, though. People describe admin accounts deactivated over suspicious activity, ID checks, and waits of about two days. Developers describe \"Token revoked\" errors after rapid token refreshes, and integrations losing API access after app review.\n\n**What the rules say**\n\n- The QuickBooks Online Terms of Service ban unauthorized access or use, including scraping, and let Intuit suspend or terminate accounts \"at any time in our discretion.\"\n- Intuit's developer terms prohibit \"scraping, automated retrieval, botting, crawling\" and reserve the right to suspend access without notice.\n- Every app touching real company data has to complete an app assessment, even private ones.\n- The API allows 500 requests per minute per company, and read calls are metered.\n\nSo an agent that signs in with your password and clicks around is outside the approved path. So is a script that hammers the API.\n\nTo be fair, Intuit is building for AI: built-in agents, official Claude and ChatGPT connectors (US-only, limited to listed actions), and an open-source MCP server that still requires production approval.\n\n**If you're pointing an agent at QuickBooks today**\n\n1. **Use approved connections.** Choose Intuit's official connectors or an approved app over tools that sign in as you.\n2. **Don't hand an agent your password.** You're responsible for your credentials, and in my view an agent logging in as you is more likely to look like \"unusual activity.\"\n3. **Respect rate limits.** Throttle scripts and avoid rapid, repeated token refreshes.\n4. **Keep an independent export.** A recent trial balance, general ledger detail and bank statements will keep you working if you're locked out mid-close.\n5. **Know the recovery path.** Keep ID handy and plan for reviews that can take a day or more.\n\nI can't tell you that connecting an agent will get you locked out. The evidence doesn't support that. What it does show is that the approved paths are narrow and a lot is left to the platform's discretion.\n\nFor those of you building or running agents: have you connected one to real accounting data yet? Which path did you use, and what's held you back?",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1x4ngbe/an_ai_agent_reportedly_got_a_users_quickbooks/",
+      "permalink": "/r/AI_Agents/comments/1x4ngbe/an_ai_agent_reportedly_got_a_users_quickbooks/",
+      "author": "kiwibooks"
+    },
+    {
+      "queries": [
+        "agent went rogue"
+      ],
+      "id": "1x4mxxe",
+      "created_utc": 1791864587.0,
+      "subreddit": "joinhandshakeai",
+      "title": "WARNING: The OpenAI Handshake Challenge broke my agent, ate $200+ of Pro credits, and dumped 80GB of garbage on my drive.",
+      "selftext": "I\u2019m posting this as a serious warning to anyone participating in the Handshake OpenAI Multiplayer Game Challenge, or anyone building complex agent-parent architectures right now.\n\nI set up what should have been a highly optimized workflow. I correctly delegated sub-agents and parent controllers, used GPT-6.1 Sol to keep things cheap, and kept an eye on my context limits. At first, it was amazing. The multiplayer game was actually coming together.\n\nThen, out of nowhere, it broke.\n\nSomewhere in the middle of the run, the agent completely lost context. Instead of throwing an error or halting, it forgot its primary instructions, went rogue, and started aggressively eating tokens. Thinking the game was just hitting a complexity spike, I upgraded to the **$200 ChatGPT Pro tier** and manually topped up my balance *twice*. On top of that, it completely drained the **$100 Handshake EDU sponsorship credits** provided by my college.\n\nWhen I dug into Codex to see what happened, I found an absolute horror show: a massive compilation of redundant checkpoints, random instruction loops, and total nonsense files. While I was stepped away, the agent generated **over 80 GBs of useless checkpoint data** onto my drive.\n\n**We need to talk about this, and OpenAI needs to be a better company!!!!**  \n  \nI want *ChatGPT* to be better. We are paying premium prices for enterprise-grade developer workflows, and the fact that a minor context drop can cause an agent to quietly hallucinate an infinite hard-drive-burning loop without a protective circuit breaker is unacceptable.\n\nIf you are automating right now, **watch your token usage and context windows like a hawk.** Don't assume your parent instructions will hold if the context stretches too far.\n\nHave any of you dealing with the Handshake challenge run into this exact \"context amnesia\" loop? How are you setting up physical storage blocks to stop your local environments from being flooded when OpenAI's backend drops the ball? Asking for a friend lol",
+      "url": "https://www.reddit.com/r/joinhandshakeai/comments/1x4mxxe/warning_the_openai_handshake_challenge_broke_my/",
+      "permalink": "/r/joinhandshakeai/comments/1x4mxxe/warning_the_openai_handshake_challenge_broke_my/",
+      "author": "ZeusRah"
+    },
+    {
+      "queries": [
+        "agent went rogue"
+      ],
+      "id": "1x1ks1u",
+      "created_utc": 1791550921.0,
+      "subreddit": "ChatGPTCoding",
+      "title": "Our coding agent got stuck in a loop and burned $3,200 overnight",
+      "selftext": "small team of 5, we let a coding agent pick up tickets overnight and open PRs so there's work waiting in the morning\n\n\n\nTuesday ended normally but Wednesday morning the billing dashboard had a weird spike\n\n\n\nafter digging in we found the agent hit a flaky test that kept failing and decided the fix was to rewrite the test with a slightly different approach 4,800 times between 11:40pm and 6:15am\n\n\n\n$3,200 spent in tokens on a team that budgets $600/mo for agents\n\n\n\nwe had a spend alert for the whole org, however nothing per run because usage only showed up in the monthly bill and nobody checked it in between\n\n\n\nthe dumb part is the ticket was a one line config change. the agent did exactly what agents do when nothing tells them to stop, it went rogue\n\n\n\nwe had to explain it to finance and send a very awkward message in the eng channel\n\n\n\nwe now have a hard budget per run, a max retry count per tool call and the agent stops and opens a draft PR if it hits either, which honestly should have existed from day one\n\n\n\nsoo.. how others are capping spend on overnight runs?",
+      "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1x1ks1u/our_coding_agent_got_stuck_in_a_loop_and_burned/",
+      "permalink": "/r/ChatGPTCoding/comments/1x1ks1u/our_coding_agent_got_stuck_in_a_loop_and_burned/",
+      "author": "erwinalp5"
+    }
+  ]
+}

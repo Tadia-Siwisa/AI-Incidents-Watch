@@ -1,0 +1,47 @@
+Skip to main content
+
+[subreddit icon]
+
+datarecovery [] Join
+
+Posted by izebrra ·
+
+[] []
+
+------------------------------------------------------------------------
+
+Claude AI told me to run sudo rm -rf /Volumes/ and now all 4 of my
+external HDDs have lost their files. Help!*
+
+I was having issues with FL Studio and NEXUS not recognising my samples
+and presets on my external drives.
+I asked Claude AI for help, and it instructed me to run:
+sudo rm -rf /Volumes/*
+Claude claimed this would clear broken directory links and fix the
+connection issues.
+After running the command, all four of my external HDDs were affected,
+and I can no longer see any of my files. My Mac’s internal storage seems
+fine.
+When I confronted Claude, it repeatedly told me my files were completely
+safe and that the command had only deleted virtual shortcuts, not actual
+data.
+I’ve since discovered that this command can potentially delete
+everything inside mounted external drives.
+All four HDDs are still detected in Disk Utility, but my files aren’t
+showing. I haven’t restarted my Mac since this happened.
+Is there any way I can recover everything? I’m considering PhotoRec,
+TestDisk or R-Studio before going to a professional data recovery shop.
+These drives contain important FL Studio projects, samples, presets and
+other files. Ideally, I want to recover the original folder structures
+and filenames too.
+Has anyone experienced anything similar? What’s the safest way to
+approach recovery without making things worse?
+Any advice would be really appreciated.
+
+Read more []
+
+[] upvotes [] Comment
+
+View 18 comments
+
+[]
