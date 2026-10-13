@@ -1,0 +1,8 @@
+category,cases,denominator,percent
+include_confirmed,15,46,32.6
+hold_unverified,14,46,30.4
+include_with_qualification,6,46,13.0
+retain_as_controlled_context,5,46,10.9
+retain_as_product_context,3,46,6.5
+reject_core_claim,2,46,4.3
+reject_as_non_incident,1,46,2.2

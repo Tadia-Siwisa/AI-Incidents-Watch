@@ -1,0 +1,9 @@
+environment,higher_confidence_confirmed,wider_supported_only,excluded_from_incident_pattern_analysis
+aggregate_external_observation,0,1,0
+community_question,0,0,1
+controlled_study_or_demonstration,0,4,0
+internal_research_or_training,11,1,0
+live_operational_use,1,4,0
+product_documentation_or_configuration,0,0,1
+third_party_evaluation,3,1,0
+user_reported_product_use,0,0,18

@@ -1,0 +1,25 @@
+{
+  "input_rows": 63,
+  "canonical_case_families": 46,
+  "duplicate_overlap_rows_removed_by_reconciliation": 17,
+  "higher_confidence_confirmed_cases": 15,
+  "wider_supported_cases_including_confirmed": 26,
+  "excluded_from_incident_pattern_analysis": 20,
+  "confirmed_environment_counts": {
+    "internal_research_or_training": 11,
+    "live_operational_use": 1,
+    "third_party_evaluation": 3
+  },
+  "confirmed_effect_counts_multilabel": {
+    "confidentiality": 13,
+    "integrity": 8,
+    "availability": 1,
+    "external_interaction": 1
+  },
+  "confirmed_detection_counts": {
+    "retrospective": 8,
+    "during_or_near_term": 3,
+    "unknown": 4
+  },
+  "cases_with_no_traceable_source": 1
+}

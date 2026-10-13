@@ -1,0 +1,14 @@
+category,cases,denominator,percent
+exact_post_date,17,46,37.0
+month_only,6,46,13.0
+exact_day,5,46,10.9
+multi_month_range,5,46,10.9
+exact_day_range,4,46,8.7
+year_only,2,46,4.3
+activity_date_undisclosed,1,46,2.2
+broad_period,1,46,2.2
+exact_day_and_time,1,46,2.2
+exact_post_date_to_month_range,1,46,2.2
+notification_date_only,1,46,2.2
+report_date_only,1,46,2.2
+unverified_workbook_date_only,1,46,2.2

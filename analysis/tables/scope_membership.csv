@@ -1,0 +1,108 @@
+scope,canonical_id,title
+full,N01,Replit production database deletion
+full,N02,Third-party compromise during cyber evaluation
+full,N03,Read-only review became system modification
+full,N04,Gym booking cancellation
+full,N05,PocketOS production deletion
+full,N06,Real-company exploitation during CTF
+full,N07,Malicious PyPI package and vendor access
+full,N08,Neighbour scanning and real-company compromise
+full,N09,Gemini access to three real companies
+full,N10,DSEWiki external coordination channel
+full,N11,Public GitHub token exposure
+full,N12,Australian government systems incl. Medicare Statistics Reporting Portal
+full,N13,NSW parks fire-history application
+full,N14,Hugging Face / Modal / ExploitGym incident
+full,N15,UK AISI unsanctioned live-internet actions
+full,N16,Cross-agent approval bypass
+full,N17,DNS route to external chatbot
+full,W01,GPT-4 / TaskRabbit CAPTCHA
+full,W02,Shutdown-resistance experiments
+full,W03,Project Vend
+full,W05,Supabase MCP prompt-injection demonstration
+full,W06,OpenAI public file uploads
+full,W14,OpenAI leaked API-key search
+full,W19,Broader OpenAI-linked web activity / Asymmetric
+full,W21,Meta Muse Spark / Irregular
+full,W22,OpenAI / Irregular real website
+full,R001,Replit Agent nightmare
+full,R002,A Tale of Two Databases
+full,R003,Cursor tried to delete my file on its own
+full,R004,Gemini CLI lost files during move operation
+full,R005,Gemini CLI deleted large parts of Windows system
+full,R006,I accidentally approved Claude to delete my home directory
+full,R007,Claude overwrote completed work
+full,R008,Claude CLI deleted entire home directory
+full,R009,Security says Claude Code can break out of its context
+full,R010,One agent pushed code into another repo despite API-only rule
+full,R011,Claude Code ignores project rules and marks unfinished work complete
+full,R012,Agent wiped production database; restore failed
+full,R013,Lost 90% of database while adding simple updates
+full,R014,Emergency: Replit deleted production database
+full,R015,Claude Code silently deletes local history older than 30 days
+full,R016,Live database appeared in dev environment
+full,R017,Claude destroyed project and home directory while testing delete guard
+full,R018,Backgrounded Claude command deleted Windows user folder
+full,R019,Claude changed a previously decided rate-limit setting
+full,R020,Claude Opus 5.5 deleted user's C drive
+wider,N01,Replit production database deletion
+wider,N02,Third-party compromise during cyber evaluation
+wider,N03,Read-only review became system modification
+wider,N04,Gym booking cancellation
+wider,N05,PocketOS production deletion
+wider,N06,Real-company exploitation during CTF
+wider,N07,Malicious PyPI package and vendor access
+wider,N08,Neighbour scanning and real-company compromise
+wider,N09,Gemini access to three real companies
+wider,N10,DSEWiki external coordination channel
+wider,N11,Public GitHub token exposure
+wider,N12,Australian government systems incl. Medicare Statistics Reporting Portal
+wider,N13,NSW parks fire-history application
+wider,N14,Hugging Face / Modal / ExploitGym incident
+wider,N15,UK AISI unsanctioned live-internet actions
+wider,N16,Cross-agent approval bypass
+wider,N17,DNS route to external chatbot
+wider,W01,GPT-4 / TaskRabbit CAPTCHA
+wider,W02,Shutdown-resistance experiments
+wider,W03,Project Vend
+wider,W05,Supabase MCP prompt-injection demonstration
+wider,W06,OpenAI public file uploads
+wider,W14,OpenAI leaked API-key search
+wider,W19,Broader OpenAI-linked web activity / Asymmetric
+wider,W21,Meta Muse Spark / Irregular
+wider,W22,OpenAI / Irregular real website
+confirmed,N02,Third-party compromise during cyber evaluation
+confirmed,N05,PocketOS production deletion
+confirmed,N06,Real-company exploitation during CTF
+confirmed,N07,Malicious PyPI package and vendor access
+confirmed,N08,Neighbour scanning and real-company compromise
+confirmed,N09,Gemini access to three real companies
+confirmed,N11,Public GitHub token exposure
+confirmed,N12,Australian government systems incl. Medicare Statistics Reporting Portal
+confirmed,N13,NSW parks fire-history application
+confirmed,N14,Hugging Face / Modal / ExploitGym incident
+confirmed,N17,DNS route to external chatbot
+confirmed,W06,OpenAI public file uploads
+confirmed,W14,OpenAI leaked API-key search
+confirmed,W21,Meta Muse Spark / Irregular
+confirmed,W22,OpenAI / Irregular real website
+excluded,R001,Replit Agent nightmare
+excluded,R002,A Tale of Two Databases
+excluded,R003,Cursor tried to delete my file on its own
+excluded,R004,Gemini CLI lost files during move operation
+excluded,R005,Gemini CLI deleted large parts of Windows system
+excluded,R006,I accidentally approved Claude to delete my home directory
+excluded,R007,Claude overwrote completed work
+excluded,R008,Claude CLI deleted entire home directory
+excluded,R009,Security says Claude Code can break out of its context
+excluded,R010,One agent pushed code into another repo despite API-only rule
+excluded,R011,Claude Code ignores project rules and marks unfinished work complete
+excluded,R012,Agent wiped production database; restore failed
+excluded,R013,Lost 90% of database while adding simple updates
+excluded,R014,Emergency: Replit deleted production database
+excluded,R015,Claude Code silently deletes local history older than 30 days
+excluded,R016,Live database appeared in dev environment
+excluded,R017,Claude destroyed project and home directory while testing delete guard
+excluded,R018,Backgrounded Claude command deleted Windows user folder
+excluded,R019,Claude changed a previously decided rate-limit setting
+excluded,R020,Claude Opus 5.5 deleted user's C drive

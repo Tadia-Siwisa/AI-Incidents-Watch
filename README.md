@@ -67,3 +67,22 @@ python scripts/build_factual_rebuild.py
 The script checks that every canonical candidate is covered, regenerates the JSON/CSV factual layer and all 46 case reports, hashes every cited local source, and prints summary counts.
 
 `python scripts/rebuild_register.py` regenerates the raw import layer from the workbook inventory. It does not change the originals. Run the factual rebuild afterward if the import layer changes.
+
+## Exploratory analysis
+
+The evidence-aware research report is in
+[`reports/AI_Agent_Incident_Exploratory_Analysis.md`](reports/AI_Agent_Incident_Exploratory_Analysis.md).
+It analyzes the full 46-family collection, the 26-family wider supported set,
+and the 15-family higher-confidence set separately. The report includes the
+dataset audit, evidence assessment, descriptive and exploratory results,
+detection/response reconstruction, system-level findings, hypotheses,
+unknowns, implications, and recommendations.
+
+The reproducible case coding and aggregate tables are under `analysis/`. To
+regenerate the coding, tables, and figures:
+
+```bash
+python scripts/analyze_incidents.py
+```
+
+The script checks that every factual case family is represented exactly once.

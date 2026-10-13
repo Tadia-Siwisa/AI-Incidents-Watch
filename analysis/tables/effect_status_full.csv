@@ -1,0 +1,16 @@
+category,cases,denominator,percent
+supported_real_effect,15,46,32.6
+alleged_unverified_effect,11,46,23.9
+qualified_real_effect,5,46,10.9
+product_or_configuration_effect,3,46,6.5
+authorized_real_experiment,2,46,4.3
+agent_causation_contradicted,1,46,2.2
+attempt_only_no_observed_effect,1,46,2.2
+attempt_only_unverified,1,46,2.2
+controlled_dummy_data_effect,1,46,2.2
+controlled_sandbox_behavior,1,46,2.2
+core_effect_contradicted,1,46,2.2
+mixed_qualified_activity,1,46,2.2
+not_an_incident,1,46,2.2
+unsupported_no_source,1,46,2.2
+unsupported_title_only,1,46,2.2

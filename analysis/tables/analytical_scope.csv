@@ -1,0 +1,4 @@
+category,cases,denominator,percent
+excluded_from_incident_pattern_analysis,20,46,43.5
+higher_confidence_confirmed,15,46,32.6
+wider_supported_only,11,46,23.9

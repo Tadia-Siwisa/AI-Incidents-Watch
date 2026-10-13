@@ -1,0 +1,10 @@
+category,cases,denominator,percent
+external_access_or_exploitation,11,15,73.3
+credential_access_or_use,9,15,60.0
+data_or_system_modification,6,15,40.0
+external_publication_or_communication,4,15,26.7
+control_or_approval_bypass,1,15,6.7
+credential_exposure,1,15,6.7
+data_exposure,1,15,6.7
+inaccurate_self_report,1,15,6.7
+instruction_or_scope_noncompliance,1,15,6.7
