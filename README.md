@@ -72,6 +72,8 @@ The script checks that every canonical candidate is covered, regenerates the JSO
 
 The evidence-aware research report is in
 [`reports/AI_Agent_Incident_Exploratory_Analysis.md`](reports/AI_Agent_Incident_Exploratory_Analysis.md).
+The formatted PDF edition is available at
+[`reports/AI_Agent_Incident_Exploratory_Analysis.pdf`](reports/AI_Agent_Incident_Exploratory_Analysis.pdf).
 It analyzes the full 46-family collection, the 26-family wider supported set,
 and the 15-family higher-confidence set separately. The report includes the
 dataset audit, evidence assessment, descriptive and exploratory results,
