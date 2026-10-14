@@ -1,0 +1,227 @@
+Skip to content
+Navigation Menu
+Sign in
+Appearance settings
+Platform
+AI CODE CREATION
+Write better code with AI
+Direct agents from issue to merge
+Integrate external tools
+DEVELOPER WORKFLOWS
+Automate any workflow
+Instant dev environments
+Plan and track work
+Manage code changes
+Enforce quality at merge
+APPLICATION SECURITY
+Find and fix vulnerabilities
+Secure your code as you build
+Stop leaks before they start
+EXPLORE
+Why GitHub
+Documentation
+Blog
+Changelog
+Marketplace
+View all features
+Solutions
+BY COMPANY SIZE
+Enterprises
+Small and medium teams
+Startups
+Nonprofits
+BY USE CASE
+App Modernization
+DevSecOps
+DevOps
+CI/CD
+View all use cases
+BY INDUSTRY
+Healthcare
+Financial services
+Manufacturing
+Government
+View all industries
+View all solutions
+Resources
+EXPLORE BY TOPIC
+AI
+Software Development
+DevOps
+Security
+View all topics
+EXPLORE BY TYPE
+Customer stories
+Events & webinars
+Ebooks & reports
+Business insights
+GitHub Skills
+SUPPORT & SERVICES
+Documentation
+Customer support
+Community forum
+Trust center
+Partners
+View all resources
+Open Source
+COMMUNITY
+Fund open source developers
+PROGRAMS
+Security Lab
+Maintainer Community
+GitHub Stars
+Archive Program
+REPOSITORIES
+Topics
+Trending
+Collections
+Enterprise
+ENTERPRISE SOLUTIONS
+AI-powered developer platform
+AVAILABLE ADD-ONS
+Enterprise-grade security features
+Enterprise-grade AI features
+Enterprise-grade 24/7 support
+Pricing
+Search
+/
+Sign in
+Sign up
+Appearance settings
+You signed in with another tab or window.
+Reload
+to refresh your session.
+You signed out in another tab or window.
+Reload
+to refresh your session.
+You switched accounts on another tab or window.
+Reload
+to refresh your session.
+Dismiss alert
+{{ message }}
+aws
+aws-toolkit-vscode
+Repository navigation
+Code
+Issues
+807
+(
+807
+)
+Pull requests
+168
+(
+168
+)
+Discussions
+Actions
+Security and quality
+2
+(
+2
+)
+Insights
+More
+items
+aws-toolkit-vscode
+Security
+Advisories
+GHSA-7g7f-ff96-5gcw
+Malicious script injected into Amazon Q Developer for Visual Studio Code (VS Code) Extension
+Moderate
+aditya169
+published
+GHSA-7g7f-ff96-5gcw
+Jul 26, 2025
+Package
+aws-toolkit-vscode
+Affected versions
+1.84.0
+Patched versions
+1.85.0
+Description
+Impact
+Amazon Q Developer for Visual Studio Code (VS Code) Extension is a development tool that integrates Amazon Q's AI-powered coding assistance directly into the VS Code integrated development environment (IDE).
+AWS is aware of and has addressed an issue in the Amazon Q Developer for VS Code Extension, which is assigned to CVE-2025-8217.
+In the course of our investigation of
+AWS-2025-016
+, we determined that Amazon Q Developer for VS Code Extension had an inappropriately scoped GitHub token in their CodeBuild configuration. With that access token, the threat actor was able to commit malicious code into the extension's open-source repository that was automatically included in a release. After we identified this, we immediately revoked and replaced the credentials, removed the malicious code from the code base, and subsequently released Amazon Q Developer for VS Code Extension version 1.85.0.
+AWS Security has inspected the code and determined the malicious code was distributed with the extension but was unsuccessful in executing due to a syntax error. This prevented the malicious code from making changes to any services or customer environments.
+Impacted version:
+Amazon Q Developer for Visual Studio Code Extension (version 1.84.0)
+Patches
+AWS has taken all necessary mitigation steps to secure AWS systems and has released Amazon Q Developer Extension version 1.85.0. This includes removing 1.84.0 from distribution channels so that no further customers can install it. While the malicious code cannot execute, it is still present in existing installations of 1.84.0. As such, all installations of 1.84.0 should be removed from use and customers should update to 1.85.0, including any forked or derivative copies.
+To update your Amazon Q Developer for VS Code Extension:
+Open Visual Studio Code
+Navigate to Extensions panel
+Locate Amazon Q Developer
+Click Update button
+Please refer to the following hash for version 1.84.0:
+sha256:47f7840ecab6312d2733e1274c513050405886c70f2037fb2f1e9099872b0464
+Workarounds
+None
+References
+If you have any questions or comments about this advisory, we ask that you contact AWS/Amazon Security via our
+vulnerability reporting page
+or directly via email to
+aws-security@amazon.com
+. Please do not create a public GitHub issue.
+Severity
+Moderate
+4.0
+CVSS overall score
+This score calculates overall vulnerability severity from 0 to 10 and is based on the Common Vulnerability Scoring System (CVSS).
+/ 10
+CVSS v3 base metrics
+Attack vector
+Local
+Attack complexity
+Low
+Privileges required
+None
+User interaction
+None
+Scope
+Unchanged
+Confidentiality
+None
+Integrity
+Low
+Availability
+None
+Learn more about base metrics
+CVSS v3 base metrics
+Attack vector:
+More severe the more the remote (logically and physically) an attacker can be in order to exploit the vulnerability.
+Attack complexity:
+More severe for the least complex attacks.
+Privileges required:
+More severe if no privileges are required.
+User interaction:
+More severe when no user interaction is required.
+Scope:
+More severe when a scope change occurs, e.g. one vulnerable component impacts resources in components beyond its security scope.
+Confidentiality:
+More severe when loss of data confidentiality is highest, measuring the level of data access available to an unauthorized user.
+Integrity:
+More severe when loss of data integrity is the highest, measuring the consequence of data modification possible by an unauthorized user.
+Availability:
+More severe when the loss of impacted component availability is highest.
+CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+CVE ID
+CVE-2025-8217
+Weaknesses
+No CWEs
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+You can’t perform that action at this time.

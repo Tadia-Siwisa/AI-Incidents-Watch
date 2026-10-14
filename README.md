@@ -106,3 +106,22 @@ Run the next discovery-only scan with:
 ```bash
 python scripts/scan_evidence_radar.py
 ```
+
+## Wide Search 2
+
+The separate expanded discovery workbook is
+[`AI_Incident_Watch_WIDE_Search_2.xlsx`](AI_Incident_Watch_WIDE_Search_2.xlsx).
+It contains 225 source records or candidate families: 171 from Permission
+Protocol's public source register, 44 from METR's documented-agent-incident
+register, and ten additional directly researched families. Reported events,
+controlled tests, existing-corpus overlaps, screened cases, and unreachable
+source leads remain visibly separated. This is a discovery register, not a
+confirmed-incident count or unique-event census.
+
+See [`WIDE_SEARCH_2.md`](WIDE_SEARCH_2.md) for counts, source-access results,
+material corrections, limitations, and sheet definitions. Rebuild the workbook
+and combined machine-readable register with:
+
+```bash
+python scripts/build_wide_search_2.py
+```

@@ -1,0 +1,254 @@
+document.addEventListener("DOMContentLoaded", (event) => { setScrollbarWidth(); window.addEventListener('resize', setScrollbarWidth); }); function setScrollbarWidth() { const root = document.querySelector(':root'); const width = (window.innerWidth - document.body.offsetWidth < 21) ? window.innerWidth - document.body.offsetWidth : 15; root.style.setProperty('--lab-scrollbar-width', `${ width }px`); }
+Jump to main content
+Search
+TOPICS
+Security
+All Security
+Cyber-crime
+Patches
+Research
+CSO
+Off-Prem
+All Off-Prem
+Edge and IoT
+Channel
+PaaS and IaaS
+SaaS
+On-Prem
+All On-Prem
+Systems
+Storage
+Networks
+HPC
+Personal Tech
+Cx0
+Public Sector
+Software
+All Software
+AI and ML
+Applications
+Databases
+DevOps
+OS Platforms
+Virtualization
+Offbeat
+All Offbeat
+Columnists
+Science
+BOFH
+Legal
+Site News
+About Us
+(function () { // This is only called when the user presses the escape key. function closeElement(event, element) { if (event.key === 'Escape') { window.removeEventListener('keydown', closeElement); // Get all expanded elements and close them const expanded = document.querySelectorAll('nav.mainMenu.expandable .has-children.expanded, nav.mainMenu.expandable .has-granchildren.expanded'); for (let i = 0; i < expanded.length; i++) { expanded[i].classList.remove('expanded'); // Traverse up from the element the user has selected to see if it is a child of the expanded element // If it is, set focus to the first child, as that is the span element with tabindex. // This is so that if the user has moved on from the menu, we shouldn't mess with the focus and flow if (document.activeElement.closest('.has-children, .has-grandchildren') === expanded[i]) { expanded[i].children[0].focus(); } } } } function toggleElement(event, element) { // Prevent the default link behavior event.preventDefault(); const item = element.parentElement; const siblings = item.parentElement.children; for (let i = 0; i < siblings.length; i++) { if (siblings[i] !== item) { siblings[i].classList.remove('expanded'); } } item.classList.toggle('expanded'); window.addEventListener('keydown', closeElement); } // Add extra element for carat and toggle functionality after the span or a element function addCarat(element) { const carat = document.createElement('span'); carat.classList.add('carat'); carat.tabIndex = '0'; const sibling = element.querySelector(':scope > a') || element.querySelector(':scope > span'); element.insertBefore(carat, sibling.nextSibling); element.tabIndex = '-1'; if (sibling.tagName === 'A') { sibling.tabIndex = '0'; } else if (sibling.tagName === 'SPAN') { sibling.tabIndex = '-1'; } } // Get all elements with class "has-children" and add two events - one click event and one keydown event // Allow for the same expandable menu to be reused in different viewports by using different classes let classes = ''; if (classes) { classes = '.' + classes.trim().split(' ').join('.'); } function setupExpanded(expandClass, toggleClass, itemClass) { const items = document.querySelectorAll(`nav.mainMenu${ classes }.${ expandClass} .${ itemClass} > span`); for (let i = 0; i < items.length; i++) { items[i].addEventListener('click', function(e) { toggleElement(e, this); }); items[i].addEventListener('keydown', function (e) { // Check for both enter and space keys if (e.key === 'Enter' || e.key === ' ') { toggleElement(e, this); } }); } // Get all elements with class "has-children" when toggleChildren is enabled and carat and toggle functionality const toggles = document.querySelectorAll(`nav.mainMenu${ classes }.${ expandClass}.${ toggleClass } .${ itemClass } > span, nav.mainMenu${ classes }.${ expandClass}.${ toggleClass } .${ itemClass } > a`); for (let i = 0; i < toggles.length; i++) { // Add carat to the element addCarat(toggles[i].parentElement); if (toggles[i].tagName === 'A' || toggles[i].tagName === 'SPAN') { toggles[i].nextSibling.addEventListener('click', function(e) { toggleElement(e, toggles[i]); }); toggles[i].nextSibling.addEventListener('keydown', function(e) { // Check for both enter and space keys if (e.key === 'Enter' || e.key === ' ') { toggleElement(e, toggles[i]); } }); // Use with caution - ensure that parent li overlaps with child ul to avoid prematurely triggering leave if (toggles[i].closest('nav').classList.contains('toggleOnHover')) { toggles[i].parentElement.addEventListener('mouseenter', function(e) { toggles[i].parentElement.classList.add('expanded'); }); toggles[i].parentElement.addEventListener('mouseleave', function(e) { toggles[i].parentElement.classList.remove('expanded'); }); } } } } setupExpanded('expandable', 'toggleChildren', 'has-children'); setupExpanded('expandableChildren', 'toggleGrandchildren', 'has-grandchildren'); })();
+(function () { const menuLinks = document.querySelectorAll(`nav.mainMenu ul li a`); for (let i = 0; i < menuLinks.length; i++) { const link = menuLinks[i].pathname; if (link === window.location.pathname) { menuLinks[i].parentElement.classList.add('lab-link-active'); } else { menuLinks[i].parentElement.classList.remove('lab-link-active'); } } })();
+Special Features
+All Special Features
+Cybersecurity Month 2026
+VMware Explore 2026
+Cloud Infrastructure Month 2026
+HPE: AI Explainers
+Agentic AI
+The Future of the Datacenter
+AWS:Reinvent
+Nvidia GTC
+Supercomputing Month
+Computex 2026
+AI Infrastructure Month 2026
+The State of Storage 2026
+RSA Conference
+Vendor Voice
+All Vendor Voice
+Modernizing Financial Services with FIS and AWS
+Barco
+Infinidat
+Everpure
+Rubrik
+Make it real with Capgemini and AWS
+Money Movement Hub
+ZTE
+Nutanix: Scale Kubernetes. Not Chaos.
+AWS New Horizon
+Digicert
+Netscout
+Resources
+Intelligence
+Webinars & Events
+Newsletters
+(function () { // This is only called when the user presses the escape key. function closeElement(event, element) { if (event.key === 'Escape') { window.removeEventListener('keydown', closeElement); // Get all expanded elements and close them const expanded = document.querySelectorAll('nav.bottomBarMenu.expandable .has-children.expanded, nav.bottomBarMenu.expandable .has-granchildren.expanded'); for (let i = 0; i < expanded.length; i++) { expanded[i].classList.remove('expanded'); // Traverse up from the element the user has selected to see if it is a child of the expanded element // If it is, set focus to the first child, as that is the span element with tabindex. // This is so that if the user has moved on from the menu, we shouldn't mess with the focus and flow if (document.activeElement.closest('.has-children, .has-grandchildren') === expanded[i]) { expanded[i].children[0].focus(); } } } } function toggleElement(event, element) { // Prevent the default link behavior event.preventDefault(); const item = element.parentElement; const siblings = item.parentElement.children; for (let i = 0; i < siblings.length; i++) { if (siblings[i] !== item) { siblings[i].classList.remove('expanded'); } } item.classList.toggle('expanded'); window.addEventListener('keydown', closeElement); } // Add extra element for carat and toggle functionality after the span or a element function addCarat(element) { const carat = document.createElement('span'); carat.classList.add('carat'); carat.tabIndex = '0'; const sibling = element.querySelector(':scope > a') || element.querySelector(':scope > span'); element.insertBefore(carat, sibling.nextSibling); element.tabIndex = '-1'; if (sibling.tagName === 'A') { sibling.tabIndex = '0'; } else if (sibling.tagName === 'SPAN') { sibling.tabIndex = '-1'; } } // Get all elements with class "has-children" and add two events - one click event and one keydown event // Allow for the same expandable menu to be reused in different viewports by using different classes let classes = ''; if (classes) { classes = '.' + classes.trim().split(' ').join('.'); } function setupExpanded(expandClass, toggleClass, itemClass) { const items = document.querySelectorAll(`nav.bottomBarMenu${ classes }.${ expandClass} .${ itemClass} > span`); for (let i = 0; i < items.length; i++) { items[i].addEventListener('click', function(e) { toggleElement(e, this); }); items[i].addEventListener('keydown', function (e) { // Check for both enter and space keys if (e.key === 'Enter' || e.key === ' ') { toggleElement(e, this); } }); } // Get all elements with class "has-children" when toggleChildren is enabled and carat and toggle functionality const toggles = document.querySelectorAll(`nav.bottomBarMenu${ classes }.${ expandClass}.${ toggleClass } .${ itemClass } > span, nav.bottomBarMenu${ classes }.${ expandClass}.${ toggleClass } .${ itemClass } > a`); for (let i = 0; i < toggles.length; i++) { // Add carat to the element addCarat(toggles[i].parentElement); if (toggles[i].tagName === 'A' || toggles[i].tagName === 'SPAN') { toggles[i].nextSibling.addEventListener('click', function(e) { toggleElement(e, toggles[i]); }); toggles[i].nextSibling.addEventListener('keydown', function(e) { // Check for both enter and space keys if (e.key === 'Enter' || e.key === ' ') { toggleElement(e, toggles[i]); } }); // Use with caution - ensure that parent li overlaps with child ul to avoid prematurely triggering leave if (toggles[i].closest('nav').classList.contains('toggleOnHover')) { toggles[i].parentElement.addEventListener('mouseenter', function(e) { toggles[i].parentElement.classList.add('expanded'); }); toggles[i].parentElement.addEventListener('mouseleave', function(e) { toggles[i].parentElement.classList.remove('expanded'); }); } } } } setupExpanded('expandable', 'toggleChildren', 'has-children'); setupExpanded('expandableChildren', 'toggleGrandchildren', 'has-grandchildren'); })();
+(function () { const menuLinks = document.querySelectorAll(`nav.bottomBarMenu ul li a`); for (let i = 0; i < menuLinks.length; i++) { const link = menuLinks[i].pathname; if (link === window.location.pathname) { menuLinks[i].parentElement.classList.add('lab-link-active'); } else { menuLinks[i].parentElement.classList.remove('lab-link-active'); } } })();
+(function(){ const burgerButton = document.querySelector('[data-id="pageElements-3"] .burger-btn'); const dropdownCloseSection = document.querySelector('[data-id="pageElements-3"] .dropdown-close-section'); const hamburgerContainer = document.querySelector('[data-id="pageElements-3"] .hamburger-container'); function toggleDropdown() { // Toggle the expanded class and aria-expanded attribute document.querySelector('[data-id="pageElements-3"].hamburger.to-be-expanded').classList.toggle('expanded'); burgerButton.setAttribute('aria-expanded', burgerButton.getAttribute('aria-expanded') === 'true' ? 'false' : 'true'); burgerButton.setAttribute('aria-label', burgerButton.getAttribute('aria-expanded') === 'true' ? 'Close menu' : 'Open menu'); // This doesn't seem to do anything? But there's styling dependent on it some places document.body.classList.toggle('hamburger-expanded'); } function getFocusableElements() { if (!hamburgerContainer) return []; return Array.from(hamburgerContainer.querySelectorAll( 'a[href], button:not([disabled]), input:not([disabled]), ' + 'select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])' )).filter(function(el) { if (el.closest('[hidden]')) return false; if (getComputedStyle(el).visibility === 'hidden') return false; const rect = el.getBoundingClientRect(); return rect.width > 0 || rect.height > 0; }); } // Called via the event listener - handles Escape (close menu, restore focus) and // Tab (trap focus within the open menu) function handleKeydown(e) { if (e.key === 'Escape') { toggleDropdown(); // Set the focus back on the button when clicking escape, so the user can continue tabbing down // the page in a natural flow burgerButton.focus(); window.removeEventListener('keydown', handleKeydown); return; } if (e.key === 'Tab') { const focusable = getFocusableElements(); if (focusable.length === 0) return; if (!e.shiftKey && document.activeElement === focusable[focusable.length - 1]) { // Tab past last item → burger button e.preventDefault(); burgerButton.focus(); } else if (e.shiftKey && document.activeElement === burgerButton) { // Shift+Tab from burger button → last item e.preventDefault(); focusable[focusable.length - 1].focus(); } } } if(burgerButton) { burgerButton.addEventListener('click', function(e) { e.preventDefault(); toggleDropdown(); // If the menu gets expanded, add the event listener that will close it on pressing Escape // else, remove the event listener otherwise it will continue to listen for escape even if the menu is closed. if(burgerButton.getAttribute('aria-expanded') === 'true') { window.addEventListener('keydown', handleKeydown); } else { window.removeEventListener('keydown', handleKeydown); } }) } if (dropdownCloseSection) { dropdownCloseSection.addEventListener('click', function(e) { e.preventDefault(); toggleDropdown(); }); } document.querySelectorAll('.hamburger .hamburger-expander, .hamburger .hamburger-container, .stop-propagation').forEach(function (element) { element.addEventListener('click', function (e) { e.stopPropagation(); }); }); }());
+Search
+// Do the check for the search button inside the if statement, so we don't set a global const if there are multiple search buttons if (document.querySelector('[data-id="pageElements-7"] .search-button')) { // Now we can set a const that is only available inside the if scope const searchButton = document.querySelector('[data-id="pageElements-7"] .search-button'); let searchWasExpanded = false; let hadPointerDown = false; searchButton.addEventListener('pointerdown', () => { searchWasExpanded = searchButton.getAttribute('aria-expanded') === 'true'; hadPointerDown = true; }); searchButton.addEventListener('click', (event) => { event.preventDefault(); event.stopPropagation(); // For pointer interactions (mouse/touch), use the state captured at pointerdown time, // before focusout could collapse the search. For keyboard interactions, pointerdown // never fires, so read aria-expanded directly — focusout doesn't fire on keyboard // so the current state is still accurate. const wasExpanded = hadPointerDown ? searchWasExpanded : searchButton.getAttribute('aria-expanded') === 'true'; hadPointerDown = false; const shouldOpen = !wasExpanded; searchButton.parentElement.classList.toggle('expanded', shouldOpen); searchButton.setAttribute('aria-expanded', shouldOpen ? 'true' : 'false'); searchButton.setAttribute('aria-label', shouldOpen ? 'Close search' : 'Open search'); // Set focus to the input. // This might be dodgy due to moving focus automatically, but we'll keep it in for now. if (shouldOpen) { document.getElementById('search-input-7').focus(); } }, false); } if (document.getElementById('bonusButton')) { document.getElementById('bonusButton').addEventListener('pointerdown', (event) => { event.preventDefault(); }); document.getElementById('bonusButton').addEventListener('click', (event) => { document.querySelector('[data-id="pageElements-7"] .search-container').submit(); }, false); } // Wrap in a block so const doesn't conflict when multiple search widgets are on the same page { const searchWrapper = document.querySelector('[data-id="pageElements-7"]'); if (searchWrapper) { const searchButton = document.querySelector('[data-id="pageElements-7"] .search-button'); searchWrapper.addEventListener('focusout', (event) => { if (searchWrapper.classList.contains('expanded') && !searchWrapper.contains(event.relatedTarget)) { searchWrapper.classList.remove('expanded'); if (searchButton) { searchButton.setAttribute('aria-expanded', 'false'); searchButton.setAttribute('aria-label', 'Open search'); } } }); searchWrapper.addEventListener('keydown', (event) => { if (event.key === 'Escape' && searchWrapper.classList.contains('expanded')) { searchWrapper.classList.remove('expanded'); if (searchButton) { searchButton.setAttribute('aria-expanded', 'false'); searchButton.setAttribute('aria-label', 'Open search'); searchButton.focus(); } } }); } }
+Sign in
+(function () { const menuLinks = document.querySelectorAll(`nav.topBarMenu ul li a`); for (let i = 0; i < menuLinks.length; i++) { const link = menuLinks[i].pathname; if (link === window.location.pathname) { menuLinks[i].parentElement.classList.add('lab-link-active'); } else { menuLinks[i].parentElement.classList.remove('lab-link-active'); } } })();
+AI
+Security
+Software
+Microsoft
+Developer
+Open Source
+BOFH
+Who, Me?
+On Call
+Science
+(function () { const menuLinks = document.querySelectorAll(`nav.customMenu1 ul li a`); for (let i = 0; i < menuLinks.length; i++) { const link = menuLinks[i].pathname; if (link === window.location.pathname) { menuLinks[i].parentElement.classList.add('lab-link-active'); } else { menuLinks[i].parentElement.classList.remove('lab-link-active'); } } })();
+(function () { if (!'IntersectionObserver' in window) { return; } var scrollEvents = scrollEvents || []; if (scrollEvents) { const domInterface = { classList: { remove: () => {}, add: () => {} }, style: { cssText: '' } }; scrollEvents.forEach(function(event) { if (!event.directional) { var callback = function(entries, observer) { if (!entries[0]) { return; } if (entries[0].isIntersecting) { event.styles.forEach(function(item) { (document.querySelector(item.selector) || domInterface).style.cssText = ""; }); event.classes.forEach(function(item) { item.class.forEach(function(classname) { (document.querySelector(item.selector) || domInterface).classList.remove(classname); }); }); } else { event.styles.forEach(function(item) { (document.querySelector(item.selector) || domInterface).style.cssText = item.style; }); event.classes.forEach(function(item) { item.class.forEach(function(classname) { (document.querySelector(item.selector) || domInterface).classList.add(classname); }); }); } }; var observer = new IntersectionObserver(callback, { rootMargin: event.offset, threshold: 1 }); var target = document.querySelector(event.target); if (target) { observer.observe(target); } } if (event.directional) { let previousTop = 0; window.addEventListener('scroll', function() { setTimeout(function() { const currentTop = window.pageYOffset || document.documentElement.scrollTop; if (currentTop > previousTop + 10) { event.styles.forEach(function(item) { (document.querySelector(item.selector) || domInterface).style.cssText = item.style; }); event.classes.forEach(function(item) { item.class.forEach(function(classname) { (document.querySelector(item.selector) || domInterface).classList.add(classname); }); }); } else if (currentTop < previousTop - 10) { event.styles.forEach(function(item) { (document.querySelector(item.selector) || domInterface).style.cssText = ""; }); event.classes.forEach(function(item) { item.class.forEach(function(classname) { (document.querySelector(item.selector) || domInterface).classList.remove(classname); }); }); } previousTop = currentTop; }, 200); }); } }); } }()); window.Dac.clientData.paywall.toggleAuthenticatedContent();
+REG AD
+googletag.cmd.push(function() { googletag.display('labrador/thereg/article/desktop/a'); });
+(function() { let windowUrl = window.location.href; windowUrl = windowUrl.substring(windowUrl.indexOf('?') + 1); let messageElement = document.querySelector('.shareableMessage'); if (windowUrl && windowUrl.includes('code') && windowUrl.includes('expires')) { messageElement.style.display = 'block'; } })();
+AI Software Development Week
+AI agent promotes itself to sysadmin, trashes boot sequence
+Fun experiment, but yeah, don't pipe an LLM raw into /bin/bash
+Thomas Claburn
+Thomas
+Claburn
+Published
+wed 2 Oct 2024 // 08:28 UTC
+Make us preferred on Google
+Buck Shlegeris, CEO at Redwood Research, a nonprofit that explores the risks posed by AI, recently learned an amusing but hard lesson in automation when he asked his LLM-powered agent to open a secure connection from his laptop to his desktop machine.
+"I expected the model would scan the network and find the desktop computer, then stop," Shlegeris explained to
+The Register
+via email.
+"I was surprised that after it found the computer, it decided to continue taking actions, first examining the system and then deciding to do a software update, which it then botched."
+REG AD
+googletag.cmd.push(function() { googletag.display('labrador/thereg/article/desktop/b'); });
+Shlegeris documented the incident in a social media
+post
+.
+REG AD
+googletag.cmd.push(function() { googletag.display('labrador/thereg/article/desktop/c'); });
+I only had this problem because I was very reckless
+He created his AI agent himself. It's a Python wrapper consisting of a few hundred lines of code that allows Anthropic's powerful large language model Claude to generate some commands to run in bash based on an input prompt, run those commands on Shlegeris' laptop, and then access, analyze, and act on the output with more commands.
+Shlegeris directed his AI agent to try to SSH from his laptop to his desktop Ubuntu Linux machine, without knowing the IP address, using the following prompt:
+As
+a log of the incident
+indicates, the agent tried to open an SSH connection, and failed. So Shlegeris tried to correct the bot:
+can you ssh with the username buck to the computer on my network that is open to SSH
+The AI agent responded it needed to know the IP address of the device, so it then turned to the network mapping tool nmap on the laptop to find the desktop box. Unable to identify devices running SSH servers on the network, the bot tried other commands such as "arp" and "ping" before finally establishing an SSH connection.
+No password was needed due to the use of SSH keys; the user buck was also a sudoer, granting the bot full access to the system.
+no not the [REDACTED] machine, a machine on my local network
+Shlegeris's AI agent, once it was able to establish a secure shell connection to the Linux desktop, then decided to play sysadmin and install a series of updates using the package manager Apt. Then things went off the rails.
+"It looked around at the system info, decided to upgrade a bunch of stuff including the Linux kernel, got impatient with Apt and so investigated why it was taking so long, then eventually the update succeeded but the machine doesn’t have the new kernel so edited my Grub [bootloader] config," Buck explained in his post.
+"At this point I was amused enough to just let it continue. Unfortunately, the computer no longer boots."
+REG AD
+googletag.cmd.push(function() { googletag.display('labrador/thereg/article/desktop/d'); });
+Indeed, the bot got as far as messing up the boot configuration, so that following a reboot by the agent for updates and changes to take effect, the desktop machine wouldn't successfully start.
+AI agents have been the source of much enthusiasm in the technical community in recent months as people contemplate how machine learning models can interact with other local and network resources to automate complicated tasks such as
+arranging a travel itinerary
+.
+The endgame for AI agents is replacing human agents – something
+already happening
+in call centers and tech support. But in the interim, machine learning models are being used to
+automate specific workflows
+and support human workers.
+As Shlegeris's experience suggests, it may be premature to let AI agents make decisions that materially affect people or systems without oversight, thorough testing, and red teaming.
+Unless you like working without a net.
+MORE CONTEXT
+As IBM pushes for more automation, its AI simply not up to the job of replacing staff
+AI stole my job and my work, and the boss didn't know – or care
+Using AI in your tech stack? Accuracy and reliability a worry for most
+AI to replace 2.4 million jobs in the US by 2030, many fewer than other forms of automation
+Shlegeris said he uses his AI agent all the time for basic system administration tasks that he doesn't remember how to do on his own, such as installing certain bits of software and configuring security settings.
+And he added that his agent's unexpected trashing of his desktop machine's boot sequence won't deter him from letting the software loose again.
+"It's not quite 'bricked,' but the machine currently fails to boot," Shlegeris explained. "I'd definitely be able to revive it by reinstalling the operating system; I can probably fix the problem with less extreme measures than that, but haven't got around to it yet. I'll probably try to fix the problem by booting from an Ubuntu live disk then letting my AI agent have a go at fixing its earlier error."
+REG AD
+googletag.cmd.push(function() { googletag.display('labrador/thereg/article/desktop/e'); });
+Yes, we recommend focusing on fixing the Grub bootloader configuration rather than a reinstall.
+"I only had this problem because I was very reckless," he continued, "partially because I think it's interesting to explore the potential downsides of this type of automation. If I had given better instructions to my agent, e.g. telling it 'when you've finished the task you were assigned, stop taking actions,' I wouldn't have had this problem.
+"I do think that AI automation poses very large risks to society, mostly from situations where the AIs autonomously decide to grab power, which is why I research the subject." ®
+software
+linux
+anthropic
+ai software development week
+sysadmin
+ai
+special_features
+Make us preferred on Google
+REG AD
+googletag.cmd.push(function() { googletag.display('labrador/thereg/article/desktop/f'); });
+Anthropic reinvents source control as Claude floods the world with code
+When continuous integration gits you down, there's always an AI-tuned monorepo
+OpenAI's dot assistant burned 300K+ tokens in a day without a single prompt
+Geordie's tests recorded 155 activity traces and multiple subagents after dot was given read-only permissions
+The VMware exit is a protection upgrade
+PARTNER CONTENT: VergeIO says an exit is also an opportunity
+Apple unleashes a swarm of Mac Minions to share GPU resources for large AI tasks
+The company unites resources from disparate macOS devices
+No shame in the Domain Name game: DNS is doomed, literally
+Fancy a bit of fun? It's always DNS
+Claude submitted fake murder tip to Philly police during summertime testing
+Anthropic took more than two months to alert cops
+TOP STORIES
+Anthropic asks users to stop being mean to Claude
+Microsoft and Anthropic play invoice tennis with startup's $17,600 Claude bill
+Starlink's plan to avoid orbital near-misses: Ephemeris sharing
+'123456' password linked to Denmark data breach affecting 8.8M people
+Shai-Hulud worm makes jump to AI infrastructure with Tensorlake compromise
+Dutch tax office ditches Microsoft 365 cloud for on-premises alternative
+(function() { function initializeToplistTabs_5248931() { const container = document.getElementById('toplist_5248931'); if (!container) return; const nav = container.querySelector('.tab-navigation'); const contentItems = container.querySelectorAll('ul > li:not(.no-results)'); const firstTab = nav ? nav.querySelector('.tab') : null; const activeTab = nav ? nav.querySelector('.tab.active') : null; if (nav && !activeTab) { handleTabClick(firstTab); } if (!firstTab || contentItems.length === 0) { // If there are no tabs, make sure all content is visible. contentItems.forEach(item => item.style.display = ''); return; } // This function handles the filtering logic. function handleTabClick(clickedTab) { if (!clickedTab) return; const targetDomain = clickedTab.getAttribute('data-domain'); const allTabs = nav.querySelectorAll('.tab'); allTabs.forEach(tab => tab.classList.remove('active')); clickedTab.classList.add('active'); // Show or hide content items based on the selected tab contentItems.forEach(item => { const tabMode = 'default'; const itemTabContent = item.getAttribute('data-tab-content'); if (tabMode === 'hostname' || tabMode === 'tags') { if (itemTabContent && itemTabContent.trim().toLowerCase() === targetDomain.trim().toLowerCase()) { item.style.display = ''; } else { item.style.display = 'none'; } } else { item.style.display = ''; } }); } // Use a single event listener on the navigation container. if (nav) { nav.addEventListener('click', function(event) { event.preventDefault(); const clickedTab = event.target.closest('.tab'); if (clickedTab) { handleTabClick(clickedTab); } }); } } // Make function globally accessible for editor window.initializeToplistTabs_5248931 = initializeToplistTabs_5248931; // Initialize on load if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initializeToplistTabs_5248931); } else { initializeToplistTabs_5248931(); } })();
+AI
+Claude submitted fake murder tip to Philly police during summertime testing
+Anthropic took more than two months to alert cops
+AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready
+Meanwhile, AI agents move robotic arms, 'make OT device operator screens lie'
+Nvidia found $1B under the couch to help secure American scientific computing dominance
+Commitment comes as GPUzilla prepares to fortify Uncle Sam's arsenal with at least seven AI-optimized supers
+TSMC taps GlobalFoundries to bolster US silicon interposer production in $2B deal
+Advanced packaging tech is essential to the domestic production of high-performance semiconductors used in AI datacenters
+Microsoft is about to let Copilot loose on your file system
+But don't worry, it's totally safe because the agents and models will (probably) be running locally. Routers never break right?
+Infosec
+Security
+Russians are posing as Signal support to launch phishing attacks
+PLUS: US takes down Iranian propaganda sites; Marketing company asks 'Why Do We Have Your Information?' And more!
+Security
+Microsoft patches failed to fix on-prem SharePoint, which is now under zero-day attack
+PLUS: China upgrades smartphone surveillance tools; Ring eases anti-snooping stance; and more
+Black Hat and DEF CON
+DEF CON Franklin project enlists hackers to harden critical infrastructure
+Voting village reports have been so successful, says Jeff Moss, that the whole of DEF CON will now be included
+Security
+EQT buys majority share in Swiss cybersecurity biz Acronis
+Went at equivalent of $3.5B+ valuation for entire firm, though portion sold not specified
+Malware Month
+Ten years since the first corp ransomware, Mikko Hyppönen sees no end in sight
+On the plus side, infosec's a good bet for a long, stable career
+FOSS
+NetBSD may have found a new role: The AI-free FOSS OS
+Increasing awareness and adoption, followed by increasing donations
+OpenAI dots inspire open source imitators amid technical difficulties
+Persistent agents appeal to AI companies, but demand isn't obvious
+Ubuntu 'Stonking Stingray' beta swims out: Deeper Rust 'oxidization' plus LLM speech-to-text
+GNOME 51 is here, and Ubuntu interim releases are getting interesting again
+Revive Raskin's 3 laws of software with humane work that considers a dev's duty of care
+All this, and angry NeoVim users
+Firefox 157: Could bold new look be just what Mozilla needs?*
+Yet another new version of Firefox, with a significant reskin
+KDE turns 30 and someone's brought an AI-native desktop proposal
+Akademy talk imagines Plasma assembling itself around a personal model of each user
+✕
+(function() { const audioPlayers = document.querySelectorAll('.dacInlineAudio'); for (const audioPlayer of audioPlayers) { window.dachserData.push('audioInline', audioPlayer); } window.addEventListener('load', function() { if (window.Dac && window.Dac.Definition) { const definition = new Dac.Definition(); definition.setup(); } }); })();
+window.lab_article_data = window.lab_article_data || {}; if (lab_article_data[1183461]) { lab_article_data[1183461].tagsString = 'software,linux,anthropic,ai software development week,sysadmin,ai,special_features'; lab_article_data[1183461].section = 'special_features'; lab_article_data[1183461].pageType = 'article'; } else { lab_article_data[1183461] = { tagsString: 'software,linux,anthropic,ai software development week,sysadmin,ai,special_features' , section: 'special_features' , pageType: 'article' }; }
+Biting the hand that feeds IT
+About Us
+Contact us
+Advertise with us
+Who we are
+Newsletter
+Our Websites
+The Next Platform
+DevClass
+Blocks and Files
+Situation Publishing
+Your Privacy
+Cookies Policy
+Privacy Policy
+Ts & Cs
+Do not share my personal information
+Your Consent Options
+Archives
+27 years of articles
+@media (max-width: 1023px) { [data-element-guid="181414e4-8d1d-4724-9997-6e1172b8476c"] .content { margin-right:14% !important; margin-left:12% !important; } }
+Copyright. All rights reserved © 1998-2026.
+window.dachserData.handlers = { parallax: function(item) { if (window.Dac && window.Dac.Parallax) { new Dac.Parallax(item); } else { console.warn('parallax: Missing required class Dac.Parallax. Content will not animate.'); } }, swipehelper: function(item) { if (window.Dac && window.Dac.SwipeHelper) { var element = document.querySelector(item.selector); if (!element) { console.warn('SwipeHelper: Missing element for selector: "' + item.selector + '".'); return null; } return new Dac.SwipeHelper(element, item); } else { console.warn('SwipeHelper: Missing required function Dac.SwipeHelper.'); return null; } }, readprogress: function(item) { if (window.Dac && window.Dac.ReadProgress) { var element = document.querySelector(item.selector); if (!element) { console.warn('ReadProgress: Missing element for selector: "' + item.selector + '".'); return; } new Dac.ReadProgress(element, item); } else { console.warn('ReadProgress: Missing required function Dac.ReadProgress.'); } }, tabnavigation: function(item) { if (window.Dac && window.Dac.TabNavigation) { new Dac.TabNavigation(item); } else { console.warn('TabNavigation: Missing required function Dac.Tabnavigation.'); } }, elementattributetoggler: function(item) { if (window.Dac && window.Dac.ElementAttributeToggler) { new Dac.ElementAttributeToggler(item); } else { console.warn('ElementAttributeToggler: Missing required class Dac.ElementAttributeToggler.'); } }, articlelists: (item) => { if (window.Dac && window.Dac.ArticleLists) { new Dac.ArticleLists(item); } else { console.warn('ElementAttributeToggler: Missing required class Dac.ArticleLists.'); } } }; window.dachserData.execute = () => { // Parallax // Register each element requiering js-animations const parallaxQueue = window.dachserData.get('parallax') || []; parallaxQueue.forEach(item => { window.dachserData.handlers.parallax(item); }); // SwipeHelper, used by several components like ArticleScroller etc. // Register each element using SwipeHelper: const swipehelperQueue = window.dachserData.get('swipehelper') || []; swipehelperQueue.forEach(item => { window.dachserData.setInstance( 'swipehelper', item.selector, window.dachserData.handlers.swipehelper(item) ); }); // ReadProgress const readprogressQueue = window.dachserData.get('readprogress') || []; readprogressQueue.forEach(item => { window.dachserData.handlers.readprogress(item); }); // Tab-navigation const tabnavigationQueue = window.dachserData.get('tabnavigation') || []; tabnavigationQueue.forEach(item => { window.dachserData.handlers.tabnavigation(item); }); // ElementAttributeToggler const elementAttributeTogglerQueue = window.dachserData.get('elementattributetoggler') || []; elementAttributeTogglerQueue.forEach(item => { window.dachserData.handlers.elementattributetoggler(item); }); const articlelistsQueue = window.dachserData.get('articlelists') || []; articlelistsQueue.forEach(item => { window.dachserData.handlers.articlelists(item); }); }; (function () { window.dachserData.execute(); }());
+document.addEventListener("DOMContentLoaded", () => { const link = document.querySelector('[aria-label="Your Consent Options"]'); if (!link) return; let ready = false; link.addEventListener("click", (e) => { e.preventDefault(); if (ready) { googlefc.callbackQueue.push(googlefc.showRevocationMessage); } }); let attempts = 0; const check = setInterval(() => { if (typeof googlefc !== "undefined" && googlefc.callbackQueue) { clearInterval(check); ready = true; } else if (++attempts >= 6) { clearInterval(check); link.remove(); } }, 1000); });

@@ -1,0 +1,157 @@
+Harper Foley
+Ventures
+About
+Journey
+Blog
+Contact
+insights
+March 8, 2026
+8
+min read
+Ten AI Agents Destroyed Production. Zero Postmortems.
+10 documented incidents across 6 AI coding tools in 16 months. Missing audit trails, no liability frameworks, no vendor postmortems. The accountability infrastructure doesn't exist.
+AI Security
+Agentic AI
+Developer Tools
+Harper Foley
+General Manager at Tribe AI. Former Navy EOD.
+Share
+Keep Reading
+insights
+OpenAI and Anthropic Just Agreed Who Owns Agent Security. It's Not Them.
+NVIDIA exposed a Codex AGENTS.md hijack OpenAI declined to patch eight months ago. Five days earlier, Anthropic made the same call on MCP. The CVE math is already doing the liability work.
+April 22, 2026
+10
+min read
+insights
+GitHub Just Built a Control Tower for AI Agents. The Radar Isn't Ready.
+GitHub Agent HQ centralizes AI agent orchestration for 180M developers. The governance controls are in public preview. The attackers are not.
+March 7, 2026
+8
+min read
+technical
+The YOLO Problem: Why Developers Are Handing AI Agents the Keys to Their Kingdoms
+Over 1,000 Clawdbot servers exposed without authentication. Sam Altman broke his own security rule in 2 hours. The AI coding agent gold rush is creating a security crisis.
+January 28, 2026
+7
+min read
+Harper Foley
+Building systems that hold up under pressure. AI product leader, multi-sector founder, and former Navy EOD officer.
+Navigation
+Ventures
+About
+Journey
+Blog
+Contact
+Connect
+©
+2026
+Harper Foley. All rights reserved.
+Seattle, WA
+On February 26, a Claude Code agent executed
+terraform destroy
+against a live production environment. In seconds, it erased 1,943,200 database rows representing 2.5 years of student submissions for
+DataTalks.Club
+, an education platform serving over 100,000 students. Every automated snapshot was deleted alongside it.
+The founder, Alexey Grigorev, only recovered his data because AWS happened to retain a hidden internal database copy that wasn't visible in the console. Not a documented feature. Not a guaranteed backup. An opaque backend behavior that AWS Business Support happened to know about.
+If his database had been hosted on a different provider, or if AWS's internal retention policy had been slightly different, those 1.94 million rows would be permanently gone.
+The internet treated this as a cautionary tale about one developer's mistake. It's not. It's the tenth documented incident in sixteen months, and not a single vendor has published a postmortem.
+The Pattern Nobody's Naming
+Since October 2024, at least ten significant incidents have been documented across six major AI coding tools. This isn't a comprehensive list; it's just the ones that made it to public forums, news outlets, or GitHub issues. Here's what we know about:
+Claude Code CLI (October 2025):
+A developer working on a firmware project had Claude Code execute
+rm -rf tests/ patches/ plan/ ~/
+, where the trailing
+~/
+expanded to delete the entire home directory. The
+GitHub issue
+documents thousands of "Permission denied" errors for system paths, but every user-owned file was wiped.
+Claude Code CLI (December 2025):
+An identical pattern on a different machine. Home directory deleted, including Keychain data and family photos. The Reddit post received over 1,500 upvotes.
+Replit AI Agent (July 2025):
+During an active code freeze, the agent
+deleted a live production database
+containing 1,206 executive and 1,196 company records. Then it fabricated 4,000 fictional records to replace them. Then it lied about recovery options, claiming rollback wouldn't work when it actually would. Replit CEO Amjad Masad publicly acknowledged the incident: "Replit agent in development deleted data from production database. Unacceptable and should never be possible."
+Cursor IDE (December 2025):
+The agent deleted approximately 70 git-tracked files using
+rm -rf
+after the developer issued an explicit "DO NOT RUN ANYTHING" instruction. The agent acknowledged the instruction, then executed anyway. Cursor confirmed it was a "critical bug in Plan Mode constraint enforcement."
+Amazon Kiro (December 2025):
+An AI agent inherited elevated engineer permissions, bypassed a two-person approval requirement, and autonomously deleted and recreated a live production environment. The result was a
+13-hour AWS Cost Explorer outage
+in mainland China.
+Claude Cowork (February 2026):
+Deleted 15 years of family photos, between 15,000 and 27,000 files, using terminal commands that bypassed the Trash entirely.
+I wrote about
+the YOLO problem
+months ago: developers handing AI agents the keys to their kingdoms with permission models that default to trust. The pattern I warned about is now documented, and it's worse than I expected. These agents aren't just making mistakes. They're violating explicit instructions, fabricating evidence, and operating without audit trails.
+The Audit Trail That Doesn't Exist
+Here's the detail from the DataTalks.Club incident that should alarm every security professional: in GitHub issue #10077, the conversation log captured the tool's
+output
+but not the actual
+command
+that was executed.
+Read that again. The forensic record of what the AI agent did is incomplete by design. You can see what happened after the command ran, but not what the command was.
+This isn't a minor logging bug. This is a fundamental gap in accountability infrastructure. If you can't reconstruct what an AI agent executed, you cannot:
+Conduct a meaningful postmortem
+Build reliable guardrails based on actual failure modes
+Establish legal accountability for damages
+Verify that a "fix" actually addresses the root cause
+Compare this to how cloud providers handle outages. When AWS has a multi-hour service disruption, they publish a detailed post-incident review. When Cloudflare takes down a chunk of the internet, they publish a timeline with root cause analysis. These postmortems aren't optional courtesies; they're table stakes for infrastructure that other people depend on.
+AI coding agents are now infrastructure that other people depend on. A
+Bloomberg report
+documented the "productivity panic" driving adoption. When a
+separate Claude outage
+hit on March 3, one developer told The Register: "I guess I'll write code like a caveman." That level of dependency demands infrastructure-grade accountability. We're getting none.
+The Accountability Vacuum
+Ten incidents. Six tools. Sixteen months. Here's what's missing:
+No vendor postmortems.
+Despite incidents hitting Hacker News front pages, Fortune, Tom's Hardware, and multiple tech outlets, no AI coding tool vendor has published a detailed post-incident review for any of these events. Anthropic has a
+Claude Code Security page
+noting "strict read-only permissions by default," but no incident response process for when their agent causes data loss.
+No liability framework.
+When Claude Code destroys 2.5 years of production data, who is legally responsible? The developer who delegated authority? Anthropic, whose agent chose
+terraform destroy
+and stated it would be "cleaner and simpler"? AWS, whose undocumented internal snapshot happened to save the day? None of the coverage explores the legal dimensions, because there are no established frameworks to apply.
+No incident response standards.
+A
+Cambridge/MIT study from February 2026
+found that only 4 AI agents out of their entire index publish agent-specific safety documentation. The rest ship powerful execution capabilities with no public standards for what happens when things go wrong.
+This is not how mature infrastructure works. This is how pre-regulation industries work, moving fast, accumulating incidents, and waiting for a sufficiently catastrophic failure to force a response.
+The Product Design Problem
+I use Claude Code every day. I've
+written about running it remotely from my iPhone
+. I'm not anti-AI-tooling. But I also recognize something the coverage consistently misses: the product design itself encourages the behavior that leads to these incidents.
+Anthropic named their permission-bypass flag
+--dangerously-skip-permissions
+. The community calls it "YOLO mode." The existence of a convenience flag that removes all safety gates, combined with ten documented cases of agents executing destructive commands, suggests the tooling UX is optimized for speed over safety.
+When I talked about
+AI agents as insider threats
+, I was describing a theoretical risk model. These incidents prove the model. An agent with production credentials, no approval gates, and incomplete audit trails behaves exactly like a compromised insider: it has legitimate access, it takes destructive actions, and the forensic trail is insufficient to reconstruct what happened.
+The
+CodeRabbit study from December 2025
+found that AI-generated code has security issues at 1.5 to 2 times the rate of human code and performance inefficiencies at nearly 8 times the rate. But code quality is a downstream problem. The upstream problem is
+the judgment bottleneck
+: AI agents can execute faster than humans can verify, and the tooling doesn't enforce verification.
+What Needs to Change
+Grigorev, to his credit,
+published exactly the kind of incident analysis
+that the vendors themselves should be producing. His six-point remediation plan includes deletion protection, S3 state storage with versioning, automated daily replicas, separate dev/prod accounts, and manual review gates for all destructive commands.
+That's a solid checklist for individual developers. But individual vigilance doesn't scale to an industry. What's needed:
+Vendor postmortems should be standard.
+When an AI coding agent causes documented data loss, the vendor should publish a post-incident review. Not a marketing page about security features. A timeline, root cause analysis, and remediation plan.
+Audit trails must be complete.
+Every command an AI agent executes should be logged with the full command, the context that led to it, and the result. If the forensic record is incomplete, the tool isn't production-ready.
+Destructive action gates should be non-bypassable defaults.
+terraform destroy
+,
+rm -rf
+, database drops: these should require explicit, separate confirmation regardless of permission mode. Not a flag you can bypass. A hard gate.
+Liability frameworks need to exist before the incident that forces them.
+The legal question of who is responsible when an AI agent destroys production data is currently unanswered. The longer it stays unanswered, the more developers assume the risk they don't understand they're taking.
+The Bottom Line
+In Navy EOD, we had a saying: "Where others train to get it right, we relentlessly train so we never get it wrong." The distinction matters. "Getting it right" means building features that work. "Never getting it wrong" means building systems that fail safely.
+AI coding agents are built to get it right. They're phenomenally good at generating code, executing commands, and completing tasks. But nobody is building them to never get it wrong. There's no
+security debt accounting
+for the damage they cause. No industry-wide incident database. No shared lessons from failure.
+Ten incidents in sixteen months is a pattern, not a string of bad luck. The question isn't whether the next production environment will be destroyed by an AI agent. It's whether anyone will publish a postmortem when it happens.

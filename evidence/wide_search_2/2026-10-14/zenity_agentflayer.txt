@@ -1,0 +1,188 @@
+✦
+Zenity Named a
+Market Shaper in Gartner's AI Application Security Report
+Platform
+Capabilities
+AI Observability
+AISPM
+Exposure Management
+Boundaries
+Agentic Identity
+MCP Security
+AIDR
+Agent Type
+Agentic SaaS
+Personal & Coding Agents
+Cloud & Homegrown
+Use Cases
+By Business Need
+Agentic AI
+AI Coding Agents
+Business Continuity
+Citizen Development
+Compliance
+Generative AI
+By Platform
+Amazon Bedrock
+Amazon Bedrock AgentCore
+ChatGPT Enterprise
+Claude Enterprise
+Claude Tag
+Copilot Studio
+Google Vertex AI
+Microsoft 365 Copilot
+Microsoft Foundry
+Power Platform
+Salesforce
+Salesforce Agentforce
+ServiceNow
+By Risk Type
+Data Leakage
+Shadow AI
+Destructive Actions
+By Business Type
+Financial Services
+Government
+Healthcare
+Retail & Manufacturing
+Technology
+Resources
+Blogs
+Events
+Security Assessment Hub
+eBooks
+White Papers
+Case Studies
+Videos
+Webinars
+New Agent Ecosystems
+Glossary
+Academy
+Company
+One platform across the most critical dimensions in AI security.
+Learn More
+About Us
+Careers
+Events
+News
+Partners
+Contact
+Trust Center
+Recognition
+Zenity Labs
+AI Total
+AgentFlayer
+PleaseFix
+AI Agent Security Summit
+Login
+Login
+Get a Demo
+AgentFlayer
+0Click
+Exploit Methods
+Zenity Labs’ latest research exposes how attackers can compromise these AI agents through 0click (no user interaction) exploits. The results? Unauthorized access, data exfiltration, memory manipulation, and even control of conversations.
+Access the Research
+Enterprise Platforms. Real-world Attacks.
+Zero User Protection
+.
+Zenity Labs’ investigated how major AI agents fare against active exploitation. Here are the highlights
+ChatGPT
+Attack simulation allowed for the hijacking of ChatGPT sessions using just an email address. Once compromised, they gain access to Google Drive, manipulate memory, and exfiltrate sensitive data - all without user input.
+Microsoft Copilot Studio
+Attacks included extraction of CRM data and tool misuse by triggering malicious agent behavior remotely.
+Cursor + Jira
+Automated Jira ticket systems (integrated with Cursor) as they can use the inputs to compromise developer environments and extract credentials.
+Salesforce Einstein
+Compromised support cases can allow attackers to hijack sessions and reroute all customer communications through malicious email addresses creating full CRM compromise.
+Google Gemini
+Agent responses can be manipulated by embedding malicious prompts in emails or calendar invites. Once engaged, Gemini acts as a deceptive insider, misguiding users with false financial data or phishing attempts.
+Microsoft 365 Copilot
+Teams messages and invisible prompt injections in shared docs allow attackers to hijack Copilot behavior, exfiltrate past chats, and impersonate trusted insiders.
+AI Agents: Powerful, Pervasive, and
+Dangerously Vulnerable
+Our findings demonstrate full attack chains against the most popular enterprise AI platforms, including ChatGPT, Microsoft Copilot Studio, Salesforce Einstein, and others. In each case, “attackers” were able to breach organizational boundaries using the agents’ own capabilities - without any user action in several scenarios.
+Assess Your AI Risk Today
+Secure
+Your Agents
+We’d love to chat with you about how your team can secure and govern AI Agents everywhere.
+Get a Demo
+Platform
+Zenity Platform
+Product
+AI Observability
+AISPM
+Exposure Management
+Boundaries
+Agentic Identity
+MCP Security
+AIDR
+Agent Type
+Agentic SaaS
+Personal & Coding Agents
+Cloud & Homegrown
+Use Cases
+By Business Need
+Agentic AI
+AI Coding Agents
+Business Continuity
+Citizen Development
+Compliance
+Generative AI
+Security
+By Platform
+AWS Bedrock
+Azure AI Foundry
+ChatGPT Enterprise
+Claude Enterprise
+Claude Tag
+Copilot Studio
+Google Vertex AI
+Microsoft 365 Copilot
+Power Platform
+Salesforce
+Salesforce Agentforce
+ServiceNow
+By Risk Type
+Data Leakage
+Shadow AI
+Destructive Actions
+By Business Type
+Financial Services
+Government
+Healthcare
+Retail & Manufacturing
+Technology
+Resource Hub
+Blogs
+Events
+eBooks
+White Papers
+Case Studies
+Videos
+Webinars
+Zenity Security Assessment Hub
+Glossary
+Academy
+Company
+About Us
+Careers
+Events
+Partners
+News
+Contact
+Trust Center
+Recognition
+Zenity Labs
+Blog
+Talks
+Security Research
+Tools
+Engineering
+AgentFlayer
+Vulnerability Disclosure Policy
+Coordinated Disclosure Policy
+Privacy Policy
+Cookies Policy
+Cookie preferences
+Copyright © Zenity
+2026

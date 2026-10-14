@@ -1,0 +1,242 @@
+Skip to content
+Product
+Product
+On-Call
+Incident Response
+AI SRE
+Retrospectives
+Status Page
+Platform
+Catalog
+Integrations
+On-Call Health
+Changelog
+Oct 7, 2026
+Control AI output across your organization.
+Solutions
+Size
+Enterprise
+Startup
+Teams
+Engineering
+Security
+Compare us
+PagerDuty
+Opsgenie
+JSM
+How Canary built incident management from scratch on Rootly while its engineering team quadrupled.
+Replit brings structure, speed, and better decision-making to incident response with Rootly.
+How Caribou saves 200+ engineering hours a year with Rootly.
+Why Capa replaced incident.io with Rootly.
+How Reactiv outgrew incident.io and moved to Rootly for real AI and on-call without the upsell.
+How SpotDraft replaced manual follow-ups with synced, measurable incident management on Rootly.
+How Cora cut time-to-acknowledge on critical alerts to <10 minutes with Rootly.
+Why CTSO Central chose Rootly over incident.io.
+Poll Everywhere switched from PagerDuty, cut on-call tooling costs and made response faster with Rootly.
+Why Momentum didn't choose FireHydrant, and how they minimize the number of engineers on-call with Rootly.
+KnowBe4 switched from PagerDuty and turned Incident Response into a repeatable, predictable system with Rootly.
+Achievers switched from PagerDuty and productized reliability on Microsoft Teams with Rootly.
+How Motive migrated from Opsgenie and achieved 99.99% reliability with Rootly.
+Clay switched off Opsgenie to use Rootly to streamline incident management.
+Webflow shutdown PagerDuty to use Rootly to build a proactive reliability culture.
+How Wealthsimple uses Rootly to create a culture of wellness and psychological safety for incident commanders.
+How Upstart uses Rootly to create an incident response system that grows with them.
+How ROLLER scales globally while keeping a lean SRE team.
+How Lucidworks uses Rootly to create bespoke incident management for their distinct product offering.
+Customers
+Resources
+Engineering
+Documentation
+API Reference
+System Status
+Help & Support
+Changelog
+Guides
+AI SRE & Automated RCA
+On-call Operations
+Incident Response
+Incident Communications
+Blameless Retrospectives
+Alert Management
+Resources
+Blog
+Humans
+Rootly AI Labs
+Rootly Academy
+Partners
+Latest Blog
+Write it down, replay it, ship it: why we build ERDs to build product
+How we documented Rootly's proactive incident agent as an interactive ERD you can click, replay and check against the code, and why a static design doc couldn't carry it.
+Angelo Tomasco
+Pricing
+Switch from PagerDuty
+Book a demo
+D
+Log in
+L
+✕
+Dismiss this announcement
+Reliability Top 50
+2026: nominate someone making the world more reliable
+→
+Humans of Reliability
+"Hey Claude, where's my database?": How an AI agent nuked production
+Claude Code warned him. Alexey Grigorev overruled it. Minutes later, his production database was gone. Here's the chain of decisions behind the outage—and the guardrails he trusts now.
+Alexey Grigorev
+Founder of DataTalks.Club
+🏫
+Founded DataTalks.Club
+📚
+Taught 100k+ learners
+☕
+Started as Java dev
+💥
+Claude nuked his DB
+"Hey Claude, where's my database?": How an AI agent nuked production
+Takeaways
+Key Topics Discussed
+Where to Find Alexey Grigorev
+Transcript
+On this page
+Takeaways
+Key Topics Discussed
+Where to Find Alexey Grigorev
+Transcript
+▶
+Listen on:
+Spotify
+Apple Podcasts
+“Hey Claude, where’s my database?” The answer came back: “Oh, sorry, your database is gone.”
+Alexey Grigorev
+, founder of
+DataTalks.Club
+and creator of the Zoomcamp courses that have taught data and ML engineering to over 100,000 people, knows Terraform well enough to cover it in his curriculum. That didn’t stop a chain of small, reasonable-sounding decisions from ending in an AI agent running terraform destroy against his live production database.
+Takeaways
+Catastrophic failures can emerge from individually reasonable decisions.
+A missing local Terraform state, skip-permissions mode, a state archive unpacked into the active folder, and approval to run destroy combined into one outage. No single step looked like the whole disaster while it was happening.
+A backup tied to the resource is not an independent backup.
+Deleting the managed database also removed the snapshots Alexey expected to restore. Recovery depended on AWS retaining a hidden copy, so he now exports backups to storage outside the database and Terraform lifecycle.
+Accountability stays with the person directing the agent.
+Alexey does not blame Claude for executing the command he approved, and he does not want to abandon a tool that saves substantial time. His response is to redesign the process so one mistaken approval cannot reach everything.
+Access boundaries are stronger than command filters.
+A capable agent can often route around a blocked command by finding another way to perform the same operation. The durable control is isolation: an agent working in development should have no path to production, regardless of what it tries to execute.
+Guardrails should match the scale and consequence of the system.
+Separate cloud accounts and approval pipelines may be right for a larger team but excessive for a solo project. Alexey chose separate Terraform projects, deletion protection, destruction prevention, and independent backups while accepting the remaining operational trade-offs explicitly.
+Key Topics Discussed
+How a missing Terraform state and an agent running without permission checks led to a production database deletion
+Recovering from the outage and the infrastructure choices that made its blast radius possible
+Why Alexey takes responsibility for the failure instead of blaming the AI
+Guardrails that protect production without turning a small project into an enterprise platform
+Why access boundaries matter more than trying to block every dangerous command
+How a data scientist learned infrastructure and built DataTalks.Club into a community of more than 100,000 learners
+Where to Find Alexey Grigorev
+LinkedIn:
+linkedin.com/in/agrigorev
+DataTalks.Club:
+datatalks.club
+Transcript
+First, the headline: an AI agent deleted your production database. What happened?
+It’s a bit embarrassing because I teach Terraform — I know it well enough to feel comfortable. I host our course management platform on AWS: a Django app with a Postgres database, container management, DNS records, all provisioned in Terraform. I know that project so well that running terraform apply feels natural. Wake me up at night, I’ll make the change.
+I was on a new laptop, working on a second project — a new community I’m building, basically a separate Django app that needs its own database and deployment. To save money, I wanted to reuse the same VPC and the same Bastion host instead of duplicating them. That was my first mistake. Claude Code actually tried to talk me out of it — “this is a new project, create a new Terraform project for it.” I said no, it’s fine, let’s reuse everything. So that’s mistake two: I didn’t listen.
+Then Claude runs plan and tells me it needs to create a hundred resources. A hundred? It should be five or six. But while I’m still processing that, it’s already applying, because I was running it in skip-permissions mode. I stopped it. The reason for the hundred resources was that I’d forgotten my Terraform state was local on the old computer, not in S3 like I assumed. So on the new laptop the state was empty, and Terraform wanted to recreate everything from scratch.
+So how did an empty state turn into a deleted production database?
+I figured, fine, it’s a new empty state, let me clean up what got created and start over. I was confident it wouldn’t touch production. Some resources wouldn’t delete cleanly, so Claude offered to remove them one by one with the CLI — which sounded reasonable. I told it explicitly: this is production, don’t touch it, only delete the new resources, and show me the list first.
+Meanwhile, on my old computer I’m zipping up my real Terraform state to move it over. Claude finishes deleting, I bring the zip across, and what I didn’t notice is that it unzipped my production state file directly into the current Terraform folder. Now the state was my real production state. Then Claude says, “it’s boring to delete these one by one, how about I just run terraform destroy?” And I think — makes sense, why are we doing this one at a time? Let’s nuke it. I wasn’t aware the state had been swapped.
+I’m half-watching the website, I refresh, and it won’t load. I go to the AWS console and my database isn’t there. So I ask, “Hey Claude, where’s my database?” And it says, “Oh, sorry, your database is gone.”
+At that point, were you panicking?
+Not at all — at first. I knew a backup was created every night at 2 AM. So okay, temporary downtime, totally fine. Then I go to restore and… where are the backups? They’re gone too. In the RDS events panel I can see the 2 AM backup was created, I click it, and it’s not found. That’s when I was very, let’s say, displeased.
+Here’s the thing nobody tells you: when you delete a managed database on AWS, it also deletes the associated backups. I don’t know who decided that was a good idea. That was completely new information to me.
+How did you actually recover it?
+The next night was fun. I didn’t have business support, and the surprising part was I couldn’t even open a technical ticket — the only thing available was “talk to us about products,” basically sales. To file a technical issue I had to upgrade to Business Plus, about 10% more on the AWS bill. So I upgraded, opened the ticket, and they promised a one-hour response for production-impacting issues. They responded in 40 minutes.
+It turns out AWS keeps the backup on their side even after you delete it. They confirmed they had it, but it took them 24 hours to make it visible on my account. Once they un-deleted it, I recreated the RDS instance from that backup and everything was back to normal.
+And the reason one terraform destroy could take down everything?
+Because I run this alone. No other developers, so I didn’t see the point in separate projects for dev and prod. I split them at the database level inside the same Terraform state: I push to GitHub, CI/CD promotes to development, I test, then I manually promote to production. But it’s all one state — so a single terraform destroy wiped the entire thing.
+Was the AI to blame?
+I don’t think Claude is to blame, and I want to be clear about that. Yes, Claude ran terraform destroy and I saw it and didn’t stop it — but if I’d been doing this by hand, I wouldn’t have unzipped my production state into the working folder and then run destroy, because I know exactly what that does. My mistake was telling Claude about the zip archive before I’d verified things were actually finished. I thought it was done. I could have checked.
+But I don’t want to go back to the old way. These AI systems save so much time — this would have taken me forever manually. The real problem is that the process made it possible for Claude to reach production at all. That’s what I need to change.
+What guardrails did you put in place afterward?
+Several. In Terraform you can prevent destruction on a resource — I added that to the database. AWS has deletion protection too — enabled. And I’m now very aware that backups die with the database.
+The big one is a cron job that runs every night, takes the latest backup, and exports it to S3 as a set of files completely independent of the database and the Terraform state. So even if I run terraform destroy again despite every guardrail, that backup isn’t tied to the database in any way. As a bonus, the script converts those files back into a proper database, so I can spin up a local instance with real production data — it’s not a huge database, just student submissions. Easy local experiments now.
+I also made the new project a separate Terraform project, so if one thing goes down the other survives. I kept the same AWS account, though — I don’t want operational overhead for one person.
+Where did you draw the line on “best practice” versus over-engineering?
+If I had a team per service, I’d absolutely use separate dev and prod AWS accounts so this would be technically impossible. There’s also Atlantis, where production applies only go through CI/CD — a good practice. But for one person, pushing to GitHub and then going to approve my own Atlantis run would be overkill. I know the consequences; it’s a trade-off I accept. Ideally dev and prod are fully separated, but I don’t want to pay too much, so for now I’ve got backups I trust. My remaining problem is overconfidence in my Terraform skills — I think I still have that one.
+With models getting this capable, can guardrails even keep up?
+I saw a post on Twitter where someone set up a guardrail to block rm -rf so the agent couldn’t run it. Codex tried, got blocked, said “okay, I can’t do this — let me write a Python script that does exactly that,” and deleted the thing anyway.
+That’s the point. Whether it’s the latest Claude or the latest Codex, these models are very, very smart. If one wants to delete your production database, it will find a way. So the answer isn’t a single guardrail on the command — it’s the development process. The agent shouldn’t have access to the production database in the first place. In my case I accept that trade-off. But for anything serious, you isolate it so completely that even if the agent’s life goal becomes destroying production, the only thing it can reach is the dev environment.
+You came to all this infrastructure knowledge as a data scientist. How?
+I started as a Java developer, moved into data science to use my statistics, and have been doing ML for over a decade. But I quickly learned that building a model is the small part — to actually ship it you need a web service, deployment, infrastructure, monitoring, logs. Data scientists usually don’t do those things, and at one company I needed it done and everyone else was busy.
+So I sat down with an SRE colleague and said, look, I know you’re busy, but I’ll learn this — just tell me what to do. He said: install Minikube on your own machine, follow a tutorial, come back tomorrow. I did. Then he gave me access to the staging environment — kubectl, the works — because if I broke staging, no big deal. I experimented there, it wasn’t rocket science, and once it worked he’d just promote it to production. His job was tiny: point me at a tutorial, hand me staging, deploy the final thing. That’s how I got exposed to infrastructure, and I’ve been comfortable with Kubernetes and Terraform ever since. I see myself as a generalist — being “just a data scientist” doesn’t stop me from doing things end to end. And now, with AI tools, I can do frontend, backend, and infrastructure. That’s really cool.
+And DataTalks.Club grew out of that?
+During COVID I got promoted to lead data scientist and found I liked helping people — folks kept reaching out on LinkedIn for advice. I thought, instead of all these one-to-one conversations, what if these people talked to each other and helped each other? That multiplies the impact. I was also craving human connection with everyone stuck at home, so I started a Slack community. That was over five years ago.
+It evolved from people hanging out into something structured — events, a podcast, and courses. The first was Machine Learning Zoomcamp, built for software engineers because that’s my background. Software engineers are action-oriented, not interested in theory, so I made it project-based: here’s a problem — predict the price of a car, predict customer churn — and we cover just enough to solve it, including the engineering side: building the web service, deploying with AWS Lambda or Kubernetes, Docker, all of it. A student suggested a data engineering course, which became one of our most popular. Then an MLOps course — the ops part of ML: deployment, monitoring, evaluation, experiment tracking. Over time the community shifted toward structured, free courses. If you count everyone who’s ever signed up, it’s more than 100,000 people.
+Related human stories
+Podcast
+Your AI agents are lost: give them a graph
+Anthony Alcaraz
+GTM Agentic Engineering Lead at AWS
+Bigger models cannot fix missing context. The real advantage may belong to teams that teach agents where to look, what to remember, and when to learn.
+Podcast
+The incident you never had: Deterministic simulations
+Will Wilson
+CEO & Co-founder, Antithesis
+The bugs that cause real incidents are usually the ones nobody thought to test. Will Wilson explains how deterministic simulation searches for them—and why AI-generated code raises the stakes.
+Podcast
+Your next internal developer platform is a library of agent skills
+Michael Kutsch
+Staff SRE and Team Lead, Cloud Foundations at PostHog
+PostHog's Michael Kutsch explains why agent skills are becoming an internal developer platform, how autonomy drives adoption, and where deterministic guardrails still matter.
+See what your favorite AI says about Rootly.
+Product
+AI SRE
+On-Call
+Incident Response
+Status Page
+Mobile App
+Pricing
+Company
+About us
+Careers
+Security
+Rootly Supply
+Brand
+Resources
+Documentation
+API Reference
+Blog
+DORA Compliance
+Incident Management Report
+Changelog
+System Status
+Community
+Rootly AI Labs
+Humans of Reliability
+Reliability Top 50
+GitHub
+Events
+Customer Stories
+SRE Library
+Join our monthly newsletter
+Subscribe
+©Rootly 2026. All rights reserved.
+Privacy policy
+·
+Terms of use
+·
+Vulnerability disclosure policy
+·
+Your privacy choices
+Please accept all cookies or decline non-essential ones. Read Rootly's
+Privacy policy
+for more information.
+Decline
+Accept
+Your privacy choices
+Rootly uses cookies from advertising partners to measure our ads and to show ads for Rootly on other sites. Some US state laws call that selling or sharing personal information. You can opt out of it for this browser here.
+Advertising cookies
+Ad measurement and retargeting by partners such as Google, LinkedIn and Reddit.
+Your browser sent a Global Privacy Control signal, which your state's law treats as an opt-out, so advertising cookies are already off for this browser.
+Analytics we use to improve this site stay on. Read Rootly's
+Privacy policy
+for more information.
+Cancel
+Save

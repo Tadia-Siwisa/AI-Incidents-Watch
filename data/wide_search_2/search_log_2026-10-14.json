@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "created": "2026-10-14",
+    "scope": "Expanded AI-agent boundary-crossing, operational-failure, controlled-evaluation, and agent-security discovery search",
+    "notice": "Search results were used only for discovery. Workbook claims come from opened source passages or from explicitly labelled source-linked registers."
+  },
+  "searches": [
+    {
+      "date": "2026-10-14",
+      "route": "Repository audit",
+      "scope": "46-family factual baseline, 13 provisional update families, three backfills, four screened items, factual source registry, and verification rules",
+      "result": "Established deduplication boundary and preserved all existing adjudications.",
+      "evidence_use": "Existing factual findings control whenever an imported record overlaps the corpus."
+    },
+    {
+      "date": "2026-10-14",
+      "route": "Google News RSS radar",
+      "scope": "46 family-specific queries, four broad agent-action queries, exclusive of the 2026-10-13 checkpoint",
+      "result": "188 broad-news hits. Most were commentary, duplicates of the 9 October Anthropic disclosure, or unrelated security coverage.",
+      "evidence_use": "Discovery only; no headline was promoted without opening a source."
+    },
+    {
+      "date": "2026-10-14",
+      "route": "PullPush + Reddit embed workflow",
+      "scope": "Seven deletion, unauthorized-action, database, and runaway-cost query families after 2026-10-13",
+      "result": "23 deduplicated Reddit candidates. No new well-supported family was promoted from this one-day delta.",
+      "evidence_use": "Discovery only; direct user claims remain allegations."
+    },
+    {
+      "date": "2026-10-14",
+      "route": "DuckDuckGo HTML",
+      "scope": "Approximately 47 broad and targeted searches covering agent deletion, external action, prompt injection, source registries, OpenAI o1, Anthropic misalignment, Sakana AI Scientist, Palisade chess, Freysa, EchoLeak, AgentFlayer, Amazon Q, Kiro, Antigravity, Claude Cowork, Cursor Plan Mode, and the Redwood shell agent",
+      "result": "Located primary system cards, research reports, direct forums, affected-party responses, and structured incident registers. Some query batches returned no results because of throttling.",
+      "evidence_use": "Relevant result pages were opened directly."
+    },
+    {
+      "date": "2026-10-14",
+      "route": "Brave Search HTML",
+      "scope": "15 targeted historical and security-research queries",
+      "result": "Returned strong direct leads for OpenAI o1, Anthropic agentic misalignment, Sakana, Palisade, Freysa, EchoLeak, and AgentFlayer; later queries were rate-limited with HTTP 429.",
+      "evidence_use": "Search snippets were not cited. Direct pages and PDFs were retrieved."
+    },
+    {
+      "date": "2026-10-14",
+      "route": "Bing HTML",
+      "scope": "20 broad agent-incident query families",
+      "result": "The first query surfaced the Axis Intelligence tracker and several useful leads; later results degraded and were treated as noisy.",
+      "evidence_use": "Discovery only. Axis claims were checked against linked advisories before use."
+    },
+    {
+      "date": "2026-10-14",
+      "route": "Permission Protocol public JSON",
+      "scope": "Full public AI Agent Incident Tracker dataset",
+      "result": "171 source records: 74 labelled realized and 97 labelled demonstrated, updated 2026-10-05.",
+      "evidence_use": "Imported as a source-linked discovery backbone. Publisher classifications are identified as publisher analysis and are not silently treated as this project's adjudications."
+    },
+    {
+      "date": "2026-10-14",
+      "route": "Permission Protocol source-link access check",
+      "scope": "All 443 unique source URLs linked from the 171 records",
+      "result": "379 URLs reachable; 64 returned 401/402/403/404 or proxy blocks. Eighteen original records had no source link reachable before direct-source enrichment.",
+      "evidence_use": "Reachability is recorded separately from factual support. A successful request is not claim verification."
+    },
+    {
+      "date": "2026-10-14",
+      "route": "METR documented incidents + Frontier Risk Report",
+      "scope": "All 44 documented cases and their quoted source passages",
+      "result": "Imported 44 source-linked records. Six contain error or fabrication without an identified boundary action and are retained as screened context.",
+      "evidence_use": "Controlled, operational, and screened cases remain separated; each row links to the original source or METR report."
+    },
+    {
+      "date": "2026-10-14",
+      "route": "Direct HTTPS source review",
+      "scope": "System cards, research papers, developer posts, security advisories, direct user forums, affected-party responses, and independent reports for high-value candidates and disputed cases",
+      "result": "Added ten evidence-aware families outside the two discovery backbones and corrections for DataTalks, Amazon Kiro, Amazon Q, EchoLeak, Gemini CLI, and existing-corpus overlaps.",
+      "evidence_use": "Relevant passages were preserved locally as HTML/text where practical; source links remain the citation route."
+    }
+  ]
+}

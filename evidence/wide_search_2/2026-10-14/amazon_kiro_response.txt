@@ -1,0 +1,79 @@
+Correcting the Financial Times report about AWS, Kiro, and AI
+Share
+Written by
+Amazon Staff
+1 min read
+We want to address the inaccuracies in the
+Financial Times' reporting
+yesterday. The brief service interruption they reported on was the result of user error—specifically misconfigured access controls—not AI as the story claims.
+The disruption was an extremely limited event last December affecting a single service (AWS Cost Explorer—which helps customers visualize, understand, and manage AWS costs and usage over time) in one of our 39 Geographic Regions around the world. It did not impact compute, storage, database, AI technologies, or any other of the hundreds of services that we run. The issue stemmed from a misconfigured role—the same issue that could occur with any developer tool (AI powered or not) or manual action. We did not receive any customer inquiries regarding the interruption. We implemented numerous safeguards to prevent this from happening again—not because the event had a big impact (it didn't), but because we insist on learning from our operational experience to improve our security and resilience. Additional safeguards include mandatory peer review for production access. While operational incidents involving misconfigured access controls can occur with any developer tool—AI-powered or not—we think it is important to learn from these experiences. The Financial Times' claim that a second event impacted AWS is entirely false.
+For more than two decades, Amazon has achieved high operational excellence with our Correction of Error (COE) process. We review these together so that we can learn from any incident (just like this one), irrespective of customer impact, to address issues before their potential impact grows larger.
+More Amazon News
+Previous slide
+1 / 1
+Next slide
+How AWS is helping companies build physical AI machines that think
+AWS
+Claude Haiku 5.5 is now available on AWS
+AWS
+Inside the AWS lab that makes everything you do online feel effortless
+AWS
+How AWS has helped more than 30,000 job seekers land cloud computing jobs
+AWS
+AWS becomes first cloud provider approved for NATO RESTRICTED workloads across all member nations
+AWS
+What AWS's chief AI and technology officer told employees about the future of AI
+AWS
+Amazon Connect expands into a set of agentic AI solutions
+AWS
+AWS announces Fastnet, a dedicated high-capacity transatlantic cable connecting the US and Ireland
+AWS
+Scroll to top button
+Amazon News
+Press Center
+Amazon.com
+Investor Resources
+Country & Language:
+EN
+Careers
+Site Map
+More from Amazon
+Amazon.com
+Conditions of Use
+Amazon Privacy Policy
+© 1996-
+2026
+Amazon.com, Inc. or its affiliates
+News
+Stores and Shopping
+AWS
+Devices
+Entertainment
+Artificial Intelligence
+Workplace
+Sustainability
+Community
+International
+Featured Topics
+Amazon Leo
+Our Data Center Approach
+About Us
+What We Do
+Working at Amazon
+Leadership Principles
+Shareholder Letters
+Reports
+Featured Topics
+Artificial Intelligence
+Amazon's Custom Chips
+Our Impact
+Jobs and Investments
+Community
+Sustainability
+Small Businesses
+Featured Topics
+Building Strong Communities
+Building Skills for the Future
+Affordability
+Data Center Commitments
+Subscribe

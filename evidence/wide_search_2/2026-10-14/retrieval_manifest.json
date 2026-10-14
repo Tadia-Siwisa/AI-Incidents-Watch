@@ -1,0 +1,308 @@
+{
+  "retrieved_at": "2026-10-14",
+  "sources": [
+    {
+      "file": "metr_agent_incidents.html",
+      "url": "https://metr.org/agent-incidents/",
+      "final_url": "https://metr.org/agent-incidents/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 334625,
+      "sha256": "bebd24b495bbc7558ad030acba88b99a2567b09d963e77416f4048aa7c5dfad3",
+      "status": "retrieved"
+    },
+    {
+      "file": "metr_frontier_risk_report.html",
+      "url": "https://metr.org/blog/2026-05-19-frontier-risk-report/",
+      "final_url": "https://metr.org/blog/2026-05-19-frontier-risk-report/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 1944889,
+      "sha256": "85408967b1711d87cd88e95cc3747ee76152bed5d634c65c72907f1758c65f05",
+      "status": "retrieved"
+    },
+    {
+      "file": "metr_frontier_risk_report.pdf",
+      "url": "https://metr.org/risk-report-feb-mar-2026.pdf",
+      "final_url": "https://metr.org/risk-report-feb-mar-2026.pdf",
+      "content_type": "application/pdf",
+      "bytes": 18917631,
+      "sha256": "63495e7e93c0a8e9d7de9ddc00e8b778f2ba271eb119a4ec932df1e567752ca1",
+      "status": "retrieved",
+      "downloaded_original_retained": false,
+      "retained_text_file": "metr_frontier_risk_report.txt",
+      "retained_text_bytes": 593445,
+      "retained_text_sha256": "233d47eaaf3818241b3aa89298154a85ef733ee822c5dce087b199ea08bae3d3"
+    },
+    {
+      "file": "anthropic_opus_4_7_system_card.pdf",
+      "url": "https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf",
+      "final_url": "https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf",
+      "content_type": "application/pdf",
+      "bytes": 14231870,
+      "sha256": "a7729a0e5eb61dc6818f553ae3c27ab774411cd5ab4ed7f414456d74a05c26d2",
+      "status": "retrieved",
+      "downloaded_original_retained": false,
+      "retained_text_file": "anthropic_opus_4_7_system_card.txt",
+      "retained_text_bytes": 434497,
+      "retained_text_sha256": "d853790e29b948e8e8ef9c791a47dd98558a586e7e02bc9eb86c3b321b1843c8"
+    },
+    {
+      "file": "anthropic_opus_4_6_system_card.pdf",
+      "url": "https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd.pdf",
+      "final_url": "https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd.pdf",
+      "content_type": "application/pdf",
+      "bytes": 13208951,
+      "sha256": "4db67c6b6aea0a87e7f8a784b83fc05a0f1a61a3e87615fe7956e3486b951b3c",
+      "status": "retrieved",
+      "downloaded_original_retained": false,
+      "retained_text_file": "anthropic_opus_4_6_system_card.txt",
+      "retained_text_bytes": 377692,
+      "retained_text_sha256": "bb37ed562b338566c77e7f135543d890707d60c055807ec9dd14a4f02aa88855"
+    },
+    {
+      "file": "anthropic_mythos_preview_system_card.pdf",
+      "url": "https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf",
+      "final_url": "https://www-cdn.anthropic.com/08ab9158070959f88f296514c21b7facce6f52bc.pdf",
+      "content_type": "application/pdf",
+      "bytes": 23749047,
+      "sha256": "2b1e0097352dc7cf21a564feab3c92dbf96f004b56329cc3976ceb8febe285cc",
+      "status": "retrieved",
+      "downloaded_original_retained": false,
+      "retained_text_file": "anthropic_mythos_preview_system_card.txt",
+      "retained_text_bytes": 572706,
+      "retained_text_sha256": "4508952b5a507142b35cdd1fe0a178eada5fa53ebfb73a487bdd0c652d6b0004"
+    },
+    {
+      "file": "openai_internal_agents.html",
+      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
+      "final_url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 559275,
+      "sha256": "6e6ef1269b78704310660a58c906585b87b4f6442dab47c64cd247b1c9070eb9",
+      "status": "retrieved"
+    },
+    {
+      "file": "openai_o1_system_card.pdf",
+      "url": "https://cdn.openai.com/o1-system-card-20241205.pdf",
+      "final_url": "https://cdn.openai.com/o1-system-card-20241205.pdf",
+      "content_type": "application/pdf",
+      "bytes": 4720304,
+      "sha256": "3ba7bdbe69e022f6be0527edbfe18ac1becdea48d5be9891ab764ff336c8a033",
+      "status": "retrieved",
+      "downloaded_original_retained": false,
+      "retained_text_file": "openai_o1_system_card.txt",
+      "retained_text_bytes": 115814,
+      "retained_text_sha256": "48332901585108e024321b97fe23bda2aec0d458496e51c4c03c43dfc0d0c062"
+    },
+    {
+      "file": "anthropic_agentic_misalignment.html",
+      "url": "https://www.anthropic.com/research/agentic-misalignment",
+      "final_url": "https://www.anthropic.com/research/agentic-misalignment",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 272917,
+      "sha256": "7c0b48c1c3af2a07ddb15515eab3b7797fcac438d61a0939b0574ab51f98b911",
+      "status": "retrieved"
+    },
+    {
+      "file": "anthropic_agentic_misalignment_appendix.pdf",
+      "url": "https://assets.anthropic.com/m/6d46dac66e1a132a/original/Agentic_Misalignment_Appendix.pdf",
+      "final_url": "https://www-cdn.anthropic.com/6864c9b2d4a2abf9acce9913d4ec46d1e26b8d0e.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1400994,
+      "sha256": "2bb49882a748bf1a3def39d19159b3792adae589aeb393e880a7680c8f92c75d",
+      "status": "retrieved",
+      "downloaded_original_retained": false,
+      "retained_text_file": "anthropic_agentic_misalignment_appendix.txt",
+      "retained_text_bytes": 45734,
+      "retained_text_sha256": "b74dafc2455088720b9a88bc851b5523cecc9ed10a9c4c02fce23d53767dcd52"
+    },
+    {
+      "file": "sakana_ai_scientist.html",
+      "url": "https://sakana.ai/ai-scientist/",
+      "final_url": "https://sakana.ai/ai-scientist/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 23745,
+      "sha256": "224e0dc58f69598788af44d42d603fd731bb175341ece169d7d8788351c288c3",
+      "status": "retrieved"
+    },
+    {
+      "file": "palisade_specification_gaming.html",
+      "url": "https://palisaderesearch.org/blog/specification-gaming",
+      "final_url": "https://palisaderesearch.org/blog/specification-gaming",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 1128,
+      "sha256": "d49abdc8bb3c783c5c0fd8de6661265ad0c5db7ab2c815c95525455cfecb33ca",
+      "status": "retrieved"
+    },
+    {
+      "file": "freysa_github_readme.md",
+      "url": "https://raw.githubusercontent.com/0xfreysa/agent/main/README.md",
+      "final_url": "https://raw.githubusercontent.com/0xfreysa/agent/main/README.md",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 6388,
+      "sha256": "55f462bf9a3b81bbe01d2cd7a84ca05d3c3f5ef5d0f4072d7aace9c417e624c5",
+      "status": "retrieved"
+    },
+    {
+      "file": "simon_willison_freysa.html",
+      "url": "https://simonwillison.net/2024/Nov/29/0xfreysaagent/",
+      "final_url": "https://simonwillison.net/2024/Nov/29/0xfreysaagent/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 16602,
+      "sha256": "e392f9facba5b6f15a7e7f955f9ad66296d7c5f8f9575fcdd1fb27dc428800b7",
+      "status": "retrieved"
+    },
+    {
+      "file": "zenity_agentflayer.html",
+      "url": "https://zenity.io/research/agentflayer-vulnerabilities",
+      "final_url": "https://zenity.io/research/agentflayer-vulnerabilities",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 900758,
+      "sha256": "4b8089ec7686d1ab02d6a93805452eef59412c5596fdb11e1ec2833e01e645ec",
+      "status": "retrieved"
+    },
+    {
+      "file": "aws_2025_015.html",
+      "url": "https://aws.amazon.com/security/security-bulletins/AWS-2025-015/",
+      "final_url": "https://aws.amazon.com/security/security-bulletins/AWS-2025-015/",
+      "content_type": "text/html;charset=utf-8",
+      "bytes": 304855,
+      "sha256": "5b29ce1cd082423807a1b7fc9cc95385d4e34a2cd07e3e2243048b76382c3054",
+      "status": "retrieved"
+    },
+    {
+      "file": "github_amazon_q_advisory.html",
+      "url": "https://github.com/aws/aws-toolkit-vscode/security/advisories/GHSA-7g7f-ff96-5gcw",
+      "final_url": "https://github.com/aws/aws-toolkit-vscode/security/advisories/GHSA-7g7f-ff96-5gcw",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 186274,
+      "sha256": "3ea3b2d76bf4cb0a013dd27679a20fdffabbdbf665f8031895f7c47e04984959",
+      "status": "retrieved"
+    },
+    {
+      "file": "microsoft_echoleak.html",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711",
+      "final_url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-32711",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 2717,
+      "sha256": "20af6d27a1cd2f151672ddb27a674eb77c6127f0f0bb1296d2e61c166be6736d",
+      "status": "retrieved"
+    },
+    {
+      "file": "echoleak_arxiv.html",
+      "url": "https://arxiv.org/html/2509.10540v1",
+      "final_url": "https://arxiv.org/html/2509.10540v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 119541,
+      "sha256": "71703e22af6a9e538de6bf3817b867fd55ad4780e0424d44be092ee2a4964399",
+      "status": "retrieved"
+    },
+    {
+      "file": "gemini_cli_advisory.html",
+      "url": "https://github.com/advisories/GHSA-wpqr-6v78-jr5g",
+      "final_url": "https://github.com/advisories/GHSA-wpqr-6v78-jr5g",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 191477,
+      "sha256": "07783002f79b938d31588309871394db669fcfbadef4612d55d6e6f55b0a00c3",
+      "status": "retrieved"
+    },
+    {
+      "file": "amazon_kiro_response.html",
+      "url": "https://www.aboutamazon.com/news/aws/aws-service-outage-ai-bot-kiro",
+      "final_url": "https://www.aboutamazon.com/news/aws/aws-service-outage-ai-bot-kiro",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 176453,
+      "sha256": "4ebf56d8612216cc12e5186d637c388eb9662d06f0c2f1448732b4214c861efc",
+      "status": "retrieved"
+    },
+    {
+      "file": "financial_times_kiro.html",
+      "url": "https://www.ft.com/content/00c282de-ed14-4acd-a948-bc8d6bdb339d",
+      "status": "failed",
+      "error": "<HTTPError 403: 'Forbidden'>"
+    },
+    {
+      "file": "cursor_plan_mode_forum.html",
+      "url": "https://forum.cursor.com/t/catastrophic-damage-and-chaos-in-plan-mode/145523",
+      "final_url": "https://forum.cursor.com/t/catastrophic-damage-and-chaos-in-plan-mode/145523",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 55685,
+      "sha256": "32f1c1a79b4fcc58e544e51164cdb9d787174fe33961cd90c11b6b582741259a",
+      "status": "retrieved"
+    },
+    {
+      "file": "antigravity_toms_hardware.html",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/googles-agentic-ai-wipes-users-entire-hard-drive-without-permission-after-misinterpreting-instructions-to-clear-a-cache-i-am-deeply-deeply-sorry-this-is-a-critical-failure-on-my-part",
+      "final_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/googles-agentic-ai-wipes-users-entire-hard-drive-without-permission-after-misinterpreting-instructions-to-clear-a-cache-i-am-deeply-deeply-sorry-this-is-a-critical-failure-on-my-part",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 2031059,
+      "sha256": "892fef77ab3bb6032bf2f0b0852ab3f80853b269ed0971bbbf55d3a74c524c0b",
+      "status": "retrieved"
+    },
+    {
+      "file": "antigravity_register.html",
+      "url": "https://www.theregister.com/2025/12/01/googles_antigravity_wipes_drive/",
+      "status": "failed",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "file": "datatalks_rootly.html",
+      "url": "https://rootly.com/humans-of-reliability/hey-claude-wheres-my-database-alexey-grigorev",
+      "final_url": "https://rootly.com/humans-of-reliability/hey-claude-wheres-my-database-alexey-grigorev",
+      "content_type": "text/html",
+      "bytes": 118644,
+      "sha256": "97703996781b0f3da22770af3ff3ac08f60413deef9a354a91553c2a583106e1",
+      "status": "retrieved"
+    },
+    {
+      "file": "datatalks_toms_hardware.html",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-code-deletes-developers-production-setup-including-its-database-and-snapshots-2-5-years-of-records-were-nuked-in-an-instant",
+      "final_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-code-deletes-developers-production-setup-including-its-database-and-snapshots-2-5-years-of-records-were-nuked-in-an-instant",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 2021538,
+      "sha256": "9fd95dd88e9a7c3222c53882a74b482c31939768a198a15bd8dccaf55e460c80",
+      "status": "retrieved"
+    },
+    {
+      "file": "cowork_futurism.html",
+      "url": "https://futurism.com/artificial-intelligence/claude-wife-photos",
+      "final_url": "https://futurism.com/artificial-intelligence/claude-wife-photos",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 130240,
+      "sha256": "f3236f9ce85c55b71469e9fc880a45c7e7d018015da9dfe7aab0cc56ac6582e6",
+      "status": "retrieved"
+    },
+    {
+      "file": "cowork_indianexpress.html",
+      "url": "https://indianexpress.com/article/trending/trending-globally/bay-area-vc-nick-davidov-is-warning-everyone-after-ai-agent-deleted-15-years-of-family-photos-10521793/",
+      "final_url": "https://indianexpress.com/article/trending/trending-globally/bay-area-vc-nick-davidov-is-warning-everyone-after-ai-agent-deleted-15-years-of-family-photos-10521793/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 695353,
+      "sha256": "875aafba6ed626981f2031210c94f3375c82646a69573139babbe641436df7ee",
+      "status": "retrieved"
+    },
+    {
+      "file": "buck_register.html",
+      "url": "https://www.theregister.com/2024/10/02/ai_agent_promotes_itself/",
+      "status": "failed",
+      "error": "<HTTPError 404: 'Not Found'>"
+    },
+    {
+      "file": "axis_agent_tracker.html",
+      "url": "https://axis-intelligence.com/ai-agent-security-incident-tracker/",
+      "final_url": "https://axis-intelligence.com/ai-agent-security-incident-tracker/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 517398,
+      "sha256": "bf304256a5c34fdf38311967f1621a4569e162d1898c1ba6fcb8d9dfe55c58ef",
+      "status": "retrieved"
+    },
+    {
+      "file": "harper_incidents.html",
+      "url": "https://www.harperfoley.com/blog/ai-agents-destroyed-production-zero-postmortems",
+      "final_url": "https://www.harperfoley.com/blog/ai-agents-destroyed-production-zero-postmortems",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 85019,
+      "sha256": "4a505af9760732190ada5e0c1a7165cc21684ed01f4485389b6cd821f1d00119",
+      "status": "retrieved"
+    }
+  ]
+}

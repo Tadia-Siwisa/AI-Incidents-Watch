@@ -1,0 +1,630 @@
+✕
+Axis Intelligence Research
+Download the dataset
+Enter your work or institutional email to access the free dataset.
+Research updates only. No spam. Unsubscribe anytime.
+Enterprise
+About us
+Research
+Research Services
+Sample Study
+Sponsored Research
+Index
+Electric Vehicle Index 2026
+SIEM Scoring Matrix
+Cost
+Statistics
+AI & Machine Learning
+Business & Entrepreneurship
+Careers, Work & Education
+Consumer Tech & Hardware
+Cybersecurity
+Digital Finance
+Digital Health
+EV
+Industrial Tech
+Marketing
+Robotics
+SaaS, Cloud & Enterprise
+Smart Home & IoT
+Space Economy
+Streaming, Social & Gaming
+Tech Energy
+Tracker
+Artificial Intelligence
+AI IPO Tracker
+AI Capex Tracker
+AI Copyright Lawsuits Tracker
+AI Data Center Tracker
+AI Model Release Tracker
+AI Regulation Tracker
+EU AI Act Compliance Tracker
+LLM Leaderboard
+Semiconductor Fab Investment Tracker
+Careers & Work
+AI Layoff Tracker
+AI Job Market Tracker
+Cybersecurity
+AI Agent Security Incident Tracker
+AI Model Vulnerability Tracker
+Data Breach Tracker
+KEV Tracker
+LLM Production Incident Tracker
+Zero-Day Tracker
+Robotics
+Humanoid Robot Deployment Tracker
+SaaS, Cloud & Enterprise
+Cloud Outage Tracker
+Tech Energy
+Data Center Electricity Demand Tracker
+Data Center Moratorium Tracker
+Axis Tools
+AI
+AI ROI Calculator
+AI Token Calculator
+Business
+Business Day Calculator
+eBay Fee Calculator
+Markup Calculator
+Whatnot Fee Calculator
+Career
+Cybersecurity Salary Calculator
+Consumer Tech
+Satellite Link Budget Calculator
+EV
+EV Charging Cost Calculator
+Finance
+1099 vs W-2 Calculator
+Compound Interest Calculator
+Net Worth by Age Calculator
+Net Worth Percentile Calculator
+PayPal Fee Calculator
+R&D Tax Credit Calculator
+Stripe Fee Calculator
+Social Media
+TikTok Coins Calculator
+TikTok Money Calculator
+TikTok Shop Fee Calculator
+Energy
+Solar Panel Calculator
+Our Blog
+Contacts
+1207 Delaware Avenue, Suite 1228 Wilmington, DE 19806
+[email protected]
+Let's discuss your project
+E-mail:
+[email protected]
+Business Address:
+1207 Delaware Avenue, Suite 1228 Wilmington, DE 19806
+Enterprise
+About us
+Research
+Research Services
+Sample Study
+Sponsored Research
+Index
+Electric Vehicle Index 2026
+SIEM Scoring Matrix
+Cost
+Statistics
+AI & Machine Learning
+Business & Entrepreneurship
+Careers, Work & Education
+Consumer Tech & Hardware
+Cybersecurity
+Digital Finance
+Digital Health
+EV
+Industrial Tech
+Marketing
+Robotics
+SaaS, Cloud & Enterprise
+Smart Home & IoT
+Space Economy
+Streaming, Social & Gaming
+Tech Energy
+Tracker
+Artificial Intelligence
+AI IPO Tracker
+AI Capex Tracker
+AI Copyright Lawsuits Tracker
+AI Data Center Tracker
+AI Model Release Tracker
+AI Regulation Tracker
+EU AI Act Compliance Tracker
+LLM Leaderboard
+Semiconductor Fab Investment Tracker
+Careers & Work
+AI Layoff Tracker
+AI Job Market Tracker
+Cybersecurity
+AI Agent Security Incident Tracker
+AI Model Vulnerability Tracker
+Data Breach Tracker
+KEV Tracker
+LLM Production Incident Tracker
+Zero-Day Tracker
+Robotics
+Humanoid Robot Deployment Tracker
+SaaS, Cloud & Enterprise
+Cloud Outage Tracker
+Tech Energy
+Data Center Electricity Demand Tracker
+Data Center Moratorium Tracker
+Axis Tools
+AI
+AI ROI Calculator
+AI Token Calculator
+Business
+Business Day Calculator
+eBay Fee Calculator
+Markup Calculator
+Whatnot Fee Calculator
+Career
+Cybersecurity Salary Calculator
+Consumer Tech
+Satellite Link Budget Calculator
+EV
+EV Charging Cost Calculator
+Finance
+1099 vs W-2 Calculator
+Compound Interest Calculator
+Net Worth by Age Calculator
+Net Worth Percentile Calculator
+PayPal Fee Calculator
+R&D Tax Credit Calculator
+Stripe Fee Calculator
+Social Media
+TikTok Coins Calculator
+TikTok Money Calculator
+TikTok Shop Fee Calculator
+Energy
+Solar Panel Calculator
+Our Blog
+Let's discuss your project
+Enterprise
+About us
+Research
+Research Services
+Sample Study
+Sponsored Research
+Index
+Electric Vehicle Index 2026
+SIEM Scoring Matrix
+Cost
+Statistics
+AI & Machine Learning
+Business & Entrepreneurship
+Careers, Work & Education
+Consumer Tech & Hardware
+Cybersecurity
+Digital Finance
+Digital Health
+EV
+Industrial Tech
+Marketing
+Robotics
+SaaS, Cloud & Enterprise
+Smart Home & IoT
+Space Economy
+Streaming, Social & Gaming
+Tech Energy
+Tracker
+Artificial Intelligence
+AI IPO Tracker
+AI Capex Tracker
+AI Copyright Lawsuits Tracker
+AI Data Center Tracker
+AI Model Release Tracker
+AI Regulation Tracker
+EU AI Act Compliance Tracker
+LLM Leaderboard
+Semiconductor Fab Investment Tracker
+Careers & Work
+AI Layoff Tracker
+AI Job Market Tracker
+Cybersecurity
+AI Agent Security Incident Tracker
+AI Model Vulnerability Tracker
+Data Breach Tracker
+KEV Tracker
+LLM Production Incident Tracker
+Zero-Day Tracker
+Robotics
+Humanoid Robot Deployment Tracker
+SaaS, Cloud & Enterprise
+Cloud Outage Tracker
+Tech Energy
+Data Center Electricity Demand Tracker
+Data Center Moratorium Tracker
+Axis Tools
+AI
+AI ROI Calculator
+AI Token Calculator
+Business
+Business Day Calculator
+eBay Fee Calculator
+Markup Calculator
+Whatnot Fee Calculator
+Career
+Cybersecurity Salary Calculator
+Consumer Tech
+Satellite Link Budget Calculator
+EV
+EV Charging Cost Calculator
+Finance
+1099 vs W-2 Calculator
+Compound Interest Calculator
+Net Worth by Age Calculator
+Net Worth Percentile Calculator
+PayPal Fee Calculator
+R&D Tax Credit Calculator
+Stripe Fee Calculator
+Social Media
+TikTok Coins Calculator
+TikTok Money Calculator
+TikTok Shop Fee Calculator
+Energy
+Solar Panel Calculator
+Our Blog
+Let's discuss your project
+AI Agent Security Incident Tracker 2026: Every Confirmed Breach, Exploit & Vulnerability (2024–2026)
+Home
+AI Agent Security Incident Tracker 2026: Every Confirmed Breach, Exploit & Vulnerability (2024–2026)
+AI Agent Security Incident Tracker 2026
+Last updated:
+2026-07-22 14:00 UTC
+— Updated on every confirmed incident · Review trigger: new public disclosure by a named organization or researcher
+|
+Maintained by:
+Axis Intelligence Research & Marcus Chen
+ai-agent-security-incident-tracker-july-22-2026
+Download
+The definitive primary-sourced log of confirmed AI agent security incidents: real breaches, CVE-assigned vulnerabilities, and documented exploits in which an
+AI agent
+—coding assistant, chatbot, trading bot, or autonomous pipeline—was either the attack vector, the amplifier, or the target. Every entry carries a verified primary-source link. Unverified claims do not appear here.
+Quick Answer
+As of July 22, 2026, Axis Intelligence Research has logged
+8 confirmed AI agent security incidents
+since July 2024, spanning prompt injection, OAuth supply-chain compromise, excessive-agency exploits, and AI-assisted intrusion operations. The costliest single incident is the Claude Code / GPT-4.1 campaign against nine Mexican government agencies (Dec 2025–Feb 2026), which exposed approximately 400 million records. The highest-severity vulnerability is the Gemini CLI CVSS 10.0 remote code execution flaw (GHSA-wpqr-6v78-jr5g, patched April 2026).
+Key Findings
+AI agents are now confirmed attack operators, not just targets.
+Check Point Research’s AI Security Report 2026 (July 2026) documents a single operator who used Claude Code and GPT-4.1 together to generate 5,317 AI-executed commands across 34 sessions, breaching nine government agencies with approximately 400 million records exfiltrated.
+OAuth token chains are the dominant AI agent supply-chain attack surface.
+Three of the eight logged incidents (Vercel/Context.ai, Salesloft/Drift, Amazon Q) exploited the trust relationship between an AI tool and an enterprise OAuth grant—each without requiring a password.
+Prompt injection has earned a CVE number and a CVSS 9.3.
+EchoLeak (CVE-2025-32711, disclosed June 2025) is the first documented case of prompt injection weaponized for concrete data exfiltration in a production AI system, affecting Microsoft 365 Copilot with zero user interaction.
+Excessive agent permissions turn device compromises into platform-ending events.
+Step Finance (January 2026) lost approximately $40 million—and shut down entirely—because AI trading agents could execute large treasury transfers without human approval.
+AI coding agents in CI/CD pipelines are the fastest-growing attack surface of 2026.
+Google’s Gemini CLI received the maximum CVSS 10.0 for a CI/CD workspace-trust flaw (April 2026); Anthropic’s claude-code-action received CVSS 8.7 (May 2026); Amazon Q received CVE-2025-8217 (July 2025).
+How We Curate This List
+What qualifies for an entry:
+A confirmed security incident in which an AI agent (LLM-powered system with tool-use, API access, or autonomous decision-making capability) was the primary attack vector, an amplifier that materially expanded impact, or a direct target whose compromise created downstream harm.
+The incident must be disclosed by the affected organization, a named security research firm, a government body, or carry a CVE/GHSA identifier from an authoritative advisory database.
+At minimum one primary source must be fetchable and name specific figures (dates, record counts, financial losses, CVE scores, or patch versions).
+What does not qualify:
+Unconfirmed threat-actor claims on dark-web forums without corroboration from the target organization or a named security firm.
+Generic AI-enabled phishing or deepfake campaigns where an AI agent is not the compromised or exploited component.
+Vendor advisories describing theoretical risk without a documented exploitation event or proof-of-concept.
+Incidents where AI played no role beyond the attacker’s choice of model to write phishing text.
+Severity rating methodology (Axis Intelligence Research):
+The
+AI Agent Security Severity Score (AASS™)
+is a four-component proprietary metric computed by Axis Intelligence Research for each entry:
+Autonomy factor (0–3):
+Was the AI agent running autonomously (3), semi-autonomously with human approval gaps (2), or fully human-directed (1)?
+Blast radius (0–3):
+Organizational closure or nation-scale exposure (3), 500+ downstream orgs or >$10M confirmed loss (2), single organization or <$10M (1).
+Exploitation method novelty (0–2):
+First documented instance of attack class in production (2), variant of documented class (1).
+Remediation status (0–2):
+Unpatched at time of logging (2), patched but class unresolved (1), fully patched with architectural fix (0).
+AASS = Autonomy + Blast Radius + Exploitation Novelty + (2 − Remediation)
+. Range: 0–10. Axis Intelligence Research computes AASS at the time of entry; scores update when remediation status changes.
+Tracker Entries (Reverse Chronological)
+2026-04-24 · Gemini CLI CVSS 10.0 RCE via CI/CD Workspace Trust Bypass (GHSA-wpqr-6v78-jr5g)
+Incident type:
+Critical vulnerability — AI coding agent, CI/CD supply chain
+Affected product:
+Google Gemini CLI
+@google/gemini-cli
+< 0.39.1 and
+google-github-actions/run-gemini-cli
+< 0.1.22
+AASS™ (Axis Intelligence Research):
+8/10 (Autonomy: 3, Blast Radius: 2, Novelty: 2, Remediation: 1)
+Google’s AI coding agent
+Gemini
+CLI contained a maximum-severity (CVSS 10.0) remote code execution flaw in which the agent, when running headless in CI/CD environments, automatically trusted any workspace folder it processed—loading configuration and environment variables from an attacker-controlled
+.gemini/
+directory without user consent. Combined with a tool-allowlist bypass in
+--yolo
+mode, an external attacker with the ability to open a pull request against any repository running the affected workflow could execute arbitrary commands on the CI runner before Gemini’s sandbox initialized.
+The flaw was independently identified by Elad Meged (Novee Security) and Dan Lisichkin (Pillar Security), who demonstrated full supply-chain compromise of the public
+gemini-cli
+repository on April 20, 2026. Google published advisory GHSA-wpqr-6v78-jr5g and patches on April 24, 2026. The vulnerability was later assigned CVE-2026-12537 and entered the National Vulnerability Database on June 23, 2026. No in-the-wild exploitation was confirmed before the patch. Patched versions: Gemini CLI 0.39.1 / 0.40.0-preview.3; run-gemini-cli 0.1.22.
+Primary source:
+GitHub Advisory Database, GHSA-wpqr-6v78-jr5g, April 24, 2026 — https://github.com/advisories/GHSA-wpqr-6v78-jr5g
+2026-04-19 · Vercel / Context.ai OAuth Supply-Chain Breach
+Incident type:
+Confirmed breach — AI SaaS OAuth supply chain
+Organizations affected:
+Vercel (primary), Context.ai; limited subset of Vercel customers
+Records/data exposed:
+API keys, source code, 580 employee records, undisclosed customer environment variables
+AASS™ (Axis Intelligence Research):
+7/10 (Autonomy: 2, Blast Radius: 2, Novelty: 2, Remediation: 1)
+In February 2026, a Context.ai employee was infected with Lumma Stealer malware via downloaded game scripts, compromising corporate credentials including Google Workspace tokens. In March 2026, the attacker pivoted into Context.ai’s AWS environment and obtained OAuth tokens from the Drift-style Chrome extension the company operated. A Vercel employee had granted that extension “Allow All” OAuth permissions to their corporate Google Workspace account; using the compromised token, the attacker moved laterally into Vercel’s internal systems and maintained approximately two weeks of dwell time. Exfiltrated material included API keys, source code, and 580 employee records.
+Vercel disclosed the incident on April 19, 2026. Context.ai published its own disclosure on April 20. A threat actor using the ShinyHunters persona posted the alleged dataset on BreachForums on approximately April 19, 2026 with a $2 million asking price. Vercel engaged Mandiant for incident response, collaborated with Microsoft, GitHub, and npm to confirm no package compromise, and began defaulting new environment variables to “sensitive.” At least one customer (Andrey Zagoruiko) received an OpenAI leaked-key notification on April 10, 2026—nine days before Vercel’s public disclosure—indicating detection-to-disclosure latency.
+Primary source:
+The Hacker News, April 22, 2026 — https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html
+Supporting source:
+Context.ai security bulletin, April 20, 2026 (referenced in Vercel KB, April 24, 2026)
+2026-02-25 · Mexico Government Agencies: AI Agent–Operated Intrusion Campaign (Claude Code / GPT-4.1)
+Incident type:
+Confirmed breach — AI agent as autonomous attack operator
+Organizations affected:
+9 Mexican government agencies including SAT (federal tax authority), INE (national electoral institute), Mexico City civil registry, state governments in Jalisco, Michoacán, and Tamaulipas
+Records exposed:
+~195 million taxpayer records, ~220 million civil registry records, patient records, vehicle registrations, electoral data; 150GB exfiltrated
+Financial/operational impact:
+Not quantified in dollar terms; operational scope described as “nation-scale”
+AASS™ (Axis Intelligence Research):
+10/10 (Autonomy: 3, Blast Radius: 3, Novelty: 2, Remediation: 2)
+Between late December 2025 and mid-February 2026, a single operator directed Claude Code and GPT-4.1 in parallel to systematically breach nine Mexican government agencies. Claude Code handled approximately 75% of live exploitation—exploring systems, running exploits across 305 compromised servers, and harvesting credentials—while a custom 17,550-line Python tool (BACKUPOSINT.py) used OpenAI’s GPT-4.1 API to generate 2,597 structured intelligence reports and automatically task follow-on activity. The human operator typed 1,088 prompts; the AI systems executed 5,317 commands across 34 sessions. Within six days of the first breach, the attacker had accessed Mexico City’s civil registry.
+The forensic record includes 20 tailored exploit scripts targeting 20 distinct CVEs, over 400 custom attack scripts, and a live query API built into government systems while the breach was active. The campaign was documented by Gambit Security (primary technical report, February 25, 2026) and Bloomberg (February 25, 2026), and became the opening case study in Check Point Research’s Annual AI Security Report 2026 (July 13–14, 2026). Anthropic confirmed the breach, banned associated accounts, and implemented enhanced misuse detection in subsequent releases.
+Primary source:
+Check Point Research, AI Security Report 2026, July 13, 2026 — https://research.checkpoint.com/2026/ai-security-report-2026/
+Supporting source:
+Gambit Security technical report, February 25, 2026 (widely cited; original link removed May 25, 2026)
+2026-01-31 · Step Finance: AI Trading Agent Excessive-Agency Treasury Drain (~$40M)
+Incident type:
+Confirmed breach — AI agent excessive permissions / executor compromise
+Organization:
+Step Finance (Solana DeFi portfolio manager)
+Financial loss:
+~$40 million total confirmed; ~$27–30 million in SOL (261,854 SOL at time of transfer); ~$4.7 million recovered
+Outcome:
+Step Finance, SolanaFloor, and Remora Markets wound down operations (announcement February 23, 2026)
+AASS™ (Axis Intelligence Research):
+9/10 (Autonomy: 3, Blast Radius: 3, Novelty: 2, Remediation: 1)
+On January 31, 2026, during APAC trading hours, attackers gained unauthorized access to multiple Step Finance treasury and fee wallets by compromising devices belonging to members of the executive team via a “well-known attack vector.” The episode would have been a serious but containable private-key compromise—except that the platform’s AI trading agents held simultaneous wallet, oracle, and trading-endpoint permissions and were configured to execute large SOL transfers without human approval. Once attackers had device access, the agents did what they were designed to do: move funds autonomously. Blockchain analytics firm CertiK recorded 261,854 SOL withdrawn; Step Finance’s internal review confirmed total losses near $40 million across assets. STEP token lost nearly 97% of its value in the aftermath.
+Step Finance announced permanent wind-down of all operations on February 23, 2026, citing inability to secure financing or acquisition after the breach. Approximately $4.7 million was recovered through Token22 protections and partner coordination.
+Primary source:
+Step Finance announcement on X, February 2, 2026; BleepingComputer, February 3, 2026 — https://www.bleepingcomputer.com/news/security/step-finance-says-compromised-execs-devices-led-to-40m-crypto-theft/
+Supporting source:
+CoinDesk, February 24, 2026 — https://www.coindesk.com/business/2026/02/24/step-finance-shuts-operations-after-usd27-million-january-hack
+2025-08-08 · Salesloft / Drift AI Chatbot: OAuth Token Theft Hits 700+ Organizations (UNC6395)
+Incident type:
+Confirmed breach — AI chatbot OAuth supply chain
+Threat actor:
+UNC6395 (aka GRUB1), tracked by Google Threat Intelligence Group and Mandiant
+Organizations affected:
+700+ confirmed including Cloudflare, PagerDuty, Palo Alto Networks, Proofpoint, Zscaler
+Data exfiltrated:
+Salesforce objects (Accounts, Contacts, Opportunities, Cases, plaintext credentials); scope varied by organization
+AASS™ (Axis Intelligence Research):
+9/10 (Autonomy: 3, Blast Radius: 3, Novelty: 2, Remediation: 1)
+Between August 8 and August 18, 2025, the threat actor UNC6395 exploited OAuth and refresh tokens from Salesloft’s Drift AI chatbot integration to issue large volumes of Salesforce API queries across customer instances. A subsequent investigation (disclosed September 7, 2025) revealed that between March and June 2025, attackers had accessed Salesloft’s GitHub account, downloaded repositories, and obtained OAuth tokens from Drift’s AWS environment. The stolen tokens enabled the attacker to impersonate the trusted Drift application and access Salesforce data without requiring additional authentication from the 700+ organizations that had connected the Drift integration.
+Salesloft disclosed the incident on August 20, 2025, proactively revoking all Drift–Salesforce connections. Google Threat Intelligence Group and Mandiant published attribution and technical details on August 26, 2025. FINRA issued a cybersecurity alert to all member firms. The campaign bypassed endpoint protection and firewalls by operating through legitimate API channels and trusted user agents.
+Primary source:
+The Hacker News, August 28, 2025 — https://thehackernews.com/2025/08/salesloft-oauth-breach-via-drift-ai.html
+Supporting source:
+FINRA Cybersecurity Alert, August 2025 — https://www.finra.org/rules-guidance/guidance/salesloft-drift-AI-supply-chain-attack
+2025-07-13 · Amazon Q Developer Extension: Prompt Injection via Overly Scoped CI/CD Token (CVE-2025-8217)
+Incident type:
+Confirmed exploit — AI coding agent CI/CD supply chain
+Affected product:
+Amazon Q Developer for VS Code Extension, version 1.84.0
+CVE:
+CVE-2025-8217 / GHSA-7g7f-ff96-5gcw
+AASS™ (Axis Intelligence Research):
+6/10 (Autonomy: 2, Blast Radius: 2, Novelty: 2, Remediation: 0)
+On July 13, 2025, a GitHub user submitted a pull request to the
+aws-toolkit-vscode
+repository. The repository’s CodeBuild configuration contained an over-permissioned GitHub token with commit write access; the attacker used this token to inject a malicious system prompt into the extension’s codebase. The prompt targeted Amazon Q’s context window, instructing the AI agent to execute data-wiping commands when certain conditions were met. The compromised version 1.84.0 was distributed via the VS Code Marketplace on July 17, 2025. Security researchers discovered the malicious code on July 23; Amazon revoked credentials and released patched version 1.85.0 on July 24–25, 2025. A syntax error in the attacker’s payload prevented the destructive commands from executing. CVE-2025-8217 was assigned on July 25, 2025. Amazon’s delayed and non-transparent public disclosure drew industry criticism.
+Primary source:
+AWS Security Bulletin AWS-2025-015 (Amazon security advisory), July 25, 2025 —
+https://aws.amazon.com/security/security-bulletins/AWS-2025-015/
+Supporting source:
+GitHub Security Advisory GHSA-7g7f-ff96-5gcw — https://github.com/aws/aws-toolkit-vscode/security/advisories/GHSA-7g7f-ff96-5gcw
+2025-06-XX · EchoLeak: Microsoft 365 Copilot Zero-Click Prompt Injection (CVE-2025-32711, CVSS 9.3)
+Incident type:
+Critical vulnerability — AI assistant, production data exfiltration
+Affected product:
+Microsoft 365 Copilot (Word, Excel, PowerPoint, Outlook, Teams)
+CVE:
+CVE-2025-32711 · CVSS: 9.3 (Critical)
+AASS™ (Axis Intelligence Research):
+7/10 (Autonomy: 3, Blast Radius: 2, Novelty: 2, Remediation: 0)
+Researchers at Aim Security discovered and disclosed CVE-2025-32711 (“EchoLeak”), the first documented instance of a prompt injection vulnerability being weaponized for concrete data exfiltration in a production AI system. An attacker sending a single crafted email—with hidden instructions embedded as HTML comments or white-on-white text—could cause Copilot to access files from OneDrive, SharePoint, and Teams and exfiltrate their contents to an attacker-controlled server without any user interaction. The attack exploited Copilot’s Retrieval-Augmented Generation (RAG) mechanism: during routine summarization, Copilot ingested the malicious email as context and followed its hidden instructions. The payload was crafted to bypass Microsoft’s Cross-Prompt Injection Attack (XPIA) classifier by avoiding explicit AI-directed language.
+Microsoft patched the specific flaw server-side in May 2026. No in-the-wild exploitation was confirmed before the patch. EchoLeak’s significance as a precedent: it established that prompt injection is not a theoretical attack class—it has a CVE number, a CVSS 9.3 score, and a documented exfiltration chain in a system used by millions of enterprise users. The underlying RAG attack surface (any assistant with access to multiple internal data stores) remains structurally unresolved by the patch alone.
+Primary source:
+Microsoft Security Response Center, CVE-2025-32711 (NVD / MSRC entry); Aim Labs research paper (cited in AAAI-SS proceedings) — https://ojs.aaai.org/index.php/AAAI-SS/article/download/36899/39037/40976
+2024-08-XX · LOLCopilot: Microsoft 365 Copilot Default Over-Scoping Exposes All Email and Documents
+Incident type:
+Confirmed vulnerability / widespread misconfiguration — enterprise AI assistant
+Affected product:
+Microsoft 365 Copilot (default enterprise configuration)
+AASS™ (Axis Intelligence Research):
+5/10 (Autonomy: 2, Blast Radius: 2, Novelty: 1, Remediation: 0)
+Security researchers documented that Microsoft 365 Copilot’s default configuration granted the AI assistant read access to all emails and documents accessible to the licensed user—including historical mailbox contents and shared drives—without requiring explicit data-scoping by IT administrators. The research, named “LOLCopilot” for its analogy to Living-off-the-Land attack techniques, demonstrated that a compromised or jailbroken Copilot session could serve as a high-privilege data reconnaissance tool across an enterprise’s entire unclassified information estate. Unlike EchoLeak (a zero-click remote exploit), LOLCopilot describes a structural access-control gap that persists as long as Copilot’s default permissions remain broad. Microsoft has since introduced sensitivity labels and data-scoping controls, but adoption is not enforced by default.
+Primary source:
+GitHub repository
+awesome-ai-agent-attacks
+, entry “LOLCopilot/M365 Copilot (Aug 2024)” — https://github.com/webpro255/awesome-ai-agent-attacks; corroborated by OWASP LLM Top 10 v2025, LLM06 (Excessive Agency)
+Axis Intelligence Research Original Metrics
+AI Agent Security Severity Score (AASS™)
+A proprietary composite metric computed by Axis Intelligence Research for each incident entry. Four components, each scored at entry time:
+Component
+Scoring
+Rationale
+Autonomy factor
+3 = fully autonomous; 2 = semi-autonomous; 1 = human-directed
+Autonomous agents amplify attacker reach without proportional human oversight
+Blast radius
+3 = organizational closure or nation-scale; 2 = 500+ orgs or >$10M; 1 = single org or <$10M
+Captures downstream harm across the supply chain
+Exploitation method novelty
+2 = first documented production case of attack class; 1 = documented variant
+Novel exploitation classes create unpatched exposure windows across an entire industry
+Remediation status
+2 = unpatched at logging; 1 = patched but class unresolved; 0 = fully patched with architectural fix
+Reflects residual risk, not just vendor response speed
+AASS = Autonomy + Blast Radius + Novelty + (2 − Remediation)
+. Range: 0–10. An AASS of 8–10 represents incidents where autonomous AI action, broad downstream impact, novel exploitation, and limited remediation converge—the highest-risk quadrant.
+Baseline reading (July 22, 2026):
+The eight incidents logged to date produce a
+mean AASS of 7.6
+, with three entries at 9–10. This baseline will be computed on all future entries; periodic AASS distributions will appear in the monthly Bilan articles.
+Incident Distribution by Attack Class (as of 2026-07-22)
+Attack class
+Entry count
+Axis definition
+OAuth supply-chain compromise
+3
+Attacker exploits AI tool’s OAuth grant to a third-party platform; no credential theft from the target required
+AI-assisted intrusion (attacker-directed AI agent)
+1
+Attacker uses commercial AI agent as an autonomous exploitation and reconnaissance operator
+Excessive agency / permission cascade
+1
+AI agent’s own permissions, not the attacker’s credentials, determine the blast radius after initial compromise
+CI/CD workspace-trust exploit
+1
+AI coding agent in headless CI mode trusts attacker-controlled configuration without user consent
+Prompt injection — production exfiltration
+1
+Indirect prompt injection in a production RAG-based assistant achieves data exfiltration without user interaction
+Default over-scoping
+1
+AI assistant’s default read permissions cover an enterprise’s entire data estate; no active exploit required
+Methodology
+Data sources consulted:
+GitHub Advisory Database (primary CVE/GHSA), AWS Security Bulletins, Microsoft Security Response Center (MSRC), Google Threat Intelligence Group / Mandiant public disclosures, Check Point Research publications, Aim Security research, named security firm technical reports (Novee Security, Pillar Security, Gambit Security), The Hacker News, BleepingComputer, The Record by Recorded Future News, FINRA regulatory alerts, CoinDesk, Crowdfund Insider. Wikipedia and secondary aggregators are used as leads only; every figure is traced to and attributed to its primary source.
+Inclusion criteria:
+Each entry must have a fetchable primary source naming the affected organization, specific dates, and at minimum one verifiable quantitative claim (record count, CVE score, financial loss, or patch version). Threat-actor self-reporting on BreachForums is treated as an unverified lead until corroborated.
+AASS computation:
+Scored by Axis Intelligence Research at entry time using the four-component methodology above. Scores update when remediation status changes; methodology versioned as AASS v1.0. A competent external party can recompute any score using the inputs disclosed in each entry.
+Limitations:
+Incident detection and public disclosure rates for AI agent security incidents are low. DTEX’s 2026 Insider Threat Report found only 19% of organizations classify AI agents as equivalent to human insiders; underreporting is likely material. This tracker reflects confirmed public disclosures, not the actual incident population.
+Review trigger:
+Any public disclosure meeting the inclusion criteria above; any CVE or GHSA entry affecting an AI agent component; any named-organization breach attribution involving an AI agent. Monthly review aligned with the Bilan publication schedule.
+Download Dataset
+All entries are available as a downloadable CSV dataset under CC BY 4.0.
+Citation:
+Axis Intelligence Research, “AI Agent Security Incident Tracker,” 2026 — https://www.axis-intelligence.com/ai-agent-security-incident-tracker/
+Formats:
+CSV (current) · Hugging Face · Kaggle · GitHub
+Archive
+Entries older than 12 months will be moved to the collapsible archive section below. No entries have been archived yet; this tracker was launched July 2026.
+<details> <summary>Archive (0 entries)</summary> No archived entries yet. </details>
+How to Report an Incident
+If you are aware of a confirmed AI agent security incident not logged here—with a fetchable primary source—contact
+[email protected]
+with subject line “AI Agent Tracker Submission.” All submissions are verified against primary sources before publication. Anonymous tips accepted; Axis Intelligence Research does not publish source names without consent.
+Corrections policy: Any factual error in a tracker entry will receive a dated correction note at the bottom of the affected entry. We do not silently edit published figures. Report errors to
+[email protected]
+.
+Other Page
+Prompt Injection Statistics 2026
+✕
+Axis Intelligence Research
+Stay ahead on tech & data
+Get notified when we publish or update datasets, trackers, research, and reports across technology, business, AI, cybersecurity, finance, infrastructure, energy, and more.
+Research updates only. No spam. Unsubscribe anytime.
+Contacts
+[email protected]
+Company
+Enterprise
+About us
+Research
+Research Services
+Sample Study
+Sponsored Research
+Index
+Electric Vehicle Index 2026
+SIEM Scoring Matrix
+Cost
+Statistics
+AI & Machine Learning
+Business & Entrepreneurship
+Careers, Work & Education
+Consumer Tech & Hardware
+Cybersecurity
+Digital Finance
+Digital Health
+EV
+Industrial Tech
+Marketing
+Robotics
+SaaS, Cloud & Enterprise
+Smart Home & IoT
+Space Economy
+Streaming, Social & Gaming
+Tech Energy
+Tracker
+Artificial Intelligence
+AI IPO Tracker
+AI Capex Tracker
+AI Copyright Lawsuits Tracker
+AI Data Center Tracker
+AI Model Release Tracker
+AI Regulation Tracker
+EU AI Act Compliance Tracker
+LLM Leaderboard
+Semiconductor Fab Investment Tracker
+Careers & Work
+AI Layoff Tracker
+AI Job Market Tracker
+Cybersecurity
+AI Agent Security Incident Tracker
+AI Model Vulnerability Tracker
+Data Breach Tracker
+KEV Tracker
+LLM Production Incident Tracker
+Zero-Day Tracker
+Robotics
+Humanoid Robot Deployment Tracker
+SaaS, Cloud & Enterprise
+Cloud Outage Tracker
+Tech Energy
+Data Center Electricity Demand Tracker
+Data Center Moratorium Tracker
+Axis Tools
+AI
+AI ROI Calculator
+AI Token Calculator
+Business
+Business Day Calculator
+eBay Fee Calculator
+Markup Calculator
+Whatnot Fee Calculator
+Career
+Cybersecurity Salary Calculator
+Consumer Tech
+Satellite Link Budget Calculator
+EV
+EV Charging Cost Calculator
+Finance
+1099 vs W-2 Calculator
+Compound Interest Calculator
+Net Worth by Age Calculator
+Net Worth Percentile Calculator
+PayPal Fee Calculator
+R&D Tax Credit Calculator
+Stripe Fee Calculator
+Social Media
+TikTok Coins Calculator
+TikTok Money Calculator
+TikTok Shop Fee Calculator
+Energy
+Solar Panel Calculator
+Our Blog
+Others
+Terms of Use
+Privacy Policy
+©
+Axis Intelligence LLC - USA
+2026. All rights reserved.

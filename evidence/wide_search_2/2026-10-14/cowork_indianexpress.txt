@@ -1,0 +1,320 @@
+skip to content
+Sections
+Edition
+India
+International
+English
+தமிழ்
+বাংলা
+മലയാളം
+ગુજરાતી
+हिंदी
+मराठी
+Business
+Newsletters
+Weather
+Today’s Paper
+Journalism of Courage
+Home
+ePaper
+Politics
+Investigations
+Explained
+CJP Protest
+Sports
+Opinion
+India
+Legal
+Business
+Cities
+UPSC
+Cinema
+World
+Subscribe
+Trending
+UPSC Offer
+Long Reads
+Health News
+Research
+Games
+🎙️ Podcast
+Advertisement
+News
+Trending
+Trending Globally
+'I nearly had a heart attack': Why this Bay Area VC is warning everyone after AI agent deleted 15 years of family photos
+‘I nearly had a heart attack’: Why this Bay Area VC is warning everyone after AI agent deleted 15 years of family photos
+Nick Davidov, co-founder of Davidovs Venture Collective, shared the experience in a post on X, describing how Anthropic’s desktop agent went disastrously wrong while attempting a simple clean-up.
+By:
+Trends Desk
+3 min read
+New Delhi
+Feb 9, 2026 09:30 AM IST
+Nick Davidov, co-founder of Davidovs Venture Collective (DVC), shared the incident in a post on X (Image for representation: Freepik)
+Make us preferred source on Google
+Whatsapp
+twitter
+Facebook
+Reddit
+PRINT
+A Bay Area venture capitalist has warned about the risks of allowing artificial intelligence to manage everyday organisational tasks, after an AI agent allegedly deleted 15 years’ worth of personal photos from his wife’s computer.
+Nick Davidov, co-founder of Davidovs Venture Collective (DVC), shared the incident in a post on X, describing how Anthropic’s desktop agent, Claude Cowork, went disastrously wrong while performing what was meant to be a routine clean-up.
+According to Davidov, he asked the agent to organise his wife’s desktop. During the process, the
+AI
+requested permission to delete what it identified as temporary Microsoft Office files. Davidov approved the request. What followed, he said, was catastrophic.
+Story continues below.
+Subscribe to see fewer ads.
+“Asked Claude Cowork organise my wife’s desktop, it stated doing it, asked for a permission to delete temp office files, I granted it, and then it goes oops,” Davidov wrote.
+Instead of removing temporary files, the agent deleted an entire folder containing more than a decade of irreplaceable photos. “Turns out it tried renaming and accidentally deleted a folder with all of the photos my wife made on her camera for the last 15 years. All photos of kids, their illustrations, friends’ weddings, travel, everything,” he said.
+Asked Claude Cowork organize my wife’s desktop, it stated doing it, asked for a permission to delete temp office files, I granted it, and then it goes “ooops”.
+Turns out it tried renaming and accidentally deleted a folder with all of the photos my wife made on her camera for the…
+— Nick Davidov (@Nick_Davidov)
+February 7, 2026
+Also Read
+|
+‘No subject’: Washington Post CEO Will Lewis resigns after mass layoffs, thanks owner Jeff Bezos in email to employees
+Recovering the files proved extremely difficult, said Davidov. “It’s not in trash, it was done via terminal. It’s not in iCloud, it already synced the new file structure. She didn’t have Time Machine. Disc recovery tools can’t see anything,” he added.
+The San Francisco-based founder then contacted Apple for assistance. “I called Apple and they pointed me to a feature in iCloud allowing to retrieve files that were saved before but are no longer on iCloud Drive (they keep them for 30 days). I’m now watching it load tens of thousands of files. I nearly had a heart attack,” he said.
+He concluded his post with a blunt warning to others experimenting with AI agents that have direct access to personal computers. “Once again – don’t let Claude Cowork into your actual file system. Don’t let it touch anything that is hard to repair. Claude Code is not ready to go mainstream,” he said.
+© IE Online Media Services Pvt Ltd
+Expand
+Tags:
+artificial intelligence
+social media virals
+Advertisement
+Loading Recommendations...
+Oct 14:
+Latest News
+01
+11 minors die as boat capsizes in Ganga in Bihar’s Vaishali
+02
+Denmark Open Super 750: Sindhu crashes out, Srikanth & Tanvi advance to Round 2
+03
+10 artisans, 90 days, 2000 hours: The making of Isha Ambani’s Radha-Krishna inspired Navratri ensemble
+04
+Durga Puja, Diwali, Chhath rush: Indian Railways to operate 3.4 lakh regular train trips, notifies 8,000+ special trips
+05
+A century on my Ranji Trophy debut gives a lot of confidence: Vihaan Malhotra
+Advertisement
+Live
+Blog
+Delhi Protest Live Updates: Rahul Gandhi backs jailed CJP leaders, vows to reclaim Jantar Mantar
+10 minutes ago
+US-Iran War Live News Updates | ‘Iran is a failed country’: Trump says will make a decision on Tehran soon
+16 minutes ago
+India news Live Updates, 14 October 2026: Punjab anti-drug activist murder main accused nabbed from Rajasthan in Salasar
+24 minutes ago
+US-Iran War Highlights | ‘We would know very fast’: Trump says China, Russia not helping Iran
+1 hour ago
+India news Highlights, 13 October 2026: BJP women MPs meet President, seek action against Congress MP over sexual harassment allegations
+15 hours ago
+Advertisement
+Latest Comment
+Post Comment
+Read Comments
+search
+Edition
+IND
+INT
+SUBSCRIBE FOR FULL ACCESS
+Install IE App for better experience
+Download
+Featured
+My Express
+Premium
+UPSC
+Today's E-paper
+Trending Topics
+UPSC Offer
+Long Reads
+Health News
+Research
+Games
+🎙️ Podcast
+News
+Home
+India
+Opinion
+Politics
+World
+Explained
+Entertainment
+Bollywood
+Hollywood
+Television
+Tamil
+Telugu
+Malayalam
+Regional
+Web Stories
+Movie Review
+Business
+Sports
+Cricket
+Live Score
+Chess
+Football
+Cities
+Delhi
+Mumbai
+Kolkata
+Pune
+Chandigarh
+Ahmedabad
+Lucknow
+Chennai
+Hyderabad
+Bangalore
+Technology
+Lifestyle
+The GenZ vibe
+Health
+Food
+Fitness
+Sleep 101
+Pets
+Relationships
+Travel
+Workplace
+Fashion
+Art
+Books
+Health
+Education
+Top 10
+Shorts
+My Express
+Newsletter
+Multimedia
+Photos
+Videos
+Audio
+Web Stories
+Follow Us
+Facebook
+X
+Instagram
+LinkedIn
+YouTube
+RSS
+Link Subscription
+Top Categories
+Explained News
+Political Pulse
+Latest Opinion
+Bollywood News
+Health News
+India News
+Sports News
+Lifestyle News
+Latest News
+Cricket
+Tech Reviews
+Entertainment News
+Weather
+Cities
+Delhi News
+Mumbai News
+Kolkata News
+Pune News
+Chandigarh News
+Ahmedabad News
+Lucknow News
+Chennai News
+Hyderabad News
+Bangalore News
+Trending News
+Stock Analysis
+Live Cricket Score
+Screen Videos
+International Videos
+Indian Express Live TV
+Screen Awards
+Mumbai Weather Today
+Bangalore Weather Today
+Chennai Weather Today
+Pune Weather Today
+Ahmedabad Weather Today
+Lucknow Weather Today
+Chandigarh Weather Today
+Lucknow Weather Today
+Indore Weather Today
+Panaji Weather Today
+Manali Weather Today
+Kodaikanal Weather Today
+Thane Weather Today
+Bijapur Weather Today
+Gulbarga Weather Today
+Malegaon Weather Today
+Bhusawal Weather Today
+Gurgaon Weather Today
+Yavatmal Weather Today
+Gangtok Weather Today
+Thrissur Weather Today
+Udupi Weather Today
+Koppal Weather Today
+Mumbai Weather Today
+Dhule Weather Today
+Pune Weather Today
+Ooty Weather Today
+Panchkula Weather Today
+Kulgam Weather Today
+Kannur Weather Today
+Valparai Weather Today
+Hosur Weather Today
+Indore Weather Today
+Rajouri Weather Today
+Kolkata Weather Today
+Davanagere Weather Today
+PAK vs SL Scorecard
+US Iran War News
+Delhi Protest News
+LATEST STORIES
+Father-in-law obliged to support widowed daughter-in-law, rules Delhi High Court
+Low-cortisol workouts: What they really mean and which exercises count
+MOBIKINS power bank banned on planes in India IndiGo flight fire
+Rs 2.87 crore scammed with fake bait of foreign visa: Surat man stays in jail
+Gold Rate Today, October 14: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities
+Zohran Mamdani’s festive message celebrates Navratri’s many traditions
+Sheikh Hasina says her return to Bangladesh key to restoring democracy
+‘Like a conversation with a fellow mathematician over coffee’: How AI is reshaping maths research, careers
+Inside Aneet Padda’s pink fairytale-themed birthday bash with Ahaan Panday, Alia Bhatt
+Age can’t erase value: Delhi High Court hikes accident relief for 81-year-old to Rs 20 lakh
+As AI solves complex maths problems, researchers ask: What makes a proof valuable?
+Vidya Balan expected trumpets for Rajinikanth’s arrival on Jailer 2 set: ‘There is no pretension’
+Stranded heart patient, husband forced to book another flight: Airline to pay Rs 7.7 lakh
+Aadhaar now mandatory to avail Delhi government’s power subsidy
+Bengaluru teen hacked to death with machete over property dispute; uncle held
+Drishyam 3 box office collection day 12: Ajay Devgn scores his first Rs 500 cr film worldwide
+Follow Us
+Download Apps
+The Indian Express website has been rated GREEN for its credibility and trustworthiness by Newsguard, a global service that rates news sources for their journalistic standards.
+Indian Express Group
+The Indian Express
+Indian Express Hindi
+ieTamil.com
+The Financial Express
+ieBangla.com
+Loksatta
+ieMalayalam.com
+Jansatta
+ieGujarati.com
+Express Tributes
+inUth
+Indian Express Group
+Newsletters
+26/11 Stories of Strength
+Ramnath Goenka Excellence in Journalism Awards
+Light House Journalism
+Careers
+Quick Links
+T&C
+Privacy Policy
+Advertise with Us
+Brand Solutions
+Contact Us
+Subscribe
+Statutory provisions on reporting (sexual offenses)
+This website follows the DNPA’s code of conduct
+CSR
+Copyright © 2026 The Indian Express [P] Ltd. All Rights Reserved
