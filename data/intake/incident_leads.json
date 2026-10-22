@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "issue_number": 2,
+    "issue_url": "https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/2",
+    "event": "TEST ONLY — synthetic intake pipeline check (no real incident)",
+    "source_url": "https://github.com/Tadia-Siwisa/AI-Incidents-Watch/blob/main/docs/INCIDENT_INTAKE.md",
+    "occurrence_date": "unknown",
+    "source_context": "Uncertain",
+    "what_happened": "This is a synthetic software workflow test only. No AI agent incident occurred. Verify that submitting this GitHub issue automatically updates data/intake/incident_leads.json and data/intake/incident_leads.xlsx. Do not include this issue in the verified incident corpus or the preliminary taxonomy.",
+    "notes": "SMOKE TEST / NOT A REAL INCIDENT. This test record must not be promoted into research data.",
+    "evidence_status": "Unverified lead",
+    "updated_at": "2026-10-22T17:54:17Z"
+  }
+]
