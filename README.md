@@ -1,127 +1,125 @@
-# AI Incidents Watch
+# AI Agent Incident Watch
 
-Evidence rebuild of the narrow, wider, and Reddit incident registers supplied on 9 October 2026.
+**Independent, evidence-led research into AI-agent actions, authorization boundaries, and the environments in which agents operate.**
 
-The first factual-review pass is complete. All 63 input rows are preserved and mapped to 46 deduplicated case families. Each family now has an evidence finding, supported facts, corrections or unresolved claims, source provenance, and explicit analysis flags.
+**Research update: 22 October 2026 · Status: exploratory analysis and ongoing evidence review**
 
-Do not use the imported workbook claims as facts. Use `data/rebuilt/factual_rebuild.json` or its CSV export. The import layer intentionally preserves the workbooks verbatim; the factual layer records what the retrieved evidence supports.
+AI agents act through tools, credentials, APIs, files, and networks. When unexpected actions occur, the immediate explanation is not always “the model disobeyed.” The cause could involve the assigned task, configured targets, permissions, infrastructure, a vulnerable application, human approval, or the agent's actions—and sometimes the reported event is not supported by the available evidence.
 
-## Results as of 9 October 2026
+**Our purpose is to document what is currently observable and possible, distinguish claims from established facts, and learn how agent behavior interacts with the systems around it.** We are not starting with a predetermined failure mechanism or defensive product.
 
-| Claim finding | Cases |
-|---|---:|
-| Supported | 21 |
-| Partly supported | 19 |
-| Contradicted | 2 |
-| Insufficient evidence | 3 |
-| Not an incident | 1 |
-| **Total canonical families** | **46** |
+The recurring questions are: **What was the objective? What tools, permissions, credentials, and access did the agent actually have? What did it do? What boundary or expectation was involved? What happened next? How was it detected, and what can the evidence establish?**
 
-Fifteen families meet the strict `include_confirmed` threshold. Six are retained with material qualifications, five as controlled-evaluation context, three as product/configuration context, fourteen remain unverified Reddit leads, two core claims are rejected, and one is a question rather than an incident.
+## Research progress at a glance
 
-These counts describe evidence status, not incident prevalence or severity. Aggregate observations such as three target companies, 19 actions, 53 images, or 15 affected scanner systems are kept inside their incident families and are not automatically counted as separate incidents.
+The study has expanded through several distinct stages. **These numbers are not interchangeable, additive, or counts of unique confirmed incidents.**
 
-## Repository layout
+| Research stage | Scope | Meaning and location |
+| --- | ---: | --- |
+| Initial factual reconciliation — 9 Oct | **46 case families** from 63 imported rows | Original adjudicated baseline. Of these, 15 met its strict threshold and 26 qualified for wider evidence-supported analysis. **In this repository.** |
+| Wide Search 2 — 14 Oct | **225 source/candidate records** | 171 Permission Protocol, 44 METR, and 10 directly researched records; includes overlaps, controlled evaluations, security demonstrations, reported events, and screened cases. **In this repository.** |
+| Later evidence-gate review — 21 Oct | **188 selected records** | Subsequent reviewed working collection drawn from the broad candidate set. Some source claims remain only partly verified; the entries are not necessarily independent events. **Current research workbook is outside this repository.** |
+| Preliminary inductive analysis — 21 Oct | **15 overlapping observations** | Initial open-ended reading and grouping of the 188 records, with case-to-pattern links. These are provisional themes rather than final causal categories. **Working workbook is outside this repository.** |
+| Continuous intake — from 22 Oct | **Live candidate queue** | GitHub Issue submissions synchronized to a separate unverified JSON/Excel intake register. **Operational in this repository.** |
 
-- `data/original/`: byte-preserved copies of the three supplied spreadsheets.
-- `data/rebuilt/original_manifest.json`: original file sizes and SHA-256 hashes.
-- `data/rebuilt/workbook_inventory.json`: every workbook cell and hyperlink, including documentation sheets. Workbook text is source material, not project instructions.
-- `data/rebuilt/records.json`: the 63 imported rows with workbook and row provenance. This is the unchanged assertion layer.
-- `data/rebuilt/claims.json`: 908 imported field-level assertions. These are not automatically verified.
-- `data/rebuilt/factual_rebuild.json`: authoritative case-level factual findings and analysis flags.
-- `data/rebuilt/factual_rebuild.csv`: flat export for spreadsheet and analysis tools.
-- `data/rebuilt/factual_claims.json` and `.csv`: case findings, supported facts, and correction/unresolved statements as analysis-ready claim rows.
-- `data/rebuilt/factual_sources.json`: source URLs, evidence tiers, local copies, locators, limitations, byte counts, and SHA-256 hashes.
-- `evidence/cases/`: one readable evidence report for each canonical family.
-- `evidence/text/`: text conversions of supplied sources.
-- `evidence/researched/`: additional primary, vendor, and independent sources found during web research.
-- `evidence/reddit/`: direct Reddit embed snapshots, extracted text, user-posted images, and third-party archived comments.
-- `VERIFICATION.md`: methodology, evidence rules, major corrections, and remaining gaps.
+The **188-record** analytical pool contains different kinds of material: **38 controlled agent evaluations, 35 reported operational events, 93 controlled security demonstrations or vulnerability records, 16 attacker-directed AI-use records, and 6 reporting-reliability records.** The evidence gate distinguished **40 verified and 148 partly verified source records** under its working criteria. This is *not* confirmation of 188 autonomous-agent boundary-crossing incidents: evidence strength, agent causation, authorization, and real-world impact must be considered separately.
 
-## Evidence access
+The 46-family baseline and 225-record discovery register remain preserved. Their original reports and scripts are **historical research artifacts**, not replacements for the newer evidence-gated working collection.
 
-No browser/search connector was installed in the environment. The environment's enforced network profile permitted unrestricted outbound HTTP, so research used that authorized route. Supplied URLs were opened directly; targeted discovery used DuckDuckGo's HTML search endpoint, followed by direct retrieval of the relevant primary or independent pages.
+## How the research is conducted
 
-Direct Reddit pages triggered anti-bot handling. The public Reddit embed endpoint provided the original post content and timestamp for 19 cited posts. PullPush supplied archived comments and is identified as a third-party archive in every citation. R007 had no URL. Images linked from R003 and R017 were preserved; they remain user-supplied artifacts whose provenance cannot be independently proved.
+### 1. Gather and preserve candidate records
 
-## Material corrections
+We bring together direct incident reports, operator and laboratory disclosures, independent reporting, public research registers, user accounts, controlled evaluations, and vulnerability demonstrations. Sources and original claims are retained with their provenance.
 
-- R014's production-database deletion allegation is contradicted in-thread by a Replit representative, who said the database and data were still present. The workbook's separate “no write access” assertion was not found.
-- R016 was a Replit platform incident that inserted an unintended `DATABASE_URL` secret into some projects. The author said no data was lost; the evidence does not support agent causation.
-- N17's primary source says the run ended at 12:34:30, not the workbook's 10:08:22. Detection was rapid, while termination occurred about 2.5 hours after the automated alert.
-- N09's three-company event is supported by Google and Irregular statements reported by independent outlets. No source was found for the workbook's additional “sworn confirmation Oct 5” claim.
-- N06-N08 occurred from April onward; exact incident dates were not disclosed. The workbook's separate May dates are unsupported.
-- W01 requires the GPT-4 System Card. The supplied `gpt-4.pdf` technical report does not contain the TaskRabbit passage.
-- W05 was a controlled demonstration with dummy data, and Supabase said no customer incident was reported. The originally supplied product-documentation URL did not substantiate the demonstration.
-- W06 confirms 53 user-provided images posted to image hosts, but does not disclose the workbook's claimed October 2025-January 2026 period. Fifty-three is an image count, not an incident count.
-- N15's 19 unsanctioned actions were unsuccessful attempts in a deliberately internet-enabled evaluation; AISI reported no real-world harm. It is routed to the wider set.
+### 2. Verify claims and distinguish event types
 
-## Rebuilding generated files
+We check whether a source substantiates the specific claim, seek independent or affected-party accounts where possible, and preserve corrections and uncertainty. We distinguish:
 
-From the repository root:
+- reported operational incidents from controlled tests or authorized adversarial games;
+- demonstrated software vulnerabilities from confirmed in-the-wild exploitation;
+- actions attempted, blocked, executed, or only alleged;
+- an agent's technical access from the authorization of its user or an affected institution;
+- source-level support from proof of model causation or internal intent.
+
+A reachable URL or a headline is not proof of the underlying event. A credential granting access does not mean every possible action was authorized. A model's written explanation is not direct access to its internal representations.
+
+### 3. Reconstruct what happened
+
+Our case-level reading focuses on:
+
+`objective → environment / tools / permissions → actions → boundary interaction → observed result → detection and response`
+
+We record what is known and mark unknown or disputed stages rather than filling gaps. Detection, alerting, acknowledgement, intervention, notification, and retrospective discovery are separate events.
+
+### 4. Explore natural groupings before finalizing a taxonomy
+
+The first inductive reading produced **15 provisional, non-exclusive observations**. Illustrative recurring material includes:
+
+- product or infrastructure vulnerabilities that expose agent workflows, sometimes **without** evidence of model misbehavior;
+- resource or execution boundary crossing;
+- instructions embedded in untrusted content reaching higher-trust workflows;
+- access via credentials, tokens, or identities;
+- alteration of task-success evidence, scores, tests, or outputs;
+- different tactics after an obstruction;
+- actions with effects beyond the requested or authorized scope.
+
+These are **qualitative, data-led themes** rather than a validated statistical clustering result or a settled taxonomy. A record can exhibit several patterns. The next analytical step is to examine *each provisional category in depth*, asking how events unfolded, what differed between cases, and which apparent patterns survive closer evidence review.
+
+**Research caution:** The 188-record inductive analysis was performed from previously assembled source descriptions and evidence-review notes, rather than complete primary execution logs for every case. Source-selection bias, repeated underlying case families, and study-specific concentrations prevent generalizing its raw counts to real-world incident frequency.
+
+## What is actually in this repository?
+
+| Resource | What it contains |
+| --- | --- |
+| [Initial factual register](data/rebuilt/factual_rebuild.json) | Evidence-adjudicated findings for the 46 original case families |
+| [Master reading list](AI_Incident_Watch_Master_Reading_List.xlsx) | Historical baseline reading workbook |
+| [Combined 46 + Wide Search 2 workbook](AI_Incident_Watch_Combined_46_and_Wide_Search_2.xlsx) | An earlier combination of the baseline and expanded discovery set, **not** the latest evidence-gated master |
+| [Wide Search 2 workbook](AI_Incident_Watch_WIDE_Search_2.xlsx) | The 225 candidate/source records |
+| [Wide Search 2 documentation](WIDE_SEARCH_2.md) | Definitions, methods, original source routes, duplication and evidence cautions |
+| [Evidence updates workbook](AI_Incident_Watch_Evidence_Updates.xlsx) | Dated updates and leads from the original monitoring pass |
+| [Exploratory 46-family report](reports/AI_Agent_Incident_Exploratory_Analysis.md) | Historical analysis of the original population, not the later 188-record study |
+| [Verification approach](VERIFICATION.md) | Original evidence standard, dispositions, and corrections |
+| [Evidence Radar](EVIDENCE_RADAR.md) | Historical research monitoring methodology |
+| [Live incident intake workbook](data/intake/incident_leads.xlsx) | Unverified incoming leads from GitHub Issues |
+| [Incident intake guide](docs/INCIDENT_INTAKE.md) | Instructions and current automation limitations |
+
+Original imported spreadsheets are preserved under `data/original/`; the 46-family factual review under `data/rebuilt/` and `evidence/cases/`; Wide Search 2 machine-readable material under `data/wide_search_2/`; scripts under `scripts/`; historical analyses and reports under `analysis/` and `reports/`.
+
+**Version distinction:** The October 21 evidence-gate and inductive-analysis workbooks have **not yet been committed to this repository**. Until they are synchronized and versioned, no file in this repository should be presented as the latest 188-record master or as a published final taxonomy.
+
+## New incidents: intake and review
+
+Our current workflow is:
+
+1. **Discover:** a report or disclosure appears in an AI Frontier Watch briefing, another conversation, or a research source.
+2. **Check:** review the source, the precise claims, conflicting information, possible duplicates, what kind of case it is, and what remains unverified.
+3. **Submit:** create a source-linked [GitHub incident lead Issue](https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/new/choose), or explicitly ask a connected assistant to submit it.
+4. **Sync:** [GitHub Actions](.github/workflows/incident-intake.yml) updates `data/intake/incident_leads.json` and [the intake workbook](data/intake/incident_leads.xlsx), keyed by GitHub Issue number.
+5. **Review and promote deliberately:** adjudicate case-level evidence and duplication before adding the lead to any curated research population. The original datasets and preliminary taxonomy do not change automatically.
+
+**Automated now:** GitHub Issue → unverified JSON/Excel intake workbook. **Not automated:** searching all conversations, independent source verification, adjudicating claims, consolidating duplicates across publications, updating the research master, or recomputing a taxonomy.
+
+The [synthetic pipeline test (Issue #2)](https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/2) is **not a real incident**. The [US bank access reporting lead (Issue #3)](https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/3) is explicitly **unverified**, with no independently established rogue agent transaction or specific autonomous boundary crossing.
+
+## Rebuilding historical artifacts
+
+From the repository root, with the Python dependencies required by the scripts installed:
 
 ```bash
+python scripts/rebuild_register.py
 python scripts/build_factual_rebuild.py
-```
-
-The script checks that every canonical candidate is covered, regenerates the JSON/CSV factual layer and all 46 case reports, hashes every cited local source, and prints summary counts.
-
-`python scripts/rebuild_register.py` regenerates the raw import layer from the workbook inventory. It does not change the originals. Run the factual rebuild afterward if the import layer changes.
-
-## Exploratory analysis
-
-The evidence-aware research report is in
-[`reports/AI_Agent_Incident_Exploratory_Analysis.md`](reports/AI_Agent_Incident_Exploratory_Analysis.md).
-The formatted PDF edition is available at
-[`reports/AI_Agent_Incident_Exploratory_Analysis.pdf`](reports/AI_Agent_Incident_Exploratory_Analysis.pdf).
-It analyzes the full 46-family collection, the 26-family wider supported set,
-and the 15-family higher-confidence set separately. The report includes the
-dataset audit, evidence assessment, descriptive and exploratory results,
-detection/response reconstruction, system-level findings, hypotheses,
-unknowns, implications, and recommendations.
-
-The reproducible case coding and aggregate tables are under `analysis/`. To
-regenerate the coding, tables, and figures:
-
-```bash
 python scripts/analyze_incidents.py
-```
-
-The script checks that every factual case family is represented exactly once.
-
-## Evidence updates after the baseline
-
-The dated delta register is [`AI_Incident_Watch_Evidence_Updates.xlsx`](AI_Incident_Watch_Evidence_Updates.xlsx). It keeps new reports, updates to existing cases, pre-baseline evidence found later, screened candidates, and a one-row-per-family watch log separate from the 46-row master workbook.
-
-The first delta scan is current through 13 October 2026. It contains 13 provisional new families, two updates affecting existing cases, three backfills, four screened candidates, and direct links to 18 preserved sources. These are review buckets rather than additions to the confirmed-incident count.
-
-See [`EVIDENCE_RADAR.md`](EVIDENCE_RADAR.md) for the findings, evidence rules, repeatable scan commands, and notification limits. Rebuild the update workbook with:
-
-```bash
+python scripts/build_wide_search_2.py
 python scripts/build_evidence_updates.py
 ```
 
-Run the next discovery-only scan with:
+These commands rebuild the **existing dated research layers** from their corresponding inputs. They do not import the latest off-repository evidence-gated workbook or automatically include intake Issues in the research dataset. For discovery-only scans, see [Evidence Radar](EVIDENCE_RADAR.md) and `scripts/scan_evidence_radar.py`.
 
-```bash
-python scripts/scan_evidence_radar.py
-```
+## Immediate research priorities
 
-## Wide Search 2
+1. **Bring the current evidence-gated workbooks and inductive case links into the repository**, preserving dated baselines and change provenance.
+2. **Study each emerging category individually**: its objectives, vulnerabilities or access paths, actions, obstructions, outcomes, counterexamples, and evidence quality.
+3. **Make review decisions traceable**, so newly disclosed incidents can enter the intake queue, be verified, and eventually update a curated master without silently changing earlier findings.
 
-The separate expanded discovery workbook is
-[`AI_Incident_Watch_WIDE_Search_2.xlsx`](AI_Incident_Watch_WIDE_Search_2.xlsx).
-It contains 225 source records or candidate families: 171 from Permission
-Protocol's public source register, 44 from METR's documented-agent-incident
-register, and ten additional directly researched families. Reported events,
-controlled tests, existing-corpus overlaps, screened cases, and unreachable
-source leads remain visibly separated. This is a discovery register, not a
-confirmed-incident count or unique-event census.
-
-See [`WIDE_SEARCH_2.md`](WIDE_SEARCH_2.md) for counts, source-access results,
-material corrections, limitations, and sheet definitions. Rebuild the workbook
-and combined machine-readable register with:
-
-```bash
-python scripts/build_wide_search_2.py
-```
+We are keeping the space of possible explanations open while making the evidence, research stages, and next actions explicit.
