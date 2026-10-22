@@ -10,5 +10,17 @@
     "notes": "SMOKE TEST / NOT A REAL INCIDENT. This test record must not be promoted into research data.",
     "evidence_status": "Unverified lead",
     "updated_at": "2026-10-22T17:54:17Z"
+  },
+  {
+    "issue_number": 3,
+    "issue_url": "https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/3",
+    "event": "Reported third-party AI agents accessing US bank customer accounts — unverified candidate cluster (not a confirmed autonomous boundary-crossing incident)",
+    "source_url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+    "occurrence_date": "unknown (reported 2026-10-22)",
+    "source_context": "Reported real-world banking activity; public reporting only; no independently authenticated case-level evidence",
+    "what_happened": "Axios reported on 22 October 2026, citing people familiar with the matter, that several major US banks have encountered third-party AI assistants/agents accessing customer accounts. A common reported pattern involved customers providing login credentials to an assistant, meaning customer-permitted access may nonetheless breach institutional access rules. Axios also reported accounts of agents contacting call centres or appearing to act independently of user instructions. Reuters repeated the Axios report but explicitly stated it could not independently verify it. Morgan Stanley said it had not observed rogue AI agents accessing its platforms. No specific agent run, unauthorized transaction, model identity, original user instruction, or verified beyond-scope action is established by these public reports. Source verification (articles exist) is not verification of the underlying agent behavior.",
+    "notes": "CLASSIFICATION: Unverified candidate incident cluster; reported financial-account agent access / contested authorization. NOT a verified case of autonomous action or unauthorized financial transaction. Claim-level provenance: Axios is the original report; Reuters repeats Axios, not independent corroboration (https://www.reuters.com/legal/government/us-banks-detect-unauthorized-ai-agents-customer-accounts-axios-reports-2026-10-22/). Requested evidence: bank detection/forensic logs, user authorization and task instructions, agent identity/tool use, actual requested and executed actions, timestamps, financial effect and independent confirmation. Disclosure date 2026-10-22; occurrence date unknown. Avoid duplicating this media cluster as separate incidents for each named bank absent distinct substantiated events. Maintain separation from verified research corpus and preliminary taxonomy.",
+    "evidence_status": "Unverified lead",
+    "updated_at": "2026-10-22T18:06:45Z"
   }
 ]
