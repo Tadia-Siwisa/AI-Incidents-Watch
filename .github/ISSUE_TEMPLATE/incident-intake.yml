@@ -1,0 +1,52 @@
+name: New AI agent incident lead
+description: Record a source-linked candidate for evidence review (not verification).
+title: "[Incident] "
+body:
+  - type: markdown
+    attributes:
+      value: "This creates an unverified candidate only. This repository is public; do not post passwords, tokens, private logs, or personal information."
+  - type: input
+    id: event
+    attributes:
+      label: Event or finding
+      placeholder: "Agent changed a monitoring configuration"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: input
+    id: occurrence
+    attributes:
+      label: Occurrence date
+      description: Use the event date (not the report date), or "unknown".
+      placeholder: "YYYY-MM-DD or unknown"
+  - type: dropdown
+    id: context
+    attributes:
+      label: Source context
+      options:
+        - Reported operational event
+        - Controlled evaluation
+        - Security demonstration or vulnerability
+        - Attacker-directed AI use
+        - Reporting reliability
+        - Uncertain
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened
+      description: Describe only the reported actions and outcomes, without inferring motive.
+    validations:
+      required: true
+  - type: textarea
+    id: caveats
+    attributes:
+      label: Evidence gaps or possible duplicates
+      description: Add known limitations, corrections, or related incident IDs.
