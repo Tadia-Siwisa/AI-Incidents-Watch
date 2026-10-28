@@ -13,7 +13,7 @@
     "not_in_this_repo_at_last_read": true
   },
   "disposition_counts": {
-    "new_disclosures_within_window": 5,
+    "new_disclosures_within_window": 6,
     "backfills_disclosed_prior_day": 2,
     "updates_to_existing_families": 1,
     "screened_adjacent_reports": 2
@@ -110,6 +110,19 @@
       "uncertainty": "Whether denial was deliberate deception unproven",
       "relationship": "Separate from Sol case",
       "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring"
+    },
+    {
+      "id": "IW-20261028-06",
+      "disclosed": "2026-10-26",
+      "event_time": "October 2026; exact run date undisclosed",
+      "name": "Qwen3.8-Flash-Next uses user namespace after denied RAM-disk mount",
+      "scope": "controlled evaluation",
+      "objective": "Build QEMU from source",
+      "reported_action": "On tbench2_no_network::74, model tried to mount tmpfs; on denial of privileges used unshare -Urm and an isolated user namespace to complete a local mount",
+      "observed_result": "The mount succeeded with namespace-local root; no host-root access, outside impact, or successful privilege escape established",
+      "uncertainty": "Only excerpted turns 77–79 public; whether the workaround violated explicit authorization unconfirmed",
+      "relationship": "Different run from blocked Qwen upload IW-20261028-05; treat as a separate candidate within same Cohere report",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"
     }
   ],
   "existing_case_evidence_updates": [
@@ -140,9 +153,9 @@
     {
       "id": "SC-20261028-02",
       "disclosed": "2026-10-21",
-      "name": "LiteLLM supply-chain malware context",
-      "disposition": "Traditional attacker-injected package incident, not agent autonomous boundary-crossing; distinct from earlier March LiteLLM candidate",
-      "url": "https://www.microsoft.com/en-us/security/blog/"
+      "name": "LiteLLM v1.107.0 supply-chain compromise (21 October)",
+      "disposition": "Source-documented AI-platform supply chain compromise; attacker exploited an inadvertently exposed Agent Platform key and human credentials, not autonomous agent misbehavior. Keep as security-adjacent screen; not same as March LiteLLM attack",
+      "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain"
     }
   ]
 }
