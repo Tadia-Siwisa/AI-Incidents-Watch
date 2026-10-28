@@ -54,3 +54,12 @@ python scripts/build_wide_search_2.py
 The builder verifies the three source-collection counts, 225 unique WS2 IDs, workbook sheets, filter and frozen-header configuration, source coverage, and the generated workbook's ability to reopen with `openpyxl`. It also writes the machine-readable combined register to `data/wide_search_2/wide_search_2_register_2026-10-14.json`.
 
 The dated raw search output is under `data/monitoring/raw/2026-10-14/`. Retrieved evidence and source-access results are under `evidence/wide_search_2/2026-10-14/`. The original three spreadsheets and every previously generated dataset remain unchanged.
+
+
+## Dated discovery supplement: 28 October 2026
+
+A source-linked, non-adjudicated intake supplement for **21–28 October 2026** is stored at [`data/intake/weekly_research_2026-10-28.json`](data/intake/weekly_research_2026-10-28.json).
+
+The supplement contains **five candidate families first disclosed within the window**, **two additional OpenAI internal-operation backfills disclosed 20 October**, **one evidence update to existing UK AISI/Anthropic case N15 / PP-056**, and **two screened adjacent stories**. These are research records, not all confirmed autonomous-agent misconduct. Case evidence categories include attacker-directed misuse, operational prompt injection, and controlled assessment.
+
+The original 225-row Wide Search 2 workbook remains a historical 14 October snapshot and has **not** been silently rewritten or increased to 232. The 188-record later evidence-gated working sample is a separate research stage and is not modified by this intake. A downloadable, updated spreadsheet containing the historical 225 rows and supplementary tabs was produced in the associated ChatGPT research session; the GitHub repository currently tracks its portable JSON research supplement, not the revised binary workbook. Case-family overlap and independent transcript evidence remain subject to review.
