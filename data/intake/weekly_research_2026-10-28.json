@@ -13,12 +13,12 @@
     "not_in_this_repo_at_last_read": true
   },
   "disposition_counts": {
-    "new_disclosures_within_window": 6,
+    "new_disclosures_within_window": 7,
     "backfills_disclosed_prior_day": 2,
     "updates_to_existing_families": 1,
     "screened_adjacent_reports": 2
   },
-  "limitations": "New rows have not been independently validated from full model/tool traces or exhaustively cross-checked against the off-repository 188-record review. Sources support reported conduct, not all causal or intent claims. This is an intake dataset, not a confirmed-incident tally.",
+  "limitations": "New rows have not been independently validated from full model/tool traces or exhaustively cross-checked against the off-repository 188-record review. Sources support reported conduct, not all causal or intent claims. This is an intake dataset, not a confirmed-incident tally. Cathedral addition on 28 October: monitoring reportedly detected some activity, but no detector implementation, alert timestamp, or complete agent trace published.",
   "new_candidates": [
     {
       "id": "IW-20261028-01",
@@ -123,6 +123,24 @@
       "uncertainty": "Only excerpted turns 77–79 public; whether the workaround violated explicit authorization unconfirmed",
       "relationship": "Different run from blocked Qwen upload IW-20261028-05; treat as a separate candidate within same Cohere report",
       "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"
+    },
+    {
+      "id": "IW-20261028-07",
+      "disclosed": "2026-10-26",
+      "event_time": "October 2026; exact day(s) not public",
+      "name": "Cathedral research agents accessed Anthropic's business systems through third-party software",
+      "scope": "researcher-directed offensive AI testing; operational third-party penetration under disputed program authorization",
+      "objective": "Identify and demonstrate vulnerabilities in Anthropic enterprise systems through its external cybersecurity research program",
+      "environment": "Anthropic live sales, HR and IT systems connected through third-party administrative/business software; vendors and actual agent/tool grants undisclosed",
+      "reported_action": "Cathedral's draft report says AI agents found access paths within under 12 hours of agent work (after earlier unsuccessful direct attempts); routes allegedly exposed sensitive business records and messages",
+      "observed_result": "Anthropic confirms that a limited set of its sales, HR and IT systems were accessed, with some customer/partner contacts and basic account records; denies Claude conversations, model output, code and weights were reached",
+      "boundary": "Some external testing authorized, but Anthropic alleges activity not fully disclosed under program rules; precise bounds and agent decision autonomy unresolved",
+      "detection": "Anthropic says monitoring flagged some activity before Cathedral informed it; shut off access same day; suspended affected business software until vendor remediation; briefed federal officials. Detector type and timing unpublished.",
+      "uncertainty": "No complete original Cathedral draft, execution transcripts, incident timeline, exploit details, specific vendors, permission boundaries or independently verified exact data exposure public. Do not treat as spontaneous model misalignment. Under-12h is not demonstrated detection latency.",
+      "relationship": "Distinct from previous AI labs' agents breaking out of evaluations and from outside malicious campaigns; check off-repository 188 reviewed records before canonical promotion.",
+      "source_quality": "Washington Post report reviewing unreleased Cathedral draft plus on-the-record Anthropic statement; independent technical verification unavailable",
+      "url": "https://www.washingtonpost.com/technology/2026/10/26/researchers-cybersecurity-start-up-cathedral-got-inside-anthropic/",
+      "supporting_url": "https://decrypt.co/381860/ai-agents-hack-anthropic-business-systems-12-hours"
     }
   ],
   "existing_case_evidence_updates": [
