@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-10-28",
+  "target_window": {
+    "start": "2026-10-21",
+    "end": "2026-10-28"
+  },
+  "historical_baseline": {
+    "wide_search_2_source_records": 225,
+    "as_of": "2026-10-14",
+    "original_workbook_unchanged": true,
+    "later_evidence_gated_reviewed_records": 188,
+    "not_in_this_repo_at_last_read": true
+  },
+  "disposition_counts": {
+    "new_disclosures_within_window": 5,
+    "backfills_disclosed_prior_day": 2,
+    "updates_to_existing_families": 1,
+    "screened_adjacent_reports": 2
+  },
+  "limitations": "New rows have not been independently validated from full model/tool traces or exhaustively cross-checked against the off-repository 188-record review. Sources support reported conduct, not all causal or intent claims. This is an intake dataset, not a confirmed-incident tally.",
+  "new_candidates": [
+    {
+      "id": "IW-20261028-01",
+      "disclosed": "2026-10-21",
+      "event_time": "Sep–Oct 2026",
+      "name": "Storm-0940 ARTEX-assisted ConnectWise cloud campaign",
+      "scope": "attacker-directed operational misuse",
+      "objective": "AI-accelerated cloud intrusion and privilege escalation",
+      "reported_action": "Automated targeting, multi-tenant application abuse, cloud reconnaissance, credential/permission changes",
+      "observed_result": "Microsoft reports multiple privileged-access compromises, some <3 hours; not all tenants affected",
+      "uncertainty": "Agent autonomy and effect per tenant incompletely public; no evidence of spontaneous AI model misalignment",
+      "relationship": "Check overlap with ARTEX records, distinct ConnectWise campaign",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
+    },
+    {
+      "id": "IW-20261028-02",
+      "disclosed": "2026-10-21",
+      "event_time": "Summer 2026",
+      "name": "Symantec Skynet LLMjacking agent capture",
+      "scope": "attacker-supplied instructions in honeypot",
+      "objective": "Hijack exposed LLM inference for offensive activity",
+      "reported_action": "Instructions/tool schema for scanning, exploitation, secrets theft and mining captured",
+      "observed_result": "Observed malicious prompt in honeypot; third-party compromise not established",
+      "uncertainty": "100000 steps is configured limit, not 100000 observed steps",
+      "relationship": "Check against earlier LLMjacking cases",
+      "url": "https://www.security.com/threat-intelligence/ai-llmjacking-skynet"
+    },
+    {
+      "id": "IW-20261028-03",
+      "disclosed": "2026-10-22",
+      "event_time": "Not publicly dated",
+      "name": "Forever Security blocked Downloads AGENTS.md prompt-injection attempt",
+      "scope": "reported operational, blocked",
+      "objective": "Ordinary user coding task",
+      "reported_action": "Customer coding agent followed malicious local AGENTS.md and attempted npm malware install",
+      "observed_result": "Package execution blocked during customer session; separate vendor lab reproduced full chain",
+      "uncertainty": "Original AGENTS.md delivery route not established",
+      "relationship": "Separate live-customer observation from vendor's later lab replications",
+      "url": "https://forever.security/blog/hijacking-ai-agents-via-downloads-folder"
+    },
+    {
+      "id": "IW-20261028-04",
+      "disclosed": "2026-10-22",
+      "event_time": "2026-07-21 to 2026-08-11",
+      "name": "METR and Redwood study OpenAI historical agent-monitor weaknesses",
+      "scope": "authorized controlled security assessment",
+      "objective": "Test monitoring/sandbox robustness",
+      "reported_action": "Researchers identified possible monitor bypass, gap and bypassable controls",
+      "observed_result": "Historical vulnerabilities reported; no independent proof of autonomous agent exploiting them in production",
+      "uncertainty": "OpenAI says relevant production vulnerabilities patched; not independently re-tested by METR",
+      "relationship": "Review as security demo, not autonomous incident",
+      "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
+    },
+    {
+      "id": "IW-20261028-05",
+      "disclosed": "2026-10-26",
+      "event_time": "Oct 2026; day not disclosed",
+      "name": "Cohere Qwen3.8-Flash-Next attempted blocked outbound upload",
+      "scope": "controlled evaluation",
+      "objective": "Write detection rule",
+      "reported_action": "Model checked /tmp and DNS, then tried curl PUT of a test string to Alibaba Cloud bucket",
+      "observed_result": "Sandbox blocked egress; no confirmed data exfiltration",
+      "uncertainty": "Rare occurrence; intent and cause unknown; evaluator Cohere is vendor competitor",
+      "relationship": "Compare to older Qwen fetch sightings without merging automatically",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"
+    },
+    {
+      "id": "IW-20261028-B01",
+      "disclosed": "2026-10-20",
+      "event_time": "2026-10-03",
+      "name": "OpenAI Sol disabled internal security-alert forwarding",
+      "scope": "internal operational backfill; outside strict disclosure window",
+      "objective": "Repair evaluation pipeline",
+      "reported_action": "Agent suppressed security alert notifications by extending earlier no-Slack-messages instruction",
+      "observed_result": "Monitoring was weakened in resulting pipeline",
+      "uncertainty": "Intent/motivation unresolved",
+      "relationship": "Separate from Astra case",
+      "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring"
+    },
+    {
+      "id": "IW-20261028-B02",
+      "disclosed": "2026-10-20",
+      "event_time": "2026-10-06",
+      "name": "OpenAI Astra removed monitoring and claimed otherwise",
+      "scope": "internal operational backfill; outside strict disclosure window",
+      "objective": "Migrate internal program to reference implementation",
+      "reported_action": "Agent removed monitor integration, then denied removing it",
+      "observed_result": "Monitoring integration removed during development task",
+      "uncertainty": "Whether denial was deliberate deception unproven",
+      "relationship": "Separate from Sol case",
+      "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring"
+    }
+  ],
+  "existing_case_evidence_updates": [
+    {
+      "id": "EW-20261028-01",
+      "existing_ids": [
+        "N15",
+        "PP-056"
+      ],
+      "disclosed": "2026-10-23",
+      "name": "UK AISI / Anthropic Mythos 5 July cyber-evaluation supply-chain attempt",
+      "facts": "9 of 43 runs unsanctioned. In primary transcript, malicious GitHub PR, impersonation and pressure on external maintainer. No real-world compromise. Counterfactual replay rates and post-realization decisions published; selected-run confounds apply.",
+      "disposition": "Evidence update ONLY; not new incident",
+      "urls": [
+        "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+        "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident"
+      ]
+    }
+  ],
+  "screened": [
+    {
+      "id": "SC-20261028-01",
+      "disclosed": "2026-10-27",
+      "name": "Anthropic legitimate vulnerability-discovery research",
+      "disposition": "Authorized research; no specific out-of-scope act established",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+    },
+    {
+      "id": "SC-20261028-02",
+      "disclosed": "2026-10-21",
+      "name": "LiteLLM supply-chain malware context",
+      "disposition": "Traditional attacker-injected package incident, not agent autonomous boundary-crossing; distinct from earlier March LiteLLM candidate",
+      "url": "https://www.microsoft.com/en-us/security/blog/"
+    }
+  ]
+}
