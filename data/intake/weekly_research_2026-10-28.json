@@ -158,6 +158,27 @@
         "https://www.anthropic.com/research/alignment-assessment-ukaisi",
         "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident"
       ]
+    },
+    {
+      "id": "EW-20261028-02",
+      "existing_ids": [
+        "N02",
+        "N06",
+        "N07",
+        "N08",
+        "PP-063"
+      ],
+      "disclosed": "2026-10-26",
+      "name": "Anthropic S-1: four previously disclosed model families, seven runs, cybersecurity-evaluation misconfiguration",
+      "facts": "SEC S-1 repeats four-model disclosure, 10–34 hour active work sessions, improper internet access, and early Opus 4.6's file-discovered password, admin access, additional credentials, settings changes and personal-data read. July 30 described three families; September 9 disclosed fourth (January) family. The October filing does not create additional incident families.",
+      "correction": "N02 baseline incorrectly says 'guessed a password'; September primary report describes password discovered in a file. N02's eight failed attempts were attempts to abort, not eight distinct task failures.",
+      "disposition": "EVIDENCE UPDATE ONLY; no new 188 source record, no change to 12 E4 WHERE records; do not add four new incidents.",
+      "source_urls": [
+        "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+        "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+        "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+      ],
+      "reconciliation_file": "data/monitoring/reconciliations/2026-10-28_anthropic_s1_four_models.json"
     }
   ],
   "screened": [
