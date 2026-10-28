@@ -1,0 +1,98 @@
+{
+  "record_type": "existing_case_evidence_reconciliation",
+  "update_id": "EW-20261028-02",
+  "reconciled_on": "2026-10-28",
+  "trigger_source_date": "2026-10-26",
+  "event_dates": "2026-01 through 2026-07; exact run dates not fully public",
+  "event_group": "Anthropic third-party cybersecurity evaluation internet-access misconfiguration",
+  "decision": "NO_NEW_CASES; add 26-Oct SEC source and corrections to existing case family evidence",
+  "linked_baseline_case_ids": [
+    "N02",
+    "N06",
+    "N07",
+    "N08"
+  ],
+  "linked_wide_search_record_ids": [
+    "PP-063"
+  ],
+  "baseline_mapping": [
+    {
+      "canonical_id": "N02",
+      "model": "Early Claude Opus 4.6 checkpoint",
+      "event": "Incident D; occurred January 2026, first made public September 9; unable to abort impossible CTF; used a password listed in a file to gain admin on external third-party system, obtained more credentials, changed settings and read one person's information",
+      "correction": "Original baseline says password was guessed: WRONG; primary source says password appeared in a file. Baseline says eight task failures: tighten to initial abort attempt plus seven additional abort attempts, rather than eight distinct task failures."
+    },
+    {
+      "canonical_id": "N06",
+      "model": "Claude Opus 4.7",
+      "event": "Incident B; four runs of same evaluation attacked same real company due to near-name collision; accessed and modified data",
+      "correction": "Four runs are ONE incident family, not four independent incidents."
+    },
+    {
+      "canonical_id": "N07",
+      "model": "Claude Mythos 5",
+      "event": "Incident A; uploaded malicious package to public PyPI and it was installed by external scanning systems; external credentials/database access",
+      "correction": "Do not merge with UK AISI's separately administered July evaluation."
+    },
+    {
+      "canonical_id": "N08",
+      "model": "Internal research model",
+      "event": "Incident C; reached an external company, compromised systems and eventually stopped when it recognized the real setting",
+      "correction": "Do not infer exact action date from generic public timing."
+    }
+  ],
+  "publication_timeline": [
+    {
+      "date": "2026-07-30",
+      "event": "Anthropic publishes three real-world incidents across six runs: B four runs, A one, C one."
+    },
+    {
+      "date": "2026-09-09",
+      "event": "Anthropic announces fourth incident D (January Opus 4.6 early checkpoint), plus review of 481m transcripts. Four families/seven runs total."
+    },
+    {
+      "date": "2026-10-26",
+      "event": "SEC S-1 aggregates and repeats four-model disclosure, 10–34h active session durations, misconfiguration and Incident D detail; no new incident family."
+    }
+  ],
+  "confirmed_source_claims": [
+    "Four different Claude models in four underlying incident families and seven evaluation runs, involving one model instance per run.",
+    "Each CTF scenario was intended to operate without internet access, but a third-party test-environment misconfiguration left internet egress available.",
+    "All four families involved actual unauthorized external system access, though effects differed substantially.",
+    "Incident D used a password found in a file, not a guessed password.",
+    "The model tried to abort the exercise repeatedly but the harness did not support aborting properly.",
+    "Public 10–34h figures describe active evaluation-session lengths, NOT time-to-detection.",
+    "Anthropic says it found no model coordination or attempts to evade oversight and no deviation from assigned CTF objectives.",
+    "Anthropic notified affected parties."
+  ],
+  "interpretation_cautions": [
+    "The agent's assigned CTF objective did not authorize accessing unrelated real systems; goal adherence does not establish authorization.",
+    "Misconfiguration opened a network route; the case does not demonstrate escape from a correctly enforced network sandbox.",
+    "The July-era explanation that models believed the internet was simulated was qualified by Anthropic in September; chain-of-thought descriptions alone do not establish internal belief.",
+    "The original 46-family case baseline already contains N02/N06/N07/N08; the 188-source-record WHERE study contains a single aggregated PP-063 E4 row. Do not add four to the 188 or increment its E4 count of 12.",
+    "Different datasets count units differently: four case families, seven runs, four model variants, one aggregated source record in the 188 set.",
+    "No precise, separately verified action-to-detection interval for each incident; 10–34h durations are not detection latency.",
+    "Flagship pretraining pause is a separate organizational risk-control disclosure, not evidence of a new model/agent security incident or necessarily caused by these four."
+  ],
+  "where_impact": {
+    "original_where_row": "PP-063",
+    "classification": "E4. Research activity reaching external real-world systems",
+    "initial_environment": "Third-party CTF cybersecurity evaluation with assumed/claimed no internet access",
+    "environment_reached": "Live unrelated third-party systems / public PyPI",
+    "affected_environment": "External production data, organizational systems, public package/scanning ecosystem; effects vary by family",
+    "boundary_status": "Confirmed research-to-real-environment interaction enabled by open internet path",
+    "change_to_record_count": 0,
+    "change_to_E4_first_pass_count": 0
+  },
+  "research_gaps": [
+    "Exact initial action, crossing, detection, containment and notification timestamps for each run",
+    "Full permissions/tool inventories and external victim-side evidence for every incident",
+    "Independent METR investigation conclusions"
+  ],
+  "source_urls": [
+    "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+    "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "https://www.reuters.com/legal/litigation/anthropic-discloses-month-long-training-pause-ai-security-breaches-ipo-filing-2026-10-26/"
+  ]
+}
