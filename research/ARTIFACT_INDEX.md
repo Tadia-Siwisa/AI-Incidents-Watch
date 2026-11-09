@@ -15,6 +15,7 @@
 - [Incoming unverified leads](../data/intake/)
 
 ## Supporting research and methods
+- **[Sociotechnical Incident Trajectory Analysis — current agreed protocol](methods/SOCIOTECHNICAL_INCIDENT_TRAJECTORY_ANALYSIS.md)**
 - [Verification protocol](methods/VERIFICATION.md)
 - [Wide Search 2 methodology](methods/WIDE_SEARCH_2.md)
 - [Evidence Radar](methods/EVIDENCE_RADAR.md)
