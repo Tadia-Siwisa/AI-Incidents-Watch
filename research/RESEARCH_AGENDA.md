@@ -1,10 +1,20 @@
 # AI Agent Incident Watch — Working research agenda
 
-*Agreed 9 November 2026. Working agenda, not yet a set of completed results. The research log is in [RESEARCH_LOG.md](RESEARCH_LOG.md).*
+*Initial research question agreed 9 November 2026; methodological expansion agreed later that day. This is a working agenda, not completed findings. See the [research log](RESEARCH_LOG.md) and the [agreed trajectory-analysis methodology](methods/SOCIOTECHNICAL_INCIDENT_TRAJECTORY_ANALYSIS.md).*
 
 ## Primary research question
 
 > **Under what conditions, and through what mechanisms, do AI agents attempt or perform actions beyond their assigned tasks or authorized scope, and what happens when they do?**
+
+## Broader sociotechnical systems framing (agreed 9 November)
+
+> What do documented AI-agent incidents reveal about the relationship between agent behavior, operating conditions, system boundaries, and consequential outcomes?
+
+This is the **broader interpretive lens**, not an unapproved replacement for the working research question above. The investigation now uses [Sociotechnical Incident Trajectory Analysis](methods/SOCIOTECHNICAL_INCIDENT_TRAJECTORY_ANALYSIS.md): nine dimensions to reconstruct the task/environment → initiating conditions → action sequence → mechanism → boundary → reach → outcome → detection and response.
+
+**Reporting and evidence visibility is a separate cross-cutting analysis**, examining public disclosure detail, evidence reliability and missingness across every trajectory and evidence category. Do not conflate incomplete public reporting with failure of real-time operational detection.
+
+**First phase:** Screen and reconstruct a small, contrasting sample, then **discuss all case findings in chat before changing the dataset or extending to bulk coding**. Follow up by comparing full-corpus trajectories and emergent system-interaction patterns; action labels alone do not define the final taxonomy. The full dated protocol is in the linked methodology document.
 
 ## First principle: behavior before explanation
 
@@ -36,7 +46,11 @@ First establish **what an agent actually attempted or did**. Then examine the **
 
 **Initial evidence-landscape observation:** 139 / 188 (73.9%) are research-demonstration, vulnerability, or controlled evaluation evidence. This reflects the collected sources, not the population rate of real-world agent failures.
 
-## Next phase: inductive behavior coding
+## Historical next-phase plan (superseded by the agreed trajectory methodology)
+
+The following behavior-first outline was agreed earlier on 9 November and remains here for provenance. It has been expanded into the **nine-dimension trajectory reconstruction plus separate reporting analysis** described above and in the methodology document. The current next step is a **contrasting-case pilot and discussion**, not immediate full-corpus recoding.
+
+### Earlier plan: inductive behavior coding
 
 1. Read the existing source-evidence records within each locked category; retain source ID, URL, original account, and evidence qualification.
 2. Record the **observable action** in plain language, including whether it was attempted, blocked, or completed. Capture the agent's role; distinguish tool use, developer instruction, attacker instruction and demonstrated vulnerability.
@@ -59,4 +73,4 @@ An action attempted or performed by an AI agent beyond its assigned task, author
 - Do not estimate real-world probabilities or causation from this selected source collection.
 - Record decisions in [RESEARCH_LOG.md](RESEARCH_LOG.md) before changing definitions, numbers or source classifications.
 
-**Status:** Category-fit review complete; inductive behavior extraction **not started**.
+**Current status (9 November):** Category-fit review complete; the nine-dimension methodology is documented; **new trajectory coding and comparative findings have not yet been finalized**.
