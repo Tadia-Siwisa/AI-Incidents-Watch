@@ -87,6 +87,22 @@ An out-of-scope action is an AI agent's attempted or completed action beyond its
 
 **Next action:** Begin the agreed behavior-first inductive review using the current 188-source classification and reading workbook.
 
+## 2026-11-09 — Agreed sociotechnical incident trajectory methodology
+
+**Decision:** Examine AI-agent incidents as sociotechnical system interactions, reconstructing evidence-supported incident trajectories rather than categorizing isolated actions. The original scope-and-authorization research question remains recorded; a broader systems question guides synthesis.
+
+**Documented protocol:** [Sociotechnical Incident Trajectory Analysis](methods/SOCIOTECHNICAL_INCIDENT_TRAJECTORY_ANALYSIS.md).
+
+**Nine incident-trajectory dimensions:** (1) Task and authorization, (2) operating environment, (3) initiating conditions and direction, (4) observed action sequence, (5) mechanism or pathway, (6) boundary interaction, (7) system reach and affected environment, (8) outcome and consequences, and (9) operational detection and response.
+
+**Separate research inquiry:** Public **reporting and evidence visibility** is cross-cutting, not a tenth trajectory dimension. Examine completeness, published source support, corrections and omissions across all 188 source records. Absence of public detail does not establish ineffective operational monitoring.
+
+**Plan:** Keep 188 November-reviewed sources and five existing evidence categories fixed. Begin with a pilot of contrasting documented cases (controlled research reaching real systems, externally redirected agent behavior, operational events, and vulnerability-only evidence). Reconstruct the nine dimensions where supported and discuss case findings **in chat before changing any dataset, settled coding, or analytical output**. Then undertake full-source screening, comparative trajectory analysis, separate reporting analysis and synthesis into established findings, evidence-supported suggestions and unresolved questions.
+
+**Current status:** Methodology agreed and documented; no new trajectory reconstructions or counts finalized. No source files or datasets edited.
+
+**Next action:** Present contrasting-case pilot with evidence gaps and alternative explanations for research discussion.
+
 ---
 
 ## Template for future entries
