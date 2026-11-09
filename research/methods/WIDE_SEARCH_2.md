@@ -1,6 +1,6 @@
 # Wide Search 2
 
-`AI_Incident_Watch_WIDE_Search_2.xlsx` is a separate expanded discovery register current through 14 October 2026. It does not change the 46-family factual baseline or the dated evidence-update workbook.
+`data/history/2026-10/AI_Incident_Watch_WIDE_Search_2.xlsx` is a separate expanded discovery register current through 14 October 2026. It does not change the 46-family factual baseline or the dated evidence-update workbook.
 
 ## What it contains
 
@@ -58,7 +58,7 @@ The dated raw search output is under `data/monitoring/raw/2026-10-14/`. Retrieve
 
 ## Dated discovery supplement: 28 October 2026
 
-A source-linked, non-adjudicated intake supplement for **21–28 October 2026** is stored at [`data/intake/weekly_research_2026-10-28.json`](data/intake/weekly_research_2026-10-28.json).
+A source-linked, non-adjudicated intake supplement for **21–28 October 2026** is stored at [`data/intake/weekly_research_2026-10-28.json`](../../data/intake/weekly_research_2026-10-28.json).
 
 The supplement contains **seven candidate records first disclosed within the window**, **two additional OpenAI internal-operation backfills disclosed 20 October**, **one evidence update to existing UK AISI/Anthropic case N15 / PP-056**, and **two screened adjacent stories**. These are research records, not all confirmed autonomous-agent misconduct. Case evidence categories include attacker-directed misuse, operational prompt injection, and controlled assessment.
 
