@@ -26,12 +26,11 @@
 - [Scripts guide](../scripts/README.md)
 - [Archived Codex exploratory report (working draft)](../archive/reports/codex_exploratory_2026-10-13/)
 
-## Not yet synchronized to GitHub
+## Current reviewed workbooks — synchronized 9 November 2026
 
-These newer working files exist in the ChatGPT file workspace but are not yet committed:
+- [188-source five-category fit audit](../data/working/2026-11-09/AI_Incident_Watch_188_Full_Category_Fit_Pass_2026-11-09.xlsx)
+- [188-source plain-language reading workbook](../data/working/2026-11-09/AI_Incident_Watch_188_Source_Reading_File_2026-11-09.xlsx)
 
-- `AI_Incident_Watch_188_Full_Category_Fit_Pass_2026-11-09.xlsx`
-- `AI_Incident_Watch_188_Source_Reading_File_2026-11-09.xlsx`
-- `AI_Incident_Watch_Full_188_Reconciliation_2026-11-07.xlsx`
+**Still outside GitHub:** `AI_Incident_Watch_Full_188_Reconciliation_2026-11-07.xlsx` (separate source-to-episode analysis).
 
 The previous combined research-log workbook is superseded as a navigation and documentation source by [RESEARCH_LOG.md](RESEARCH_LOG.md) and [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md).
