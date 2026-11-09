@@ -23,7 +23,7 @@ The longer **13 October Codex-generated exploratory analysis** is *not* an appro
 | Original factual reconciliation | **46 case families** | Reconciled from **63 imported rows**, reviewed in October |
 | Expanded Wide Search 2 | **225 candidate/source records** | Broad discovery pool, not confirmed incidents |
 | Selected evidence-review corpus | **188 source records** | Working sources; not 188 distinct agent executions |
-| Current category review (9 November 2026) | **188 source records** | Reviewed into five evidence categories |
+| Current category review (9 November 2026) | **188 source records** | [Five-category classification audit](data/working/2026-11-09/AI_Incident_Watch_188_Full_Category_Fit_Pass_2026-11-09.xlsx), with a separate [reading file](data/working/2026-11-09/AI_Incident_Watch_188_Source_Reading_File_2026-11-09.xlsx) |
 
 **Current evidence-source categories (9 November review):**
 
@@ -38,7 +38,7 @@ The longer **13 October Codex-generated exploratory analysis** is *not* an appro
 
 **First broad conclusion:** 139 of 188 sources (73.9%) describe security demonstrations, vulnerability research or controlled evaluations. This is the makeup of the *collected evidence*, not the prevalence of agent failures in the world. Source type and affected environment are separate dimensions: a research evaluation may contact a real system.
 
-**Version clarification:** The repository contains the [30 October 188-source evidence ledger](data/working/review_snapshot_2026-10-30/188_evidence_ledger.csv). The 9 November category-fit and plain-language 188-source reading workbooks currently exist outside this repository and still need to be added; the older ledger should not be presented as the new audited classification.
+**Version clarification:** The repository contains the [30 October 188-source evidence ledger](data/working/review_snapshot_2026-10-30/188_evidence_ledger.csv). The [9 November classification audit](data/working/2026-11-09/AI_Incident_Watch_188_Full_Category_Fit_Pass_2026-11-09.xlsx) and [188-source reading workbook](data/working/2026-11-09/AI_Incident_Watch_188_Source_Reading_File_2026-11-09.xlsx) are now synchronized here. The October 30 evidence ledger remains a historical input snapshot, not the current reviewed classification.
 
 ## Research process
 
