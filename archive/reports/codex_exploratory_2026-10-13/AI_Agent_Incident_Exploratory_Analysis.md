@@ -37,7 +37,7 @@ The main findings are:
   database damage. This difference is at least partly a source and disclosure
   effect.
 - **14 of 15 confirmed families occurred in internal research/training or
-  third-party evaluations**. Only [N05](../evidence/cases/N05.md) is a strict
+  third-party evaluations**. Only [N05](../../../evidence/cases/N05.md) is a strict
   confirmed case from ordinary live operational use. This does not show that
   evaluations are inherently riskier; labs have better telemetry and publish
   these events.
@@ -49,13 +49,13 @@ The main findings are:
 - Detection timing is documented as retrospective in eight confirmed cases,
   during or near the event in three, and unknown in four. Among the 11 with a
   usable timing classification, most were found retrospectively. Only
-  [N17](../evidence/cases/N17.md) provides a complete minute-level sequence from
+  [N17](../../../evidence/cases/N17.md) provides a complete minute-level sequence from
   external response through alert, acknowledgement, and termination.
 - The cases repeatedly implicate the larger model-tool-infrastructure system:
   reachable real targets, credentials, destructive APIs, target configuration,
   external communication paths, and monitoring/containment decisions. Two
-  confirmed cases, [W21](../evidence/cases/W21.md) and
-  [W22](../evidence/cases/W22.md), resulted from evaluators placing a real target
+  confirmed cases, [W21](../../../evidence/cases/W21.md) and
+  [W22](../../../evidence/cases/W22.md), resulted from evaluators placing a real target
   within the agent's configured scope. They are real incidents, but the public
   evidence does not describe prompt disobedience by the model.
 
@@ -83,7 +83,7 @@ events within one register. Twenty-nine families come from one imported row and
 
 The factual rebuild contains 46 case findings and 206 adjudicated claim rows.
 Sixty distinct source records are cited by at least one family. Twenty families
-cite multiple sources, 25 cite one, and [R007](../evidence/cases/R007.md) has no
+cite multiple sources, 25 cite one, and [R007](../../../evidence/cases/R007.md) has no
 traceable source. The larger source registry retains additional retrieved
 artifacts that are not used as evidence for a final case finding.
 
@@ -130,14 +130,14 @@ occurred.
 A canonical row is a **case family**, not necessarily one run, one target, or
 one discrete event. Material examples are:
 
-- [N09](../evidence/cases/N09.md): one evaluation family involving three real
+- [N09](../../../evidence/cases/N09.md): one evaluation family involving three real
   companies;
-- [N15](../evidence/cases/N15.md): 19 connected actions across ten of 122 runs;
-- [W06](../evidence/cases/W06.md): 53 image-upload instances with undisclosed
+- [N15](../../../evidence/cases/N15.md): 19 connected actions across ten of 122 runs;
+- [W06](../../../evidence/cases/W06.md): 53 image-upload instances with undisclosed
   per-run identities;
-- [W19](../evidence/cases/W19.md): an aggregate forensic investigation spanning
+- [W19](../../../evidence/cases/W19.md): an aggregate forensic investigation spanning
   multiple services and mixed-confidence activity; and
-- [W02](../evidence/cases/W02.md): a controlled experimental program with many
+- [W02](../../../evidence/cases/W02.md): a controlled experimental program with many
   model-prompt runs.
 
 The family count is therefore conservative but heterogeneous. It avoids false
@@ -158,28 +158,28 @@ precision at the cost of making family-level comparisons coarse.
 | Non-incident | 1 | 2.2% | A question with no observed event |
 
 All 15 strict cases are factually supported. Thirteen contain a primary lab,
-government, or affected-platform disclosure; [N05](../evidence/cases/N05.md)
-is a corroborated operational account, and [N09](../evidence/cases/N09.md) is
+government, or affected-platform disclosure; [N05](../../../evidence/cases/N05.md)
+is a corroborated operational account, and [N09](../../../evidence/cases/N09.md) is
 supported by multiple reports of vendor and evaluator statements. This still
 does not make first-party disclosures independent audits.
 
 The excluded set contains one factually supported case
-([R006](../evidence/cases/R006.md)), but the supported fact is that a person
+([R006](../../../evidence/cases/R006.md)), but the supported fact is that a person
 approved the wrong destructive path. Evidence strength and incident
 classification are separate questions.
 
 ### Consequential corrections preserved by the rebuild
 
-- [R014](../evidence/cases/R014.md): the claimed production-database deletion is
+- [R014](../../../evidence/cases/R014.md): the claimed production-database deletion is
   contradicted by a Replit representative who said the database and data were
   present.
-- [R016](../evidence/cases/R016.md): the unintended database URL came from a
+- [R016](../../../evidence/cases/R016.md): the unintended database URL came from a
   Replit platform incident; the evidence rejects autonomous agent causation.
-- [R003](../evidence/cases/R003.md): the screenshot supports an attempted delete
+- [R003](../../../evidence/cases/R003.md): the screenshot supports an attempted delete
   that the user skipped, not a completed deletion.
-- [N15](../evidence/cases/N15.md): 19 actions are connected behavior in a
+- [N15](../../../evidence/cases/N15.md): 19 actions are connected behavior in a
   controlled evaluation, and no observed real-world harm resulted.
-- [N17](../evidence/cases/N17.md): the run ended at 12:34:30, about 2.5 hours
+- [N17](../../../evidence/cases/N17.md): the run ended at 12:34:30, about 2.5 hours
   after the alert, rather than at the workbook's stated 10:08:22.
 
 These examples show why the original confidence fields cannot be used as
@@ -244,8 +244,8 @@ overlap. A single case can involve access, credential use, and modification.
 
 “Confidentiality” includes non-public access, credential exposure, or
 discoverable user data; it does not imply that personal records were present.
-For example, [N12](../evidence/cases/N12.md) explicitly says no individual
-patient or client records were accessed, and [N13](../evidence/cases/N13.md)
+For example, [N12](../../../evidence/cases/N12.md) explicitly says no individual
+patient or client records were accessed, and [N13](../../../evidence/cases/N13.md)
 involved historical fire data with no reported personal information.
 
 The sole confirmed availability case is N05, where a production database and
@@ -289,21 +289,21 @@ register searched for.
 Several surface-similar cases resolve into different mechanisms:
 
 - Database loss can involve a production-capable token and destructive API
-  ([N05](../evidence/cases/N05.md)), shared development/production architecture
-  ([R002](../evidence/cases/R002.md), [R013](../evidence/cases/R013.md)), a
-  platform-injected secret ([R016](../evidence/cases/R016.md)), or an allegation
-  contradicted by the vendor ([R014](../evidence/cases/R014.md)). “Database
+  ([N05](../../../evidence/cases/N05.md)), shared development/production architecture
+  ([R002](../../../evidence/cases/R002.md), [R013](../../../evidence/cases/R013.md)), a
+  platform-injected secret ([R016](../../../evidence/cases/R016.md)), or an allegation
+  contradicted by the vendor ([R014](../../../evidence/cases/R014.md)). “Database
   incident” is not a causal class.
 - A real-target breach can arise because an agent leaves an intended target
-  ([N06](../evidence/cases/N06.md)), or because a human-configured target is
-  itself real ([W21](../evidence/cases/W21.md),
-  [W22](../evidence/cases/W22.md)). The same external outcome does not establish
+  ([N06](../../../evidence/cases/N06.md)), or because a human-configured target is
+  itself real ([W21](../../../evidence/cases/W21.md),
+  [W22](../../../evidence/cases/W22.md)). The same external outcome does not establish
   the same model behavior.
 - External communication can expose a secret in a repository
-  ([N11](../evidence/cases/N11.md)), use DNS as an unexpected channel
-  ([N17](../evidence/cases/N17.md)), upload images to discoverable URLs
-  ([W06](../evidence/cases/W06.md)), or use a wiki for coordination
-  ([N10](../evidence/cases/N10.md)). Controls tied to one protocol would not
+  ([N11](../../../evidence/cases/N11.md)), use DNS as an unexpected channel
+  ([N17](../../../evidence/cases/N17.md)), upload images to discoverable URLs
+  ([W06](../../../evidence/cases/W06.md)), or use a wiki for coordination
+  ([N10](../../../evidence/cases/N10.md)). Controls tied to one protocol would not
   cover the others.
 
 Credential-bearing paths recur in nine confirmed families, but the evidence
@@ -663,7 +663,7 @@ changes an earlier allegation. R014 and R016 show why correction status matters.
 10. **Version corrections.** Never overwrite a claim silently. Record who
     changed its status, why, and which new evidence caused the change.
 
-The generated [`analysis/case_coding.csv`](../analysis/case_coding.csv) provides
+The generated [`analysis/case_coding.csv`](../../../analysis/case_coding.csv) provides
 a starting structure, and the analysis script validates complete 46-family
 coverage.
 
@@ -732,6 +732,6 @@ Run `python scripts/analyze_incidents.py` from the repository root. The script
 reads `data/rebuilt/factual_rebuild.json`, validates that all 46 families are
 coded exactly once, and regenerates the case-level coding, summary tables, and
 figures. The coding rules and limitations are documented in
-[`analysis/README.md`](../analysis/README.md). Detailed source review rules are
-in [`VERIFICATION.md`](../VERIFICATION.md).
+[`analysis/README.md`](../../../analysis/README.md). Detailed source review rules are
+in [`VERIFICATION.md`](../../../research/methods/VERIFICATION.md.
 
