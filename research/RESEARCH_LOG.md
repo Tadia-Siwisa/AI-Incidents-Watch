@@ -69,6 +69,16 @@ An out-of-scope action is an AI agent's attempted or completed action beyond its
 
 **Outstanding housekeeping:** Some newer working Excel audit and reading artifacts are available in the ChatGPT library rather than the repository; any future repository migration should preserve filenames, provenance and version dates.
 
+## 2026-11-09 — Repository cleanup and publication distinction
+
+**Decision:** The root README becomes the main project navigation page. Historical October workbooks are retained under `data/history/2026-10/` (same bytes, unchanged original file names). Supporting verification and collection documents now live under `research/methods/`. Raw evidence stays in `evidence/` and historical derived analysis in `analysis/`.
+
+**Publication status:** The author's 6 October 2026 *Artificial Actors in Real-World Systems* is the first authored research report. A GitHub text-only reading edition was extracted from its 14-page PDF; the original designed PDF has not yet been committed. The 13 October Codex exploratory report and its PDF/figures are **working drafts**, now archived rather than listed as official publications.
+
+**Reproducibility:** Historical Python build paths were updated to their moved workbook and draft-report locations; source-linked case evidence was not deleted. The substantive source records and counts were not changed as part of cleanup.
+
+**Pending:** Synchronize the newer November 188-source classification and reading workbooks into `data/working/` and add the original published PDF when binary-file upload is available. The active analysis remains observed agent actions, their inductive behavior groups and counts.
+
 ---
 
 ## Template for future entries
