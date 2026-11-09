@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "rebuilt"
 ANALYSIS = ROOT / "analysis"
 TABLES = ANALYSIS / "tables"
-FIGURES = ROOT / "reports" / "figures"
+FIGURES = ROOT / "archive" / "reports" / "codex_exploratory_2026-10-13" / "figures"
 
 
 def labels(value: str) -> list[str]:

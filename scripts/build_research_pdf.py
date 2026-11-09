@@ -12,8 +12,8 @@ import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "reports/AI_Agent_Incident_Exploratory_Analysis.md"
-OUTPUT = ROOT / "reports/AI_Agent_Incident_Exploratory_Analysis.pdf"
+SOURCE = ROOT / "archive/reports/codex_exploratory_2026-10-13/AI_Agent_Incident_Exploratory_Analysis.md"
+OUTPUT = ROOT / "archive/reports/codex_exploratory_2026-10-13/AI_Agent_Incident_Exploratory_Analysis.pdf"
 GITHUB_BLOB = "https://github.com/Tadia-Siwisa/AI-Incidents-Watch/blob/main/"
 
 LATEX_HEADER = r"""
@@ -86,7 +86,7 @@ def build() -> None:
         r"^# Exploratory analysis of reported AI-agent incidents\s*\n", "", markdown, count=1
     )
     markdown = re.sub(
-        r"\]\(\.\./([^)]+)\)",
+        r"\]\(\.\./\.\./\.\./([^)]+)\)",
         lambda match: f"]({GITHUB_BLOB}{match.group(1)})",
         markdown,
     )

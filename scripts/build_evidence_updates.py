@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/monitoring/evidence_updates_2026-10-13.json"
 WATCH = ROOT / "data/monitoring/case_watch_2026-10-13.json"
 BASELINE = ROOT / "data/rebuilt/factual_rebuild.json"
-OUTPUT = ROOT / "AI_Incident_Watch_Evidence_Updates.xlsx"
+OUTPUT = ROOT / "data/history/2026-10/AI_Incident_Watch_Evidence_Updates.xlsx"
 
 NAVY = "17365D"
 BLUE = "2F75B5"

@@ -13,7 +13,7 @@ from openpyxl.utils import get_column_letter
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "AI_Incident_Watch_Master_Reading_List.xlsx"
+OUTPUT = ROOT / "data/history/2026-10/AI_Incident_Watch_Master_Reading_List.xlsx"
 REBUILD = json.loads((ROOT / "data/rebuilt/factual_rebuild.json").read_text())
 SOURCES = json.loads((ROOT / "data/rebuilt/factual_sources.json").read_text())
 

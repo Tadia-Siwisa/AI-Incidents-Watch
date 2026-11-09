@@ -26,7 +26,7 @@ from openpyxl.worksheet.dimensions import ColumnDimension
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "wide_search_2"
 EVIDENCE = ROOT / "evidence" / "wide_search_2" / "2026-10-14"
-OUTPUT = ROOT / "AI_Incident_Watch_WIDE_Search_2.xlsx"
+OUTPUT = ROOT / "data/history/2026-10/AI_Incident_Watch_WIDE_Search_2.xlsx"
 REGISTER_OUTPUT = DATA / "wide_search_2_register_2026-10-14.json"
 
 PERMISSION_FILE = DATA / "permission_protocol_records_2026-10-05.json"
