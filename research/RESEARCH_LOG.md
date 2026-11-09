@@ -79,6 +79,14 @@ An out-of-scope action is an AI agent's attempted or completed action beyond its
 
 **Pending:** Synchronize the newer November 188-source classification and reading workbooks into `data/working/` and add the original published PDF when binary-file upload is available. The active analysis remains observed agent actions, their inductive behavior groups and counts.
 
+## 2026-11-09 — Current 188-source workbooks synchronized
+
+**Action completed:** Uploaded the original Excel files unchanged into `data/working/2026-11-09/`: `AI_Incident_Watch_188_Full_Category_Fit_Pass_2026-11-09.xlsx` (six sheets, 188-review-row worksheet) and `AI_Incident_Watch_188_Source_Reading_File_2026-11-09.xlsx` (six sheets, 188-source reading list and index). Verified both workbooks as valid ZIP/Open XML packages and checked their Git blob hashes match the originals. Updated repository navigation links.
+
+**Scope:** No recoding, changes to classifications, new incident claims, or alteration of source descriptions was performed during this synchronization. October 30 ledger remains a prior dated evidence snapshot. The separate November 7 source-to-episode reconciliation is not part of this two-file upload.
+
+**Next action:** Begin the agreed behavior-first inductive review using the current 188-source classification and reading workbook.
+
 ---
 
 ## Template for future entries
