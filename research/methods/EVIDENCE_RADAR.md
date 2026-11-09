@@ -1,6 +1,6 @@
 # Evidence update radar
 
-The 46-family master reading list is the factual baseline as of 9 October 2026. It remains unchanged while later evidence is reviewed. Dated changes are recorded in `AI_Incident_Watch_Evidence_Updates.xlsx` so new reporting cannot silently alter the original findings.
+The 46-family master reading list is the factual baseline as of 9 October 2026. It remains unchanged while later evidence is reviewed. Dated changes are recorded in `data/history/2026-10/AI_Incident_Watch_Evidence_Updates.xlsx` so new reporting cannot silently alter the original findings.
 
 ## First delta scan: 13 October 2026
 
