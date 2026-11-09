@@ -8,7 +8,7 @@
 
 The study starts with **what an agent was observed attempting or doing**. We then examine the assigned task, technical access, authorization, environmental conditions, sequence of actions, real-world reach and observed outcomes. A reported vulnerability or security test is not automatically a confirmed unauthorized autonomous action.
 
-[Research agenda](research/RESEARCH_AGENDA.md) · [Dated research log](research/RESEARCH_LOG.md)
+[Research agenda](research/RESEARCH_AGENDA.md) · [Agreed trajectory methodology](research/methods/SOCIOTECHNICAL_INCIDENT_TRAJECTORY_ANALYSIS.md) · [Dated research log](research/RESEARCH_LOG.md)
 
 ## Published research
 
@@ -42,9 +42,9 @@ The longer **13 October Codex-generated exploratory analysis** is *not* an appro
 
 ## Research process
 
-**Collect → verify → reconcile → classify the evidence → identify observed actions → derive behavioral groups → study scope, conditions, mechanisms and consequences.**
+**Collect → verify → reconcile → classify evidence → reconstruct sociotechnical trajectories → compare system-level patterns → analyze reporting visibility separately → synthesize findings.**
 
-The current phase is **inductive extraction and grouping of attempted/completed agent actions within the five source categories**, followed by counts of how often each behavior group appears. Agent actions are the focus; outcome and whether the behavior reached a real system will be coded separately. No new action-group results have yet been finalized.
+The current methodological plan reconstructs **nine incident-trajectory dimensions** (from task and operating conditions through actions, boundaries, effects, and operational detection). **Public reporting and evidence visibility** is a separate cross-cutting analysis. We will first pilot this approach on contrasting cases and **discuss findings in chat before changing any research data or settled analytical coding**. No new nine-dimensional trajectories have yet been finalized.
 
 ## Find your way around the repository
 
@@ -62,4 +62,4 @@ The hidden `.github/` directory holds automation, including incident-intake work
 
 **Research caution:** The study is disclosure-limited, and many cases lack complete tool traces or authorization details. Distinguish sources, distinct runs, case families and affected objects; never interpret raw counts as vendor/model failure rates.
 
-**Next:** study the observed AI-agent behaviors in each source-evidence group, without imposing predetermined behavior categories.
+**Next:** pilot an evidence-supported sociotechnical trajectory reconstruction on contrasting sources, discuss uncertainties and the framework, then review the full 188-source snapshot inductively without imposing predetermined behavior categories.
