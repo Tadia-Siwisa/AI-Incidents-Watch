@@ -1,5 +1,7 @@
 # Exploratory analysis layer
 
+This folder contains **historical 46-case analytical coding** and tables. The associated Codex-generated report was a working draft and is now [archived](../archive/reports/codex_exploratory_2026-10-13/). This is not the current 188-source study.
+
 This directory contains conservative analytical coding derived from the
 adjudicated case findings in `data/rebuilt/factual_rebuild.json`.
 
