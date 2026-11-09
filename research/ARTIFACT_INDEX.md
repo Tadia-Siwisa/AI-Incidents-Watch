@@ -1,42 +1,37 @@
-# Research artifacts — reports, scripts, and sources
+# Research artifact index
 
-This page provides a stable entry point to the repository's **existing research outputs**. They remain in their established directories so scripts and references continue to work. The research log and agenda are standalone in this `research/` directory.
+[Project overview](../README.md) · [Research agenda](RESEARCH_AGENDA.md) · [Research log](RESEARCH_LOG.md)
 
-## Canonical documentation
-- [Chronological research log](RESEARCH_LOG.md)
-- [Working research agenda and questions](RESEARCH_AGENDA.md)
-- [Repository introduction and historical stages](../README.md)
-- [Source evidence verification notes](../VERIFICATION.md)
-- [Incident intake documentation](../docs/INCIDENT_INTAKE.md)
+## Published research
+- [Artificial Actors in Real-World Systems — text reading edition](../reports/published/Artificial_Actors_in_Real_World_Systems_2026-10-06_TEXT.md) — Tadia Siwisa, 6 October 2026. Original illustrated PDF is not yet uploaded to GitHub.
 
-## Reports already in the repository
-- [Exploratory analysis report (Markdown)](../reports/AI_Agent_Incident_Exploratory_Analysis.md)
-- [Exploratory analysis report (PDF)](../reports/AI_Agent_Incident_Exploratory_Analysis.pdf)
-- [Report figures](../reports/figures/)
+## Datasets and historical registers
+- [188-source evidence ledger — 30 October snapshot](../data/working/review_snapshot_2026-10-30/188_evidence_ledger.csv)
+- [Dataset guide and workbook version history](../data/README.md)
+- [Historical October Excel workbooks](../data/history/2026-10/)
+- [46-family factual reconstruction](../data/rebuilt/factual_rebuild.json)
+- [Original input records](../data/original/)
+- [225-candidate wider discovery set](../data/wide_search_2/)
+- [Incoming unverified leads](../data/intake/)
 
-## Analysis and evidence tables already in the repository
-- [Analysis guide](../analysis/README.md)
-- [Analysis tables](../analysis/tables/)
-- [Historical 46-case factual rebuild](../data/rebuilt/factual_rebuild.json)
-- [30 October 188-source evidence snapshot](../data/working/review_snapshot_2026-10-30/188_evidence_ledger.csv)
+## Supporting research and methods
+- [Verification protocol](methods/VERIFICATION.md)
+- [Wide Search 2 methodology](methods/WIDE_SEARCH_2.md)
+- [Evidence Radar](methods/EVIDENCE_RADAR.md)
+- [Incident intake procedure](methods/INCIDENT_INTAKE.md)
+- [Preserved evidence sources](../evidence/)
+- [Historical 46-family coding and tables](../analysis/)
 
-## Existing scripts (not moved)
-- [Incident analysis](../scripts/analyze_incidents.py)
-- [Factual rebuild](../scripts/build_factual_rebuild.py)
-- [Evidence-update builder](../scripts/build_evidence_updates.py)
-- [Master reading-list builder](../scripts/build_master_reading_list.py)
-- [Research PDF builder](../scripts/build_research_pdf.py)
-- [Wide Search 2 builder](../scripts/build_wide_search_2.py)
-- [Incident intake updater](../scripts/update_incident_intake.py)
-- [All existing scripts](../scripts/)
+## Reproducible scripts and archives
+- [Scripts guide](../scripts/README.md)
+- [Archived Codex exploratory report (working draft)](../archive/reports/codex_exploratory_2026-10-13/)
 
-## Important files not yet present in this GitHub repository
+## Not yet synchronized to GitHub
 
-The following were generated separately in the ChatGPT file library/workspace and **have not been added to this GitHub repository** by this documentation change:
+These newer working files exist in the ChatGPT file workspace but are not yet committed:
 
-- `AI_Incident_Watch_188_Full_Category_Fit_Pass_2026-11-09.xlsx` — working five-category source classification.
-- `AI_Incident_Watch_188_Source_Reading_File_2026-11-09.xlsx` — plain-language source reading list.
-- `AI_Incident_Watch_Full_188_Reconciliation_2026-11-07.xlsx` — source-to-episode reconciliation.
-- `AI_Incident_Watch_188_Research_Log_and_Agenda_2026-11-09.xlsx` — original combined workbook; key methodological content is now preserved in standalone Markdown files here.
+- `AI_Incident_Watch_188_Full_Category_Fit_Pass_2026-11-09.xlsx`
+- `AI_Incident_Watch_188_Source_Reading_File_2026-11-09.xlsx`
+- `AI_Incident_Watch_Full_188_Reconciliation_2026-11-07.xlsx`
 
-**Handling rule:** Dataset exports belong under `data/` (or a dedicated dated data-snapshot location); interpretation, decisions and session notes belong under `research/`; executable scripts stay in `scripts/`; analysis outputs stay in `analysis/` and reports in `reports/`. This index brings them together **without duplicating or relocating files**.
+The previous combined research-log workbook is superseded as a navigation and documentation source by [RESEARCH_LOG.md](RESEARCH_LOG.md) and [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md).
