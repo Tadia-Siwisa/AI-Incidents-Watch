@@ -1,5 +1,7 @@
 # Research methods and process
 
+- **[Sociotechnical Incident Trajectory Analysis](SOCIOTECHNICAL_INCIDENT_TRAJECTORY_ANALYSIS.md)** — agreed current protocol: nine trajectory dimensions, separate reporting/evidence study, 188-source review and discussion-first pilot.
+
 - [Verification methods](VERIFICATION.md) — adjudication of claims in the original factual rebuild.
 - [Expanded search](WIDE_SEARCH_2.md) — how the 225 candidate/source records were gathered.
 - [Evidence monitoring](EVIDENCE_RADAR.md) — dated scans and follow-up research.
