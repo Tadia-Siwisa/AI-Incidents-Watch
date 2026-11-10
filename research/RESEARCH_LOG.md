@@ -117,6 +117,21 @@ An out-of-scope action is an AI agent's attempted or completed action beyond its
 
 **Next:** Review WorkOS EV-00005 and compare recent disclosures to the queue for historical backfill. Confirm the scheduled tasks can create GitHub issues from their own execution context on their next normal run.
 
+
+## 2026-11-10 — Backfill of missed disclosures from 27 October
+
+**Period screened:** 27 October–10 November 2026, plus earlier incidents receiving materially new disclosures in that period. This is an initial targeted backfill, not a guarantee of exhaustive coverage.
+
+**Actions completed:** Compared the October 30 repository source ledger, pre-existing 28 October intake/reconciliation notes, and the separate incoming-evidence register. Searched for official disclosures and credible reporting, then added 11 `[Evidence]` intake issues (#6–#16), in addition to the already staged WorkOS update (#5). All 12 are recorded as **Pending review** in `data/intake/incoming_evidence.json` and its generated Excel workbook. Existing incidents and the 188-source reviewed dataset were not changed.
+
+**Source types covered:** Existing-incident updates (OpenAI monitoring, Chainalysis revisions, Australian Medicare review), reported operational events (WorkOS, disputed Pentagon/Claude Code report, Railway/Primcloud), attacker-directed AI use (two distinct Microsoft research items), product/security vulnerabilities (Apiiro coding-agent settings), and screened adjacent infrastructure incidents (Binance, NEAR AI, Mittwald). These are incoming *evidence records*, not 12 newly confirmed incidents. Some are likely contextual rather than eligible for a strict autonomous-deviation cohort.
+
+**Pipeline reliability correction:** In a burst of issue submissions the initial Actions trigger did not reliably capture every issue in the JSON/XLSX register. Changed `scripts/update_evidence_intake.py` to reconcile all owner-authored `[Evidence]` issues on every run using the GitHub read-only issue API; the GitHub Action now supplies the scoped `GITHUB_TOKEN`. Reconciliation recovered all 12 issues. Future issue creation should not depend on a single event being delivered or run to completion.
+
+**Outstanding work:** Compare the 12 entries with all current case/episode family mappings, verify source details and caveats, and discuss dispositions before approving any promotion. Consider additional targeted search of incident-watch reports and source trackers for potential omissions; the backfill is preliminary. Do not count one report, one campaign, or one victim as one autonomous AI-agent incident.
+
+**Next action:** In the research chat, start with major evidence-changing updates (WorkOS and Chainalysis) and research-environment-to-real-system cases, then review human-directed operations and contextual records separately.
+
 ---
 
 ## Template for future entries
