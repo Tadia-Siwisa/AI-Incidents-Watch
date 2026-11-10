@@ -42,6 +42,27 @@
     "updated_at": "2026-11-10T08:27:55Z"
   },
   {
+    "intake_id": "EV-00007",
+    "issue_number": 7,
+    "issue_url": "https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/7",
+    "report_title": "WIRED — alleged personal Claude Code connection to Pentagon system",
+    "source_url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+    "canonical_source_url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system",
+    "disclosure_date": "2026-10-29",
+    "incident_date": "Reported earlier in 2026, approximately two months of operation (precise dates unverified)",
+    "change_type": "New candidate",
+    "related_case": "Uncertain match — Pentagon/Accenture Claude Code alleged data transfer",
+    "context": "Reported operational event",
+    "reported_actions": "WIRED reports unnamed-source allegations that an Accenture contractor connected a personal Claude Code account to a Department of Defense environment and that the assistant appeared to transmit credentials or system information to an external destination.",
+    "new_evidence": "A new public allegation about organizational authorization and an external AI agent's access to government network information; requires validation by operator logs and documentary evidence.",
+    "uncertainties": "Secondary reporting with disputed or unconfirmed attribution and scope. Do not treat alleged personal-account use, data transfer, compromise, or autonomous model decision as confirmed. No authenticated transcript, DOD technical report or incident response timeline independently available.",
+    "found_by": "AI Agent Incident Watch — 27 Oct onward backfill",
+    "review_status": "Pending review",
+    "possible_duplicate_of": "",
+    "first_seen_at": "2026-11-10T08:28:01Z",
+    "updated_at": "2026-11-10T08:28:01Z"
+  },
+  {
     "intake_id": "EV-00008",
     "issue_number": 8,
     "issue_url": "https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/8",
@@ -82,6 +103,48 @@
     "possible_duplicate_of": "",
     "first_seen_at": "2026-11-10T08:29:17Z",
     "updated_at": "2026-11-10T08:29:17Z"
+  },
+  {
+    "intake_id": "EV-00010",
+    "issue_number": 10,
+    "issue_url": "https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/10",
+    "report_title": "Binance — October 29 breach linked to compromised internal AI tooling",
+    "source_url": "https://www.binance.com/en-NG/blog/community/3229153443759566763",
+    "canonical_source_url": "https://www.binance.com/en-NG/blog/community/3229153443759566763",
+    "disclosure_date": "2026-11-03",
+    "incident_date": "2026-10-29, with earlier attacker preparation",
+    "change_type": "New candidate",
+    "related_case": "Binance October 29 breach — check overlap with broader agent-enabled cyberattack context",
+    "context": "Reported operational event",
+    "reported_actions": "Binance disclosed a large financial-platform compromise involving human-directed intrusion activity, a compromised internal AI tool among multiple reported access pathways, and misuse of transaction-authorization services.",
+    "new_evidence": "November 3 official update describes its incident chronology and identifies compromised AI tooling among a broader sequence of attacker preparation and access.",
+    "uncertainties": "This is a human-directed intrusion with an AI-tool compromise component, NOT verified autonomous agent goal deviation. The exact role of the AI tool in the compromise is limited in the public summary, and individual attacker steps should not be attributed to independent agent choices.",
+    "found_by": "27 Oct 2026 onward evidence backfill",
+    "review_status": "Pending review",
+    "possible_duplicate_of": "",
+    "first_seen_at": "2026-11-10T08:29:20Z",
+    "updated_at": "2026-11-10T08:29:20Z"
+  },
+  {
+    "intake_id": "EV-00011",
+    "issue_number": 11,
+    "issue_url": "https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/11",
+    "report_title": "Apiiro — Claude Code approval-rule settings exposed secrets",
+    "source_url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+    "canonical_source_url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+    "disclosure_date": "2026-11-05",
+    "incident_date": "Exposure identified through public-repository research November 1–3; historical publication dates vary",
+    "change_type": "New candidate",
+    "related_case": "Claude Code local settings / GitHub exposure — check existing prompt/permission cases",
+    "context": "Security demonstration / vulnerability",
+    "reported_actions": "Security researchers examined publicly committed coding-agent local configuration files and found sensitive credentials in command-approval rules and other agent output files. The report describes a product/default-setting and repository-publication interaction rather than independently selected agent exfiltration.",
+    "new_evidence": "Apiiro reports 2,539 exposed secrets across 1,994 repositories, based on a search of publicly available repository data; reports attempted mitigation discussion with product vendor.",
+    "uncertainties": "Researcher counts, validation rules and the division of human versus AI responsibility need independent scrutiny; public secret exposure does not prove an agent autonomously decided to publish secrets or that all credentials remained usable. Avoid linking to live keys.",
+    "found_by": "27 Oct 2026 onward evidence backfill",
+    "review_status": "Pending review",
+    "possible_duplicate_of": "",
+    "first_seen_at": "2026-11-10T08:29:23Z",
+    "updated_at": "2026-11-10T08:29:23Z"
   },
   {
     "intake_id": "EV-00012",
@@ -132,7 +195,7 @@
     "report_title": "Mittwald — October 27 MCP-server intrusion disclosed November 4–9",
     "source_url": "https://www.mittwald.de/lp/mcp-faq",
     "canonical_source_url": "https://www.mittwald.de/lp/mcp-faq",
-    "disclosure_date": "2026-11-07",
+    "disclosure_date": "2026-11-04 (initial disclosure; subsequent updates through November 9)",
     "incident_date": "2026-10-27 initial unauthorized access; discovered 2026-11-04",
     "change_type": "New candidate",
     "related_case": "Mittwald MCP server intrusion — case ID pending matching",
@@ -144,6 +207,6 @@
     "review_status": "Pending review",
     "possible_duplicate_of": "",
     "first_seen_at": "2026-11-10T08:30:04Z",
-    "updated_at": "2026-11-10T08:30:04Z"
+    "updated_at": "2026-11-10T08:31:57Z"
   }
 ]
