@@ -46,6 +46,12 @@ The longer **13 October Codex-generated exploratory analysis** is *not* an appro
 
 The current methodological plan reconstructs **nine incident-trajectory dimensions** (from task and operating conditions through actions, boundaries, effects, and operational detection). **Public reporting and evidence visibility** is a separate cross-cutting analysis. We will first pilot this approach on contrasting cases and **discuss findings in chat before changing any research data or settled analytical coding**. No new nine-dimensional trajectories have yet been finalized.
 
+## Automated evidence intake and review
+
+The existing daily [AI Agent Incident Watch](https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues?q=is%3Aissue+%22%5BEvidence%5D%22) and AI Frontier Watch research briefings are configured to stage substantive source-linked disclosures as `[Evidence]` GitHub issues. GitHub Actions automatically generates the **[unverified incoming evidence register](data/intake/incoming_evidence.xlsx)** and its [machine-readable source](data/intake/incoming_evidence.json).
+
+This is **Stage 1 only**. Duplicate candidates are flagged, updates to an existing incident are identified, and source/reporting caveats are preserved. Stage 2 requires researcher review and explicit approval **before** any working workbook is edited. The daily automations cannot claim successful staging without a GitHub issue URL. See the [two-stage protocol](research/methods/EVIDENCE_INTAKE_AND_REVIEW.md).
+
 ## Find your way around the repository
 
 | Folder | Purpose |

@@ -103,6 +103,20 @@ An out-of-scope action is an AI agent's attempted or completed action beyond its
 
 **Next action:** Present contrasting-case pilot with evidence gaps and alternative explanations for research discussion.
 
+## 2026-11-10 — Two-stage automated report intake
+
+**Question addressed:** How can daily AI Frontier Watch and AI Agent Incident Watch disclosures be captured without losing updates or quietly changing reviewed research?
+
+**Implementation:** Added an owner-authored `[Evidence]` issue template, separate GitHub Actions staging workflow, canonical `data/intake/incoming_evidence.json`, and automatically generated `data/intake/incoming_evidence.xlsx`. Existing `[Incident]` lead intake remains separate and unchanged. Intake records retain source URL, dates, related case, changes, uncertainty, source channel and review status. Potential duplicate disclosures are flagged. Only the intake JSON/XLSX are eligible for automatic GitHub Actions commits.
+
+**Live integration test:** The 6 November WorkOS/ARTEX disclosure was submitted as [GitHub evidence issue #5](https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/5), automatically staged as **EV-00005** with `Pending review` status, and rendered in the incoming evidence workbook. The submission is an **update to an existing case**, not a new confirmed source-case record.
+
+**Scheduled reporting:** Updated the existing daily AI Agent Incident Watch and AI Frontier Watch task instructions to check for prior `[Evidence]` issues, create structured evidence-intake issues for substantive updates using connected GitHub access, and label any GitHub handoff failure `NOT STAGED`. There is no extra monitoring task.
+
+**Review boundary:** Working classification and reading workbooks were **not** updated. Promotion requires explicit discussion and researcher approval; the approved change and supporting evidence should be logged here. Current implementation supports Stage 2 as a supervised research workflow rather than an unattended workbook-writing bot.
+
+**Next:** Review WorkOS EV-00005 and compare recent disclosures to the queue for historical backfill. Confirm the scheduled tasks can create GitHub issues from their own execution context on their next normal run.
+
 ---
 
 ## Template for future entries

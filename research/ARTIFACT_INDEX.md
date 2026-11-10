@@ -35,3 +35,10 @@
 **Still outside GitHub:** `AI_Incident_Watch_Full_188_Reconciliation_2026-11-07.xlsx` (separate source-to-episode analysis).
 
 The previous combined research-log workbook is superseded as a navigation and documentation source by [RESEARCH_LOG.md](RESEARCH_LOG.md) and [RESEARCH_AGENDA.md](RESEARCH_AGENDA.md).
+
+## Automated incoming evidence and review
+
+- [Incoming evidence workbook — unverified](../data/intake/incoming_evidence.xlsx)
+- [Incoming evidence source register](../data/intake/incoming_evidence.json)
+- [Two-stage intake/review protocol](methods/EVIDENCE_INTAKE_AND_REVIEW.md)
+- [Create a source-linked evidence-intake issue](https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/new/choose)

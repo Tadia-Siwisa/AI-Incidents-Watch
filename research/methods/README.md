@@ -8,3 +8,5 @@
 - [Incident intake](INCIDENT_INTAKE.md) — GitHub Issues and the unverified lead queue.
 
 These are **methods and process documents**, not official research publications. The current analysis agenda is maintained in [RESEARCH_AGENDA.md](../RESEARCH_AGENDA.md).
+
+- [Automated evidence intake and researcher review](EVIDENCE_INTAKE_AND_REVIEW.md) — separate unverified register, duplicate handling, daily report handoff and approval-gated updates.
