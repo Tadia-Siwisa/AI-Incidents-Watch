@@ -23,6 +23,8 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install openpyxl==3.1.5
       - name: Stage unverified evidence
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_evidence_intake.py
       - name: Commit intake register and workbook only
         run: |
