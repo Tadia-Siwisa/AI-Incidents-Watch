@@ -82,5 +82,26 @@
     "possible_duplicate_of": "",
     "first_seen_at": "2026-11-10T08:29:17Z",
     "updated_at": "2026-11-10T08:29:17Z"
+  },
+  {
+    "intake_id": "EV-00012",
+    "issue_number": 12,
+    "issue_url": "https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/12",
+    "report_title": "NEAR AI — SGLang infrastructure intrusion affecting legacy agents",
+    "source_url": "https://near.ai/blog/security-incident-report-sglang-vulnerability",
+    "canonical_source_url": "https://near.ai/blog/security-incident-report-sglang-vulnerability",
+    "disclosure_date": "2026-11-09",
+    "incident_date": "2026-11-08 at latest (exact initial access not fully specified)",
+    "change_type": "New candidate",
+    "related_case": "NEAR AI inference-server intrusion — security-adjacent, not an AI agent acting out of scope",
+    "context": "Reported operational event",
+    "reported_actions": "NEAR AI reported a human/unknown attacker exploiting a vulnerability in its inference infrastructure, accessing some account information and legacy deployed agents. No autonomous agent misconduct is established by this bulletin.",
+    "new_evidence": "Official incident response published November 9: compromised inference server, account-data access for approximately 100 users, exposure to 18 legacy agents; containment and credential rotation reported.",
+    "uncertainties": "Security incident involving AI infrastructure, NOT evidence of a model/agent choosing an unauthorized action. Keep as screened context and decide whether it belongs outside the agent-incident analytic cohort.",
+    "found_by": "27 Oct 2026 onward evidence backfill",
+    "review_status": "Pending review",
+    "possible_duplicate_of": "",
+    "first_seen_at": "2026-11-10T08:29:26Z",
+    "updated_at": "2026-11-10T08:29:26Z"
   }
 ]
