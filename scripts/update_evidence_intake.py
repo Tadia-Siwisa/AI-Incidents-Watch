@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import os
 import re
+from urllib.request import Request, urlopen
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
@@ -188,14 +189,56 @@ def write_workbook(rows: list[dict]) -> None:
     tmp.replace(WORKBOOK_FILE)
 
 
+def fetch_repository_evidence_issues() -> list[dict]:
+    """Reconcile all owner-authored evidence issues, not only the triggering event.
+
+    This also recovers items lost if an earlier GitHub Actions run was cancelled
+    or overlapped with another update. All rows remain pending review.
+    """
+    token = os.environ.get("GITHUB_TOKEN", "")
+    repository = os.environ.get("GITHUB_REPOSITORY", "")
+    if not token or "/" not in repository:
+        raise ValueError("GITHUB_TOKEN and GITHUB_REPOSITORY required for issue reconciliation")
+    owner = repository.split("/", 1)[0]
+    found = []
+    page = 1
+    while True:
+        url = (
+            f"https://api.github.com/repos/{repository}/issues"
+            f"?state=all&per_page=100&page={page}"
+        )
+        req = Request(url, headers={
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github+json",
+            "User-Agent": "AI-Incidents-Watch-evidence-reconcile",
+            "X-GitHub-Api-Version": "2022-11-28",
+        })
+        with urlopen(req, timeout=25) as response:
+            batch = json.load(response)
+        if not isinstance(batch, list):
+            raise ValueError("Unexpected GitHub issue list response")
+        for issue in batch:
+            if "pull_request" in issue:
+                continue
+            if (issue.get("user", {}).get("login") == owner
+                    and str(issue.get("title", "")).startswith("[Evidence]")):
+                found.append(issue)
+        if len(batch) < 100:
+            break
+        page += 1
+        if page > 50:
+            raise ValueError("Unexpectedly large issue pagination")
+    return found
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     rows = read_rows()
-    if os.environ.get("GITHUB_EVENT_NAME") == "issues":
-        event_path = os.environ["GITHUB_EVENT_PATH"]
-        event = json.loads(Path(event_path).read_text(encoding="utf-8"))
-        owner = os.environ["GITHUB_REPOSITORY"].split("/", 1)[0]
-        row = make_record(event["issue"], owner)
+    # Always rebuild the queue from all authorized evidence issues, so a burst
+    # of issue creations cannot leave some issues absent from the Excel register.
+    # Existing manual review status is preserved across the reconciliation.
+    for issue in fetch_repository_evidence_issues():
+        row = make_record(issue, os.environ["GITHUB_REPOSITORY"].split("/", 1)[0])
         prior = next((r for r in rows if r["issue_number"] == row["issue_number"]), None)
         if prior:
             row["first_seen_at"] = prior.get("first_seen_at") or row["first_seen_at"]
