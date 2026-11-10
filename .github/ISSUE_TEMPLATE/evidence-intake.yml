@@ -1,0 +1,83 @@
+name: Stage AI-agent evidence (unverified)
+description: Source-linked new disclosure, update, correction, or context. This does NOT modify the reviewed dataset.
+title: "[Evidence] "
+body:
+  - type: markdown
+    attributes:
+      value: "This is a PUBLIC, unverified intake record. Do not include secret credentials, private logs, or personal information. It is reviewed separately before inclusion in the working dataset."
+  - type: input
+    id: report-title
+    attributes:
+      label: Report title
+      placeholder: "WorkOS — November 6 ARTEX investigation update"
+    validations:
+      required: true
+  - type: input
+    id: source-url
+    attributes:
+      label: Primary source URL
+      description: Prefer an official source or original technical disclosure.
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: input
+    id: disclosure-date
+    attributes:
+      label: Disclosure date
+      placeholder: "YYYY-MM-DD, or unknown"
+  - type: input
+    id: incident-date
+    attributes:
+      label: Incident date
+      placeholder: "YYYY-MM-DD to YYYY-MM-DD, or unknown"
+  - type: dropdown
+    id: update-type
+    attributes:
+      label: Update type
+      options:
+        - New candidate
+        - Update to existing case
+        - Correction or retraction
+        - Relevant research / context
+        - Unknown — needs review
+    validations:
+      required: true
+  - type: input
+    id: related-case
+    attributes:
+      label: Related case
+      description: Existing case ID when confirmed; otherwise name and "match pending".
+  - type: dropdown
+    id: context
+    attributes:
+      label: Evidence context
+      options:
+        - Security demonstration / vulnerability
+        - Controlled agent evaluation
+        - Reported operational event
+        - Attacker-directed AI operation
+        - Unclassified / uncertain
+    validations:
+      required: true
+  - type: textarea
+    id: reported-actions
+    attributes:
+      label: Reported actions / findings
+      description: Source-grounded observations only; distinguish agent choices from human direction.
+    validations:
+      required: true
+  - type: textarea
+    id: new-evidence
+    attributes:
+      label: New evidence or correction
+      description: Exactly what changed since previous disclosure, if applicable.
+  - type: textarea
+    id: gaps
+    attributes:
+      label: Uncertainties and verification gaps
+      description: Missing logs, undisclosed mechanisms, disputed attribution or other limits.
+  - type: input
+    id: channel
+    attributes:
+      label: Discovery channel
+      placeholder: "AI Frontier Watch / AI Agent Incident Watch / Manual"
