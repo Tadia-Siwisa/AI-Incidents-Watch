@@ -40,5 +40,26 @@
     "possible_duplicate_of": "",
     "first_seen_at": "2026-11-10T08:27:55Z",
     "updated_at": "2026-11-10T08:27:55Z"
+  },
+  {
+    "intake_id": "EV-00008",
+    "issue_number": 8,
+    "issue_url": "https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/8",
+    "report_title": "Chainalysis — 30 October disclosure and 4–7 November evidence revisions",
+    "source_url": "https://www.chainalysis.com/blog/security-incident-october-30/",
+    "canonical_source_url": "https://www.chainalysis.com/blog/security-incident-october-30",
+    "disclosure_date": "2026-11-07",
+    "incident_date": "October–November 2026; exact initial activity dates not established",
+    "change_type": "New candidate",
+    "related_case": "Chainalysis October 2026 intrusion; updates are one incident family, not distinct new breaches",
+    "context": "Reported operational event",
+    "reported_actions": "Chainalysis reported an external actor using offensive agentic techniques to access its internal systems, followed by further investigation and security response. Its company bulletin reports some customer identity/contact data exposure and later discovery of more sensitive authentication-related exposure.",
+    "new_evidence": "Material contradiction to initial October 30 assurance of no evidence of credentials or session tokens accessed: November 4 bulletin identifies exposed password hashes and live tokens, plus a separate on-path password-exposure issue. November 7 reports restoration of services. Preserve chronology and disclose that AI's precise autonomous role is undocumented.",
+    "uncertainties": "Agent identity, degree of autonomous action, causal link of each exposure pathway and specific number of affected users remain uncertain. Chainalysis says it has no evidence investigation content was accessed. Do not count each dated bulletin or affected customer as a separate AI incident.",
+    "found_by": "AI Agent Incident Watch — 27 Oct onward backfill",
+    "review_status": "Pending review",
+    "possible_duplicate_of": "",
+    "first_seen_at": "2026-11-10T08:28:04Z",
+    "updated_at": "2026-11-10T08:28:04Z"
   }
 ]
