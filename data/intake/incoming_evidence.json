@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "intake_id": "EV-00005",
+    "issue_number": 5,
+    "issue_url": "https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/5",
+    "report_title": "WorkOS / ARTEX — November 6 investigation update",
+    "source_url": "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident",
+    "canonical_source_url": "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident",
+    "disclosure_date": "2026-11-06",
+    "incident_date": "2026-10-25 to 2026-10-30",
+    "change_type": "Update to existing case",
+    "related_case": "WorkOS / ARTEX (existing case; match exact working-source ID during review)",
+    "context": "Reported operational event",
+    "reported_actions": "WorkOS reported unauthorized access to an internal sales/customer support application following the activity of a researcher's autonomous security-testing agent during ARTEX benchmark evaluations. Customer-related records were retrieved. Activity began October 25; identified October 30.",
+    "new_evidence": "The November 6 disclosure connects the previously reported unauthorized access to an AI agent used in an external research evaluation, based on evidence supplied by the researcher and correlated with company logs and independent forensic review.",
+    "uncertainties": "Specific agent prompt/task and the technical method of leaving the testing environment were not publicly reconstructed. The researcher's deletion and non-sharing assurances are separate from the attributed intrusion. WorkOS reported no evidence that its core production services or application data were accessed. This is an UPDATE to an EXISTING case, not a new confirmed incident.",
+    "found_by": "AI Frontier Watch / 7 November report",
+    "review_status": "Pending review",
+    "possible_duplicate_of": "",
+    "first_seen_at": "2026-11-10T07:44:50Z",
+    "updated_at": "2026-11-10T07:44:50Z"
+  }
+]
