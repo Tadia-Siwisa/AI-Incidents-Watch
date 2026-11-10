@@ -124,5 +124,26 @@
     "possible_duplicate_of": "",
     "first_seen_at": "2026-11-10T08:30:01Z",
     "updated_at": "2026-11-10T08:30:01Z"
+  },
+  {
+    "intake_id": "EV-00014",
+    "issue_number": 14,
+    "issue_url": "https://github.com/Tadia-Siwisa/AI-Incidents-Watch/issues/14",
+    "report_title": "Mittwald — October 27 MCP-server intrusion disclosed November 4–9",
+    "source_url": "https://www.mittwald.de/lp/mcp-faq",
+    "canonical_source_url": "https://www.mittwald.de/lp/mcp-faq",
+    "disclosure_date": "2026-11-07",
+    "incident_date": "2026-10-27 initial unauthorized access; discovered 2026-11-04",
+    "change_type": "New candidate",
+    "related_case": "Mittwald MCP server intrusion — case ID pending matching",
+    "context": "Reported operational event",
+    "reported_actions": "German hosting provider Mittwald stated that attackers gained unauthorized access via the MCP server used to connect customer tools with AI assistants. Company says the intrusion involved AI tools and that its staff discovered the activity November 4. The extent of compromised systems and AI's specific actions must be separately checked.",
+    "new_evidence": "Company communications disclosed access starting October 27 and response measures in early November; incident illustrates misuse of AI-adjacent infrastructure but does not prove an autonomous agent crossed task boundaries.",
+    "uncertainties": "Distinguish attacker-used AI tooling from agent-selected behavior; verify precise number of affected customer projects and claims of data exposure against current official FAQ before adopting quantitative assertions. Exact cause, actor attribution and agent tool sequence may remain unpublished.",
+    "found_by": "27 Oct 2026 onward evidence backfill",
+    "review_status": "Pending review",
+    "possible_duplicate_of": "",
+    "first_seen_at": "2026-11-10T08:30:04Z",
+    "updated_at": "2026-11-10T08:30:04Z"
   }
 ]
